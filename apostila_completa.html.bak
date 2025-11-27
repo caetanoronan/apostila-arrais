@@ -1,0 +1,4328 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apostila Completa — Estruturada</title>
+<style>
+  :root{--maxw:1100px;--accent:#0b6efd;--muted:#556;}
+  body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background:#f3f6fb;color:#111;}
+  header{background:linear-gradient(90deg,#fff,#f7fbff);padding:1rem 1rem;border-bottom:1px solid #e6ecff} 
+  .wrap{max-width:var(--maxw);margin:1rem auto;padding:0 1rem;}
+  h1{margin:.2rem 0;font-size:1.4rem} .lead{color:var(--muted)}
+  .layout{display:grid;grid-template-columns:260px 1fr;gap:1rem}
+  nav.toc{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  nav.toc ul{list-style:none;padding-left:0;margin:0} nav.toc a{display:block;padding:.35rem .4rem;border-radius:6px;color:var(--accent);text-decoration:none} nav.toc a:hover{background:#f1f7ff} 
+  main.content{min-height:60vh} section.module{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:1rem} 
+  .page{border-top:1px dashed #eee;padding-top:.6rem;margin-top:.6rem} .page h4{margin:.2rem 0} pre{white-space:pre-wrap;background:#f8f9fc;padding:.6rem;border-radius:6px;overflow:auto} img{max-width:100%;height:auto;border-radius:4px} 
+  .coll{cursor:pointer;background:#f7fbff;border:1px solid #eef6ff;padding:.4rem .6rem;border-radius:6px;margin-bottom:.6rem} .meta{font-size:.9rem;color:#666} 
+  @media(max-width:880px){.layout{grid-template-columns:1fr} nav.toc{position:sticky;top:0}}
+</style>
+</head><body>
+<header><div class="wrap"><h1>Apostila Completa — Estruturada</h1><div class="lead">Versão organizada automatically. Use o sumário para navegar por módulos e páginas.</div></div></header>
+<div class="wrap layout">
+<nav class="toc" aria-label="Sumário da apostila">
+<h3 style="margin-top:0">Sumário</h3>
+<ul>
+<li><a href="#module1">1º MÓDULO</a> <span class="meta">(páginas: - )</span></li>
+<li><a href="#module2">2º MÓDULO</a> <span class="meta">(páginas: - )</span></li>
+<li><a href="#module3">3º MÓDULO</a> <span class="meta">(páginas: 5–5)</span></li>
+<li><a href="#module4">4º MÓDULO</a> <span class="meta">(páginas: 6–6)</span></li>
+<li><a href="#module5">5º MÓDULO</a> <span class="meta">(páginas: 7–98)</span></li>
+</ul>
+<hr /><p style="font-size:.95rem;color:#444;margin:0">Links rápidos</p><ul><li><a href="material_acessivel.html">Tela resumida e acessível</a></li><li><a href="apostila_completa.html">Versão completa por páginas</a></li></ul>
+</nav>
+<main class="content">
+<section class="module" id="module1">
+<h2>1º MÓDULO</h2>
+<p class="meta">Faixa de páginas não detectada automaticamente.</p>
+</section>
+<section class="module" id="module2">
+<h2>2º MÓDULO</h2>
+<p class="meta">Faixa de páginas não detectada automaticamente.</p>
+</section>
+<section class="module" id="module3">
+<h2>3º MÓDULO</h2>
+<p class="meta">Páginas 5 a 5</p>
+<div class="page" id="p4">
+<h4>Pagina 5</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>SUMÁRIO 
+ 
+ 
+ 
+INTRODUÇÃO  ...................................................................................................................  
+7 
+1º MÓDULO – Conhecendo uma embarcação ...........................................  
+9 
+1.1. Objetivo Geral  .................................................................................................................  
+9 
+1.2. Embarcações ...................................................................................................................  
+9 
+1.3. Classificação ...................................................................................................................  
+9 
+1.4. Partes de uma Embarcação ...........................................................................................  
+10 
+1.5. Medidas Linares ..............................................................................................................  
+12 
+1.6. Medidas Não-Lineares  ...................................................................................................  
+13 
+1.7. Movimentos da embarcação  .........................................................................................  
+14 
+1.8. Sistema de fundeo  .........................................................................................................  
+15 
+1.8.1. Aparelho de Fundear e Suspender ........................................................................  
+15 
+1.8.2. Manobra de fundear  ...............................................................................................  
+16 
+1.8.3. Tipos de âncoras mais usados  .............................................................................  
+18 
+1.9. Como se portar em uma embarcação ...........................................................................  
+19 
+2º MÓDULO – Propulsão e outros sistemas ...............................................  
+20 
+2.1. Objetivos geral.................................................................................................................  
+20 
+2.2. Sistema da propulsão  ....................................................................................................  
+20 
+2.3. Partes de um motor de combustão interna  .................................................................  
+20 
+2.3.1. Bloco  .......................................................................................................................  
+20 
+2.3.2. Cabeçote e Tampa de Válvulas  .............................................................................  
+21 
+2.3.3. Cárter  .......................................................................................................................  
+21 
+2.3.4. Pistão (Êmbolo) e suas partes  ..............................................................................  
+22 
+2.3.5. Biela  .........................................................................................................................  
+22 
+2.3.6. Virabrequim e Volante do motor  ...........................................................................  
+23 
+2.3.7. Válvulas e outras componentes  ...........................................................................  
+23 
+2.3.8. Outras partes do motor  .........................................................................................  
+24 
+2.4. Motor do ciclo Otto  ........................................................................................................  
+24 
+2.4.1. Ciclo de 4 tempos do motor de ciclo Otto  ...........................................................  
+25 
+2.4.2. Ciclo de 2 tempos do motor de ciclo Otto  ...........................................................  
+26 
+2.5. Motores do ciclo Diesel  .................................................................................................  
+27 
+2.5.1. Ciclo de 4 tempos do motor de ciclo Diesel  ........................................................  
+27 
+2.5.2. Ciclo de 2 tempos do motor de ciclo Diesel  ........................................................  
+28 
+2.6. Sistemas de Refrigeração ..............................................................................................  
+29 
+2.6.1. Arrefecimento direto por meio de ar (forçado)  ...................................................  
+29 
+2.6.2. Arrefecimento por meio líquido  ............................................................................  
+29 
+2.7. Sistemas Hidráulicos ......................................................................................................  
+31 
+2.7.1. Sistema de Leme Hidráulico  .................................................................................  
+31 
+2.8. Sistemas Elétricos ..........................................................................................................  
+32 
+2.8.1. Eletricidade ..............................................................................................................  
+32 
+2.8.2. Tensão, corrente e outras grandezas elétricas  ...................................................  
+32 
+2.8.3. Circuitos elétricos  ..................................................................................................  
+33 
+2.9. Outros Sistemas  .............................................................................................................  
+35 
+3º MÓDULO – Segurança e Legislação  .........................................................  
+36 
+3.1. Objetivo geral...................................................................................................................  
+36 
+3.2.  Segurança  ......................................................................................................................  
+36 
+3.2.1. Antes de embarcar  .................................................................................................  
+36</pre>
+</div>
+</div>
+</section>
+<section class="module" id="module4">
+<h2>4º MÓDULO</h2>
+<p class="meta">Páginas 6 a 6</p>
+<div class="page" id="p5">
+<h4>Pagina 6</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>3.2.2. Durante a navegação  .............................................................................................  
+37 
+3.2.3. Ao regressar  ...........................................................................................................  
+37 
+3.2.4. Outras informações importantes  ..........................................................................  
+38 
+3.3. Prevenção contra incêndio  ...........................................................................................  
+38 
+3.4. Fogo ..................................................................................................................................  
+39 
+3.4.1. Triângulo do Fogo  ..................................................................................................  
+39 
+3.4.2. Tetraedro do Fogo...................................................................................................  
+40 
+3.4.3. Propagação do Fogo  .............................................................................................  
+40 
+3.4.4. Fases de um Incêndio .............................................................................................  
+40 
+3.5. Classes do Fogo ..............................................................................................................  
+41 
+3.6. Métodos de Extinção ......................................................................................................  
+42 
+3.7. Tipos de Extintores  ........................................................................................................  
+43 
+3.8. Procedimentos de combate a incêndio a bordo  .........................................................  
+44 
+3.9. Normas de incêndio  .......................................................................................................  
+44 
+3.10. Sobrevivência  ...............................................................................................................  
+45 
+3.11. Noções de Primeiros Socorros ....................................................................................  
+45 
+3.12. Compressão Torácica  ..................................................................................................  
+47 
+3.13. Legislação  .....................................................................................................................  
+48 
+3.13.1. Águas Jurisdicionais Brasileiras  ........................................................................  
+48 
+3.13.2. Legislação Marítima e Ambiental  .......................................................................  
+54 
+4º MÓDULO – Navegação ..........................................................................................  
+58 
+4.1. Introdução ........................................................................................................................  
+58 
+4.2. Fundamentos de cartografia e cartas náuticas ...........................................................  
+58 
+4.3. Instrumentos de Navegação  .........................................................................................  
+60 
+4.3.1. Bússola  ...................................................................................................................  
+60 
+4.3.2. Princípio de funcionamento de uma bússola  .....................................................  
+60 
+4.4. RIPEAM - Definições e aplicação das regras ...............................................................  
+61 
+4.5. Luzes e marcas ................................................................................................................  
+62 
+4.5.1. Embarcação de propulsão mecânica de comprimento igual ou superior a 50 
+metros  .....................................................................................................................  
+63 
+4.5.2. Embarcação de propulsão mecânica de comprimento inferior a 50 metros  ...  
+65 
+4.5.3. Observações ............................................................................................................  
+66 
+4.6. Embarcações a vela em movimento .............................................................................  
+66 
+4.7. Manobras  .........................................................................................................................  
+67 
+4.7.1. Roda a Roda  ...........................................................................................................  
+67 
+4.7.2. Ultrapassagem ou Alcançando  .............................................................................  
+68 
+4.7.3. Situação de Rumos Cruzados ou de Colisão  ......................................................  
+68 
+4.7.4. Efeitos que influenciam na embarcação ..............................................................  
+68 
+4.7.5. Interação entre embarcações  ...............................................................................  
+69 
+4.7.6. Esquema de Separação de Tráfego  .....................................................................  
+71 
+4.7.7. Embarcação Obrigada a Manobrar .......................................................................  
+72 
+4.7.8. Regra da Preferência  .............................................................................................  
+73 
+4.7.9. Embarcações em Visibilidade Restrita  ................................................................  
+73 
+4.8. Sinais Sonoros  ...............................................................................................................  
+74 
+4.9. Balizamento  ....................................................................................................................  
+77 
+4.9.1. Sinais de Balizamento  ...........................................................................................  
+77 
+4.9.2. Sinais laterais  .........................................................................................................  
+77 
+4.9.3. Sinais laterais modificados  ...................................................................................  
+78 
+4.9.4. Sinais Cardinais  .....................................................................................................  
+79 
+4.9.5. Outras Balizas  ........................................................................................................  
+79 
+4.9.6. Placas ou bandeiras  ..............................................................................................  
+82 
+4.9.7. Sinais em pontes  ....................................................................................................  
+83</pre>
+</div>
+</div>
+</section>
+<section class="module" id="module5">
+<h2>5º MÓDULO</h2>
+<p class="meta">Páginas 7 a 98</p>
+<div class="page" id="p6">
+<h4>Pagina 7</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>4.10. Manobras de atracação e saída de cais  .....................................................................  
+84 
+5º MÓDULO – Cabos e nós ......................................................................................  
+88 
+5.1. Objetivos ..........................................................................................................................  
+88 
+5.2. Nó Direito .........................................................................................................................  
+88 
+5.3. Nó de 8 ..............................................................................................................................  
+88 
+5.4. Lais de Guia .....................................................................................................................  
+89 
+5.5. Volta do Fiel (Calão) ........................................................................................................  
+89 
+5.6. Nó de Escota ....................................................................................................................  
+90 
+5.7. Volta do Cunho ................................................................................................................  
+90 
+REFERÊNCIAS  .................................................................................................................  
+91 
+ANEXOS  ................................................................................................................................  
+92</pre>
+</div>
+</div>
+<div class="page" id="p7">
+<h4>Pagina 8</h4>
+<p><em>(sem texto extraído desta página)</em></p>
+</div>
+<div class="page" id="p8">
+<h4>Pagina 9</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>7 
+ 
+INTRODUÇÃO 
+ 
+ 
+A Central de Aventuras – Escola Náutica é uma escola que se dedica as atividades aquáticas 
+há 10 (dez) anos, agora, também na instrução a navegadores. Homologada pela Marinha do Brasil, 
+prepara seus alunos para realizar a prova de Arrais Amador e Motonauta. 
+ 
+Contamos com estrutura completa em terra de apoio a navegação, equipamentos de 
+segurança, comunicação e embarcações que serão utilizadas para as aulas. 
+ 
+A saída será no trapiche do Canal da Barra. Podendo ser realizada com a embarcação Cultura 
+Subaquática um Barco-escola (35 pés, motor ciclo diesel) no qual teremos aulas teóricas e 
+práticas aplicadas durante a navegação; o outro bote, Estrela do Sul (30 pés, motor ciclo Oto). 
+ 
+ 
+ 
+O curso tem o propósito de ensinar noções de navegação, balizamentos, combate ao 
+incêndio, luzes, primeiros socorros, manobras, segurança no mar, sinais e sobrevivência. 
+ 
+ 
+Tendo em vista que este é baseado em normas da Marinha Brasileira, alguns textos foram 
+transcritos na íntegra, conforme a norma por esta disponibilizada, além de outras fontes de conteúdo 
+devidamente listadas nas referências. 
+ 
+ 
+O Curso possui a seguinte estrutura: 
+ 
+1º MÓDULO – Conhecendo uma embarcação 
+ 
+Como é um barco, seus nomes e sistemas. 
+Partes da embarcação, nomes e funções. 
+Como se portar em uma embarcação. 
+ 
+2º MÓDULO – Propulsão e Outros Sistemas 
+ 
+Conhecer de forma usual o sistema de propulsão da embarcação e demais sistemas, como elétrico, 
+hidráulico e outros 
+ 
+3º MÓDULO – Segurança e Legislação 
+ 
+Noções de combate a Incêndio, Primeiros Socorros, Noções de Segurança no Mar, Rios, Lagoas e 
+Canais; Rlesta, Normam, infrações e penalidades</pre>
+</div>
+</div>
+<div class="page" id="p9">
+<h4>Pagina 10</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>8 
+ 
+4º MÓDULO – Navegação e Manobras 
+ 
+RIPEAM, navegação restrita, Sistema de Balizamento, IALA B, Sinais, e marcas, Luzes, Regras de 
+Governo, Noções de Comunicação e Comandos. 
+ 
+5º MÓDULO – Cabos e nós 
+ 
+Aula de nós: Lais de Guia, Calão, nó Direito, e Oito.</pre>
+</div>
+</div>
+<div class="page" id="p10">
+<h4>Pagina 11</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>9 
+ 
+1º MÓDULO – Conhecendo uma embarcação 
+ 
+ 
+1.1. Objetivo Geral 
+ 
+Promover o conhecimento em diferentes tipos de embarcações, nomes e sistemas. Bem como 
+suas partes e funções, além de como se portar em uma embarcação. 
+ 
+ 
+ 
+1.2. Embarcações 
+ 
+ 
+É denominada embarcação uma construção com casco flutuante, feita de diversos materiais, 
+podendo transporta carga e pessoas com segurança sobre as águas. 
+ 
+ 
+De acordo com o seu tamanho podem ser chamados de diversos nomes, como Navio 
+(embarcação de grande porte), Escuna, Lancha, e outros. 
+ 
+ 
+1.3. Classificação 
+ 
+ 
+As embarcações podem ser divididas em três classificações simples que descrevem de acordo 
+com a finalidade, construção e propulsão, como descrita na tabela 1 abaixo: 
+ 
+Tabela 1 - Classificação Geral das Embarcações 
+Quanto à finalidade 
+Guerra 
+Mercante e apoio marítimo 
+(engajada na pesca, reboque, 
+transporte de cargas e pessoas) 
+Esporte e recreativo 
+Quanto ao material de 
+construção do casco 
+Madeira 
+e 
+aço 
+Aço 
+Diversos: 
+materiais 
+(Fibra de vidro, plásticos 
+e outros). 
+Quanto à propulsão¹ 
+Combustão 
+Combustão  
+Diversos: 
+combustão, 
+elétricos e a vela, a remo 
+¹ - No caso se refere à propulsão predominante, podendo a mesma embarcação possuir mais de um 
+sistema de propulsão.</pre>
+</div>
+</div>
+<div class="page" id="p11">
+<h4>Pagina 12</h4>
+<figure><img src="assets/page_11/page_11_img_0.jpeg" alt="Imagem da página 12"/><figcaption style="font-size:.9rem;color:#666">page_11_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>10 
+ 
+1.4. Partes de uma Embarcação 
+ 
+ 
+As embarcações possuem nomenclaturas distintas para definir as suas partes, assim como 
+carros, que possuem parte dianteira e traseira, as embarcações possuem proa e popa, e nos casos 
+das laterais direita e esquerda de um carro, temos boreste e bombordo nas embarcações, além de 
+corpos – de-vante, e corpos - de-ré entre outras que veremos. 
+ 
+ 
+Corpos – são duas partes da embarcação (divisão transversal) que a 1ª é denominada de 
+corpo devante a porção da embarcação do meio (meia nau) para frente (proa), e a parte para 
+trás (popa) de corpoderé como demonstradas na figura 1 abaixo. 
+ 
+ 
+Proa – parte terminal de vante da embarcação possuindo formato de cunha, o que facilitando 
+o corte da água para navegação. 
+ 
+ 
+ 
+Popa – terminação do corpo de ré, sua estrutura é projetada para tornar mais eficiente a ação 
+do sistema de propulsão e leme, bem como o escoamento da água. 
+ 
+ 
+Meia-nau – é a parte central (transversal) da embarcação que divide os corpos da embarcação, 
+ficando entre a proa e a popa. 
+ 
+Figura 1 – Partes da embarcação 
+ 
+ 
+ 
+ 
+Bordos – sãos os lados de uma embarcação (divisão longitudinal), assim como nos carros, 
+sempre definidos da parte trás (popa) para à frente (proa), no caso a lateral direita é 
+denominada boreste (BE) e bombordo (BB) a lateral esquerda (figura 2). 
+ 
+ 
+Bochecas – são as partes curvas do costado dos bordos, ficam próximos à proa, também 
+denominados de Amura. Indica também uma direção entre a proa e o través da embarcação. 
+ 
+ 
+Través – direção transversal da embarcação, perpendicular à longitudinal.</pre>
+</div>
+</div>
+<div class="page" id="p12">
+<h4>Pagina 13</h4>
+<figure><img src="assets/page_12_img_0.jpeg" alt="Imagem da página 13"/><figcaption style="font-size:.9rem;color:#666">page_12_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_12_img_1.png" alt="Imagem da página 13"/><figcaption style="font-size:.9rem;color:#666">page_12_img_1.png</figcaption></figure>
+<figure><img src="assets/page_12_img_2.png" alt="Imagem da página 13"/><figcaption style="font-size:.9rem;color:#666">page_12_img_2.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>11 
+ 
+ 
+ 
+Alheta – são também partes curvas do costados dos bordos, porém ficam localizados próximo 
+à popa. 
+ 
+Figura 2 – Bordos da embarcação 
+ 
+ 
+Casco - é a base à embarcação onde na parte inferior corre a quilha, que acompanha todo o 
+casco, desde a proa até a popa, servindo-lhe de peça principal de sustentação da sua estrutura. 
+A quilha funciona no casco como a coluna vertebral no corpo humano e o divide em dois bordos 
+(figura 3). 
+ 
+ 
+Linha d’água – é o ponto de interseção da superfície da água com o casco no momento da 
+flutuação, também é denominada linha d’água a faixa indicativa, pintada no casco da 
+embarcação, representando a região em que deve flutuar além de separar a obra viva e obra 
+morta. 
+ 
+ 
+Obra Viva – parte inferior do casco que entra em contato com a água; 
+ 
+ 
+Obra Morta – parte superior do casco que não está em contato com a água e demais 
+construções acima. 
+ 
+ 
+Convés – é o fechamento do casco. Este pode ser de madeira ou metálico. Há navios que têm 
+mais de um convés. Neste caso chamamos o primeiro de principal e os restantes numerados 
+como 2º, 3º, etc.. 
+ 
+ 
+Superestruturas – são as elevações construídas sobre o convés principal. Existem vários tipos 
+de superestrutura, como castelo e tombadilho, sendo a principal denominada central. Em 
+BOMBORDO 
+BORESTE</pre>
+</div>
+</div>
+<div class="page" id="p13">
+<h4>Pagina 14</h4>
+<figure><img src="assets/page_13_img_0.png" alt="Imagem da página 14"/><figcaption style="font-size:.9rem;color:#666">page_13_img_0.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>12 
+ 
+navios mercantes nela ficam situados diversos compartimentos como: a câmara do 
+comandante, os camarotes, o refeitório, o escritório, a cozinha e o camarim de navegação. 
+ 
+ 
+Castelo – Denominamos castelo de proa, a plataforma que fica no convés a vante, destinada 
+aos serviços de atracação, desatracação, fundear e suspender. 
+ 
+ 
+Tombadilho – é a superestrutura situada na popa, destinada também às manobras de 
+atracação, desatracação e reboque. 
+ 
+ 
+Mastro – Os mastros, a bordo, têm inúmeras funções, como sinais, velas, fixação de aparelhos 
+de laborar, posto de vigilância, etc. 
+ 
+ 
+Leme – Há diversos tipos de leme, todos usados para dar direção às embarcações. 
+ 
+Figura 3 – Estruturas de uma embarcação 
+ 
+ 
+ 
+De acordo com a embarcação, está apresentará outras partes e estruturas, como gruas de 
+cargas, escotilhas e escotilhão, vigia, olho de boi e outros. 
+ 
+ 
+1.5. Medidas Lineares  
+  
+• Comprimento – Existem várias maneiras de se medir o comprimento de uma 
+embarcação, conforme os objetivos que se tem em vista. Geralmente é entendido como 
+a distância horizontal entre a proa e a popa, medidos pela parte externa da 
+embarcação. Denomina-se muitas vezes como Comprimento roda a roda.  
+ 
+• Pontal – É a distância vertical entre o plano de convés (piso) e o plano da quilha.  
+ 
+• Boca – É a maior largura da embarcação.</pre>
+</div>
+</div>
+<div class="page" id="p14">
+<h4>Pagina 15</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>13 
+ 
+• Calado – É a distância vertical entre a superfície d’água (linha d’água) e a parte mais 
+baixa da embarcação, formada pela quilha ou pela linha da quilha. O Calado é 
+influenciado pela quantidade de carga a bordo, sendo tanto maior, quando mais 
+carregada a embarcação.  
+ 
+• Borda Livre – É a distância vertical entre o plano do convés e a superfície da água. 
+A borda Livre é influenciada pela quantidade de peso a bordo, sendo tanto menor 
+quanto mais peso carrega a embarcação. Bordas Livres pequenas significam maiores 
+riscos de virar a embarcação, pois qualquer balanço pode fazer com que a água verta 
+para o interior pelos bordos. Cada embarcação tem seu limite e conhecê-lo é 
+fundamental.  
+ 
+• Contorno – É a medida tomada normalmente na parte mais larga da embarcação, de 
+borda à borda, passando pela quilha. Quando houver bolina fixa, devemos tomar esta 
+medida como se ela não existisse.  
+ 
+ 
+1.6. Medias Não-Lineares  
+  
+Deslocamento – É o peso ou volume de água que uma embarcação move (desloca) 
+quando flutuando em águas tranquilas. Representa o espaço que o casco ocupa na água e 
+é normalmente designado em toneladas. Um deslocamento de 2 Ton, significa que a 
+embarcação movimenta o equivalente a 2000 litros de água aproximadamente, quando está 
+flutuando. Quanto mais carregada a embarcação, maior será seu deslocamento, e quanto 
+menos carga, menor a quantidade de água deslocada. 
+  
+Comprimento da Arqueação – é a medida horizontal ente a Proa e a Popa, medidas 
+pela parte interna da embarcação. 
+ 
+Tonelagem de Porte Bruto – É a diferença entre o deslocamento máximo e o 
+deslocamento mínimo (especificação determinda pelo fabricante e pelo projeto da 
+embarcação).  
+ 
+Peso Máximo de Carga – É a medida do deslocamento maximo menos os pesos 
+das cargas operacionais (água, combustível, etc). Representa a carga adicional que pode 
+ser levada abordo, além dos equipamentos e tripulação necessário à navegação.</pre>
+</div>
+</div>
+<div class="page" id="p15">
+<h4>Pagina 16</h4>
+<figure><img src="assets/page_15_img_0.jpeg" alt="Imagem da página 16"/><figcaption style="font-size:.9rem;color:#666">page_15_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_15_img_1.jpeg" alt="Imagem da página 16"/><figcaption style="font-size:.9rem;color:#666">page_15_img_1.jpeg</figcaption></figure>
+<figure><img src="assets/page_15_img_2.jpeg" alt="Imagem da página 16"/><figcaption style="font-size:.9rem;color:#666">page_15_img_2.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>14 
+ 
+Figura 4 – Medidas de uma embarcação. 
+ 
+ 
+1.7.  Movimentos da embarcação  
+ 
+Balanço – movimento de oscilação de 
+um bordo para outro (figura 5). Dependendo do 
+estado do mar, o balanço pode atingir 40º. O 
+balanço rápido demonstra boa estabilidade. O 
+balanço lento representa um perigo, e indica 
+instabilidade deficiente, podendo até causar 
+emborcamentos. 
+Excessos 
+de 
+carga 
+e 
+tripulação, com pouca borda livre, causam 
+balanços instáveis, pois o peso da carga é tal, 
+que a embarcação leva tempo para se 
+endireitar. 
+ 
+Figura 5 – Movimento de balanço  
+ 
+ 
+ 
+Caturro – Movimento de oscilação vertical no 
+sentido popa-propa (figura 6). É muito perigoso 
+para embarcação pequenas quando cruzando 
+ondas, pois muitas vezes numa das baixas da 
+proa 
+ela 
+simplesmente 
+pode 
+embicar, 
+naufragando. É o movimento que mais causa 
+pressão na estrutura da embarcação. Pode 
+atingir até 15º. 
+ 
+Figura 6 – Movimento de caturro</pre>
+</div>
+</div>
+<div class="page" id="p16">
+<h4>Pagina 17</h4>
+<figure><img src="assets/page_16_img_0.jpeg" alt="Imagem da página 17"/><figcaption style="font-size:.9rem;color:#666">page_16_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_16_img_1.jpeg" alt="Imagem da página 17"/><figcaption style="font-size:.9rem;color:#666">page_16_img_1.jpeg</figcaption></figure>
+<figure><img src="assets/page_16_img_2.jpeg" alt="Imagem da página 17"/><figcaption style="font-size:.9rem;color:#666">page_16_img_2.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>15 
+ 
+ 
+Cabeceio – Movimento de oscilação horizontal 
+no sentido proa-popa (figura 7). Também não 
+atinge valores muito grandes (15º). É o menos 
+perigoso de todos, e tende a desviar a 
+embarcação do seu rumo. Ocorre muitas vezes 
+quando a embarcação está galgando uma onda 
+elevada, ou a recebe pela popa. 
+ 
+Figura 7 – Movimento de cabeceio 
+ 
+ 
+ 
+Deslizamento Lateral – Rápido movimento 
+lateral quando a embarcação é atingida por uma 
+onda ou por rajadas vinda pelo través (figura 8). 
+Deve-se tomar cuidado pois o deslizamento 
+lateral associado à um forte balanço pode causar 
+embarcarmento. 
+Figura 8 – Deslizamento lateral 
+ 
+ 
+ 
+ 
+Deslizamento para Vante – É um rápido 
+movimento 
+para 
+frente, 
+quando 
+uma 
+embarcação está descendo uma onda (figura 9). 
+Tem-se a sensação de estar surfando à mesma.  
+Muitas vezes fica mais difícil controlar o leme. 
+Figura 9 – Deslizamento pra vante 
+ 
+ 
+ 
+1.8. Sistema de fundeio 
+ 
+ 
+1.8.1. Aparelho de Fundear e Suspender 
+ 
+É o conjunto de equipamentos utilizados para manter a embarcação no fundeadouro 
+em portos, canais, rios etc, evitando-se assim que esta sejam arrastadas pelas forças 
+naturais (correnteza, vento e ondas)</pre>
+</div>
+</div>
+<div class="page" id="p17">
+<h4>Pagina 18</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>16 
+ 
+O sistema de fundeio é composto por: 
+ 
+- Aparelho de fundear e suspender – Compreende todo o sistema utilizado na faina de 
+fundear e suspender; 
+ 
+- Máquina de suspender: É a unidade que exerce a força para suspender a âncora com a 
+amarra. A máquina de suspender é denominada cabrestante, quando esta possui o eixo 
+acionador da coroa. Cabestrante ou molinete para içar a ancora; 
+ 
+- Âncoras: possui a função de prender a embarcação no fundeadouro. Existem alguns tipos 
+de ancoras: Almirantado (tipo mais antigo); Danforth; Patente entre outros; 
+ 
+- Amarras: Corrente especial constituída por elos com ou sem malhete, que agüenta a força de 
+fundeio da âncora nos fundeadouros. É o elemento que liga a âncora ao navio para suspende-la ou 
+arriá-la; 
+ 
+- Gateira – aberturas feitas no convés, por onde as amarras passam para o paiol; 
+ 
+- Escovém: Local de estocagem da âncora quando esta não está em uso, sendo também o 
+local de passagem da amarra do convés para o costado. É constituído por Beiço (convés); 
+Tubo e Gola. A gola normalmente possui uma grande espessura; 
+ 
+- Mordente – Peça fixa no convés para agüentar a amarra, mordendo-a em um dos elos, não 
+permitindo que o esforço de tração seja exercido diretamente sobre a coroa da máquina de 
+suspender. Faz parte do aparelho de fundear; 
+ 
+- Acessórios: cabeços e cunhos, buzinas e tamancas, roletes de pedestal, sarilhos. Os 
+cabeços duplos ou cruzados são usados para deixar os cabos enrolados quando o navio está 
+atracado. As tamancas são utilizadas nas bordas para a passagem da amarra para o cais, 
+possuindo roletes para haver menor atrito. As buzinas fechadas ou abertas destinam-se a 
+cabos estáticos, como os de reboque, não possuindo roletes. As buzinas de rolo têm função 
+semelhante à das tamancas. Os roletes de pedestal são usados em mudança de direção de 
+cabos. 
+ 
+ 
+1.8.2. Manobra de fundear 
+ 
+Enquanto em terra qualquer problema que ponha em causa o andamento de, por 
+exemplo, um automóvel no mar se isso, ou qualquer outra coisa semelhante acontecer, não 
+podemos pura e simplesmente encostar a embarcação para &quot;mais tarde&quot; resolver a situação.</pre>
+</div>
+</div>
+<div class="page" id="p18">
+<h4>Pagina 19</h4>
+<figure><img src="assets/page_18_img_0.png" alt="Imagem da página 19"/><figcaption style="font-size:.9rem;color:#666">page_18_img_0.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>17 
+ 
+Por vezes a única solução é mesmo fundear (figura 10) para podermos solucionar o 
+problema ou mesmo pedir por socorro de modo a que não possamos, por exemplo, ir à deriva 
+de encontro às rochas.  
+O Ferro é usado não só para fundearmos para um descanso e uns banhos, mas 
+também numa emergência o que obriga a que esteja sempre em boas condições e disponível. 
+ 
+Figura 10 – Exemplo de fundeamento
+ 
+ 
+Descrevemos seguidamente os passos necessários para fundear em segurança que 
+deverão estar sempre na mente de cada um no momento da manobra. Só com a prática 
+aperfeiçoamos a técnica que um dia nos poderá salvar. 
+ 
+ 
+1º estudar o local - Devemos conhecer ou pela prática ou por uma carta náutica o local 
+onde pretendemos fundear, ou seja, o tipo de fundo, altura da sonda, condições 
+atmosféricas e de mar, a previsão da maré e se existem outras embarcações já 
+fundeadas. Convém ter sempre uma alternativa no caso da manobra falhar ou não 
+resultar. Deve escolher fundos de areia ou lodo e não muito altos. 
+ 
+ 
+2º preparar o ferro - Um tripulante à proa com o ferro preparado para largar. Amarra 
+sem &quot;cocas&quot; e convés limpo de modo que não haja impedimentos à saída. Talvez seja 
+necessário acrescentar a bóia de arinque. 
+ 
+ 
+3º aproar ao mais forte - Quando se aproximar do local, aproado ao mais forte, vento 
+ou corrente, retire motor e arreie a vela de proa - e a grande se aproar à corrente. 
+ 
+ 
+4º arrear o ferro - À ordem do comandante, quando o barco começar a andar à ré, deve 
+descer (não atirar!) o ferro até tocar no fundo. Soltar devagar a amarra de maneira a 
+facilitar, com o peso que o barco exerce, o unhar no fundo. Normalmente larga-se 3 a 
+5 vezes de amarra em altura do fundo em condições normais. De 5 a 7 vezes de 
+amarra se houver previsão de &quot;tempo&quot; rijo. 
+ 
+ 
+5º verificar a posição Depois de amarrar o cabo num cunho é altura de verificar através 
+de pontos de referência fixos na costa se o barco não descai. Não se esqueça de prever 
+a eventual rotação se o vento ou maré virar.</pre>
+</div>
+</div>
+<div class="page" id="p19">
+<h4>Pagina 20</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>18 
+ 
+1.8.3. Tipos de âncoras mais usados 
+ 
+Cada embarcação deverá usar o ferro apropriado e com as características indicadas para o 
+tipo de casco e qualidade de fundo onde irá fundear. Uma escolha errada poderá pôr em risco o barco 
+e a própria tripulação. A âncora deverá estar ligada a uma corrente, a amarra, de comprimento nunca 
+inferior ao da embarcação, e aquela a um cabo próprio com comprimento suficiente para os fundos 
+onde normalmente se pensa ir fundear.  
+ 
+De preferência deve-se usar apenas corrente mas o seu peso e preço faz com que se junte 
+corrente com cabo. O cabo, em vez da corrente, também facilita o corte deste no desembaraço da 
+âncora quando esta fica presa e irremediavelmente perdida.  
+O comprimento total deverá obedecer basicamente à seguinte regra: 
+ 
+ 
+em águas calmas de 3 a 5 vezes a altura da maré (na preia mar!) 
+ 
+com tempo rijo de 5 a 7 vezes a altura da maré 
+ 
+Um comprimento total de 50 metros parece ser o mínimo razoável. Um segundo ferro, outro 
+tanto de corrente, e cabo pronto a ser ligado ao primário não são demais. Não será com certeza o 
+primeiro a ter de cortar a amarra por a âncora ter ficado presa e ser impossível a sua recuperação. É 
+aqui que entra o cabo de arinque que é preso à cruz, ou olhal próprio, e permite na maioria das vezes 
+desengatar a âncora, sobretudo, em fundos desconhecidos. Na outra extremidade deste cabo prender-
+se-á uma bóia que assinala a sua presença. 
+ 
+A corrente do segundo ferro tem outra utilidade. Em caso de previsão de relâmpagos deve-se 
+prender à base do mastro, quando metálico, ou aos brandais, de modo a fazer uma ligação à terra e 
+afastar a hipótese de acidentes com as descargas eléctricas. Para quem já viu e &quot;ouviu&quot; um relâmpago 
+a cair próximo de um veleiro, acreditem que é remédio santo.</pre>
+</div>
+</div>
+<div class="page" id="p20">
+<h4>Pagina 21</h4>
+<figure><img src="assets/page_20_img_0.png" alt="Imagem da página 21"/><figcaption style="font-size:.9rem;color:#666">page_20_img_0.png</figcaption></figure>
+<figure><img src="assets/page_20_img_1.png" alt="Imagem da página 21"/><figcaption style="font-size:.9rem;color:#666">page_20_img_1.png</figcaption></figure>
+<figure><img src="assets/page_20_img_2.png" alt="Imagem da página 21"/><figcaption style="font-size:.9rem;color:#666">page_20_img_2.png</figcaption></figure>
+<figure><img src="assets/page_20_img_3.png" alt="Imagem da página 21"/><figcaption style="font-size:.9rem;color:#666">page_20_img_3.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>19 
+ 
+Os tipos mais comuns de âncoras são os seguintes: 
+ 
+Almirantado  
+ou Ordinária  
+ O cepo com os extremos boleados e um deles recurvado em 
+forma de cotovelo, é móvel, o que facilita o transporte e a 
+arrumação. Dá para todos os fundos mas a sua forma são o 
+grande contra-tempo nas embarcações de recreio. 
+ 
+Danforth      
+Para fundos de areia. É normalmente usado como 2º ferro. 
+ 
+CQR 
+Dos ferros mais usados por unhar bem em qualquer fundo, seja 
+areia, lodo ou mesmo rocha. Tem o inconveniente de ser 
+relativamente pesado. É normalmente a âncora de primazia. 
+ 
+Bruce 
+Este tipo de âncora é concebido para condições duras desde que 
+tenha corrente suficiente. Boa para fundos de areia e lodo. 
+ 
+Flutuante - Ao contrário das outras não serve para fundear mas para diminuir o andamento de 
+um barco que no mar esteja à mercê das vagas e do vento. Ao fazer resistência na água, este aparelho, 
+seguro ao barco por um cabo suficientemente comprido, permite conservar uma embarcação aproada 
+ao vento com mau tempo.  
+Tem o formato de um grande papagaio de lona com a armação em cruz a cujas extremidades 
+dos braços se ligam um estropo de quatro pernadas. Esse estropo deve ser o mais comprido possível 
+para suavizar os esticões. Mantém-se na vertical graças a umas bóias presas nas extremidades 
+horizontais e a um lastro num dos braços da cruz. 
+ 
+1.9. Como se portar em uma embarcação 
+ 
+Uma embarcação pode ser a casa de muitas pessoas e local de trabalho de muitas outras por 
+este motivo entre outros (embarcações de trabalho possuem suas rotinas), devemos respeitar este 
+local e procurar saber das suas normas e regras. Assim como o local onde está alocado o sistema de 
+salvamento e contra incêndio.  
+Dependendo do porte da embarcação é de extrema importância identificar o sistema de 
+comunicação e aprender o seu funcionamento básico para o auxílio na prevenção de acidentes. Caso 
+não lhe tenha sido passado às normas e condutas, se informar é uma boa maneira, além de garantir 
+momentos harmônicos, prazerosos e seguros na vida a bordo.  
+De maneira geral, o mestre da embarcação é tido o líder da embarcação com a 
+responsabilidade de lidar com as diversas situações que poção ocorrer durante a navegação. Para 
+isso, este deve saber se portar como tal, sempre estão em plenas condições físicas e mentais para 
+exercer este papel.</pre>
+</div>
+</div>
+<div class="page" id="p21">
+<h4>Pagina 22</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>20 
+ 
+ 
+2º MÓDULO – Propulsão e outros sistemas 
+ 
+ 
+2.1. Objetivo geral  
+ 
+ 
+Conhecer de forma usual o sistema de propulsão da embarcação e demais sistemas, como 
+elétrico, hidráulico e outros. 
+ 
+ 
+2.2. Sistema da propulsão 
+ 
+ 
+Algumas embarcações, como mencionado anteriormente, apresentam sistemas de velas, 
+remos e outros geradores de força motriz de deslocamento, mas vamos aqui tratar dos motores de 
+combustão interna, que são mais encontrados nestas. 
+ 
+ 
+Os motores de combustão interna são subdivididos em 3 classes quanto os seus ciclos e 
+características construtivas: 
+ 
+ 
+Motores do ciclo Otto; 
+ 
+Motores do ciclo Diesel; 
+ 
+Motores do ciclo Wankel. 
+ 
+Os motores de ciclo Wankel possui uma construção diferenciada dos demais, apresentados 
+parte com geometria de construção bem diferente e como e não aplicados a embarcações não 
+focaremos neste. 
+ 
+Então vamos conhecer primeiramente as partes dos motores de combustão interna e posterior 
+a isso os outros tipos de motores e suas caracterísctas. 
+ 
+ 
+2.3. Partes de um motor de combustão interna 
+ 
+ 
+Como visto ao longo do texto anterior, as partes do motor de combustão possuem uma série 
+de nomenclaturas como as mencionadas acima. Agora então vamos conhecer as principais partes 
+que compõem um motor de combustão interna. 
+ 
+2.3.1. Bloco 
+ 
+É a maior parte do motor e sustenta todas as outras partes. São normalmente construídos de aço, 
+mas a este podem ser adicionados outros elementos para melhorar suas propriedades. Nele ficam os</pre>
+</div>
+</div>
+<div class="page" id="p22">
+<h4>Pagina 23</h4>
+<figure><img src="assets/page_22_img_0.jpeg" alt="Imagem da página 23"/><figcaption style="font-size:.9rem;color:#666">page_22_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_22_img_1.jpeg" alt="Imagem da página 23"/><figcaption style="font-size:.9rem;color:#666">page_22_img_1.jpeg</figcaption></figure>
+<figure><img src="assets/page_22_img_2.jpeg" alt="Imagem da página 23"/><figcaption style="font-size:.9rem;color:#666">page_22_img_2.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>21 
+ 
+cilindros ou câmara de combustão, dutos de óleo para lubrificação das demais partes do motor e 
+dutos de refrigeração, que normalmente recebem água para retirar o excesso de calor gerado pela 
+queima do combustível. 
+  
+ 
+ 
+Alguns blocos possuem tubos removíveis 
+que formam as paredes dos cilindros, chamadas 
+de “camisas”. Estas camisas podem ser “úmidas” 
+ou “secas”, conforme entrem ou não em contato 
+com a água de refrigeração do motor. A vedação 
+é feita por juntas entre este e as demais partes do 
+motor, como vemos na figura 11 ao lado. 
+ 
+ 
+Figura 11 – Bloco do motor 
+ 
+2.3.2. Cabeçote e Tampa de Válvulas 
+ 
+ 
+Este componente fecha o bloco na sua parte superior, sendo que a união é feita por parafusos. 
+Normalmente, é fabricado com o mesmo material do bloco. Entre o bloco e o cabeçote existe uma junta 
+de vedação. Em sua parte inferior, que fica em contato com o bloco do motor e é vedada pela junta de 
+cabeçote, possui local para o assentamento das válvulas de admissão e escape.  
+ 
+Já na parte superior fica o eixo de 
+comando 
+de 
+válvulas 
+e 
+outros 
+componentes e recebe mais um tampa de 
+vedação com o uso de junta e/ou cola para 
+isso, além de, na maior parte dos motores, 
+também ficar a tampa de óleo para quanto 
+necessária a reposição do óleo lubrificante 
+do motor, como vemos na figura 12. 
+ 
+ 
+Figura 12 – Cabeçote e Tampa de Válvulas 
+ 
+ 
+ 
+2.3.3. Cárter  
+ 
+ 
+O cárter fecha o bloco na sua parte 
+inferior com vedação feita por junta ou cola 
+(figura 13). Serve como reservatório para o óleo 
+lubrificante do motor, geralmente contendo uma 
+saída na parte mais baixa deste, vedada por 
+bujão, para realização da drenagem do óleo 
+lubrificante com impurezas no ato da troca de 
+óleo lubrificante do motor.  
+Figura 13 - Cárter</pre>
+</div>
+</div>
+<div class="page" id="p23">
+<h4>Pagina 24</h4>
+<figure><img src="assets/page_23_img_0.jpeg" alt="Imagem da página 24"/><figcaption style="font-size:.9rem;color:#666">page_23_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_23_img_1.jpeg" alt="Imagem da página 24"/><figcaption style="font-size:.9rem;color:#666">page_23_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>22 
+ 
+ 
+Dentro deste fica um duto que aspira óleo e o distribui para o motor através da bomba de óleo, 
+chamado pescador do óleo. 
+  
+ 
+2.3.4. Pistão (Êmbolo) e suas partes 
+ 
+ 
+É a parte do motor que recebe o movimento de expansão dos gases. Sendo feito de ligas de 
+aço e alumínio e tem um formato aproximadamente cilíndrico. Como este trabalha dentro dos cilindros 
+do bloco do motor, é necessário anéis de vedação para que não ocorra perda da pressão gerada pela 
+combustão, este anéis são de 2 tipos:  
+ 
+1. Anéis de vedação – estão mais próximos da parte superior (cabeça) do pistão;  
+2. Anéis de lubrificação – estão localizados na parte inferior do pistão e têm a finalidade de 
+lubrificar as paredes do cilindro.  
+ 
+ 
+Para o pistão transmitir o movimento dele para o virabrequim, este é ligado através da biela, e 
+que é fixo através do pino do pistão. 
+ 
+Alguns pistões possuem sua cabeça plana, outros já apresentam rebaixo e até mesmo 
+cavidades maiores que auxiliam como extensão da câmara de combustão, como vemos na figura 14. 
+ 
+Figura 14 - Pistão e suas partes 
+ 
+ 
+2.3.5. Biela  
+ 
+ 
+Com mencionado acima é a parte do 
+motor que liga o pistão ao virabrequim.  
+ 
+É fabricado de aço forjado e divide-se 
+em três partes: cabeça, corpo e pé. 
+ 
+ A cabeça é presa ao pistão pelo pino e 
+o pé está ligado ao virabrequim através de um 
+material antifricção, chamado casquilho ou 
+bronzina (figura 15) 
+Figura 15 – Biela</pre>
+</div>
+</div>
+<div class="page" id="p24">
+<h4>Pagina 25</h4>
+<figure><img src="assets/page_24_img_0.jpeg" alt="Imagem da página 25"/><figcaption style="font-size:.9rem;color:#666">page_24_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>23 
+ 
+ 
+2.3.6. Virabrequim e Volante do motor 
+ 
+ 
+O Virabrequim, também chamado de girabrequim ou árvore de manivelas, este é responsável 
+por transformar o movimento retilíneo dos pistões em rotacional através da ligação deste através das 
+bielas aos pistões. 
+ 
+É fabricado em aço forjado ou fundido. Possui mancais de dois tipos:  
+ 
+1) Excêntricos – estão ligados aos pés das bielas;  
+2) De centro – sustentam o virabrequim ao bloco. 
+ 
+ 
+Já o volante do motor é constituído por uma massa de ferro fundido e é fixado no virabrequim 
+(figura 16). Este acumula a energia cinética, propiciando uma velocidade angular uniforme no eixo de 
+transmissão do motor.  
+ 
+O volante absorve energia durante o tempo útil de cada pistão (expansão devido à explosão 
+do combustível), liberando-a nos outros tempos do ciclo (quando cada pistão não está no tempo de 
+potência), concorrendo com isso para reduzir os efeitos de variação do tempo do motor. 
+ 
+Figura 16 – Virabrequim e Volante do Motor 
+ 
+ 
+ 
+2.3.7. Válvulas e outras componentes 
+ 
+No motor, podem existir dois tipos de válvulas: de admissão e de escape. Elas são acionadas 
+por um sistema de comando de válvulas ou diretamente pelo eixo de comando de válvulas quando este 
+se encontra fixo no cabeçote do motor, como atualmente encontrado.</pre>
+</div>
+</div>
+<div class="page" id="p25">
+<h4>Pagina 26</h4>
+<figure><img src="assets/page_25_img_0.jpeg" alt="Imagem da página 26"/><figcaption style="font-size:.9rem;color:#666">page_25_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>24 
+ 
+ 
+O 
+movimento 
+do 
+virabrequim 
+é 
+transmitido para o eixo de comando de válvulas 
+por meio de engrenagens, corrente ou correia 
+dentada, com a finalidade de manter a sincronia 
+nos movimentos de pistões e válvulas. 
+ 
+O eixo de comando de válvulas liga-se 
+por uma vareta, quando este está fora do 
+cabeçote, ao eixo dos balancins. Este, por sua 
+vez, é que acionará as válvulas (figura 17). 
+ 
+As engrenagens da distribuição podem 
+ter uma relação de 1:2, o que significa que cada 
+rotação da árvore de manivelas corresponde a 
+meia rotação da árvore de comando de válvulas. 
+Figura 17 – Válvulas e outros componentes 
+ 
+ 
+ 
+2.3.8. Outras partes do motor 
+ 
+ 
+Como vimos no decorrer do texto, além das partes e sistemas citados, os motores apresentam 
+outros sistemas como de refrigeração, lubrificação, injeção de combustível, dentre outros. Muitos deste 
+ficam próximos ou acoplados diretamente ao motor, como no caso do de refrigeração e lubrificação. 
+ 
+Outros por sua vez podem apenas ter parte destes inserida no bloco do motor, como o de 
+injeção de combustível, onde a bomba pode ficar no reservatório de combustível, sistema elétrico de 
+ignição e geração de energia (dínamo ou alternador), sistema de câmbio e outros. 
+ 
+É importante conhecer estes e sua função para quando, ao deparar-se com alguma situação 
+adversa, saber reconhecer onde ocorreu e problema e procurar resolvê-lo. 
+ 
+ 
+2.4. Motor do ciclo Otto 
+ 
+ 
+Motores do ciclo Otto são aqueles que apresentam um sistema de mistura de ar e combustível 
+na sua admissão para a câmera de combustão interna e a explosão da mistura dar-se a partir de uma 
+centelha elétrica fornecida pelo sistema de ignição. 
+ 
+Estes motores apresentam 2 tipos de ciclo: 
+ 
+ 4 tempos – onde o eixo de manivelas (virabrequim ou girabrequim) tem que girar 720° 
+para completar um ciclo completo; 
+ 2 tempos – onde o virabrequim completa o ciclo com 360° de giro em seu eixo. 
+ 
+ 
+Vejamos agora as particularidades de cada ciclo de tempo.</pre>
+</div>
+</div>
+<div class="page" id="p26">
+<h4>Pagina 27</h4>
+<figure><img src="assets/page_26_img_0.jpeg" alt="Imagem da página 27"/><figcaption style="font-size:.9rem;color:#666">page_26_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>25 
+ 
+ 
+2.4.1. Ciclo de 4 tempos do motor de ciclo Otto 
+ 
+Como dito anteriormente, este apresenta um giro de 720° em sei virabrequim, o que resulta em 
+4 movimentos (tempos) distintos do pistão dentro da câmara de combustão, que são os seguintes: 
+ 
+1. Admissão - Com a válvula de admissão abrindo e a de escape fechada, o pistão desloca-se do seu 
+PMS (ponto morto superior) para o PMI (ponto morto inferior), criando uma depressão no interior do 
+cilindro, permitindo assim que uma mistura de ar + combustível entre na câmara. 
+ 
+2. Compressão - Após o fechamento da válvula de admissão, o pistão desloca-se do PMI para o PMS, 
+comprimindo a mistura ar + combustível na câmara de combustão.  
+ 
+3. Combustão/explosão - Ainda no final da compressão, uma centelha elétrica é emitida pela vela de 
+ignição no interior da câmara de combustão, dando início à queima da mistura comprimida. A 
+temperatura dos gases cresce rapidamente, aumentando assim a pressão no interior da câmara e 
+empurrando energicamente o pistão em direção ao seu PMI.  
+ 
+4. Escape/Expulsão - Pouco antes de o pistão atingir o seu PMI, abre-se a válvula de escape e os 
+gases da combustão, que ainda estão a uma pressão considerável, começam a sair espontaneamente 
+do cilindro. Durante o retorno do êmbolo ao seu PMS, ele expulsa o restante dos gases da combustão, 
+encerrando o ciclo e dando início ao próximo. 
+ 
+ 
+Abaixo temos a figura 18 que representa a posição do pistão e virabrequim durante o ciclo. 
+ 
+Figura 18 - Ciclo de 4 tempos do motor de ciclo Otto.</pre>
+</div>
+</div>
+<div class="page" id="p27">
+<h4>Pagina 28</h4>
+<figure><img src="assets/page_27_img_0.jpeg" alt="Imagem da página 28"/><figcaption style="font-size:.9rem;color:#666">page_27_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>26 
+ 
+2.4.2. Ciclo de 2 tempos do motor de ciclo Otto 
+ 
+Nos motores de 2 tempos o ciclo completo se realiza em apenas uma rotação do eixo de 
+manivelas (360°), o que equivale a dois cursos do êmbolo. As fases do ciclo são as seguintes:  
+ 
+ 1 - Lavagem e Admissão / Compressão – O êmbolo parte do PMI para o PMS, provocando uma 
+queda de pressão no cárter. A primeira fração desse curso destina-se ainda à lavagem e à admissão 
+do cilindro, enquanto a segunda corresponde à fase de compressão. Ao final desse curso, a borda 
+inferior do pistão descobre a janela de entrada da mistura no cárter, sendo que esta entra no mesmo 
+por causa da depressão criada em decorrência da subida do pistão para o PMS. Você viu que esse 
+motor não possui válvulas e sim janelas de admissão ( C ) e de escape ( A ). 
+ 
+2 - Combustão e Expansão / Escape e Lavagem – Estando o pistão bem próximo do PMS, uma 
+centelha elétrica é emitida entre os eletrodos da vela de ignição e a mistura se inflama dando origem a 
+um aumento de pressão. Os gases em expansão atuam sobre o pistão empurrando-o para baixo. A 
+mistura ar + combustível admitida anteriormente no cárter é então comprimida pela parte inferior do 
+êmbolo. Antes de chegar ao PMI, o êmbolo descobre a janela de admissão C, e a mistura comprimida 
+no cárter passa para o interior do mesmo realizando a lavagem. 
+ 
+ 
+Como podemos ver na figura 19 abaixo.  
+ 
+Figura 19 – Ciclo de 2 tempos do motor de ciclo Otto 
+ 
+ 
+ 
+Como podemos observar, a entrada da mistura ar+combustível vem através do cárter do motor, 
+o que faz com que o combustível nestes motores seja também misturado ao óleo lubrificante e no 2º 
+tempo, ao fazer com que a virabrequim passe por essa mistura, ocorre a lavagem do sistema durante 
+o escape e admissão na câmara de explosão.</pre>
+</div>
+</div>
+<div class="page" id="p28">
+<h4>Pagina 29</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>27 
+ 
+2.5. Motores do ciclo Diesel 
+ 
+ 
+Os motores de ciclo Diesel possuem algumas características que os diferem dos de ciclo Otto, 
+neste a admissão ocorre apenas com o ar, o óleo combustível é injetado diretamente dentro da câmara 
+de combustão e a queima se dá através da combustão espontânea quando encontra o ar comprimido 
+no interior da câmara, devido a isso, não possui vela de ignição. 
+ 
+ 
+ 
+Este motores também apresentam ciclos de 2 e 4 tempos. 
+ 
+ 
+2.5.1. Ciclo de 4 tempos do motor de ciclo Diesel 
+ 
+ 
+De funcionamento análogo aos de 4 tempos de ciclo Otto, o motores do ciclo Diesel possuem 
+os seguintes tempos: 
+ 
+1 - Aspiração – Nesta primeira fase, com a válvula de aspiração abrindo o êmbolo se desloca do seu 
+PMS para PMI, aspirando somente ar. 
+ 
+2 - Compressão – Na fase de compressão o pistão se desloca do PMI para o PMS. Pouco depois do 
+início desse curso, a válvula de aspiração fecha e o pistão começa a comprimir o ar na câmara. Devido 
+à forte compressão, o ar sofre um grande aumento de temperatura. 
+ 
+3 – Combustão – Pouco antes de o pistão atingir o seu PMS, o combustível é injetado no interior da 
+câmara de combustão, inflamando-se pela elevada temperatura do ar comprimido. Da combustão 
+resulta um aumento de pressão nos gases. A força expansiva desses gases empurra fortemente o 
+pistão para baixo em direção ao seu PMI. É o chamado tempo de expansão, tempo útil ou de trabalho 
+motor. 
+ 
+4 - Escape - Um pouco antes de o pistão atingir o PMI, a válvula de escape abre e, por efeito da pressão 
+nos gases , uma boa parte dele é expelida. Finalmente, com o deslocamento do êmbolo do PMI para o 
+PMS, os gases restantes são expelidos da câmara de combustão. 
+ 
+ 
+No caso, devido a grande pressão interna da câmara de combustão, para o combustível ser 
+inserido no seu interior deve estar a uma pressão maior, por isso estes apresentam um sistema de 
+pressurização do óleo combustível, para que este seja injetado sobre grande pressão e proporcione a 
+combustão espontânea. 
+ 
+Para completar um ciclo do motor, neste também, é necessário que o virabrequim de duas 
+voltas completas, ou seja, gire 720º.</pre>
+</div>
+</div>
+<div class="page" id="p29">
+<h4>Pagina 30</h4>
+<figure><img src="assets/page_29_img_0.jpeg" alt="Imagem da página 30"/><figcaption style="font-size:.9rem;color:#666">page_29_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_29_img_1.jpeg" alt="Imagem da página 30"/><figcaption style="font-size:.9rem;color:#666">page_29_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>28 
+ 
+ 
+Podemos ver estes tempos do ciclo na figura 20 abaixo: 
+ 
+Figura 20 - Ciclo de 4 tempos do motor de ciclo Diesel. 
+ 
+ 
+ 
+2.5.2. Ciclo de 2 tempos do motor de ciclo Diesel 
+ 
+Nos motores de 2 tempos do ciclo 
+Diesel, o ar sofre uma compressão antes de 
+admitido na câmara de combustão. Esta 
+compressão é realizada de diversas formas, 
+como por turbinas, compressores rotativos e 
+outros métodos, como na figura 21 ao lado que 
+mostra um compressor rotativo de lóbulos. 
+ 
+Atualmente os motores de 4 tempos do 
+ciclo Diesel também possuem um sistema de 
+compressão prévia do ar, por isso é muito 
+comum ouvir falar que tal veículo à Diesel tem 
+motor com turbina ou é turbinado. 
+Figura 21 – Motor de 2 tempos do ciclo Diesel. 
+ 
+ 
+ 
+O ciclo de 2 tempos torna-se mais interessante para o motor Diesel do que para o Otto, já que 
+nesse último a lavagem é efetuada apenas com ar, o que significa economia de combustível. este tipo 
+de motor pode possuir 3 sistemas de admissão e escape que são: válvulas de admissão e escape, 
+janelas de admissão e de escape ou  janelas de admissão e válvula de escape na cabeça. 
+ 
+O funcionamento é análogo ao motor de 2 tempos do ciclo Otto, com a diferença que a entrada 
+do combustível é diretamente na câmara de combustão, não ocorrendo mistura do combustível com o 
+óleo lubrificante do motor e também completa o ciclo do motor com apenas 1 volta (360º) no seu 
+virabrequim.</pre>
+</div>
+</div>
+<div class="page" id="p30">
+<h4>Pagina 31</h4>
+<figure><img src="assets/page_30_img_0.jpeg" alt="Imagem da página 31"/><figcaption style="font-size:.9rem;color:#666">page_30_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>29 
+ 
+2.6. Sistemas de Refrigeração 
+ 
+ 
+ 
+Como todos os motores de combustão, como o próprio nome sugere, tem seu princípio de 
+funcionamento baseado na queima de algum combustível para transformar térmica gerada em energia 
+mecânica de movimento, esta gera muito calor sobre a estrutura do motor e faz-se necessário a 
+refrigeração deste que consiste num mecanismo de controle de temperatura do sistame.  
+Para 
+isso existem dois tipos básicos de sistema de refrigeração, o arrefecimento direto por meio de ar 
+(forçado) e o por meio líquido. 
+ 
+ 
+2.6.1. Arrefecimento direto por meio de ar (forçado) 
+ 
+ 
+Como o nome sugere o princípio deste dar pela retirada de calor através da passagem forçada 
+de ar por um sistema de aletas fixas no bloco do motor, principalmente na região da câmara de 
+combustão, que retira o excesso do calor gerado, evitando a fundição das peças que constituem o 
+motor. A principal função das aletas é de aumentar a superfície de contato com o ar, propiciando assim 
+uma maior troca de calor entre o bloco e o fluxo de ar (figura 22). 
+ 
+Esta passagem de ar pode 
+ser 
+forçada 
+através 
+de 
+uma 
+ventoinha 
+(ventilador) 
+que 
+é 
+acionada pelo próprio motor ou 
+forçada de forma natural ao deixar o 
+motor exposto ao ar, quando em 
+movimento, que é caso dos motores 
+de motocicletas e veículos como os 
+Fuscas e as antigas Kombi. 
+ 
+Figura 22 – Aletas para refrigeração 
+ 
+ 
+2.6.2. Arrefecimento por meio líquido 
+ 
+ 
+ 
+Este é um sistema bem mais complexo que o anterior, envolvendo sistemas maiores de 
+trocadores de calor (radiadores, tubulações e outros), bombas para circulação do líquido, mangueiras 
+e dutos internos no bloco do motor, tanques de expansão e válvula termostática, como podemos ver 
+na figura 23. 
+ 
+Atualmente, este é o principal sistema de arrefecimento adotado nos automóveis e em 
+motocicletas de maior porte, onde a água retira o calor do bloco do motor e o dissipa no radiador através 
+de um fluxo de ar forçado pela ventoinha. A ventoinha pode ser acionada diretamente pelo motor ou, 
+como na atualidade, através de um motor elétrico.</pre>
+</div>
+</div>
+<div class="page" id="p31">
+<h4>Pagina 32</h4>
+<figure><img src="assets/page_31_img_0.jpeg" alt="Imagem da página 32"/><figcaption style="font-size:.9rem;color:#666">page_31_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>30 
+ 
+ 
+Em muitas embarcações, o trocador de calor é a água do próprio meio, pois isso não há o 
+trocador de calor fechado, fazendo com que o motor bombeie água para o seu interior e a expulse, por 
+isso é importante observar antes de sair navegando a integridade desse sistema, pois a falha deste 
+acarretará em pane no motor, deixando o barco à deriva. 
+ 
+Figura 23 – Sistema de arrefecimento por meio líquido 
+ 
+ 
+ 
+ 
+Também se faz necessário, nos motores de barco que apresenta essa refrigeração feita pela 
+água ao qual navegam, uma limpeza após o término do passeio, aqui no caso quando se tratam de 
+motores de popa que não ficam fixos e submersos, passando pela lavação do sistema com água doce.</pre>
+</div>
+</div>
+<div class="page" id="p32">
+<h4>Pagina 33</h4>
+<figure><img src="assets/page_32_img_0.png" alt="Imagem da página 33"/><figcaption style="font-size:.9rem;color:#666">page_32_img_0.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>31 
+ 
+2.7. Sistemas Hidráulicos 
+ 
+O princípio de funcionamento de um sistema hidráulico é muito simples: a força que é aplicada 
+em um ponto de um circuito fechado é transmitida para outro ponto por meio de um fluido 
+incompressível. Este fluido é quase sempre algum tipo de óleo e a força transmitida pode ser 
+amplificada.   
+Todos os sistemas hidráulicos possuem 4 partes principais: 
+ 
+ 
+Reservatório de óleo; 
+ 
+Bomba de óleo; 
+ 
+Válvula de comando; 
+ 
+Atuador hidráulico. 
+ 
+ 
+Nas embarcações, podemos encontrar sistemas hidráulicos para diversos fins, desde erguer 
+pesos e cargas em gruas e guindastes, atracação e desatracação da embarcação até mesmo no 
+controle do leme. 
+ 
+                 
+2.7.1. Sistema de Leme Hidráulico  
+ 
+Com o aperfeiçoamento dos equipamentos de bordo, junto ao aumento de tonelagem das 
+embarcações, o sistema de governo ganhou um elemento de força mais moderno com o advento das 
+máquinas do leme, que utilizam a força gerada pela pressão de um óleo hidráulico atuando em êmbolos 
+ou um motor hidráulico acoplado à madre do leme (figura 24). 
+ 
+Figura 24 – Sistema de Leme hidráulico</pre>
+</div>
+</div>
+<div class="page" id="p33">
+<h4>Pagina 34</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>32 
+ 
+2.8. Sistemas Elétricos 
+ 
+ 
+Na grande maioria das embarcações, existe um sistema elétrico, por mais simples que seja 
+este. Mas enfim, para entendermos os sistemas elétricos, temos que compreender alguns conceitos 
+antes. 
+ 
+ 
+2.8.1. Eletricidade 
+ 
+ 
+Eletricidade não é algo que possamos pegar mão ou guardar nos bolsos, mas sim um 
+fenômeno físico que ocorre em muitos lugares, inclusive em nossos corpos. A eletricidade pode ser 
+definida como o resultado do movimento de elétrons de um ponto para outro ou de um corpo para outro. 
+ 
+Este conceito pode ser simples, porém reúne vários campos de estudos nele, como o estudos 
+da eletricidade estática ou potencial, que é relativo a quantidade de energia presente em um corpo, e 
+a eletricidade dinâmica, que é a movimentação de elétrons propriamente dita, e está é a que nos 
+interessa.  
+ 
+A eletricidade possui duas formas distintas, a forma contínua (CC ou DC) que é onde os 
+elétrons seguem apenas em um sentido sempre, esta é produzida por pilhas, baterias ou dínamos e a 
+forma alternada (AC), onde os elétrons se deslocam em ambos os sentidos, está é produzida por 
+alternadores e geradores comuns de energia. Existem equipamentos que transformam a energia de 
+uma forma para outra, como no caso de retificadores, que transformam a energia alternada em contínua 
+e os inversores que fazem o inverso, de contínua para alternada. 
+ 
+ 
+ 
+2.8.2. Tensão, corrente e outras grandezas elétricas  
+ 
+ 
+Como tudo em nossa vida, a eletricidade também possui unidades de medida específicas para 
+mensurá-la, dentre as muitas, vamos focar nas 3 principais que são: Tensão, Corrente elétrica e 
+Potência. 
+ 
+ 
+A tensão elétrica (U) é medida em Volts (V) e significa a diferença de potencial elétrico entre 
+dois determinados pontos, por exemplo, em uma pilha, no rótulo desta está escrito 1,5 V, ou seja, a 
+diferença de potencial elétrico que a pilha pode gerar entre o seu polo positivo e o negativo é de 1,5 V. 
+Já em uma bateria de automóvel, estas possuem capacidade maior, 12 V. 
+ 
+Ao ligarmos qualquer aparelho, seja nas embarcações ou em nossas casas, sempre devemos 
+observar para qual tensão foi projetado este, pois quem nunca queimou algo ao ligar, de forma 
+equivocada um aparelho de tensão nominal 110 V numa rede 220 V, como as de nossas casas, ou 
+seja, se foi projetado para atuar em determinada tensão, não ligue em outra, pois poderá apresentar 
+desde mau funcionamento até dano ao próprio e/ou usuário.</pre>
+</div>
+</div>
+<div class="page" id="p34">
+<h4>Pagina 35</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>33 
+ 
+ 
+Corrente elétrica (I) é medida em Ampère (A) e traduz a intensidade da passagem de elétrons 
+por determinado corpo. Para existir corrente elétrica, é necessário que o circuito elétrico esteja fechado, 
+possibilitando assim o fluxo dos elétrons. Algumas fontes de energia, como bateria, geradores e outras 
+trazem a capacidade de saída de corrente em seus rótulos, como por exemplo, as baterias de 
+automóveis, que além da tensão, indicam a capacidade de corrente por unidade de tempo, no caso, 
+em horas (h).  
+ 
+Ao prestarmos atenção nisso, começamos a entender porque a bateria de 45 Ah é menor que 
+a de 60 Ah, que em miúdos, podemos dizer que a bateria de 60 Ah possui maior capacidade de 
+fornecimento de carga elétrica. 
+ 
+ 
+E para mensurar as tais cargas elétricas, temos a medida de Potência elétrica (Q) que 
+comunmente é mensurada em Watts (W), mas como está é o produto da tensão pela corrente elétrica, 
+podemos encontrar esta mensurada em Volt.Ampère (VA). 
+ 
+𝑄= 𝑈 × 𝐼 
+ 
+ 
+Ela significa o consumo de energia elétrica de determinada carga ou equipamento, como por 
+exemplo, nossas lâmpadas de casa, possuem determinada potência elétrica como 60 W, 25 W, 40 W, 
+indicando o quanto irão consumir ou que é necessário para o seu funcionamento, voltando ao caso da 
+bateria acima, agora fica claro porque a bateria de 60 Ah é maior, pois está pode fornecer uma maior 
+potência, considerando as duas de mesma tensão (12 V) temos que a de 60 Ah produz 720 Wh, 
+enquanto a de 45 Ah proporciona apenas 540 Wh. 
+ 
+ 
+2.8.3. Circuitos elétricos 
+ 
+ 
+Podemos comparar o circuito elétrico com o hidráulico visto anteriormente, sendo que este 
+também possui 4 componentes básico: 
+ 
+ 
+Fonte de energia; 
+ 
+Condutores; 
+ 
+Chave de comando; 
+ 
+Equipamento consumidor (carga). 
+ 
+Fonte de energia – responsável por gerar ou propiciar energia elétrica para o sistema com tensão e 
+corrente compatível com o consumido e/ou planejado. Em embarcações, esta é fornecida através de 
+baterias e geradores acoplados ao motor da embarcação, na maioria das vezes, de forma contínua; 
+ 
+Condutores – são os fios que fazem as ligações entre chaves, equipamentos e fontes de energia, é 
+por eles que os elétrons se deslocam. Sua espessura (bitola) é de acordo com a capacidade de corrente</pre>
+</div>
+</div>
+<div class="page" id="p35">
+<h4>Pagina 36</h4>
+<figure><img src="assets/page_35_img_0.png" alt="Imagem da página 36"/><figcaption style="font-size:.9rem;color:#666">page_35_img_0.png</figcaption></figure>
+<figure><img src="assets/page_35_img_1.jpeg" alt="Imagem da página 36"/><figcaption style="font-size:.9rem;color:#666">page_35_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>34 
+ 
+que suportam, ou seja, quanto mais “grosso” for o condutor, maior a corrente elétrica que este consegue 
+transporta; 
+ 
+Chave de comando – vão desde simples interruptores, como os que temos em nossas residências 
+para ligas as lâmpadas, até chaves complexa como contactoras de grande capacidade de carga, além 
+de também chaves eletrônicas de comando como dimmer e outros. 
+ 
+Equipamento consumidor (carga) – são os equipamentos consumidores, lâmpadas, motores, rádios, 
+aquecedores e afins. 
+ 
+ 
+Os circuitos elétricos podem ser configurados de diversas formas, mas basicamente existem 
+apenas 2 tipo de ligação, a série e a paralela. 
+ 
+ 
+Nas ligações em série os equipamentos são ligados subsequentes, onde uma mesma corrente 
+passa por ambos, porém a tensão se distribui entre ambos ou se soma quanto esta ligação é feita nas 
+fontes de energia, como pilhas e baterias, como quando utilizamos várias pilhas ligadas em série, onde 
+a tensão de cada é somada, alimentando equipamento de 6 V com 4 pilhas de 1,5 V (figura 25). Estas 
+geralmente são apenas empregadas nas fontes de energia apara ganho na tensão ofertada e em casos 
+específicos.  
+ 
+Um exemplo clássico de cargas ligadas 
+em série são os cordões luminosos natalinos 
+(pisca-pisca), nestes, várias lâmpadas de baixa 
+tensão são ligadas em série até suportarem a 
+tensão da rede a qual serão ligadas, com isso a 
+tensão se distribui pelas lâmpadas, porém se 
+qualquer uma queimar, o circuito fica aberto e 
+para de funcionar. 
+ 
+Figura 25 – Ligação em série de pilhas e cargas. 
+ 
+ 
+ 
+ 
+Já nas ligações em paralelo, as cargas ou fontes são ligadas de forma que a tensão se mantém 
+igual sobre todos os componentes, porém cada ramo do circuito terá uma corrente específica, em 
+cargas é a ligação comum que executamos no dia-a-dia, pois ao colocar uma extensão em uma das 
+tomadas de nossa casa, estamos abrindo vários pontos em paralelo com esta onde ligamos luzes, 
+liquidificadores, rádios, televisores e outros equipamentos, sempre na mesma tensão e se um 
+equipamento sofrer dano ou for desconectado do circuito, os outros continuam recebendo energia 
+normalmente (figura 26).</pre>
+</div>
+</div>
+<div class="page" id="p36">
+<h4>Pagina 37</h4>
+<figure><img src="assets/page_36_img_0.jpeg" alt="Imagem da página 37"/><figcaption style="font-size:.9rem;color:#666">page_36_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>35 
+ 
+ 
+Ao fazermos essa ligação 
+com fontes de energia, a tensão de 
+saída 
+se 
+mantém 
+a 
+mesma 
+(lembrando que nesse caso as fontes 
+deverão ter a mesma tensão de 
+saída) e o ganho será na corrente que 
+poderá ser oferecida ao circuito. Já 
+quando são as cargas, ocorre uma 
+maior demanda de corrente para o 
+circuito funcionar corretamente. 
+ 
+Figura 26 – Ligação em paralelo de pilhas e cargas. 
+ 
+2.9. Outros Sistemas 
+ 
+ 
+De acordo com a embarcação, esta pode apresentar outros sistemas como de ar comprimido, 
+centrais de aquecimento por caldeiras, tratamento de efluentes de bordo, separadores de água e óleo, 
+destilação de água e outros que possuem finalidades específicas. É de grande importância conhecê-
+los, pois estes podem ser de sua responsabilidade a operação ou, em caso de situações adversas, 
+poder desativá-los para não por em risco a integridade dos tripulantes e da embarcação.</pre>
+</div>
+</div>
+<div class="page" id="p37">
+<h4>Pagina 38</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>36 
+ 
+3º MÓDULO – Segurança e Legislação  
+ 
+ 
+3.1. Objetivo geral  
+ 
+Proporcionar ao aluno conhecimentos sobre segurança da embarcação e a sua, além de 
+conhecimentos básicos de prevenção e combate a princípios de incêndio a bordo, técnicas de 
+sobrevivência e primeiros socorros. Todas as precauções devem ser tomadas para evitá-lo. 
+Além das normas e leis que regem a uso de águas e navegação no Brasil. 
+ 
+ 
+3.2. Segurança  
+ 
+ 
+Para efetuar uma saída com segurança, é necessário observar alguns pontos antes e durante 
+a navegação, assegurando dessa forma a integridade de todos na embarcação e desta própria. 
+ 
+ 
+Segue uma lista de itens que devemos observar antes de efetuar uma saída: 
+ 
+ 
+3.2.1. Antes de embarcar  
+ 
+ 
+O Comandante é responsável por tudo e por todos a bordo. É, em princípio, o responsável 
+legal pelas vidas humanas e cargas que transporta;  
+ 
+Leia o Regulamento Internacional para Evitar Albaroamentos no Mar (RIPEAM), as normas 
+da Capitania dos Portos de sua área de navegação e o conteúdo da Norma da Autoridade 
+Marítima (NORMAM) 03, da Diretoria de Portos e Costas (DPC), que estabelece os 
+requisitos mínimos de segurança para as embarcações (Acesse a página da DPC  - 
+Contatos das Capitanias, Delegacias e Agências em todo o Brasil);  
+ 
+Realize a manutenção preventiva eficaz, sem improvisos. Não coloque em risco a sua 
+segurança e a de sua família, com profissionais não qualificados;  
+ 
+Verifique rigorosamente o seu material de salvatagem e se há coletes salva-vidas em 
+número suficiente para todos que irão embarcar;  
+ 
+Inspecione o seu material de combate a incêndio e verifique o prazo de validade e o estado 
+de carga dos extintores;  
+ 
+Vistorie o casco quanto a sua estanqueidade, verifique o funcionamento das bombas de 
+esgoto, das luzes de navegação, do equipamento rádio (VHF e/ou HF) e a condição de 
+carga das baterias, além do nível de óleo no cárter do motor e do nível do líquido de 
+resfriamento;</pre>
+</div>
+</div>
+<div class="page" id="p38">
+<h4>Pagina 39</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>37 
+ 
+ 
+Verifique também a integridade do sistema de combustível, e se não há vazamentos no 
+compartimento dos motores;  
+ 
+Faça o planejamento de sua singradura. Verifique se sua embarcação possui as cartas 
+náuticas da região onde pretende navegar. Conheça as características dos faróis e da 
+sinalização náutica. Calcule, com uma margem de segurança, o consumo de combustível 
+para garantir o sei regresso;  
+ 
+Conheça a previsão do tempo e mantenha-se atento às indicações de mudança, para não 
+ser surpreendido pelo mau tempo. Conheça o regime de ventos de sua área de navegação; 
+e  
+ 
+Entregue o aviso de saída ao iate clube ou marina e siga à risca o seu planejamento, para 
+possibilitar o seu resgate em caso de emergência. Se não estiver em clube ou marina, deixe 
+alguém em terra ciente para onde você vai e a que horas pretende retornar.  
+  
+ 
+3.2.2. Durante a navegação  
+ 
+ 
+Esteja sempre atento na condução de sua embarcação, não permita o seu uso por pessoas 
+não habilitadas (o proprietário responderá perante o Tribunal Marítimo e nas esferas civil e  
+penal), respeite a lotação recomendada pelo fabricante e não navegue a menos de 200 
+metros da praia;  
+ 
+Evite consumo de bebidas alcoólicas no exercício da condução da embarcação;  
+ 
+Conduza a sua embarcação com prudência e em velocidade compatível para reagir, com 
+segurança, às necessidades da navegação. Não faça manobras radicais, reduza a 
+velocidade ao entrar e sair de marinas ou em águas restritas;  
+ 
+Conheça sempre o bordo de menor profundidade, alguns naufrágios foram evitados com um 
+encalhe deliberado para salvar a embarcação; e  
+ 
+Ao fundear, o faça com baixa velocidade e utilize um comprimento de amarra adequado, 
+considerando a amplitude da maré e as embarcações próximas. Ao suspender, não 
+movimente os propulsores até todas as pessoas saírem da água e completarem o 
+embarque.  
+  
+ 
+3.2.3. Ao regressar  
+ 
+ 
+Avise ao seu clube ou marina a sua chegada, para desativar o seu Aviso de Sáida;  
+ 
+Respeite a velocidade máxima na área de fundeio ou atracação;  
+ 
+Evite esgotar porões até o final para não poluir o mar com resíduos de óleo, retire o lixo de 
+bordo e o coloque em local apropriado, em terra. Mantenha sempre a sua embarcação limpa.</pre>
+</div>
+</div>
+<div class="page" id="p39">
+<h4>Pagina 40</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>38 
+ 
+ 
+Os dez mandamentos da segurança no mar:  
+ 
+Faça um amanutenção correta e periódica da sua embarcação;  
+ 
+Tenha a bordo todo o material de salvatagem prescrito pela Capitania dos Portos;  
+ 
+Respeite a lotação da embarcação e tenha a bordo coletes salva-vidas para todos os 
+tripulantes e passageiros;  
+ 
+Mantenha os extintores de incêndio em bom estado e dentro da validade;  
+ 
+Ao sair, informe seu plano de navegação ao seu Iate Clube, Marina ou Condomínio Naval;  
+ 
+Conduza sua embarcação com prudência e em velocidade compatível, para evitar 
+acidentes;  
+ 
+Se beber, passe o timão a alguém habilitado;  
+ 
+Mantenha distância das praias e dos banhistas;  
+ 
+Respeite a vida, seja solidário, preste socorro; e  
+ 
+Não polua o mar.  
+  
+3.2.4. Outras informações importantes 
+ 
+O Comandante tem competência, inclusive mediante auxílio de força policial, para retirar 
+de bordo aqueles que se excedam no consumo de bebidas alcoólicas ou drogas, e que 
+possam trazer riscos para a sua embarcação e/ou passageiros;  
+ 
+A instalação de redes próximas e paralelas à balaustrada deve ser proibida, para evitar 
+que seus usuários caiam n’água. Esse fato já provocou diversas mortes por afogamento;  
+ 
+Não se devem fazer manobras arrojadas. Elas, quase sempre, acabam em tragédia. Fazer 
+ultrapassagens a título de “brincadeira” ou apostar “corridas” com outros barcos configura 
+riscos que podem ser fatais;  
+ 
+Manter o equipamento rádio no canal adequado, e seu uso só deverá ocorrer quando for 
+realmente necessário;  
+ 
+A velocidade da embarcação deverá ser reduzida ao cruzar com outras embarcações 
+menores e ao passar próximo às margens, onde existam outras atracadas ou 
+abarrancadas;  
+ 
+Denuncie irregularidades em embarcações.  
+ 
+ 
+3.3. Prevenção contra incêndio 
+ 
+As causas podem ser as mais diversas: descargas elétricas de origem atmosférica, sobrecarga 
+nas instalações elétricas da embarcação, cigarros e fósforos atirados em locais impróprios por 
+descuido, desconhecimento das leis ou irresponsabilidade humana. A falta de cuidado com os materiais 
+inflamáveis encontrados a bordo, trapos e estopas embebidas em óleo ou em graxa, acúmulo de lixo 
+no porão assim como gordura nas telas e dutos de exaustão, vasilhames armazenados destampados 
+contendo combustíveis voláteis, presença de vazamentos em sistemas de óleo combustível; cuidar</pre>
+</div>
+</div>
+<div class="page" id="p40">
+<h4>Pagina 41</h4>
+<figure><img src="assets/page_40_img_0.png" alt="Imagem da página 41"/><figcaption style="font-size:.9rem;color:#666">page_40_img_0.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>39 
+ 
+com máquinas aquecidas ou lâmpadas mal isoladas próximas a rede de óleo, pois podem ser um 
+potencial e perigoso gerador do foco de incêndio. Isto e muitas outras coisas na embarcação são de 
+responsabilidade do capitão manter a vistoria e o seu funcionamento é primário e fundamental. 
+ 
+ 
+3.4. Fogo 
+ 
+O fogo é uma reação química exotérmica, ou seja, liberta calor, quando temos substância 
+combustível e um comburente reagindo. Para que o fogo, combustão, inicie é necessária a combinação 
+simultânea de três elementos básicos: combustível; comburente (oxigênio) e Energia de ativação 
+(calor). Basta que uma fonte de calor entre em contacto com um combustível, na presença de ar, para 
+que tal reação ocorra. Os 3 elementos básicos do fogo são normalmente representados por um 
+triângulo, conhecido por Triângulo do fogo. 
+ 
+ 
+3.4.1. Triângulo do Fogo  
+ 
+Para que ocorra a combustão, fazem-se necessários que os três componentes estejam 
+associados formando o que chamamos triângulo do fogo (figura 27): 
+ 
+ Combustível – são materiais capazes de entrar em combustão, podendo ser em meio 
+sólido (madeira, papel), líquido (gasolina, álcool) ou gasoso (gás de cozinha, hélio); 
+ 
+ Comburente – este é o oxigênio que possui no ar atmosférico, 21% deste, de acordo 
+com o combustível, a combustão não ocorre quanto apresenta percentual abaixo de 
+16% de oxigênio disponível. 
+ 
+ Calor – é a energia desprendida no processo de queima. 
+ 
+Figura 27 – Triângulo do Fogo</pre>
+</div>
+</div>
+<div class="page" id="p41">
+<h4>Pagina 42</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>40 
+ 
+Para que ocorra a combustão, fazem-se necessários que os três componentes estejam 
+associados formando o que chamamos triângulo do fogo: 
+ 
+ 
+3.4.2. Tetraedro do Fogo 
+ 
+Para que a combustão tenha início é necessário estarem presentes os três elementos do 
+Triângulo do Fogo, que transforma-se em Tetraedro do Fogo (Combustível; Comburente (oxigênio), 
+Energia de ativação (calor) em local propicio entram em Reação em Cadeia podendo assumindo 
+dimensões catastróficas e indesejadas. Por este motivo avaliar o local do foco e extinguir ou afastar 
+elementos que possam contribuir no crescimento do fogo é de grande importância. 
+ 
+O elemento calor é o único elemento do Triângulo do Fogo que pode transmitir-se, provocando 
+a extensão do incêndio. Essa transmissão ocorre de 3 maneiras: 
+ 
+ 
+3.4.3. Propagação do fogo 
+ 
+Por condução - Passando, por contacto de um material para outro. Esta transferência de calor 
+é mais notória quanto condutor for entre os metais. Este fenômeno é bastante compreensível quando 
+seguramos uma barra de ferro numa das extremidades e colocamos a outra junto a uma fonte de calor. 
+Passados alguns minutos começamos a sentir o aumento de temperatura na extremidade em que 
+seguramos a barra. 
+ 
+Por convecção - a diferença de densidade dos gases quentes e frios provoca correntes de ar. 
+Para compreendermos este processo, basta pensarmos que se tivermos um aquecedor a óleo 
+funcionando, sentimos mais calor por cima do aquecedor a 50 cm do que lateralmente a 10 cm. 
+ 
+Por radiação - o calor transmite-se por ondas eletromagnéticas no domínio do infravermelho. 
+Esta maneira do calor propagar justifica o porquê do Sol nos aquece ou o funcionamento dos micro-
+ondas. Devemos realçar que no primeiro caso entre o Sol a terra, existe um enorme vazio, e o segundo 
+caso não se vê nada em brasa, contudo os alimentos são aquecidos. 
+ 
+ 
+3.4.4. Fases de um incêndio  
+ 
+O desenvolvimento de um incêndio é um fenômeno bastante aleatório dependendo 
+essencialmente dos seguintes fatores: 
+ 
+Tipo de combustível; Disposição do combustível; Renovação de ar.</pre>
+</div>
+</div>
+<div class="page" id="p42">
+<h4>Pagina 43</h4>
+<figure><img src="assets/page_42_img_0.jpeg" alt="Imagem da página 43"/><figcaption style="font-size:.9rem;color:#666">page_42_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>41 
+ 
+Contudo distinguem-se quatro fases, que são: eclosão; propagação; combustão contínua; 
+declínio das chamas (figura 28). 
+ 
+Figura 28 - Gráfico que se segue apresenta a curva típica de desenvolvimento de um incêndio. 
+ 
+ 
+Eclosão - Esta fase é a inicial do incêndio. A sua duração está condicionada fundamentalmente à 
+qualidade e quantidade do material combustível. 
+ 
+Propagação - Nesta fase, a combustão ativa-se rapidamente transmitindo-se ao seu em torno.O 
+processo de propagação é contínuo correspondendo a uma elevação gradual da temperatura no 
+compartimento onde se desenvolve o incêndio.Normalmente entre os 500 e os 600 ºC ocorre o 
+fenômeno de todos os combustíveis de auto inflamarem . Este fenômeno é designado por Inflamação 
+Generalizada ou “Flash Over”. O “Flash Over” determina o fim da fase da propagação. 
+ 
+Combustão contínua - Durante esta fase a temperatura mantém-se praticamente constante e no seu 
+ponto máximo. É comum existir combustível ainda em grande quantidade, sendo o fogo controlado pela 
+quantidade de oxigênio (ar) disponível. Neste caso trata-se de um fogo controlado pela ventilação. 
+ 
+Declínio das chamas - À medida de o combustível vai sendo consumido, as chamas vão diminuindo 
+de intensidade e consequentemente a taxa de libertação de calor diminui.O declínio das chamas pode 
+ser antecipado se a dissipação de energia for superior à sua produção, provocando o abaixamento da 
+temperatura no compartimento até à temperatura normal. 
+ 
+3.5. Classes do Fogo 
+ 
+Os incêndios são classificados de acordo com o seu material combustível, sendo subdivido em 
+quatro classes: A, B, C e D. Na tabela 2 abaixo estão organizados as classes.</pre>
+</div>
+</div>
+<div class="page" id="p43">
+<h4>Pagina 44</h4>
+<figure><img src="assets/page_43_img_0.jpeg" alt="Imagem da página 44"/><figcaption style="font-size:.9rem;color:#666">page_43_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_43_img_1.png" alt="Imagem da página 44"/><figcaption style="font-size:.9rem;color:#666">page_43_img_1.png</figcaption></figure>
+<figure><img src="assets/page_43_img_2.jpeg" alt="Imagem da página 44"/><figcaption style="font-size:.9rem;color:#666">page_43_img_2.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>42 
+ 
+ 
+Tabela 2 – Classes de incêndio 
+ 
+ 
+3.6.  Métodos de Extinção de Fogo 
+ 
+Conhecido o triângulo, o fogo só existirá quando estiverem presentes os três elementos básicos 
+e essenciais do fogo. Calcado neste conhecimento é que se determinam os métodos modernos de 
+combate ao fogo. Portanto basta desfazer o triângulo (combustível, Oxigênio e Calor), isto é, retirar um 
+dos seus lados, logo extinguirá o fogo. 
+ 
+1. Retirada do material, quando se retira o combustível; 
+2. Abafamento, quando se retira o oxigênio; 
+3. Resfriamento, quando se retira o calor; e, 
+4. Extinção química, quanto se interfere na Reação em Cadeia do fogo através do 
+lançamento dos agentes extintores. 
+ 
+ 
+3.6.  Métodos de Extinção de Incêndios  
+ 
+Agora que já conhecemos alguns fundamentos básicos do incêndio, podemos 
+extingui-lo por meio dos seguintes processos:  
+ 
+a) Isolamento  
+ 
+Consiste na retirada do material combustível, o qual 
+geralmente é utilizado quando não dispomos de equipamentos 
+adequados para combater o incêndio.  
+Como exemplo, podemos citar o fechamento de um registro 
+de gás ou a retirada de material inflamável das proximidades de 
+um foco de incêndio.  
+ 
+ 
+ 
+Classes de Incêndio</pre>
+</div>
+</div>
+<div class="page" id="p44">
+<h4>Pagina 45</h4>
+<figure><img src="assets/page_44_img_0.jpeg" alt="Imagem da página 45"/><figcaption style="font-size:.9rem;color:#666">page_44_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_44_img_1.jpeg" alt="Imagem da página 45"/><figcaption style="font-size:.9rem;color:#666">page_44_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>43 
+ 
+b) Abafamento  
+ 
+Consiste na retirada do comburente. Neste processo 
+deve-se evitar, de qualquer maneira, que o oxigênio do ar 
+continue reagindo com o material combustível que está 
+queimando.  
+Como exemplo, podemos citar a colocação da tampa na 
+frigideira no momento em que o óleo, superaquecido, se 
+inflama ao atingir o ponto de ignição, ou ainda, o fechamento 
+de um compartimento que está pegando fogo, evitando a 
+entrada de ar externo no mesmo.  
+ 
+c) Resfriamento  
+ 
+Consiste na diminuição da quantidade de calor, provocando 
+uma 
+consequente 
+diminuição 
+da 
+temperatura 
+(abaixo 
+da 
+temperatura do ponto de inflamação), na qual a combustão não 
+pode continuar.  
+ 
+ 
+d) Interrupção da Reação em Cadeia  
+ 
+Como vimos no Quadrilátero do Fogo, ocorre durante um incêndio a formação de 
+produtos instáveis, que garantem a continuidade da reação.  
+A interrupção da reação em cadeia é obtida pela reação de determinados agentes 
+extintores (compostos halogenados, sais de metais alcalinos) com esses produtos instáveis, 
+provocando, então, a extinção do incêndio. 
+ 
+ 
+3.7. Tipos de Extintores 
+ 
+ 
+Como vimos acima, existem algumas classes de chama e métodos de extinção, da mesma 
+maneira, existem alguns tipos de extintores, que usam desde água até mesmo pós químicos especiais 
+para extinguir o foco do incêndio. Estes são das seguintes classes: 
+ 
+ 
+Extintor com água pressurizada - indicado para incêndios de classe A. Neste a água age por 
+resfriamento e abafamento, dependendo da maneira como é aplicada. 
+ 
+ 
+Extintor com gás carbônico - Indicado para incêndios de classe C, por não ser condutor de 
+eletricidade. Pode ser usado também em incêndios de classes A e B.</pre>
+</div>
+</div>
+<div class="page" id="p45">
+<h4>Pagina 46</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>44 
+ 
+ 
+ 
+Extintor com pó químico seco - Indicado para incêndio de classe B agindo por abafamento. 
+Pode ser usado também em incêndios de classes A e C. 
+ 
+ 
+Extintor com pó químico especial - Indicado para incêndios de classe. Extingue a chama por 
+abafamento. 
+ 
+ 
+Extintor de pó para classes ABC - É o extintor mais moderno no mercado, que atende a três 
+as classes de incêndio. O pó especial é capaz de combater princípios de incêndios em 
+materiais sólidos, líquidos inflamáveis e equipamentos energizados. É o extintor usado 
+atualmente nos veículos automotivos. 
+ 
+ 
+ 
+ 
+3.8. Procedimentos de combate a incêndio a bordo 
+ 
+ 
+Caso ocorra algum incêndio na embarcação e este não seja contido na sua fase inicial, proceda 
+das seguintes maneiras para evitar o aumento deste e buscar a proteção dos integrantes da 
+embarcação: 
+ 
+ Manobre a embarcação de forma que coloque esta em sentido do vento, buscando deixar 
+a parte onde ocorre o incêndio na parte de trás e as pessoas na parte contrária; 
+ Faça com que cada integrante use o colote salva-vidas; 
+ Lembre-se que o perigo de explosão é eminente, busque cortar o fornecimento de 
+combustíveis; 
+ Use os extintores de forma correta e ao seu máximo; 
+ Procure abafar e manter o local até o resfriamento, evitando a re-ignição.  
+ 
+ 
+3.9. Normas de incêndios 
+ 
+NR 23 - Proteção Contra Incêndios- A proteção contra incêndios é uma das Normas 
+Regulamentadoras que disciplina sobre as regras complementares de segurança e saúde no trabalho 
+previstas no art. 200 da CLT. 
+ 
+NORMAN-03 - determina o número de extintores indicados para cada embarcação e o local onde eles 
+devem ser colocados. Barcos motorizados com até 8 metros de comprimento (26 pés), por exemplo, 
+precisam ter um extintor do tipo B-1 próximo ao motor. Já barcos maiores, com até 12 metros (cerca 
+de 40 pés), devem ter três extintores do tipo B-1, dois perto do motor e um próximo ao comando. 
+O primeiro e mais básico cuidado é checar a data de validade do extintor, que geralmente é de 
+três anos no caso de um extintor novo e de um ano após a primeira recarga.</pre>
+</div>
+</div>
+<div class="page" id="p46">
+<h4>Pagina 47</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>45 
+ 
+3.10. Sobrevivência 
+ 
+ 
+Em caso de alguma situação onde é necessário o abandono da embarcação, devemos seguir 
+alguns princípios básicos para aumentar a chance de sobrevivência e resgate. 
+ 
+Em qualquer situação de risco, antes mesmo que se concretize, devemos estar com o colete 
+salva-vidas apostos e vesti-lo, e caso seja necessário o abando do barco, procure usar roupas para 
+proteção do seu corpo, como calças, camisas de manga longa, meias e outras pra protegê-lo contra 
+hipotermia e insolação. 
+ 
+ 
+ 
+Após sair da embarcação, procure manter uma distância segura e permanecer boiando a maior 
+parte do tempo, para evitar o desperdício de energia com natação desnecessária. Busque manter o 
+grupo unido e próximo, para reduzir efeito de hipotermia. 
+ 
+Havendo embarcação de sobrevivência, se houver tempo, procure levar alguns itens para o 
+interior da mesma que serão úteis como: água potável, mantimentos, equipamentos de comunicação, 
+mantendo-a a uma distância segura da embarcação, mas não devesse afastar muito. 
+  
+ 
+Não faça de forma alguma a ingestão de água do mar, nem a misture com a água potável com 
+o intuito de fazer com que renda mais, pois como a água marinha é carregada de sais minerais, estes 
+ficam acumulados no corpo, aumentando a necessidade de água potável para dissolvê-los. 
+ 
+Com isso, haverá maior volume de urina, fazendo com que a própria água do organismo vá 
+migrar para eliminar estes sais acumulados, agravando o seu estado de desidratação, podendo 
+inclusive morrer. 
+ 
+ 
+3.11. Noções de Primeiros Socorros 
+ 
+ 
+Aqui serão abordadas técnicas básicas de primeiros socorros para os casos mais comuns que 
+poderão ocorrem em nosso dia-a-dia, lembrando que a função deste é manter o suporte básico de vida 
+até a chegada de profissionais qualificados para prestar o socorro. 
+ 
+Veremos técnicas para lidar com as seguintes situações: 
+ 
+ Enjoos – durante a navegação é comum algumas pessoas ficarem enjoadas (mareadas), caso 
+ocorra coloque a pessoa em local ventilado e afrouxe as roupas desta, se apresentar vômito 
+ou ânsia de vômito, faça com que fique em deitada sobre seu lado esquerdo (posição de 
+descanso). Se houver indicação médica, antes do embarque, busque remédios anti-enjoo. 
+ 
+ Afogamentos – nos casos mais leves, afrouxe as roupas da pessoa, deite-a de bruços com a 
+cabeça virada de lado e apoiada sobre os braços, deixando o restante do corpo acima do nível 
+da cabeça, facilitando a saída de água dos pulmões. Nos casos mais severos, verificar 
+obstrução do sistema respiratório e aplicação de respiração artificial, caso necessário;</pre>
+</div>
+</div>
+<div class="page" id="p47">
+<h4>Pagina 48</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>46 
+ 
+ 
+  Pequenos cortes – faça a limpeza do local e se necessário, utilize bandagem para proteger 
+o local; 
+ 
+ Hemorragias - estas podem ser de internas e externas, no caso das externas faça a 
+estancamento da mesma por meio de compressão, busque elevar a região afetada e em casos 
+mais graves, comprimir a também um local anterior ao ferimento, reduzindo a chegada do 
+sangue ao ponto afetado. 
+ 
+As hemorragias internas são mais difíceis de reconhecer, mais em caso de manchas 
+roxas na região do abdômen e ocorra vômito com sangue, leve imediatamente ao pronto de 
+socorro. 
+ 
+ Fraturas – é a quebra de um ou mais ossos do corpo, podendo ser simples ou expostas, nestes 
+devesse imobilizar a região afetada na posição que se encontra e conduzir ao serviço médico 
+e nos casos de expostas, conter hemorragia se houve e imobilizar. Jamais, indiferente do caso, 
+tente reposicionar os ossos, pois podem ocorrer danos aos demais órgãos. 
+ 
+ Queimaduras – estas, além de serem causas por ação do fogo, podem ser causadas por 
+exposição ao sol, contato com corpos quentes, agentes corrosivos e contato com alguns 
+animais. 
+ 
+ 
+Estas são classificadas em 3 níveis: 
+ 
+Primeiro Grau – vermelhidão da pele; 
+Segundo Grau – surgimento de bolhas na região afetada; 
+Terceiro Grau – destruição de tecidos. 
+ 
+ 
+ 
+Em todos os casos, devesse limpar a região afetada, cobrir com gaze molhada em soro 
+fisiológico e encaminhar ao serviço médico de emergência. Nos casos mais graves, a 
+queimadura pode induzir ao estado de choque. 
+ 
+ 
+Não se deve tirar roupas das regiões afetadas, não tocar, furar bolhas ou aplicar 
+qualquer solução no local, exceto água limpa e corrente, apenas para resfriar o local. 
+ 
+ Insolações – causada pela exposição excessiva ao calor e sol, a pessoal apresenta dores de 
+cabeça, pele quente e seca, temperatura elevada e outros sintomas. Nestes casos devemos, 
+colocar a pessoa em repouso, de cabeça elevada, refrescar o corpo com compressas e frescas 
+ou banho.</pre>
+</div>
+</div>
+<div class="page" id="p48">
+<h4>Pagina 49</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>47 
+ 
+ Desmaios em geral - podem ser causados por diversos motivos, desde cansaço, fome, sede 
+até mesmo por traumatismos. A pessoa que irá desmaiar apresenta um quadro de palidez e 
+tontura antes disto, e podemos prevenir os desmaios fazendo com que ela sente com as pernas 
+afastadas e colocar a cabeça entre os joelhos. Caso a pessoa já tenha desmaiados, deite-a de 
+costas e eleve as pernas, fazendo com que aumente a irrigação sanguínea na cabeça. 
+ 
+ Entorses, Luxação e Contusão – são danos na musculatura, articulações e ligamentos que 
+causam inchaço, edemas, perda da mobilidade e sensibilidade no local. Devesse 
+preferencialmente aplicar uma bolsa de gelo, imobilizar e encaminhar ao serviço médico 
+especializado. 
+ 
+ Hipotermia – causada perda de calor do corpo quando está exposto ao tempo ou água, 
+deixando a temperatura interna do corpo abaixo dos 35 ºC. A pessoa apresenta confusão, 
+desorientação, pele pálida e pupila dilatada. Nestes casos mantenha a pessoa em local 
+abrigado, mantendo-a seca e aquecida com mantas e cobertores e ofereça bebidas quentes 
+não alcoólicas, se estiver consciente.  
+ 
+ 
+Muitas das situações acima podem levar ao Estado de Choque, que vai desde um leve mal-
+estar até a perda total de consciência, e deve ser tratados de acordo com a causa que a levou chegar 
+neste estado. 
+ 
+Podemos nos deparar com situações em que a vítima está desacordada e não apresenta 
+respiração e batimento cardíaco, neste caso, devemos iniciar a manobra de compressão torácica, 
+também vulgarmente conhecida como RCP. 
+ 
+ 
+3.12. Compressão Torácica 
+ 
+ 
+ 
+Esta manobra deve ser executada em ultimo caso quando a vítima estiver inconsciente e não 
+apresente respiração e pulso. Devesse chamar por socorro médico especializado e iniciar a manobra 
+conforme os seguintes passos: 
+ 
+1º. Coloque a vítima sobre uma superfície rígida; 
+2º. Verifique se não há pulso no pescoço; 
+3º. Se posicione ao lado da vítima; 
+4º. Utilizando a palma da mão, aplique pressão sobre o peito da vítima (externo) com os 
+braços retos de forma a produzir movimento para baixo e para cima com o ritmo de 60 
+à 80 vezes por minutos, gerando em média 30 compressões; 
+5º. Alterna a massagem com respiração a uma taxa de 30 compressões e 2 respirações 
+(30x2), completando 5 ciclos; 
+6º. Se a vítima não demonstrar nenhuma reação após os 5 ciclos, devesse continuar a 
+repetir as manobras até a exaustão ou chegada do socorro médico;</pre>
+</div>
+</div>
+<div class="page" id="p49">
+<h4>Pagina 50</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>48 
+ 
+7º. Se a vítima apresentar alguma reação como volta de pulso, respiração e demais 
+reações, devemos colocar a vítima em posição de descanso com a cabeça apoiada 
+sobre um dos braços e outro devesse manter esticado. 
+ 
+ 
+Lembre-se que, em qualquer caso, sempre busque ajuda médica especializada e/ou chame 
+pelo serviço de emergência do local onde estiver. 
+ 
+ 
+3.12. Legislação 
+ 
+ 
+Além de algumas normas que vimos anteriormente, temos as seguintes normas e leis que 
+regem a navegação no Brasil. 
+De acordo com a Lei 9.966 no art. 2º a Autoridade Marítima é exercida diretamente pelo 
+Comandante da Marinha, responsável pela salvaguarda da vida humana e segurança da navegação 
+no mar aberto e hidrovias interiores, bem como pela prevenção da poluição ambiental causada por 
+navios, plataformas e suas instalações de apoio. 
+A Autoridade Marítima, por intermédio de suas organizações competentes, com as seguintes 
+atribuições: 
+ 
+a) fiscalizar navios, plataformas e suas instalações de apoio, e as cargas embarcadas, de 
+natureza nociva ou perigosa, autuando os infratores na esfera de sua competência; 
+b) levantar dados e informações e apurar responsabilidades sobre os incidentes com navios, 
+plataformas e suas instalações de apoio que tenham provocado danos ambientais; 
+c) encaminhar os dados, informações e resultados de apuração de responsabilidades ao órgão 
+federal de meio ambiente, para avaliação dos danos ambientais e início das medidas judiciais 
+cabíveis; 
+d) comunicar ao órgão regulador da indústria do petróleo irregularidades encontradas durante 
+a fiscalização de navios, plataformas e suas instalações de apoio, quando atinentes à 
+indústria do petróleo; 
+ 
+ 
+3.12.1. Águas Jurisdicionais Brasileiras 
+ 
+Águas Marítimas: 
+ 
+A lei 8.617 de 04 de janeiro de 1993 dispõe sobre o mar territorial, a zona contígua, a zona 
+econômica exclusiva e a plataforma continental brasileira, e dá outras providências. 
+ 
+Mar Territorial</pre>
+</div>
+</div>
+<div class="page" id="p50">
+<h4>Pagina 51</h4>
+<figure><img src="assets/page_50_img_0.jpeg" alt="Imagem da página 51"/><figcaption style="font-size:.9rem;color:#666">page_50_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_50_img_1.jpeg" alt="Imagem da página 51"/><figcaption style="font-size:.9rem;color:#666">page_50_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>49 
+ 
+Compreende uma faixa de 12 milhas marítimas de largura. A largura do mar territorial é contada 
+a partir da linha de base, isto é, a linha de baixa-mar ao longo da costa. Dentro do mar territorial, o 
+Estado costeiro dispõe de direitos soberanos idênticos aos de que goza em seu território e suas águas 
+interiores, para exercer jurisdição, aplicarem as suas leis e regulamentar o uso e a exploração dos 
+recursos. As embarcações estrangeiras civis e militares têm o &quot;direito de passagem inocente&quot; pelo mar 
+territorial, desde que não violem as leis do Estado costeiro nem constituam ameaça à segurança. 
+ 
+Zona Contígua 
+ 
+ 
+É a faixa que se estende de 12 a 24 milhas marítimas, contadas a partir da linha base. Nesta 
+zona o país poderá tomar as medidas de fiscalização necessárias para evitar as infrações às leis e aos 
+regulamentos aduaneiros, fiscais, de imigração ou sanitários, no seu território ou no seu mar territorial. 
+ 
+Zona Econômica Exclusiva 
+ 
+É aquela onde cada nação possui direitos exclusivos sobre os recursos de suas águas 
+oceânicas. Localiza-se entre a linha base e 200 milhas marítimas contadas a partir das linhas de base. 
+Nesta zona o país tem direitos para fins de exploração, aproveitamento, conservação e gestão dos 
+recursos naturais, vivos ou não vivos, das águas sobrejacentes ao leito do mar, e seu subsolo.  
+ 
+Temos abaixo na figura 29 os limites das águas marítimas abertas. 
+ 
+Figura 29 – Ilustração dos limites de águas marítimas abertas. 
+ 
+ 
+Águas Interiores 
+ 
+ 
+dos portos, das baías, dos lagos, das lagoas, dos canais e dos arquipélagos; 
+ 
+dos rios e de suas desembocaduras;</pre>
+</div>
+</div>
+<div class="page" id="p51">
+<h4>Pagina 52</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>50 
+ 
+ 
+as águas entre os baixios e descoberta e a costa; 
+ 
+as compreendidas entre a costa e a linha base, a partir do mar territorial. 
+ 
+Procedimentos em fainas nos portos 
+ 
+ 
+Todas as embarcações inscritas nas Capitanias e repartições subordinadas só podem usar 
+na popa a Bandeira Nacional. 
+ 
+Ocasiões em que a embarcação brasileira usará obrigatoriamente a Bandeira Nacional: 
+ 
+ 
+na entrada e saída dos Portos; 
+ 
+quando navegando à vista de outra embarcação, de povoação ou de farol com guarnição; 
+ 
+em porto nacional, das 8:00 horas ao pôr do sol; 
+ 
+em porto estrangeiro, acompanhado o cerimonial do país. 
+ 
+As embarcações mercantes nacionais em movimento, ao se avistarem, no período 
+compreendido entre 8:00 e o pôr do sol, deverão proceder ao cumprimento, içando e arriando a 
+Bandeira Nacional. Cabe a embarcação mercante a iniciativa do cumprimento, quando o avistado for 
+navio de guerra. 
+  
+Deveres dos Aquaviários na Execução dos Serviços: 
+ 
+ 
+Inspeção do navio em intervalos apropriados; 
+ 
+Inspeção das condições e fixação das escadas de portaló e quebra peito; 
+ 
+Inspeção das condições dos ferros, amarras e espias do navio; 
+ 
+Observação das condições de tempo e de mar; 
+ 
+Observação dos regulamentos relativos à segurança e a proteção contra incêndio; 
+ 
+Tomar medidas para evitar a poluição do meio ambiente pelo navio; 
+ 
+Em caso de emergência, acionar os alarmes e avisar ao comandante e oficiais; 
+ 
+Executar com zelo e eficiência os serviços que lhe competem; 
+ 
+Abster-se de rixas e desordens a bordo; 
+ 
+Manter a decência no tratamento com os demais tripulantes. 
+ 
+É atribuição de todos tripulantes zelar pela segurança no navio no porto. Os seguintes 
+procedimentos conhecidos como decálogo da segurança devem ser do conhecimento geral. 
+ 
+Quanto aos exercícios com embarcações de salvatagem: 
+ 
+ 
+todos os membros da tripulação designados para tarefas deverão estar familiarizados com elas, 
+antes do início da viagem; 
+ 
+os exercícios, na medida do possível, devem ser realizados como em situação real;</pre>
+</div>
+</div>
+<div class="page" id="p52">
+<h4>Pagina 53</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>51 
+ 
+ 
+todo tripulante deve participar de pelo menos um exercício de abandono do navio e de incêndio por 
+mês; 
+ 
+quando o navio sofrer uma mudança total de tripulação, os exercícios deverão ser realizados antes 
+de o navio suspender; 
+ 
+todos os membros da tripulação deverão receber instruções de operação das balsas salva-vidas 
+infláveis. 
+ 
+Atribuições do Comandante 
+ 
+De acordo com o art. 8º da Lei 9.537 de 11 de dezembro de 1987, compete ao Comandante: 
+I - cumprir e fazer cumprir a bordo, a legislação, as normas e os regulamentos, bem como os atos e as 
+resoluções internacionais ratificados pelo Brasil; 
+II - cumprir e fazer cumprir a bordo, os procedimentos estabelecidos para a salvaguarda da vida 
+humana, para a preservação do meio ambiente e para a segurança da navegação, da própria 
+embarcação e da carga; 
+III - manter a disciplina a bordo; 
+ 
+Art. 9º Todas as pessoas a bordo estão sujeitas à autoridade do Comandante. 
+ 
+Art. 10 O Comandante, no exercício de suas funções e para a garantia da segurança das pessoas, da 
+embarcação e da carga transportada, pode: 
+ 
+I - impor sanções disciplinares previstas na legislação pertinente; 
+II - ordenar o desembarque de qualquer pessoa; 
+III - ordenar a detenção de pessoa em camarote ou alojamento, se necessário com algemas, 
+quando imprescindível para a manutenção da integridade física de terceiros, da embarcação 
+ou da carga; 
+IV - determinar o alijamento de carga. 
+ 
+Art. 11 O Comandante, no caso de impedimento, é substituído por outro tripulante, segundo a 
+precedência hierárquica, estabelecida pela autoridade marítima, dos cargos e funções a bordo das 
+embarcações. 
+ 
+Aplicação das Penalidades pelo Comandante 
+ 
+repreensão verbal; 
+ 
+repreensão por escrito; 
+ 
+suspensão do exercício das funções; 
+ 
+desembarque.</pre>
+</div>
+</div>
+<div class="page" id="p53">
+<h4>Pagina 54</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>52 
+ 
+OBS: Nenhuma penalidade pode ser aplicada sem que o acusado seja ouvido. A penalidade de 
+desembarque só será aplicada mediante inquérito procedido a bordo. Das penalidades aplicadas pelo 
+comandante, cabe recurso, em última instância, a Agente da Autoridade Marítima do primeiro porto de 
+escala. 
+ 
+Faltas Disciplinares 
+ 
+ 
+desrespeitar seus superiores hierárquicos, não cumprindo suas ordens, altercando com eles ou 
+respondendo-lhes em termos impróprios; 
+ 
+recusar-se a fazer o serviço determinado por seus superiores; 
+ 
+apresentar-se embriagado para o serviço ou embriagar-se a bordo; 
+ 
+faltar ao serviço nas horas determinadas; 
+ 
+abandonar o posto quando em serviço de quarto, faina, vigilância ou trabalho para o qual tenho 
+sido designado; 
+ 
+sair de bordo sem licença, ou exceder a mesma; 
+ 
+ser negligente na execução do serviço que lhe compete; 
+ 
+altercar, brigar ou entrar em conflito; 
+ 
+atentar contra as regras de moralidade, honestidade, disciplina e limpeza de bordo ou do local em 
+que trabalha; 
+ 
+deixar de cumprir as disposições da lei e das normas em vigor. 
+ 
+Ao Comandante é Vedado: 
+ 
+1) alterar os portos e escala da embarcação, sem causa justificada; 
+2) abandonar a embarcação, por maior perigo que se ofereça, a não ser em virtude de 
+naufrágio e após certificar-se de que é o último a fazê-lo. 
+ 
+Atribuições dos Aquaviários 
+ 
+Convés 
+ 
+ 
+atendimento às manobras da embarcação, ocupando os postos para os quais tenham sido 
+escalados; 
+ 
+o recebimento no convés da embarcação e o transporte para os paióis respectivos do material de 
+custeio pertencentes à seção de convés; 
+ 
+a movimentação de todos os aparelhos de manobra e peso, nas fainas da embarcação; 
+ 
+a execução dos serviços necessários, a conservação, tratamento, limpeza e pintura da 
+embarcação, paióis e tudo mais onde se fizer necessário; 
+ 
+a baldeação e adoçamento da embarcação;</pre>
+</div>
+</div>
+<div class="page" id="p54">
+<h4>Pagina 55</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>53 
+ 
+ 
+a conservação, a pintura das embarcações auxiliares, mangueiras de incêndio, bombas, boias, 
+coletes, balsas e todo material volante; 
+ 
+a conservação dos estais, brandais, ovéns e amaútes, o conserto em estropos e fendas, costura 
+em lona e demais cabos de bordo; 
+ 
+o auxílio ao contramestre em todas as fainas do convés, inclusive sondagens 
+ 
+a limpeza e conservação dos compartimentos dos próprios camarotes. 
+ 
+Máquinas 
+ 
+ 
+executar, no serviço de quarto ou de divisão, os trabalhos de lubrificação geral dos motores 
+principais e auxiliares, manobra de vapor, óleo, água e sondagem, manter esgotados os porões de 
+alimentação das caldeiras, manutenção e limpeza de maçaricos e filtros, participar nas fainas de 
+tratamento, conservação e pintura, nas embarcações com praça de máquinas desguarnecidas; 
+ 
+comunicar ao oficial de máquina de serviço de quarto qualquer anormalidade que ocorra na praça 
+de máquinas e frente de caldeiras, não sendo permitido o seu afastamento da praça de máquinas 
+e motores para atender a qualquer outro setor, a não ser por necessidade imperiosa, que deverá 
+ser comunicada previamente ao oficial de serviço; 
+ 
+dar imediato conhecimento ao oficial de máquina de serviço de qualquer variação na leitura dos 
+instrumentos de medidas de pressão e temperatura, bem como das indicações dos aparelhos de 
+alarme que possam influir no bom funcionamento das máquinas e aparelhos a seu cargo; 
+ 
+verificar, pelo menos uma vez por quarto ou divisão, as condições de operação dos sistemas fora 
+da praça de máquinas (ar condicionado, frigoríficas, engaxetamento da bucho, máquinas de 
+leme...), quando o oficial de serviço assim determinar; 
+ 
+o moço de máquinas deve auxiliar em serviço de quarto ou divisão o marinheiro de máquinas; 
+ 
+o moço deve, ainda, limpar, pintar e conservar a praça de máquinas, motores, caldeiras e chaminé 
+sob supervisão do paioleiro e ajuda no transporte do material de sua seção. 
+ 
+Obrigações de Trabalho e Previdência Social 
+ 
+ 
+ 
+Sejam quais forem as condições de trabalho sob as quais o marítimo concordou em trabalhar, 
+em qualquer navio, existem alguns requisitos mínimos de trabalho, os quais o tripulante deve verificar 
+antes de assinar qualquer Contrato de Trabalho, antes da saída ou antes de começar a trabalhar a 
+bordo. 
+ 
+ 
+o  contrato de trabalho assinado, sempre com a assinatura do representante do armador, com 
+nome, endereço e a bandeira do navio; 
+ 
+não deixe de assinar o Rol do Navio, as tabelas de salário e horas-extras estão nele; 
+ 
+o tipo de trabalho, a função que você vai exercer; 
+ 
+horas de trabalho e horas-extras; 
+ 
+pagamento por doença;</pre>
+</div>
+</div>
+<div class="page" id="p55">
+<h4>Pagina 56</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>54 
+ 
+ 
+tratamento médico. 
+ 
+O regime de Previdência Social dos aquaviários, ou seja, a aposentadoria por tempo de serviço, 
+mudou em 1998 e passou a ser chamada de aposentadoria por tempo de serviço. 
+ 
+ 
+3.12.2. Legislação Marítima e Ambiental 
+ 
+Lei Nº 9.774, de 21 de dezembro de 1998 
+ 
+Esta Lei tem por finalidade regular o registro da propriedade marítima, dos direitos reais e demais ônus 
+sobre embarcações e o registro de armador. Dispõe sobre o Registro da Propriedade Marítima e dá 
+outras providências. 
+ 
+&quot;Art. 3º As embarcações brasileiras, exceto as da Marinha de Guerra, serão inscritas na 
+Capitania dos Portos ou órgão subordinado, em cuja jurisdição for domiciliado o proprietário ou armador 
+ou onde for operar a embarcação. 
+ 
+Art. 15. É obrigatório o registro no Tribunal Marítimo de armador de embarcação mercante sujeita a 
+registro de propriedade, mesmo quando a atividade for exercida pelo proprietário. 
+ 
+Art. 16. Para os efeitos desta lei, compreende-se como armador a pessoa física ou jurídica que, em 
+seu nome e sob sua responsabilidade, apresta a embarcação para sua utilização, pondo-a ou não a 
+navegar por sua conta. 
+ 
+LEI 9537 
+ 
+Art. 16 A autoridade marítima pode adotar as seguintes medidas administrativas : 
+I - apreensão do certificado de habilitação; 
+II - apreensão, retirada do tráfego ou impedimento da saída de embarcação; 
+III - embargo de construção, reparo ou alteração das características de embarcação; 
+IV - embargo da obra; 
+V - embargo da atividade de mineração e de benfeitorias realizadas. 
+§ 1º A imposição das medidas administrativas não elide as penalidades previstas nesta Lei, possuindo 
+caráter complementar a elas. 
+§ 2º As medidas administrativas serão suspensas tão logo sanados os motivos que 
+ensejaram a sua imposição.</pre>
+</div>
+</div>
+<div class="page" id="p56">
+<h4>Pagina 57</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>55 
+ 
+DAS PENALIDADES 
+ 
+Art. 22 As penalidades serão aplicadas mediante procedimento administrativo, que se inicia com o auto 
+de infração, assegurados o contraditório e a ampla defesa. 
+ 
+Art. 23 Constatada infração, será lavrado Auto de Infração pela autoridade competente designada pela 
+autoridade marítima. 
+ 
+Art. 25 As infrações são passíveis das seguintes penalidades : 
+I - multa; 
+II - suspensão do certificado de habilitação; 
+III - cancelamento do certificado de habilitação; 
+IV - demolição de obras e benfeitorias. 
+ 
+Art. 30 São circunstâncias agravantes : 
+I - reincidência; 
+II - emprego de embarcação na prática de ato ilícito; 
+III - embriaguez ou uso de outra substância entorpecente ou tóxica; 
+IV - grave ameaça à integridade física de pessoas. 
+ 
+LEI Nº 9.432, DE 8 DE JANEIRO DE 1997 
+ 
+ 
+Dispõe sobre a ordenação do transporte aquaviário e dá outras providências. 
+Art. 4º Nas embarcações de bandeira brasileira serão necessariamente brasileiros o comandante, o 
+chefe de máquinas e dois terços da tripulação. 
+ 
+Art. 5º A operação ou exploração do transporte de mercadorias na navegação de longocurso é aberta 
+aos armadores, às empresas de navegação e às embarcações de todos os países, observados os 
+acordos firmados pela União, atendidos o princípio da reciprocidade. 
+ 
+LEI Nº 9.966 DE 28 DE ABRIL DE 2.000 
+ 
+ 
+Dispõe sobre a prevenção, o controle e a fiscalização da poluição causada por lançamento de 
+óleo e outras substâncias nocivas ou perigosas em águas sob jurisdição nacional e dá outras 
+providências. 
+ 
+Art. 1º Esta Lei estabelece os princípios básicos a serem obedecidos na movimentação de óleo e outras 
+substâncias nocivas ou perigosas em portos organizados, instalações portuárias, plataformas e navios 
+em águas sob jurisdição nacional.</pre>
+</div>
+</div>
+<div class="page" id="p57">
+<h4>Pagina 58</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>56 
+ 
+Art. 4º Para os efeitos desta Lei, as substâncias nocivas ou perigosas classificam-se nas 
+seguintes categorias, de acordo com o risco produzido quando descarregadas na água: 
+I – categoria A: alto risco tanto para a saúde humana como para o ecossistema aquático; 
+II – categoria B: médio risco tanto para a saúde humana como para o ecossistema aquático; 
+III – categoria C: risco moderado tanto para a saúde humana como para o ecossistema 
+aquático; 
+IV – categoria D: baixo risco tanto para a saúde humana como para o ecossistema aquático. 
+ 
+Art. 5º Todo porto organizado, instalação portuária e plataforma, bem como suas instalações de apoio, 
+disporá obrigatoriamente de instalações ou meios adequados para o recebimento e tratamento dos 
+diversos tipos de resíduos e para o combate da poluição, observadas as normas e critérios 
+estabelecidos pelo órgão ambiental competente. 
+ 
+Art. 11. Todo navio que transportar substância nociva ou perigosa a granel deverá ter a 
+bordo um livro de registro de carga, nos termos da Marpol 73/78, que poderá ser requisitado pela 
+autoridade marítima, pelo órgão ambiental competente e pelo órgão regulador da indústria do petróleo, 
+e no qual serão feitas anotações relativas às seguintes operações: 
+ 
+I – carregamento; 
+II – descarregamento; 
+III – transferências de carga, resíduos ou misturas para tanques de resíduos; 
+IV – limpeza dos tanques de carga; 
+V – transferências provenientes de tanques de resíduos; 
+VI – lastreamento de tanques de carga; 
+VII – transferências de águas de lastro sujo para o meio aquático; 
+VIII – descargas nas águas, em geral. 
+ 
+ 
+Art. 15. É proibida a descarga, em águas sob jurisdição nacional, de substâncias nocivas ou perigosas 
+classificadas na categoria &quot;A&quot;, definida no art. 4º desta Lei, inclusive aquelas provisoriamente 
+classificadas como tal, além de água de lastro, resíduos de lavagem de tanques ou outras misturas que 
+contenham tais substâncias. 
+ 
+Art. 17. É proibida a descarga de óleo, misturas oleosas e lixo em águas sob jurisdição 
+nacional, exceto nas situações permitidas pela Marpol 73/78, e não estando o navio, plataforma ou 
+similar dentro dos limites de área ecologicamente sensível, e os procedimentos para descarga sejam 
+devidamente aprovados pelo órgão ambiental competente. 
+§ 3º Não será permitida a descarga de qualquer tipo de plástico, inclusive cabos sintéticos, redes 
+sintéticas de pesca e sacos plásticos.</pre>
+</div>
+</div>
+<div class="page" id="p58">
+<h4>Pagina 59</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>57 
+ 
+No combate a poluição, o conhecimento das leis, sobre os impactos causados por nossas atitudes e 
+principalmente do meio que nos cerca, são de suma importância para uma melhoria na preservação da 
+biodiversidade.</pre>
+</div>
+</div>
+<div class="page" id="p59">
+<h4>Pagina 60</h4>
+<figure><img src="assets/page_59_img_0.png" alt="Imagem da página 60"/><figcaption style="font-size:.9rem;color:#666">page_59_img_0.png</figcaption></figure>
+<figure><img src="assets/page_59_img_1.jpeg" alt="Imagem da página 60"/><figcaption style="font-size:.9rem;color:#666">page_59_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>58 
+ 
+4º MÓDULO – Navegação e Manobras 
+ 
+ 
+ 
+RIPEAM – Regulamento Internacional Para Evitar Abalroamento no Mar 
+ 
+4.1. Introdução 
+ 
+Neste módulo veremos noções de navegação com uso de cartas náuticas, uso de bússola e o 
+estudo do Regulamento Internacional para Evitar Abalroamentos no Mar (RIPEAM – 72), incorporando 
+as emendas de 1981, constituindo se em uma espécie de “tradução”, para uma linguagem mais 
+acessível, das regras estabelecidas no Regulamento. Embora todo o RIPEAM seja discutido neste 
+Capítulo, o navegante deverá, também, estudar o texto completo das regras, constante da publicação 
+Regulamento Internacional para Evitar Abalroamentos no Mar, editada pela Diretoria de Portos e 
+Costas do Ministério da Marinha. 
+ 
+ 
+4.2. Fundamentos de cartografia e cartas náuticas 
+ 
+ 
+Nosso planeta não possui um 
+formato esférico perfeito (figura 30), devido a 
+esse fato, por convenções internacionais foi 
+criado o sistema de coordenadas geográficas 
+que o considera esférico e o divide em linhas 
+horizontais e verticais, e através destas, além 
+das características do local em si, são feitos 
+os mapas. 
+Figura 30 – Formatos da Terra 
+ 
+ 
+As linhas horizontais, chamadas de paralelos, foram convencionadas a partir da Linha do 
+Equador (latitude 0°), dividindo o planeta entre seus polos, Norte e Sul, sendo estas linhas graduadas 
+em Graus (°) e recebem o nome de latitude e o N quando estão entre a linha do equador e o polo Norte, 
+o mesmo se aplica ao S.  
+ 
+Por sua vez, as linhas verticais, 
+denominados meridianos, tem seu marco 
+0° no Meridiano de Greenwich, dividindo a 
+partir deste em leste (L) e Oeste (O). Na 
+figura 31 vemos as divisões cartográficas 
+de nosso planeta. Com isso temos a 
+localização em qualquer ponto de nosso 
+planeta, como por exemplo Florianópolis 
+que fica em 27° 35′ 49″ S, 48° 32′ 56″ O. 
+Figura 31 – Divisões cartográficas de nosso planeta</pre>
+</div>
+</div>
+<div class="page" id="p60">
+<h4>Pagina 61</h4>
+<figure><img src="assets/page_60_img_0.jpeg" alt="Imagem da página 61"/><figcaption style="font-size:.9rem;color:#666">page_60_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>59 
+ 
+ 
+Durante a navegação com uso de cartas náuticas, nós iremos nos deparar com a seguinte 
+situação, a Terra possui 2 tipos de Norte: 
+ 
+ Norte Magnético: é o ponto de convergência das linhas magnéticas da terra no polo Norte, 
+podendo variar conforme o movimento do planeta; 
+ Norte Verdadeiro: é ao eixo imaginário terrestre, no qual o planeta rotaciona, orientado na 
+direção norte-sul da Terra. 
+ 
+ 
+Então, ao navegarmos, nós traçamos a reta para onde desejamos ir, essa é denominada rumo, 
+este pode ser o Rumo verdadeiro (Rv), quando temos como base o Norte Verdadeiro. Já quando nos 
+baseamos pelo Norte Magnético, temos o Rumo magnético (Rmg), em ambos os casos, a proa da 
+embarcação fica alinhada ao rumo. 
+ 
+Outro ponto que temos que levar em consideração ao navegarmos é de elencarmos um objeto 
+ou fixo como referência, com isso teremos a Marcação, que é definida como o ângulo entre o Norte, 
+seja o magnético ou o verdadeiro, e o ponto fixo escolhido, como vemos na figura 32 abaixo que traz a 
+situação com Norte Verdadeiro e Magnético. 
+ 
+Figura 32 – Rumos, Nortes e Marcações 
+ 
+ 
+ 
+ 
+Como existe a diferença entre os Nortes (Verdadeiro e Magnético), algumas cartas náuticas 
+trazem o quanto é esta diferença, chamado de Declinação Magnética, esta deve ser considerada nos 
+cálculos, para mantermos o rumo correto e desejado em nossa navegação. 
+ 
+Algo que também devemos saber é o valor da Milha Náutica, está foi mensurada pelo 
+comprimento do arco de meridiano que subtende um ângulo de 1 minuto no centro da Terra. Porém, 
+como vimos a Terra não é perfeita e valor desta fixou-se, por um Acordo Internacional (1929), em 1.852 
+metros, independentemente da Latitude do lugar.</pre>
+</div>
+</div>
+<div class="page" id="p61">
+<h4>Pagina 62</h4>
+<figure><img src="assets/page_61_img_0.jpeg" alt="Imagem da página 62"/><figcaption style="font-size:.9rem;color:#666">page_61_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>60 
+ 
+4.3. Instrumentos de Navegação 
+ 
+ 
+Existem vários instrumentos históricos e na atualidade que podemos usar para nos auxiliar 
+durante a navegação. Estes vão desde bússolas, sextantes, astrolábio, balestilha, usados nas grandes 
+navegações históricas até os modernos radares, sondas e GPS. 
+ 
+Neste, vamos nos aprofundar no uso de bússola, visto que é um equipamento de baixo custo, 
+é utilizado como base de alguns sistemas modernos e todos devem compreender o seu simples 
+funcionamento.  
+ 
+ 
+4.3.1. Bússola 
+ 
+ 
+As bússolas, também chamadas de agulhas 
+magnéticas, consistem em uma Rosa Circular, graduada 
+de 000º a 360º, onde apoiada no seu centro, a agulha 
+magnética fica livre para girar em tomo de um eixo vertical 
+(estilete), flutuando em urna cuba cheia de um líquido, que 
+pode ser uma mistura de água e álcool (para não congelar) 
+ou um destilado fino de petróleo (figura 33). 
+Figura 33 – Bússola 
+ 
+ 
+A agulha magnética possui uma das extremidades em cor mais chamativa ou com uma forma 
+diferente, como uma seta, que tende sempre a fica alinhada ao polo Norte magnético, e é claro que 
+não devemos colocar materiais magnéticos próximos a ela, pois interferem no seu funcionamento e 
+seu corpo é feito de material não magnético (amagnético). 
+ 
+4.3.2. Princípio de funcionamento de uma bússola 
+ 
+ 
+Em operação, a agulha irá a se alinhar com as linhas de força do campo magnético da terra 
+existente no local. Estas linhas de força denominadas Meridianos Magnéticos, indicam a direção do 
+Norte Magnético (Nmg) no local. Portanto, caso a agulha não possua desvio, o ângulo indicado na Rosa 
+da Agulha entre a linha de fé e a linha N-S da agulha será igual ao ângulo entre a proa do navio e o 
+Norte Magnético, ou seja, o Rumo Magnético do navio (Rmg). 
+ 
+Uma boa agulha deve ser &quot;sensível&quot; e &quot;estável&quot;. A agulha deve ser sensível para que acuse 
+qualquer variação da proa do navio. Deve ser estável para que indique firmemente a proa, mesmo nas 
+guinadas rápidas, e não se desloque sob a ação do balanço, caturro, trepidações, etc.</pre>
+</div>
+</div>
+<div class="page" id="p62">
+<h4>Pagina 63</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>61 
+ 
+4.4. RIPEAM - Definições e aplicação das regras 
+ 
+Para compreender totalmente as regras é importante conhecer o significado dos seguintes 
+termos: 
+ 
+1. A palavra embarcação para o RIPEAM designa qualquer engenho ou aparelho, inclusive veículos 
+sem calado (tais como os que se deslocam sobre colchões de ar) e hidroaviões,usados ou capazes 
+de serem usados como meio de transporte sobre a água; 
+ 
+2. O termo embarcação de propulsão mecânica designa qualquer embarcação movimentada por 
+meio de máquinas ou motores; 
+ 
+3. O termo embarcação a vela designa qualquer embarcação sob vela, sendo propelida apenas pela 
+força do vento, ou seja, com a máquina de propulsão, se houver, não sendo utilizada; 
+ 
+4. O termo em movimento (navegando) se aplica a todas as embarcações que não se encontram 
+fundeadas, amarradas à terra ou encalhadas; 
+ 
+As definições de termos tais como embarcação sem governo, embarcação com capacidade 
+de manobra restrita, embarcação restrita devido ao seu calado e embarcação engajada na pesca, 
+serão abordadas nas partes deste Capítulo onde estas embarcações são estudadas. 
+ 
+As regras do RIPEAM aplicam-se a todas as embarcações em mar aberto e em todas as águas 
+a este ligadas, navegáveis. 
+ 
+O segundo ponto é especialmente importante, pois o RIPEAM é normalmente associado 
+apenas com o mar aberto. Na realidade, entretanto, há muitos rios, águas interiores e portos aos quais 
+se aplicam as regras do RIPEAM, por que são navegáveis por embarcações de alto mar e, ainda, estão 
+ligados ao mar aberto. Por outro lado, há países, como os Estados Unidos, que adotam um conjunto 
+de regras locais (“inland rules”), que se aplicam às águas interiores, situadas por dentro de uma linha 
+de demarcação, que divide as águas reguladas pelo RIPEAM das águas regidas pelas regras locais 
+acima citadas. 
+ 
+O Brasil adota um conjunto de Regras Especiais Complementares ao RIPEAM/72, para uso 
+nas nossas águas interiores (rios, lagos, lagoas e canais em que ambas as margens estão em território 
+nacional). Os aspectos principais de tais regras serão mencionados ao final deste Capítulo.</pre>
+</div>
+</div>
+<div class="page" id="p63">
+<h4>Pagina 64</h4>
+<figure><img src="assets/page_63_img_0.png" alt="Imagem da página 64"/><figcaption style="font-size:.9rem;color:#666">page_63_img_0.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>62 
+ 
+4.5. Luzes e marcas 
+ 
+a. É IMPORTANTE ASSINALAR AS SEGUINTES REGRAS, QUE SEAPLICAM ÀS LUZES E 
+MARCAS: 
+ 
+As luzes devem ser exibidas do por ao nascer do Sol e em períodos de visibilidade restrita. 
+Durante estes períodos, não devem ser exibidas outras luzes que possam perturbara identificação, por 
+parte de outro navio, das luzes especificadas no RIPEAM. 
+ 
+As regras referentes às marcas se aplicam ao período diurno. 
+ 
+b. SETORES DE VISIBILIDADE DAS LUZES PADRÕES DENAVEGAÇÃO. 
+ 
+LUZES DE BORDOS (verde a boreste e encarnada a bombordo): devem apresentar um setor 
+de visibilidade de 112.5°, desde a proa até 22.5° por ante a ré do través do seu respectivo bordo. 
+ 
+LUZES DE MASTRO: as luzes brancas contínuas de mastro, situadas sobre a linha de centro 
+do navio, devem apresentar um setor de visibilidade de 225°, desde a proa até22.5° por ante a ré do 
+través em ambos os bordos da embarcação. 
+ 
+LUZ DE ALCANÇADO: a luz branca contínua de alcançado, situada tão próximo quanto 
+possível da popa, deve ser visível num setor horizontal de 135°, sendo 67.5° para cada bordo, a partir 
+da popa. 
+Regulamento internacional para evitar abalroamentos no mar 
+Os setores de visibilidade das luzes padrões de navegação são mostrados na Figura Setores 
+de visibilidade das luzes padrões de navegação são mostrados na figura 34 abaixo: 
+ 
+Figura 34 - Setores de visibilidade das luzes padrões de navegação 
+ 
+Fonte: RIPEAM,Cap 15a1 (www.mar.mil.br).</pre>
+</div>
+</div>
+<div class="page" id="p64">
+<h4>Pagina 65</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>63 
+ 
+c. ALCANCES DAS LUZES PADRÕES DE NAVEGAÇÃO 
+ 
+Os alcances padrões mínimos das luzes de navegação são os que se seguem: 
+ 
+ 
+Em embarcações de comprimento igual ou superior a 50 metros: 
+ 
+LUZES DE MASTRO 6 milhas 
+LUZES DE BORDOS 3 milhas 
+LUZ DE ALCANÇADO 3 milhas 
+ 
+ 
+Em embarcações de comprimento igual ou superior a 12 metros, porém inferior a 50 
+metros: 
+ 
+LUZ DE MASTRO 5 milhas (quando o comprimento da embarcação forinferior a 20 m : 3 
+milhas) 
+LUZES DE BORDOS 2 milhas 
+LUZ DE ALCANÇADO 2 milhas 
+ 
+ 
+Em embarcações de comprimento inferior a 12 metros: 
+ 
+LUZ DE MASTRO 2 milhas 
+LUZES DE BORDOS 1 milha 
+LUZ DE ALCANÇADO 2 milhas 
+ 
+4.5.1. Embarcação de propulsão mecânica de comprimento igual ou superior a 50 metros 
+ 
+Em movimento, à noite ou sob visibilidade restrita, deve exibir: 
+Regulamento internacional para evitar abalroamentos no mar 
+• duas luzes de mastro de modo a formar um alinhamento, isto é, sendo a luz de ré mais 
+alta que a de vante; 
+ 
+• luzes de bordos; 
+ 
+• uma luz de alcançado. 
+ 
+ 
+O posicionamento destas luzes estão nas figuras 35 e 36 abaixo.</pre>
+</div>
+</div>
+<div class="page" id="p65">
+<h4>Pagina 66</h4>
+<figure><img src="assets/page_65_img_0.jpeg" alt="Imagem da página 66"/><figcaption style="font-size:.9rem;color:#666">page_65_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_65_img_1.png" alt="Imagem da página 66"/><figcaption style="font-size:.9rem;color:#666">page_65_img_1.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>64 
+ 
+Figura 35 - Iluminação de navegação de embarcações com comprimento igual ou superior a 50 
+metros 
+ 
+Fonte: RIPEAM, Cap 15a1 (www.mar.mil.br). 
+ 
+Figura 36 - Embarcação de propulsão mecânica, de comprimento maior que 50 metros em 
+movimento 
+ 
+Fonte: Adaptado de RIPEAM, Cap 15a1 (www.mar.mil.br)</pre>
+</div>
+</div>
+<div class="page" id="p66">
+<h4>Pagina 67</h4>
+<figure><img src="assets/page_66_img_0.jpeg" alt="Imagem da página 67"/><figcaption style="font-size:.9rem;color:#666">page_66_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_66_img_1.png" alt="Imagem da página 67"/><figcaption style="font-size:.9rem;color:#666">page_66_img_1.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>65 
+ 
+4.5.2. Embarcação de propulsão mecânica de comprimento inferior a 50 metros 
+ 
+Em movimento, à noite ou sob visibilidade restrita, deve exibir: 
+ 
+• uma luz de mastro 
+ 
+• luzes de bordos 
+ 
+• uma luz de alcançado 
+ 
+Figura 37 - Vista de topo e de boreste de B - LUZES BRANCAS, E - LUZ ENCARNADA, V - LUZ 
+VERDE de uma embarcação de propulsão mecânica.
+p 
+Fonte: Adaptado de RIPEAM, Cap 15a1 (www.mar.mil.br) 
+ 
+Figura 38 - Vista de topo e de bombordo de uma embarcação de propulsão mecânica menor do que 
+50 metros, em movimento. 
+ 
+Fonte: RIPEAM, Cap 15a1 (www.mar.mil.br) 
+ 
+NOTA: Uma embarcação de propulsão mecânica de comprimento inferior a 50 metros não é obrigada 
+a exibir a segunda luz de mastro, mas poderá fazê-lo.</pre>
+</div>
+</div>
+<div class="page" id="p67">
+<h4>Pagina 68</h4>
+<figure><img src="assets/page_67_img_0.jpeg" alt="Imagem da página 68"/><figcaption style="font-size:.9rem;color:#666">page_67_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>66 
+ 
+4.5.3. Observações 
+ 
+Em embarcações de comprimento inferior a 20 metros, as luzes de bordos podem ser 
+combinadas em uma única lanterna instalada sobre a linha de centro da embarcação. 
+ 
+Uma embarcação de propulsão mecânica com menos de 12 metros de comprimento, em 
+movimento, pode exibir apenas uma luz circular branca (setor de visibilidade de 360º) e luzes de 
+bordos (figura 39); 
+ 
+Uma embarcação de propulsão mecânica com menos de 7 metros de comprimento, cuja 
+velocidade máxima não exceda a 7 nós, pode exibir apenas uma luz circular branca (figura 40) e 
+deve, se possível, também exibir luzes de bordos 
+ 
+Figura 39 (esq) - embarcação menor que 12 metros com suas luzes de navegação. Figura 40 (dir) - 
+embarcação menor que 7 metros com sua luz de navegação. 
+ 
+Fonte: Adaptado de RIPEAM, Cap 15a1 (www.mar.mil.br) 
+ 
+ 
+4.6. Embarcações a vela em movimento 
+ 
+Uma embarcação a vela em movimento, à noite ou sob visibilidade restrita, deve exibir: 
+ 
+• luzes de bordos 
+ 
+• luz de alcançado 
+ 
+Além das luzes acima prescritas, uma embarcação a vela em movimento pode exibir como 
+luzes opcionais, no tope do mastro ou próximo deste, onde possam ser melhor vistas, duas luzes 
+circulares dispostas em linha vertical sendo a superior encarnada ea inferior verde. Estas luzes são 
+mostradas nas figuras 41 e 42.</pre>
+</div>
+</div>
+<div class="page" id="p68">
+<h4>Pagina 69</h4>
+<figure><img src="assets/page_68_img_0.jpeg" alt="Imagem da página 69"/><figcaption style="font-size:.9rem;color:#666">page_68_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_68_img_1.jpeg" alt="Imagem da página 69"/><figcaption style="font-size:.9rem;color:#666">page_68_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>67 
+ 
+Figura 41 (esq) - embarcação a vela com suas luzes em navegação. Figura 42 (dir) - Vista de 
+bombordo de uma embarcação a vela. 
+ 
+Fonte: Adaptado de RIPEAM, Cap 15a1 (www.mar.mil.br) 
+ 
+ 
+Nos anexos, você encontrará um resumo sobre as luzes nas embarcações disponibilizado pela 
+Marinha Brasileira que resume esta parte de luzes, servindo como guia rápido de identificação. 
+ 
+ 
+4.7. Manobras  
+ 
+Veremos agora uma série de manobras que ocorrem no dia-a-dia de navegação ao nos 
+depararmos com outras embarcações, interações entre elas e noções de balizamento. 
+ 
+ 
+4.7.1. Roda a Roda 
+ 
+ 
+Esta 
+é 
+a 
+situação 
+quando 
+duas 
+embarcações encontram-se em mesma direção, 
+porém sentido contrários, com risco de colisão 
+eminente. Nestes casos, ambas as embarcações 
+devem guinar à boreste (BE), fazendo ambas 
+passarem à bombordo (BB) da outra, como 
+observamos na figura 43 a lado. 
+ 
+Figura 43 – Roda a Roda</pre>
+</div>
+</div>
+<div class="page" id="p69">
+<h4>Pagina 70</h4>
+<figure><img src="assets/page_69_img_0.jpeg" alt="Imagem da página 70"/><figcaption style="font-size:.9rem;color:#666">page_69_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_69_img_1.png" alt="Imagem da página 70"/><figcaption style="font-size:.9rem;color:#666">page_69_img_1.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>68 
+ 
+4.7.2. Ultrapassagem ou Alcançando 
+ 
+ 
+Indiferente a situação, toda embarcação que esteja ultrapassando outra deverá manter-se fora 
+do caminho desta (figura 44). 
+ 
+Figura 44 – Ultrapassagem ou Alcançando 
+ 
+ 
+ 
+4.7.3. Situação de Rumos Cruzados ou de Colisão 
+ 
+ 
+ 
+ 
+Quando nos deparamos com duas 
+embarcações que navegam em rumos que se 
+cruzam 
+e 
+envolva 
+risco 
+de 
+colisão 
+(abalroamento), a embarcação que avistar a 
+outra de boreste (BE), deverá se manter fora do 
+caminho desta, evitando cruzar a sua proa 
+como demonstrado na figura 45. 
+ 
+ 
+Figura 45 – Rumos Cruzados eu de Colisão 
+ 
+ 
+4.7.4. Efeitos que influenciam na embarcação 
+ 
+ 
+Ao navegarmos em regiões que apresentam restrições, como rios, canais e em área para 
+evolução ou profundidade, ocorrem influência do local e algumas outras condições sobre a navegação 
+da embarcação. 
+ 
+Nestas situações devermos tomar alguns cuidados e realizar alguns procedimentos, 
+principalmente se a embarcação for a propulsão mecânica, cujos principais efeitos são: 
+ 
+ Velocidade - A velocidade em canais e rios, principalmente em locais de pouca profundidade, 
+tende a aumentar o calado da embarcação. Na prática, se a relação de água embaixo da quilha 
+for pequena, deve-se reduzir a velocidade da embarcação para que esta não venha a tocar o 
+fundo como vemos na figura 46 abaixo que mostra a diferença do calado entre uma 
+embarcação parada (ancorada) e outra em movimento.</pre>
+</div>
+</div>
+<div class="page" id="p70">
+<h4>Pagina 71</h4>
+<figure><img src="assets/page_70_img_0.jpeg" alt="Imagem da página 71"/><figcaption style="font-size:.9rem;color:#666">page_70_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_70_img_1.jpeg" alt="Imagem da página 71"/><figcaption style="font-size:.9rem;color:#666">page_70_img_1.jpeg</figcaption></figure>
+<figure><img src="assets/page_70_img_2.png" alt="Imagem da página 71"/><figcaption style="font-size:.9rem;color:#666">page_70_img_2.png</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>69 
+ 
+ 
+Figura 46 – Diferença do calado quando parado e em movimento. 
+ 
+ 
+ Tendência em águas restritas – Ocorre em 
+canais e rios estreitos, uma tendência das ondas 
+que se formam na proa encontrarem resistência 
+na margem mais próxima, repelindo a proa para 
+o bordo oposto; neste caso, a tendência é da 
+proa guinar para a margem mais distante e a 
+popa ser atraída para a margem mais próxima 
+(figura 47). 
+Figura 47 – Tendência em águas 
+restritas 
+ 
+ 
+ 
+4.7.5. Interação entre embarcações 
+ 
+ 
+Ao navegarmos, podemos nos deparar com situações onde duas embarcações passam em 
+rumos paralelos e em sentido contrário, a pequena distância, pode haver uma interferência recíproca 
+devido ao movimento das águas, gerado pelo sistema de ondas, o qual se inicia na proa (bigode) e à 
+corrente de sucção. Convém que ambas as embarcações mantenham velocidade a mais reduzida 
+possível que lhes permita governar. 
+ 
+Nestes casos, ocorre uma série de interações, até ambas se distanciarem, vejamos as 3 
+momentos distintos deste: 
+ 
+1. No primeiro momento, as duas amuras se 
+repelem em virtude das ondas que se 
+formam em cada proa, fazendo com que 
+as proas tendam a guinar para as margens 
+(figura 48);  
+Figura 48 – Interação pela proa.</pre>
+</div>
+</div>
+<div class="page" id="p71">
+<h4>Pagina 72</h4>
+<figure><img src="assets/page_71_img_0.jpeg" alt="Imagem da página 72"/><figcaption style="font-size:.9rem;color:#666">page_71_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_71_img_1.jpeg" alt="Imagem da página 72"/><figcaption style="font-size:.9rem;color:#666">page_71_img_1.jpeg</figcaption></figure>
+<figure><img src="assets/page_71_img_2.jpeg" alt="Imagem da página 72"/><figcaption style="font-size:.9rem;color:#666">page_71_img_2.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>70 
+ 
+2. Quando as embarcações estiverem pelo 
+través, as correntes de popa de uma e as 
+ondas de proa da outra se equilibram, 
+tendendo assim, as embarcações a 
+ficarem em paralelo (figura 49); 
+ 
+Figura 49 – Interação pelo través 
+ 
+ 
+3. No momento em que as alhetas estiverem 
+na mesma altura, o movimento dos filetos 
+líquidos e a corrente de sucção do hélice 
+provocam uma atração mútua de ambas 
+as popas, momento em que se deve tomar 
+muito cuidado (figura 50). 
+ 
+Figura 50 – Interação pela popa. 
+ 
+ 
+Quando isto ocorre em embarcações de porte diferentes, ou seja, uma grande e outra pequena, 
+a embarcação de menor porte sofrerá com os efeitos, devido a isto, o procedimento correto é passar o 
+mais distante possível da embarcação de maior porte e no momento da interação de través, dar uma 
+pequena guinada para o bordo da outra embarcação para evitar a aproximação das popas. 
+ 
+Ocorrem também interações entre embarcações no momento da ultrapassagem, 
+especialmente quando estas forem de tamanhos diferentes, nestes casos temos 2 situações distintas: 
+ 
+ 
+ A menor como alcançada - Neste caso, a 
+tendência da popa é cair para cima da margem 
+mais próxima devido ao efeito das ondas de proa 
+da outra embarcação (maior porte); pode inclusive 
+fazer com que a embarcação alcançada (menor 
+porte) atravesse no canal. O procedimento correto 
+é solicitar através de uma boa comunicação, a 
+redução da velocidade de ultrapassagem da 
+embarcação alcançadora (figura 51). 
+Figura 51 – Ultrapassagem com 
+menor como alcançada.</pre>
+</div>
+</div>
+<div class="page" id="p72">
+<h4>Pagina 73</h4>
+<figure><img src="assets/page_72_img_0.jpeg" alt="Imagem da página 73"/><figcaption style="font-size:.9rem;color:#666">page_72_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_72_img_1.jpeg" alt="Imagem da página 73"/><figcaption style="font-size:.9rem;color:#666">page_72_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>71 
+ 
+ 
+A menor como alcançadora - Neste caso, a 
+tendência da embarcação é ter a sua proa atraída 
+pela corrente da embarcação alcançada (maior 
+porte). O procedimento correto então é manter a 
+comunicação com a embarcação alcançada, 
+solicitando que reduza ou mesmo pare a propulsão 
+para permitir uma ultrapassagem segura (figura 
+52). 
+Figura 52 – Ultrapassagem com 
+menor como alcançadora. 
+ 
+ 
+4.7.6. Esquema de Separação de Tráfego 
+ 
+ 
+No esquema de separação de tráfego, conforme o RIPEAM, nenhuma embarcação é 
+dispensada de sua obrigação perante qualquer outra regra, isto é, uma embarcação que estiver usando 
+um esquema de separação de tráfego deverá: 
+ 
+I. Seguir na via de tráfego apropriada e na direção geral do fluxo de tráfego para essa via 
+(figura 53); 
+ 
+Figura 53 – Esquema de separação de trafego 
+ 
+ 
+II. Manter-se o mais longe possível da linha ou zona de separação de tráfego; 
+III. Normalmente, deve-se entrar ou sair de uma via em seus terminais, mas, caso seja 
+necessário entrar ou sair de uma via de tráfego ao longo de sua extensão por qualquer dos 
+seus dois lados, deverá ser feito com o menor ângulo possível em relação à direção geral 
+do fluxo de tráfego como podemos ver a embarcação 8 na figura 54;</pre>
+</div>
+</div>
+<div class="page" id="p73">
+<h4>Pagina 74</h4>
+<figure><img src="assets/page_73_img_0.jpeg" alt="Imagem da página 74"/><figcaption style="font-size:.9rem;color:#666">page_73_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_73_img_1.jpeg" alt="Imagem da página 74"/><figcaption style="font-size:.9rem;color:#666">page_73_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>72 
+ 
+Figura 54 – Entrada em fluxo de tráfego 
+ 
+ 
+IV. Uma embarcação deve evitar tanto quanto possível cruzar vias de tráfego, mas se obrigada 
+a isto, deverá fazê-lo tomando o rumo mais próximo possível da perpendicular à direção 
+geral do fluxo do tráfego (figura 55). Procurando sempre comunicar as demais embarcações 
+a sua intenção de cruzar o fluxo de navegação já existente. 
+ 
+Figura 55 – Cruzando um fluxo de tráfego. 
+ 
+ 
+ 
+4.7.7. Embarcação Obrigada a Manobrar 
+ 
+ 
+Toda embarcação obrigada a se manter fora do caminho de outra embarcação deverá, tanto 
+quanto possível, manobrar antecipada e substancialmente, a fim de se manter segura (safa) da outra. 
+ 
+Nestes casos, a embarcação que se mantiver em curso, deve manter sua velocidade e rumo e 
+em último caso manobrar para evitar colisão quando a outra embarcação assim não a fizer. Por isso o 
+ideal é que ao avistar outra embarcação que ocorrerá essa situação, manter comunicação com esta 
+para que seja executada a manobra em comum acordo e de forma correta.</pre>
+</div>
+</div>
+<div class="page" id="p74">
+<h4>Pagina 75</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>73 
+ 
+ 
+4.7.8. Regra da Preferência 
+ 
+ 
+Esta regra define quem deve manobrar, dependendo da propulsão, emprego e situação da 
+embarcação, a tabela 3 abaixo resume o dever manobra quanto a propulsão de cada embarcação e 
+situação encontrada: 
+ 
+Tabela 3 - Regra da Preferência 
+Quanto à propulsão / 
+serviço 
+Situação 
+A – Sem 
+governo 
+B – de manobra 
+restrita 
+C – engajada 
+na pesca 
+D – a vela 
+Propulsão mecânica 
+X 
+X 
+X 
+X 
+a vela 
+X 
+X 
+X 
+ 
+Engajada na pesca 
+X 
+X 
+ 
+ 
+De manobra restrita 
+X 
+ 
+ 
+ 
+Fonte: Adaptado de RIPEAM 
+ 
+ 
+4.7.9. Embarcações em Visibilidade Restrita 
+ 
+ 
+Conforme a regra 19 do RIPEAM, ao nos deparamos em navegação com situação de 
+visibilidade restrita devemos: 
+ 
+ 
+Seguir em velocidade segura, adaptada às circunstâncias de condições de baixa velocidade 
+predominantes, ou seja, navegar com a velocidade mínima que se possa manobrar. No caso 
+de embarcações de propulsão mecânica, esta deverá estar apta a manobras imediatas; 
+ 
+ 
+Ao detectar a presença de outra apenas pelo radar, deve determinar se está se desenvolvendo 
+uma situação de grande proximidade e/ou risco de colisão. Caso assim seja, ela deverá 
+manobrar para evitá-la com antecedência; se esta manobra consistir de uma alteração de rumo, 
+o seguinte procedimento deve ser evitado, sempre que possível:  
+  
+I. Alteração de rumo para BB, para uma embarcação por ante-a-vante do través, exceto se 
+esta for alcançada em uma ultrapassagem; 
+II. Uma mudança de rumo em direção a outra embarcação que se encontra no través ou por 
+ante-a-ré do través. 
+ 
+ 
+Nos anexos, possuem também um resumo sobre as manobras disponibilizado pela Marinha 
+Brasileira que resume esta parte, servindo como guia rápido de identificação.</pre>
+</div>
+</div>
+<div class="page" id="p75">
+<h4>Pagina 76</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>74 
+ 
+4.8. Sinais Sonoros 
+ 
+ 
+Ao navegarmos em condições de visibilidade restrita, devemos nos comunicar com as demais 
+embarcações próximas utilizando sinais sonoros como sinais de advertência, indicando manobras a 
+serem realizadas, para evitar colisão com as demais. 
+ 
+ 
+Estes sinais podem ser formados entre 2 padrões distintos que são: 
+ 
+I. Apito curto (.) – duração aproximada de 1 segundo; 
+II. Apito longo (!) – duração entre 4 e 6 segundos; 
+ 
+ 
+ 
+Através da combinação destes padrões, temos as seguintes manobras com os seus devidos 
+sinais sonoros descritos na tabela 4 abaixo: 
+ 
+Tabela 4 – Sinais Sonoros de Advertência 
+Sinal 
+Descrição 
+Manobra 
+. 
+Um apito curto 
+Estou guinando para boreste (BE). 
+.. 
+Dois apitos curtos 
+Estou guinando para bombordo. 
+... 
+Três apitos curtos 
+Estou dando má quinas atrás. 
+!!. 
+Dois apitos longos e um apito curto. 
+Tenciono ultrapassá-la por seu boreste (BE). 
+!!.. 
+Dois apitos longos e dois apitos curtos. 
+Tenciono ultrapassá-la por seu bombordo. 
+!.!. 
+Um apito longo,um curto, um longo e um curto. 
+Concordo com sua ultrapassagem. 
+..... 
+Cinco apitos curtos. 
+Quando uma embarcação não consegue 
+entender as intenções de manobra da outra. 
+! 
+Um apito longo. 
+Aproximando-se de uma curva ou de uma á 
+rea de um canal estreito ou via de acesso onde 
+outras embarcações podem estar ocultas devido 
+a obstáculos 
+Fonte: Adaptado de RIPEAM</pre>
+</div>
+</div>
+<div class="page" id="p76">
+<h4>Pagina 77</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>75 
+ 
+Pode-se também complementar os sinais sonoros com sinais luminosos, sendo aplicado 
+apenas para os apitos curtos, praticando um lampejo rápido e curto () para cada apito curto. Com isso 
+temos os seguintes sinais luminosos relacionados na tabela 5 abaixo: 
+ 
+Tabela 5 – Sinais Luminosos 
+Sinal 
+Descrição 
+Manobra 
+ 
+Um lampejo rápido e curto 
+Estou guinando para boreste (BE). 
+ 
+Dois lampejos curtos 
+Estou guinando para bombordo. 
+ 
+Três lampejos curtos 
+Estou dando má quinas atrás. 
+ 
+Cinco lampejos rápidos e curtos 
+Quando uma embarcação não consegue 
+entender as intenções de manobra da outra. 
+Fonte: Adaptado de RIPEAM 
+ 
+ 
+Já quando navegamos em condições de baixa visibilidades, também faz-se o uso de sinais 
+sonoros que indicam a situação, porém utilizando fontes emissoras diferentes de acordo com o porte 
+da embarcação, que em alguns casos terá de portar 3 fontes sonoras distintas que são: apito, sino e 
+gongo. Vejamos agora quais equipamentos são necessários de acordo com o porte da embarcação 
+(tabela 6). 
+ 
+Tabela 6 – Equipamentos sonoros 
+Embarcação de acordo com o 
+tamanho 
+Equipamentos Sonoros 
+Apito (. ou !) 
+Sino (S) 
+Gongo (G) 
+Maior que 50 m 
+x 
+x 
+x 
+Entre 12 e 50 m 
+x 
+x 
+ 
+Menor que 12 m 
+x* 
+ 
+ 
+* - qualquer dispositivo, desde que seja eficaz. 
+Fonte: Adaptado de RIPEAM</pre>
+</div>
+</div>
+<div class="page" id="p77">
+<h4>Pagina 78</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>76 
+ 
+Com isso, em navegação sob visibilidade baixa, temos os seguintes sinais sonoros indicando a situação 
+da embarcação (tabela 7): 
+ 
+Tabela 7 – Sinais Sonoros indicando situação 
+Sinal 
+Descrição 
+Situação 
+! 
+Um apito longo em intervalos não 
+superiores a 2 minutos 
+Embarcação de propulsão mecânica com 
+seguimento 
+!! 
+Dois apitos longos sucessivos em 
+intervalos não superiores a 2 minutos 
+Embarcação 
+de 
+propulsão 
+mecânica 
+sob 
+máquinas, mas parada e sem seguimento 
+!.. 
+Um apito longo seguido de dois apitos 
+curtos em intervalos não superiores a 
+2 minutos 
+Embarcação sem governo, restrita devido a seu 
+calado, a vela, engajada na pesca, com 
+capacidade de manobra restrita, rebocando ou 
+empurrando 
+!... 
+Um apito longo e três apitos curtos 
+Embarcação rebocada 
+SSSSS  
+Toques rápidos de sino durante cerca 
+de 
+5 
+segundos, 
+em 
+intervalos 
+nãosuperiores a 1 minuto 
+Embarcação de comprimento inferior a 100 
+metros, fundeada 
+S G 
+Toque de sino a vante, seguido de 
+toque de gongo a ré (ambos durante 
+cerca de 5 segundos), a intervalos não 
+superiores a 1 minuto 
+Embarcação de comprimento igual ou superior a 
+100 metros, fundeada 
+.!. 
+Um apito curto, um longo e um curto 
+Embarcação fundeada, indicando sua posição e 
+advertindo uma embarcação que se aproxima 
+quanto à possibilidade de uma colisão. Além do 
+toque de sino, ou toques de sino e gongo 
+SSS 
+SG 
+SSS 
+Três badaladas distintas, um toque de 
+sino e, se determinado, gongo e três 
+badaladas distintas 
+Embarcação encalhada 
+.... 
+Quatro apitos curtos 
+Sinal de identificação de embarcação engajada 
+em serviço de praticagem. 
+Fonte: Adaptado de RIPEAM 
+ 
+ 
+ 
+Nos anexos, possui um resumo sobre os sinais sonoros e luminosos disponibilizado pela 
+Marinha Brasileira que resume esta parte, servindo como guia rápido de identificação.</pre>
+</div>
+</div>
+<div class="page" id="p78">
+<h4>Pagina 79</h4>
+<figure><img src="assets/page_78_img_0.jpeg" alt="Imagem da página 79"/><figcaption style="font-size:.9rem;color:#666">page_78_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>77 
+ 
+4.9. Balizamento 
+ 
+ 
+É o conjunto de regras aplicadas aos sinais fixos e flutuantes, visando a indicar as margens 
+dos canais, as entradas de portos, de rios ou de qualquer via navegável, além de delimitar áreas 
+perigosas ou perigos isolados (figura 56). Entretanto, não se aplica a faróis, barcas faróis, sinais de 
+alinhamento e bóias-gigantes.  
+ 
+Figura 56 – Exemplos de balizamento. 
+ 
+ 
+ 
+ 
+Boias são dispositivos flutuantes que podem exibir luz (luminosas) ou não (cegas). 
+ 
+Balizas são dispositivos feitos de ferro ou de concreto que contêm um objeto em seu tope 
+(parte mais alta) de forma geométrica variável e não apresentam luz. 
+ 
+ 
+O balizamento adotado no Brasil é o chamado Sistema B (IALA B) da “International Association 
+of Lighthouse Authorities” (IALA), que compreende sinais laterais, de perigo isolado, de águas seguras, 
+especiais e cardinais. 
+ 
+ 
+4.9.1. Sinais de Balizamento 
+ 
+ 
+Conforme a indicação informada pela baliza ou boia, esta possui a características que permitem 
+sua identificação nos períodos diurno (cor, formato da boia ou baliza e forma geométrica do tope) e 
+noturno (cor da luz e ritmo de apresentação da luz). 
+ 
+4.9.2. Sinais laterais 
+ 
+ 
+Estas indicações consistem os lados boreste (BE) e Bombordo (BB) da via no sentido 
+convencional de balizamento é aquele que o navio, vindo de alto mar, segue quando se aproxima de 
+um porto, baía, foz de rio, e outras vias aquáticas, sendo indicadas pelas seguintes marcações:</pre>
+</div>
+</div>
+<div class="page" id="p79">
+<h4>Pagina 80</h4>
+<figure><img src="assets/page_79_img_0.jpeg" alt="Imagem da página 80"/><figcaption style="font-size:.9rem;color:#666">page_79_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_79_img_1.jpeg" alt="Imagem da página 80"/><figcaption style="font-size:.9rem;color:#666">page_79_img_1.jpeg</figcaption></figure>
+<figure><img src="assets/page_79_img_2.jpeg" alt="Imagem da página 80"/><figcaption style="font-size:.9rem;color:#666">page_79_img_2.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>78 
+ 
+ 
+Bombordo (BB): Para serem deixadas por bombordo por que entra nos portos. Quando 
+luminosa, a boia exibe luz verde com qualquer ritmo, exceto grupo de lampejos compostos (2+1) por 
+período, estas possuem as seguintes características e formatos (figura 57) 
+ 
+Cor: encarnada;  
+Formato: cônico, pilar ou charuto;  
+Tope (se houver): cone encarnado com o 
+vértice para cima;  
+Luz (quando houver):  
+Cor: encarnada;  
+Ritmo: qualquer, exceto Lp (2+1).  
+ 
+Figura 57 – Formato das indicações de BB 
+ 
+ 
+ 
+Boreste (BE): Para serem deixadas por boreste por que entra nos portos. Quando luminosa, a 
+bóia exibe luz encarnada com qualquer ritmo, exceto grupo de lampejos compostos (2+1) por período 
+(figura 58). 
+ 
+Cor: verde;  
+Formato: cilíndrico, pilar ou charuto;  
+Tope (se houver): cilindro verde;  
+Luz (quando houver):  
+Cor: verde;  
+Ritmo: qualquer, exceto Lp (2+1).  
+ 
+ 
+Figura 58 – Formato das indicações de BE
+ 
+ 
+4.9.3. Sinais laterais modificados 
+ 
+Canal preferencial a bombordo: Quando um canal se bifurcar e o canal preferencial for a bombordo, 
+o sinal lateral de boreste, modificado pode ser usado. Quando luminosa, a boia exibe luz encarnada 
+com um grupo de lampejos compostos (2 + 1) por período (figura 59). 
+ 
+Cor: encarnada com uma faixa larga 
+horizontal verde; 
+Formato: cônico, pilar ou charuto;  
+Tope (se houver): cone encarnado com o 
+vértice para cima;  
+Luz (quando houver):  
+Cor: encarnada;  
+Ritmo: Lp (2+1).  
+ 
+Figura 59 - Baliza de canal preferencial a 
+bombordo</pre>
+</div>
+</div>
+<div class="page" id="p80">
+<h4>Pagina 81</h4>
+<figure><img src="assets/page_80_img_0.jpeg" alt="Imagem da página 81"/><figcaption style="font-size:.9rem;color:#666">page_80_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>79 
+ 
+Canal preferencial a boreste: Quando um canal se bifurcar e o canal preferencial for a boreste, o sinal 
+lateral de bombordo, modificado pode ser usado. Quando luminosa, a boia exibe luz verde com um 
+grupo de lampejos compostos (2+1) por período (figura 60). 
+ 
+Cor: verde com uma faixa larga horizontal 
+encarnada  
+Formato: cilíndrico, pilar ou charuto  
+Tope (se houver): cilindro verde  
+Luz (quando houver):  
+Cor: verde  
+Ritmo: Lp (2+1)  
+Figura 60 - Baliza de canal preferencial a 
+boreste 
+ 
+ 
+4.9.4. Sinais Cardinais 
+ 
+ 
+Estes podem ser usados para indicar águas mais profundas, ou o bordo safo para passar por 
+um perigo, ou para chamar a atenção para a junção, bifurcação ou fim de um canal. Como o nome 
+sugere, estes sinais apresentam as quatro direções cardinais: Norte (N), Sul (S), Leste (L) e Oeste (O), 
+como mostra a figura 61. 
+ 
+Sinal norte 
+Cor: preta sobre amarela  
+Formato: pilar ou charuto  
+Tope (se houver): dois cones pretos, um acima 
+do outro, ambos com o vértice para cima  
+Luz (quando houver):  
+Cor: branca  
+Ritmo: VQ ou Q  
+ 
+Sinal leste 
+Cor: preta com uma única faixa larga horizontal 
+amarela  
+Formato: pilar ou charuto  
+Tope (se houver): dois cones pretos, um acima 
+do outro, unidos pelas bases  
+Luz (quando houver):  
+Cor: branca  
+Ritmo: VQ (3) a cada 5 s ou Q(3) a cada 10 s  
+ Sinal sul 
+Cor: amarela sobre preta  
+Formato: pilar ou charuto  
+Tope (se houver): dois cones pretos, um acima 
+do outro, ambos com o vértice para baixo  
+Luz (quando houver):  
+Cor: branca  
+Ritmo: VQ (6) + LpL cada 10 s ou Q(6) + LpL 
+a cada 15 s  
+ 
+Sinal oeste 
+Cor: amarela com uma única faixa larga 
+horizontal preta  
+Formato: pilar ou charuto  
+Tope (se houver): dois cones pretos, um acima 
+do outro, unidos pelos vértices  
+Luz (quando houver):  
+Cor: branca  
+Ritmo: VQ (9) a cada 10 s ou Q(9) a cada 15 
+s</pre>
+</div>
+</div>
+<div class="page" id="p81">
+<h4>Pagina 82</h4>
+<figure><img src="assets/page_81_img_0.png" alt="Imagem da página 82"/><figcaption style="font-size:.9rem;color:#666">page_81_img_0.png</figcaption></figure>
+<figure><img src="assets/page_81_img_1.jpeg" alt="Imagem da página 82"/><figcaption style="font-size:.9rem;color:#666">page_81_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>80 
+ 
+ 
+Figura 61 – Baliza de sinais cardinais 
+ 
+ 
+4.9.5. Outras Balizas 
+ 
+Perigo isolado: O sinal de perigo isolado é aquele construído sobre, ou fundeado junto ou sobre um 
+perigo que tenha águas navegáveis em toda a sua volta. Quando luminosa, a bóia exibe luz branca 
+com dois lampejos por período (figura 62). 
+ 
+Cor: preta com uma ou mais faixas largas 
+horizontais encarnadas  
+Formato: pilar ou charuto  
+Tope: duas esferas pretas, uma sobre a outra  
+Luz (quando houver):  
+Cor: branca  
+Ritmo: Lp (2)  
+Figura 62 – Baliza de Perigo Isolado</pre>
+</div>
+</div>
+<div class="page" id="p82">
+<h4>Pagina 83</h4>
+<figure><img src="assets/page_82_img_0.jpeg" alt="Imagem da página 83"/><figcaption style="font-size:.9rem;color:#666">page_82_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_82_img_1.jpeg" alt="Imagem da página 83"/><figcaption style="font-size:.9rem;color:#666">page_82_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>81 
+ 
+ 
+Águas seguras: Indicam águas navegáveis em torno do sinal; incluem sinais de linha de centro e sinais 
+de meio de canal. Tal sinal pode também ser usado, como alternativa, para um cardinal ou lateral 
+indicar uma aproximação de terra. Quando luminosa, a bóia exibe luz branca isofásica ou de ocultação 
+ou de lampejo longo a cada 10 segundos ou em código Morse exibindo a letra A (figura 63). 
+ 
+Cor: faixas verticais encarnadas e brancas  
+Formato: esférico; pilar ou charuto exibem tope 
+esférico  
+Tope (se houver): uma esfera encarnada  
+Luz (quando houver):  
+Cor: branca  
+Ritmo: Iso. Oc. LpL. 10s ou Mo (A)  
+ 
+Figura 63 – Baliza de águas seguras 
+ 
+ 
+Balizamento especial: Sinais que não são primordialmente destinados a orientar a navegação, mas 
+que indicam uma área ou característica especial mencionada em documentos náuticos apropriados. 
+Exemplo: bóias oceanográficas; sinais de separação de tráfego, onde o uso de sinalização 
+convencional de canal possa causar confusão; área de despejos; área de exercícios militares; cabo ou 
+tubulação submarina; área de recreação; prospecções geológicas; dragagens; varreduras; ruínas; 
+áreas de segurança e outros fins especiais (figura 64). 
+ 
+Cor: amarela  
+Formato: opcional, mas sem conflitar com os 
+outros sinais  
+Tope (se houver): formato de X amarelo  
+Luz (quando houver):  
+Cor: amarela  
+Ritmo: Oc (...)  
+ 
+ 
+Lp (exceto LpL 10s)  
+ 
+ 
+Lp (4), Lp (5) ou Lp (6)  
+ 
+ 
+Lp (...+...)  
+ 
+ 
+ou Morse (exceto A e U)  
+ 
+Figura 64 – Balizas Especiais</pre>
+</div>
+</div>
+<div class="page" id="p83">
+<h4>Pagina 84</h4>
+<figure><img src="assets/page_83_img_0.png" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_0.png</figcaption></figure>
+<figure><img src="assets/page_83_img_1.png" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_1.png</figcaption></figure>
+<figure><img src="assets/page_83_img_2.png" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_2.png</figcaption></figure>
+<figure><img src="assets/page_83_img_3.png" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_3.png</figcaption></figure>
+<figure><img src="assets/page_83_img_4.jpeg" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_4.jpeg</figcaption></figure>
+<figure><img src="assets/page_83_img_5.jpeg" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_5.jpeg</figcaption></figure>
+<figure><img src="assets/page_83_img_6.jpeg" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_6.jpeg</figcaption></figure>
+<figure><img src="assets/page_83_img_7.jpeg" alt="Imagem da página 84"/><figcaption style="font-size:.9rem;color:#666">page_83_img_7.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>82 
+ 
+4.9.6. Placas ou bandeiras 
+                                                           
+Ao navegamos numa hidrovia podemos nos deparar com algumas placas ou bandeiras com os 
+seguintes símbolos abaixo (figura 65), cada um deles indica uma situação ou manobra necessária para 
+navegarmos com segurança: 
+ 
+A. 
+Ao observar-se um sinal “X” numa placa, à margem do rio, significa trocar de margem; 
+B. 
+Ao observar-se um sinal “H” numa placa, à margem do rio, significa seguir meio do canal; 
+C. 
+Ao observar-se um sinal “Y” numa placa no rio, significa bifurcação de canal; 
+D. 
+Ao observar-se um sinal “+” numa placa no rio, significa perigo isolado. 
+ 
+Figura 65 – Placas ou bandeiras em hidrovias 
+ 
+ 
+ 
+ 
+ 
+ 
+A 
+B 
+D 
+C</pre>
+</div>
+</div>
+<div class="page" id="p84">
+<h4>Pagina 85</h4>
+<figure><img src="assets/page_84_img_0.jpeg" alt="Imagem da página 85"/><figcaption style="font-size:.9rem;color:#666">page_84_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_84_img_1.jpeg" alt="Imagem da página 85"/><figcaption style="font-size:.9rem;color:#666">page_84_img_1.jpeg</figcaption></figure>
+<figure><img src="assets/page_84_img_2.jpeg" alt="Imagem da página 85"/><figcaption style="font-size:.9rem;color:#666">page_84_img_2.jpeg</figcaption></figure>
+<figure><img src="assets/page_84_img_3.jpeg" alt="Imagem da página 85"/><figcaption style="font-size:.9rem;color:#666">page_84_img_3.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>83 
+ 
+4.9.7. Sinais em pontes 
+ 
+ 
+Em hidrovias ondem existem pontes navegáveis, é comum encontrar algumas sinalizações 
+para definir faixas de sentido e outras situação na hidrovia (figura 66), acompanhe abaixo algumas 
+situações possíveis: 
+ 
+A. Numa ponte que atravessava o rio, ao observar-se dois losangos amarelos, um ligado ao outro 
+pelos pontos laterais, isto significa que o tráfego é permitido com sentido único. 
+B. Numa ponte que atravessava o rio, ao observar-se um losango amarelo, isto significa que o 
+tráfego é permitido nos dois sentidos. 
+C. Numa ponte que atravessava o rio, ao observar-se um triângulo verde, isto significa que o 
+tráfego está à direita de quem desce ou sobe o rio e ao observar um retângulo pintado de 
+vermelho, isto significa que o tráfego está à esquerda de quem desce ou sobe o rio  
+D. Numa ponte que atravessava o rio, ao observar-se um retângulo vermelho com uma faixa larga 
+horizontal branca no meio, isto significa que o tráfego está proibido.  
+ 
+Figura 66 – Sinais em pontes 
+ 
+ 
+ 
+ 
+ 
+C 
+A 
+B 
+D</pre>
+</div>
+</div>
+<div class="page" id="p85">
+<h4>Pagina 86</h4>
+<figure><img src="assets/page_85_img_0.jpeg" alt="Imagem da página 86"/><figcaption style="font-size:.9rem;color:#666">page_85_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>84 
+ 
+4.10. Manobras de atração e saída de cais. 
+ 
+Para atracar deve-se, em geral, manobrar da seguinte forma: aproximar do cais, num ângulo 
+de 45º, de modo a passar um cabo de proa logo que possa, colocando o leme para o bordo oposto ao 
+do cais, para deslocar a popa para este. 
+ 
+As espias são cabos de amarração usados na faina de atracar uma embarcação e os cabos 
+principais de amarração são: lançantes, espringues e traveses (figura 67). 
+ 
+1. Lançante de Proa - não deixa a embarcação cair a atrás 
+2. Espringue de Proa - não deixa a embarcação cair adiante (frente) 
+3. Través - não deixa a embarcação se afastar do cais 
+4. Espringue de Popa - não deixa a embarcação cair a ré (atrás) 
+5. Lançante de Popa - não deixa a embarcação cair a frente 
+Figura 67 – Exemplificação de amarração no cais.
+ 
+ 
+O través é a espia que serve para amarrar a embarcação, saindo perpendicularmente ao cais. 
+Havendo correnteza no local, que se vai atracar uma lancha, devemos aproveitar seu efeito e atracar 
+contra a correnteza, passando-se um cabo dizendo para vante e outro dizendo para ré. 
+Desatracar é o ato de soltar a embarcação que está ligada ao cais, passando a mesma à 
+condição de embarcação em movimento.  Para desatracar a embarcação devemos largar os cabos de 
+ré, procurando manobrar para abrir a popa e com, o motor dando atrás, aproveitar o efeito do leme para 
+afastar a popa e então largar os cabos de vante. 
+Com correnteza de proa, minha desatracação é mais fácil ou se processa folgando primeiro os 
+cabos de vante e mantendo os de ré apertados. 
+ A bóia de arinque é utilizada por embarcações de grande porte, serve para indicar o local onde 
+a âncora está no fundo. A bóia de arinque é utilizada para indicar o local onde a âncora ficou presa no 
+fundo.</pre>
+</div>
+</div>
+<div class="page" id="p86">
+<h4>Pagina 87</h4>
+<figure><img src="assets/page_86_img_0.jpeg" alt="Imagem da página 87"/><figcaption style="font-size:.9rem;color:#666">page_86_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>85 
+ 
+ Numa atracação, com vento ou corrente perpendicular ao cais, com aproximação a barlavento, 
+deve-se aproximar com a embarcação paralela ao cais, com pouco seguimento (figura 68). 
+ 
+Figura 68 – Atracamento com vento ou corrente Barlavento
+ 
+ 
+Já ao se deparar com uma atracação, com vento ou corrente perpendicular ao cais, com 
+aproximação a sotavento, deve-se aproximar com a embarcação com um ângulo aproximado de 45º 
+com o cais (figura 69).</pre>
+</div>
+</div>
+<div class="page" id="p87">
+<h4>Pagina 88</h4>
+<figure><img src="assets/page_87_img_0.jpeg" alt="Imagem da página 88"/><figcaption style="font-size:.9rem;color:#666">page_87_img_0.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>86 
+ 
+Figura 69 - Atracamento com vento ou corrente Sotavento 
+ 
+ 
+ Numa atracação com vento ou corrente, paralelos ao cais, deve-se aproximar com a 
+embarcação sempre contrária ao vento ou corrente, com ângulo agudo ao cais. 
+ 
+Para se largar do cais, sem vento e sem corrente, deve ser feita com o leme contrário ao cais 
+e máquina devagar adiante, largar todas as espias, exceto a de ré, que esteja dizendo para vante.</pre>
+</div>
+</div>
+<div class="page" id="p88">
+<h4>Pagina 89</h4>
+<figure><img src="assets/page_88_img_0.jpeg" alt="Imagem da página 89"/><figcaption style="font-size:.9rem;color:#666">page_88_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_88_img_1.jpeg" alt="Imagem da página 89"/><figcaption style="font-size:.9rem;color:#666">page_88_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>87 
+ 
+Largar do cais com vento ou corrente pela proa 
+ 
+Para se largar de um cais, com vento e corrente pela proa, deve ser feita largando todas as 
+espias, exceto a que diz para vante, na popa, mantendo o leme contrário ao cais (figura 70), seguindo 
+os seguintes passos: 
+ 
+1. Largar todas as espias exceto o espringue de popa manter o leme contrário ao cais.  
+2. Depois que a proa abrir o suficiente, folgar o espringue, até que a popa se afaste do cais.  
+3. Largar o espringue de popa, dar máquinas adiante devagar  
+ 
+Figura 70 – Saída de cais com vento ou corrente pela proa.
+ 
+ 
+Largar do cais com vento ou corrente pela popa 
+ 
+Para se largar de um cais, com vento corrente pela popa, deve ser feita largando todas as 
+espias, exceto a que diz para ré, na proa, mantendo o leme na direção do cais (figura 71). 
+Largar todas as espias exceto o espringue de proa. Leme na direção ao cais, ir entrando o 
+espringue da proa. Quando a popa estiver safa, leme a meio e máquinas atrás devagar. 
+ 
+Figura 71 - Saída de cais com vento ou corrente pela popa</pre>
+</div>
+</div>
+<div class="page" id="p89">
+<h4>Pagina 90</h4>
+<figure><img src="assets/page_89_img_0.jpeg" alt="Imagem da página 90"/><figcaption style="font-size:.9rem;color:#666">page_89_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_89_img_1.jpeg" alt="Imagem da página 90"/><figcaption style="font-size:.9rem;color:#666">page_89_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>88 
+ 
+5º MÓDULO – Cabos e nós 
+ 
+5.1. Objetivos 
+ 
+Existem diversos cabos e nós, cada um com determinada função e capacidade de uso, 
+contudo, no dia-a-dia da navegação, os nós abaixo descritos se mostram fundamentais. 
+ 
+5.2. Nó Direito 
+ 
+Serve para unir dois cabos de bitola (diâmetro, Ø) igual, sendo útil quando necessário alongar 
+algum cabo ou, no caso de veleiros, para amarrar a vela grande na operação de rizar.  
+ 
+É um nó de fácil elaboração, como pode ser visto na figura 72 abaixo. 
+ 
+Figura 72 – Nó Direito 
+ 
+Fonte:http://www.westcoast.pt/index.php/pt/recursos/manual-de-vela-online/aula-2-nos 
+ 
+5.3. Nó de 8 
+ 
+Este nó é útil como um nó terminal, aplicado na ponta das escotas e adriças para evitar que 
+elas escapem através dos olhais ou passadouros. Tem um aspecto semelhante a um 8. Para dar este 
+nó, siga as ilustrações da esquerda para a direita. 
+ 
+Figura 73 – Nó de 8 
+ 
+Fonte: http://www.westcoast.pt/index.php/pt/recursos/manual-de-vela-online/aula-2-nos</pre>
+</div>
+</div>
+<div class="page" id="p90">
+<h4>Pagina 91</h4>
+<figure><img src="assets/page_90_img_0.jpeg" alt="Imagem da página 91"/><figcaption style="font-size:.9rem;color:#666">page_90_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_90_img_1.jpeg" alt="Imagem da página 91"/><figcaption style="font-size:.9rem;color:#666">page_90_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>89 
+ 
+5.4. Lais de Guia 
+ 
+O Lais de Guia, considerado o rei dos nós, é usado fazer uma laçada no chicote de um cabo. 
+É usado para colocar as adriças no punho da pena das velas, amarração em argolas e até para unir 
+cabos. Um Lais de Guia feito corretamente é muito seguro e fácil de desfazer. Para dar este nó, siga 
+as ilustrações da esquerda para a direita. 
+ 
+Figura 74 – Lais de Guia 
+ 
+Fonte: http://www.westcoast.pt/index.php/pt/recursos/manual-de-vela-online/aula-2-nos 
+ 
+5.5. Volta do Fiel (Calão) 
+ 
+Este nó é usado para amarrar um cabo a um ponto sólido, como um poste num cais. O seu 
+principal uso a bordo é para segurar as defensas aos varandins. Para dar este nó, siga as ilustrações 
+da esquerda para a direita. 
+ 
+Figura 75 – Volta do Fiel (Calão) 
+ 
+Fonte: http://www.westcoast.pt/index.php/pt/recursos/manual-de-vela-online/aula-2-nos 
+ 
+ 
+ 
+Volta do Fiel (Calão)</pre>
+</div>
+</div>
+<div class="page" id="p91">
+<h4>Pagina 92</h4>
+<figure><img src="assets/page_91_img_0.jpeg" alt="Imagem da página 92"/><figcaption style="font-size:.9rem;color:#666">page_91_img_0.jpeg</figcaption></figure>
+<figure><img src="assets/page_91_img_1.jpeg" alt="Imagem da página 92"/><figcaption style="font-size:.9rem;color:#666">page_91_img_1.jpeg</figcaption></figure>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>90 
+ 
+5.6. Nó de Escota 
+ 
+Este nó é usado para unir dois cabos de bitolas diferentes. Quando for usado com cabos de 
+diâmetros muito diferentes devemos dar um cote adicional, transformando-o em nó de escota dobrado. 
+Para dar este nó, siga as ilustrações da esquerda para a direita. 
+ 
+Figura 76 – Nó de Escota 
+ 
+Fonte: http://www.westcoast.pt/index.php/pt/recursos/manual-de-vela-online/aula-2-nos 
+ 
+ 
+5.7. Volta do Cunho 
+ 
+É a forma correta de amarrar um cabo a um cunho. Para dar este nó, siga as ilustrações da 
+esquerda para a direita. 
+ 
+Figura 77 – Volta do Cunho 
+ 
+Fonte: http://www.westcoast.pt/index.php/pt/recursos/manual-de-vela-online/aula-2-nos</pre>
+</div>
+</div>
+<div class="page" id="p92">
+<h4>Pagina 93</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>91 
+ 
+REFERÊNCIAS 
+ 
+BARROS, Geraldo L. M.; Navegar é fácil. Editora Catedral das Letras – 12ª Edição – 2006 
+ 
+CAPWING; NORMAS E INSTRUÇÕES GERAIS DE SEGURANÇA.  Material on-line disponível em 
+http://www.capwing.hpw.com.br/Instrucao.htm, acessado em julho de 2014. 
+ 
+CORPO DE BOMBEIROS MILITAR DO ESTADO DO PIAUÍ; Incendios. Material on-line disponível em  
+http://www.cbm.pi.gov.br/incendios.php, acessado em julho de 2014. 
+ 
+CORPO DE BOMBEIROS DO ESTADO DE SÃO PAULO; CARTILHA DE ORIENTAÇÕES BÁSICAS, 
+NOÇÕES DE PREVENÇÃO DE INCÊNDIO, DICAS DE SEGURANÇA. São Paulo. Versão 05/2011. 
+Disponível em: http://www.corpodebombeiros.sp.gov.br/novo/Downloads/Cartilha_de_Orientacao.pdf, 
+acessado em setembro de 2014. 
+ 
+Sapadores 
+de 
+Coimbra; 
+O 
+Fogo. 
+Material 
+on-line 
+disponível 
+em 
+http://sapadoresdecoimbra.no.sapo.pt/O%20FOGO.htm, acessado em julho de 2014. 
+ 
+MARINHA DO BRASIL; NORMAN-03.  
+ 
+WEST COAT; Manual de Vela Online / Aula 2 – Nós. Material on-line disponível 
+emhttp://www.westcoast.pt/index.php/pt/recursos/manual-de-vela-online/aula-2-nos, 
+acessado 
+em 
+Julho de 2014. 
+ 
+MAHLE; Manual Técnico. Material técnico do Curso Mahle Metal Leve – Motores de Combustão 
+Interna.</pre>
+</div>
+</div>
+<div class="page" id="p93">
+<h4>Pagina 94</h4>
+<div class="coll" onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none'? 'block' : 'none')">Mostrar texto (alternar)</div>
+<div style="display:none">
+<pre>92 
+ 
+ANEXOS</pre>
+</div>
+</div>
+<div class="page" id="p94">
+<h4>Pagina 95</h4>
+<figure><img src="assets/page_94_img_0.jpeg" alt="Imagem da página 95"/><figcaption style="font-size:.9rem;color:#666">page_94_img_0.jpeg</figcaption></figure>
+<p><em>(sem texto extraído desta página)</em></p>
+</div>
+<div class="page" id="p95">
+<h4>Pagina 96</h4>
+<figure><img src="assets/page_95_img_0.jpeg" alt="Imagem da página 96"/><figcaption style="font-size:.9rem;color:#666">page_95_img_0.jpeg</figcaption></figure>
+<p><em>(sem texto extraído desta página)</em></p>
+</div>
+<div class="page" id="p96">
+<h4>Pagina 97</h4>
+<figure><img src="assets/page_96_img_0.jpeg" alt="Imagem da página 97"/><figcaption style="font-size:.9rem;color:#666">page_96_img_0.jpeg</figcaption></figure>
+<p><em>(sem texto extraído desta página)</em></p>
+</div>
+<div class="page" id="p97">
+<h4>Pagina 98</h4>
+<p><em>(sem texto extraído desta página)</em></p>
+</div>
+</section>
+</main></div>
+<script>
+  // small helper to expand module from hash on load
+  (function(){if(location.hash){var el=document.querySelector(location.hash); if(el) el.scrollIntoView();}})();
+</script>
+</body></html>

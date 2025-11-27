@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Teórico para Aula de Arrais Amador - Escola de Mergulho Cultura Subaquática</title>
+    <style>
+        /* Estilos para acessibilidade */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+            --light-gray: #ecf0f1;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Estilo para melhorar legibilidade para dislexia */
+        .dyslexia-friendly {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            letter-spacing: 0.5px;
+            line-height: 1.8;
+        }
+        
+        /* Alto contraste para daltonismo */
+        .high-contrast {
+            background-color: #000;
+            color: #fff;
+        }
+        
+        .high-contrast a {
+            color: #ffff00;
+        }
+        
+        .high-contrast header {
+            background-color: #333;
+            color: #fff;
+        }
+        
+        .high-contrast section {
+            background-color: #222;
+            color: #fff;
+        }
+        
+        /* Navegação por teclado */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--secondary-color);
+            color: white;
+            padding: 8px;
+            z-index: 100;
+            text-decoration: none;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .high-contrast h1, 
+        .high-contrast h2, 
+        .high-contrast h3, 
+        .high-contrast h4 {
+            color: #fff;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 25px;
+        }
+        
+        h4 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        /* Conteúdo */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .sidebar {
+            flex: 0 0 250px;
+            background-color: var(--light-gray);
+            padding: 15px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        
+        .high-contrast .sidebar {
+            background-color: #333;
+        }
+        
+        .content {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        /* Navegação */
+        nav ul {
+            list-style-type: none;
+        }
+        
+        nav li {
+            margin-bottom: 10px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: var(--primary-color);
+            display: block;
+            padding: 8px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover, nav a:focus {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+        
+        /* Conteúdo principal */
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .high-contrast section {
+            background-color: #222;
+            box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* Tabelas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .high-contrast th, 
+        .high-contrast td {
+            border: 1px solid #555;
+        }
+        
+        th {
+            background-color: var(--light-gray);
+            font-weight: bold;
+        }
+        
+        .high-contrast th {
+            background-color: #444;
+        }
+        
+        /* Figuras */
+        .figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .figure img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        
+        .high-contrast .figure img {
+            border: 1px solid #555;
+        }
+        
+        .figure-caption {
+            font-style: italic;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+        
+        /* Controles de acessibilidade */
+        .accessibility-controls {
+            background-color: var(--light-gray);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .high-contrast .accessibility-controls {
+            background-color: #333;
+        }
+        
+        .accessibility-controls button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .accessibility-controls button:hover {
+            background-color: var(--primary-color);
+        }
+        
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9rem;
+        }
+        
+        .high-contrast footer {
+            border-top: 1px solid #555;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body class="dyslexia-friendly">
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <header>
+        <h1>ESCOLA DE MERGULHO CULTURA SUBAQUÁTICA E CENTRAL DE AVENTURAS</h1>
+        <h2>MANUAL TEÓRICO PARA AULA DE ARRAIS AMADOR</h2>
+        <p>Florianópolis, SC - Brasil</p>
+        <p>2021 3ª Edição</p>
+    </header>
+    
+    <div class="accessibility-controls">
+        <button id="toggle-dyslexia">Alternar Fonte para Dislexia</button>
+        <button id="toggle-contrast">Alternar Alto Contraste</button>
+        <button id="increase-font">Aumentar Fonte</button>
+        <button id="decrease-font">Diminuir Fonte</button>
+    </div>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <h3>Sumário</h3>
+                <ul>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#modulo1">1º Módulo - Conhecendo uma embarcação</a></li>
+                    <li><a href="#modulo2">2º Módulo - Propulsão e outros sistemas</a></li>
+                    <li><a href="#modulo3">3º Módulo - Segurança e Legislação</a></li>
+                    <li><a href="#modulo4">4º Módulo - Navegação e Manobras</a></li>
+                    <li><a href="#modulo5">5º Módulo - Cabos e nós</a></li>
+                    <li><a href="#referencias">Referências</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="content" id="main-content">
+            <section id="introducao">
+                <h2>INTRODUÇÃO</h2>
+                <p>A Central de Aventuras – Escola Náutica é uma escola que se dedica as atividades aquáticas há 10 (dez) anos, agora, também na instrução a navegadores. Homologada pela Marinha do Brasil, prepara seus alunos para realizar a prova de Arrais Amador e Motonauta.</p>
+                <p>Contamos com estrutura completa em terra de apoio a navegação, equipamentos de segurança, comunicação e embarcações que serão utilizadas para as aulas.</p>
+                <p>A saída será no trapiche do Canal da Barra. Podendo ser realizada com a embarcação Cultura Subaquática um Barco-escola (35 pés, motor ciclo diesel) no qual teremos aulas teóricas e práticas aplicadas durante a navegação; o outro bote, Estrela do Sul (30 pés, motor ciclo Oto).</p>
+                <p>O curso tem o propósito de ensinar noções de navegação, balizamentos, combate ao incêndio, luzes, primeiros socorros, manobras, segurança no mar, sinais e sobrevivência.</p>
+                <p>Tendo em vista que este é baseado em normas da Marinha Brasileira, alguns textos foram transcritos na íntegra, conforme a norma por esta disponibilizada, além de outras fontes de conteúdo devidamente listadas nas referências.</p>
+                
+                <h3>Estrutura do Curso:</h3>
+                <ul>
+                    <li><strong>1º MÓDULO – Conhecendo uma embarcação</strong>: Como é um barco, seus nomes e sistemas. Partes da embarcação, nomes e funções. Como se portar em uma embarcação.</li>
+                    <li><strong>2º MÓDULO – Propulsão e Outros Sistemas</strong>: Conhecer de forma usual o sistema de propulsão da embarcação e demais sistemas, como elétrico, hidráulico e outros.</li>
+                    <li><strong>3º MÓDULO – Segurança e Legislação</strong>: Noções de combate a Incêndio, Primeiros Socorros, Noções de Segurança no Mar, Rios, Lagoas e Canais; Riesta, Norman, infrações e penalidades.</li>
+                    <li><strong>4º MÓDULO – Navegação e Manobras</strong>: RIPEAM, navegação restrita, Sistema de Balizamento, IALA B, Sinais, e marcas, Luzes, Regras de Governo, Noções de Comunicação e Comandos.</li>
+                    <li><strong>5º MÓDULO – Cabos e nós</strong>: Aula de nós: Lais de Guia, Calão, nó Direito, e Oito.</li>
+                </ul>
+            </section>
+            
+            <section id="modulo1">
+                <h2>1º MÓDULO – CONHECENDO UMA EMBARCAÇÃO</h2>
+                
+                <h3>1.1. Objetivo Geral</h3>
+                <p>Promover o conhecimento em diferentes tipos de embarcações, nomes e sistemas. Bem como suas partes e funções, além de como se portar em uma embarcação.</p>
+                
+                <h3>1.2. Embarcações</h3>
+                <p>É denominada embarcação uma construção com casco flutuante, feita de diversos materiais, podendo transporta carga e pessoas com segurança sobre as águas.</p>
+                <p>De acordo com o seu tamanho podem ser chamados de diversos nomes, como <strong>Navio</strong> (embarcação de grande porte), Escuna, Lancha, e outros.</p>
+                
+                <h3>1.3. Classificação</h3>
+                <p>As embarcações podem ser divididas em três classificações simples que descrevem de acordo com a finalidade, construção e propulsão:</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Quanto à finalidade</th>
+                            <th>Quanto ao material de construção do casco</th>
+                            <th>Quanto à propulsão</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Guerra</td>
+                            <td>Madeira e aço</td>
+                            <td>Combustão</td>
+                        </tr>
+                        <tr>
+                            <td>Mercante e apoio marítimo (engajada na pesca, reboque, transporte de cargas e pessoas)</td>
+                            <td>Aço</td>
+                            <td>Combustão</td>
+                        </tr>
+                        <tr>
+                            <td>Esporte e recreativo</td>
+                            <td>Diversos: materiais (Fibra de vidro, plásticos e outros)</td>
+                            <td>Diversos: combustão, elétricos e a vela, a remo</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>1.4. Partes de uma Embarcação</h3>
+                <p>As embarcações possuem nomenclaturas distintas para definir as suas partes:</p>
+                <ul>
+                    <li><strong>Corpos</strong> – são duas partes da embarcação (divisão transversal) que a 1ª é denominada de corpo devante a porção da embarcação do meio (meia nau) para frente (proa), e a parte para trás (popa) de corpoderé.</li>
+                    <li><strong>Proa</strong> – parte terminal de vante da embarcação possuindo formato de cunha, o que facilitando o corte da água para navegação.</li>
+                    <li><strong>Popa</strong> – terminação do corpo de ré, sua estrutura é projetada para tornar mais eficiente a ação do sistema de propulsão e leme, bem como o escoamento da água.</li>
+                    <li><strong>Meia-nau</strong> – é a parte central (transversal) da embarcação que divide os corpos da embarcação, ficando entre a proa e a popa.</li>
+                    <li><strong>Bordos</strong> – sãos os lados de uma embarcação (divisão longitudinal), assim como nos carros, sempre definidos da parte trás (popa) para à frente (proa), no caso a lateral direita é denominada boreste (BE) e bombordo (BB) a lateral esquerda.</li>
+                    <li><strong>Bochechas</strong> – são as partes curvas do costado dos bordos, ficam próximos à proa, também denominados de Amura. Indica também uma direção entre a proa e o través da embarcação.</li>
+                    <li><strong>Través</strong> – direção transversal da embarcação, perpendicular à longitudinal.</li>
+                    <li><strong>Alheta</strong> – são também partes curvas do costados dos bordos, porém ficam localizados próximo à popa.</li>
+                    <li><strong>Casco</strong> - é a base à embarcação onde na parte inferior corre a quilha, que acompanha todo o casco, desde a proa até a popa, servindo-lhe de peça principal de sustentação da sua estrutura.</li>
+                    <li><strong>Linha d'água</strong> – é o ponto de interseção da superfície da água com o casco no momento da flutuação.</li>
+                    <li><strong>Obra Viva</strong> – parte inferior do casco que entra em contato com a água.</li>
+                    <li><strong>Obra Morta</strong> – parte superior do casco que não está em contato com a água e demais construções acima.</li>
+                    <li><strong>Convés</strong> – é o fechamento do casco. Este pode ser de madeira ou metálico.</li>
+                    <li><strong>Superestruturas</strong> – são as elevações construídas sobre o convés principal.</li>
+                    <li><strong>Castelo</strong> – Denominamos castelo de proa, a plataforma que fica no convés a vante, destinada aos serviços de atracação, desatracação, fundear e suspender.</li>
+                    <li><strong>Tombadilho</strong> – é a superestrutura situada na popa, destinada também às manobras de atracação, desatracação e reboque.</li>
+                    <li><strong>Mastro</strong> – Os mastros, a bordo, têm inúmeras funções, como sinais, velas, fixação de aparelhos de laborar, posto de vigilância, etc.</li>
+                    <li><strong>Leme</strong> – Há diversos tipos de leme, todos usados para dar direção às embarcações.</li>
+                </ul>
+
+                <h3>1.5. Medidas Lineares</h3>
+                <ul>
+                    <li><strong>Comprimento</strong> – Distância horizontal entre a proa e a popa, medidos pela parte externa da embarcação.</li>
+                    <li><strong>Pontal</strong> – Distância vertical entre o plano de convés (piso) e o plano da quilha.</li>
+                    <li><strong>Boca</strong> – É a maior largura da embarcação.</li>
+                    <li><strong>Calado</strong> – Distância vertical entre a superfície d'água (linha d'água) e a parte mais baixa da embarcação.</li>
+                    <li><strong>Borda Livre</strong> – Distância vertical entre o plano do convés e a superfície da água.</li>
+                    <li><strong>Contorno</strong> – É a medida tomada normalmente na parte mais larga da embarcação, de borda à borda, passando pela quilha.</li>
+                </ul>
+
+                <h3>1.6. Medidas Não-Lineares</h3>
+                <ul>
+                    <li><strong>Deslocamento</strong> – É o peso ou volume de água que uma embarcação move quando flutuando em águas tranquilas.</li>
+                    <li><strong>Comprimento da Arqueação</strong> – medida horizontal entre a Proa e a Popa, medidas pela parte interna da embarcação.</li>
+                    <li><strong>Tonelagem de Porte Bruto</strong> – Diferença entre o deslocamento máximo e o deslocamento mínimo.</li>
+                    <li><strong>Peso Máximo de Carga</strong> – Medida do deslocamento máximo menos os pesos das cargas operacionais.</li>
+                </ul>
+
+                <h3>1.7. Movimentos da embarcação</h3>
+                <ul>
+                    <li><strong>Balanço</strong> – movimento de oscilação de um bordo para outro</li>
+                    <li><strong>Caturro</strong> – Movimento de oscilação vertical no sentido popa-proa</li>
+                    <li><strong>Cabeceio</strong> – Movimento de oscilação horizontal no sentido proa-popa</li>
+                    <li><strong>Deslizamento Lateral</strong> – Rápido movimento lateral quando a embarcação é atingida por uma onda</li>
+                    <li><strong>Deslizamento para Vante</strong> – É um rápido movimento para frente, quando uma embarcação está descendo uma onda</li>
+                </ul>
+
+                <h3>1.8. Sistema de fundeio</h3>
+                <h4>1.8.1. Aparelho de Fundear e Suspender</h4>
+                <p>É o conjunto de equipamentos utilizados para manter a embarcação no fundeadouro em portos, canais, rios etc.</p>
+                <p>Componentes do sistema de fundeio:</p>
+                <ul>
+                    <li>Aparelho de fundear e suspender</li>
+                    <li>Máquina de suspender (cabrestante, cabestrante ou molinete)</li>
+                    <li>Âncoras (Almirantado, Danforth, Patente)</li>
+                    <li>Amarras</li>
+                    <li>Gateira</li>
+                    <li>Escovém</li>
+                    <li>Mordente</li>
+                    <li>Acessórios (cabeços, cunhos, buzinas, tamancas, etc.)</li>
+                </ul>
+
+                <h4>1.8.2. Manobra de fundear</h4>
+                <p>Passos para fundear em segurança:</p>
+                <ol>
+                    <li>Estudar o local (tipo de fundo, altura da sonda, condições atmosféricas)</li>
+                    <li>Preparar o ferro (âncora)</li>
+                    <li>Aproar ao mais forte (vento ou corrente)</li>
+                    <li>Arrear o ferro</li>
+                    <li>Verificar a posição</li>
+                </ol>
+
+                <h4>1.8.3. Tipos de âncoras mais usados</h4>
+                <ul>
+                    <li><strong>Almirantado</strong> – Tipo mais antigo</li>
+                    <li><strong>Danforth</strong> – Para fundos de areia</li>
+                    <li><strong>Patente</strong> – Unha bem em qualquer fundo</li>
+                    <li><strong>Flutuante</strong> – Para diminuir o andamento do barco</li>
+                </ul>
+
+                <h3>1.9. Como se portar em uma embarcação</h3>
+                <p>Devemos respeitar o local e procurar saber das suas normas e regras. Identificar o sistema de comunicação e aprender o seu funcionamento básico. O mestre da embarcação é o líder com responsabilidade de lidar com diversas situações durante a navegação.</p>
+            </section>
+            
+            <section id="modulo2">
+                <h2>2º MÓDULO – PROPULSÃO E OUTROS SISTEMAS</h2>
+                
+                <h3>2.1. Objetivo geral</h3>
+                <p>Conhecer de forma usual o sistema de propulsão da embarcação e demais sistemas, como elétrico, hidráulico e outros.</p>
+                
+                <h3>2.2. Sistema da propulsão</h3>
+                <p>Motores de combustão interna subdivididos em 3 classes:</p>
+                <ul>
+                    <li>Motores do ciclo Otto</li>
+                    <li>Motores do ciclo Diesel</li>
+                    <li>Motores do ciclo Wankel</li>
+                </ul>
+                
+                <h3>2.3. Partes de um motor de combustão interna</h3>
+                <h4>2.3.1. Bloco</h4>
+                <p>É a maior parte do motor e sustenta todas as outras partes. Normalmente construídos de aço.</p>
+                
+                <h4>2.3.2. Cabeçote e Tampa de Válvulas</h4>
+                <p>Fecha o bloco na sua parte superior, sendo que a união é feita por parafusos.</p>
+                
+                <h4>2.3.3. Cárter</h4>
+                <p>Fecha o bloco na sua parte inferior. Serve como reservatório para o óleo lubrificante do motor.</p>
+                
+                <h4>2.3.4. Pistão (Êmbolo) e suas partes</h4>
+                <p>Parte do motor que recebe o movimento de expansão dos gases. Feito de ligas de aço e alumínio.</p>
+                
+                <h4>2.3.5. Biela</h4>
+                <p>Parte do motor que liga o pistão ao virabrequim.</p>
+                
+                <h4>2.3.6. Virabrequim e Volante do motor</h4>
+                <p>Virabrequim transforma o movimento retilíneo dos pistões em rotacional. Volante acumula energia cinética.</p>
+                
+                <h4>2.3.7. Válvulas e outras componentes</h4>
+                <p>Dois tipos de válvulas: de admissão e de escape.</p>
+                
+                <h3>2.4. Motor do ciclo Otto</h3>
+                <p>Apresentam sistema de mistura de ar e combustível na admissão para a câmera de combustão interna.</p>
+                
+                <h4>2.4.1. Ciclo de 4 tempos do motor de ciclo Otto</h4>
+                <ol>
+                    <li>Admissão</li>
+                    <li>Compressão</li>
+                    <li>Combustão/explosão</li>
+                    <li>Escape/Expulsão</li>
+                </ol>
+                
+                <h4>2.4.2. Ciclo de 2 tempos do motor de ciclo Otto</h4>
+                <p>Ciclo completo se realiza em apenas uma rotação do eixo de manivelas (360º).</p>
+                
+                <h3>2.5. Motores do ciclo Diesel</h3>
+                <p>Admissão ocorre apenas com o ar, o óleo combustível é injetado diretamente dentro da câmara de combustão.</p>
+                
+                <h4>2.5.1. Ciclo de 4 tempos do motor de ciclo Diesel</h4>
+                <ol>
+                    <li>Aspiração</li>
+                    <li>Compressão</li>
+                    <li>Combustão</li>
+                    <li>Escape</li>
+                </ol>
+                
+                <h4>2.5.2. Ciclo de 2 tempos do motor de ciclo Diesel</h4>
+                <p>O ar sofre uma compressão antes de admitido na câmara de combustão.</p>
+                
+                <h3>2.6. Sistemas de Refrigeração</h3>
+                <h4>2.6.1. Arrefecimento direto por meio de ar (forçado)</h4>
+                <p>Retirada de calor através da passagem forçada de ar por um sistema de aletas fixas no bloco do motor.</p>
+                
+                <h4>2.6.2. Arrefecimento por meio líquido</h4>
+                <p>Sistema mais complexo envolvendo trocadores de calor, bombas para circulação do líquido, mangueiras e dutos.</p>
+                
+                <h3>2.7. Sistemas Hidráulicos</h3>
+                <p>Princípio de funcionamento: força aplicada em um ponto de um circuito fechado é transmitida para outro ponto por meio de um fluido incompressível.</p>
+                
+                <h4>2.7.1. Sistema de Leme Hidráulico</h4>
+                <p>Utiliza a força gerada pela pressão de um óleo hidráulico atuando em êmbolos ou motor hidráulico.</p>
+                
+                <h3>2.8. Sistemas Elétricos</h3>
+                <h4>2.8.1. Eletricidade</h4>
+                <p>Fenômeno físico que ocorre em muitos lugares. Duas formas: contínua (CC ou DC) e alternada (AC).</p>
+                
+                <h4>2.8.2. Tensão, corrente e outras grandezas elétricas</h4>
+                <ul>
+                    <li><strong>Tensão elétrica (U)</strong> – medida em Volts (V)</li>
+                    <li><strong>Corrente elétrica (I)</strong> – medida em Ampère (A)</li>
+                    <li><strong>Potência elétrica (Q)</strong> – medida em Watts (W)</li>
+                </ul>
+                
+                <h4>2.8.3. Circuitos elétricos</h4>
+                <p>Componentes básicos:</p>
+                <ul>
+                    <li>Fonte de energia</li>
+                    <li>Condutores</li>
+                    <li>Chave de comando</li>
+                    <li>Equipamento consumidor (carga)</li>
+                </ul>
+                <p>Tipos de ligação: série e paralelo.</p>
+                
+                <h3>2.9. Outros Sistemas</h3>
+                <p>De acordo com a embarcação, pode apresentar outros sistemas como de ar comprimido, centrais de aquecimento por caldeiras, tratamento de efluentes de bordo, etc.</p>
+            </section>
+            
+            <section id="modulo3">
+                <h2>3º MÓDULO – SEGURANÇA E LEGISLAÇÃO</h2>
+                
+                <h3>3.1. Objetivo geral</h3>
+                <p>Proporcionar ao aluno conhecimentos sobre segurança da embarcação e a sua, além de conhecimentos básicos de prevenção e combate a princípios de incêndio a bordo, técnicas de sobrevivência e primeiros socorros.</p>
+                
+                <h3>3.2. Segurança</h3>
+                <h4>3.2.1. Antes de embarcar</h4>
+                <ul>
+                    <li>O Comandante é responsável por tudo e por todos a bordo</li>
+                    <li>Leia o Regulamento Internacional para Evitar Abalroamentos no Mar (RIPEAM)</li>
+                    <li>Realize a manutenção preventiva eficaz</li>
+                    <li>Verifique rigorosamente o seu material de salvatagem</li>
+                    <li>Inspecione o seu material de combate a incêndio</li>
+                    <li>Vistorie o casco quanto a sua estanqueidade</li>
+                    <li>Verifique a integridade do sistema de combustível</li>
+                    <li>Faça o planejamento de sua singradura</li>
+                    <li>Conheça a previsão do tempo</li>
+                    <li>Entregue o aviso de saída ao iate clube ou marina</li>
+                </ul>
+                
+                <h4>3.2.2. Durante a navegação</h4>
+                <ul>
+                    <li>Esteja sempre atento na condução de sua embarcação</li>
+                    <li>Evite consumo de bebidas alcoólicas</li>
+                    <li>Conduza a sua embarcação com prudência</li>
+                    <li>Conheça sempre o bordo de menor profundidade</li>
+                    <li>Ao fundear, o faça com baixa velocidade</li>
+                </ul>
+                
+                <h4>3.2.3. Ao regressar</h4>
+                <ul>
+                    <li>Avise ao seu clube ou marina a sua chegada</li>
+                    <li>Respeite a velocidade máxima na área de fundelo ou atracação</li>
+                    <li>Evite esgotar porões até o final para não poluir o mar</li>
+                </ul>
+                
+                <h4>3.2.4. Outras informações importantes</h4>
+                <ul>
+                    <li>O Comandante tem competência para retirar de bordo aqueles que se excedam</li>
+                    <li>A instalação de redes próximas e paralelas à balaustrada deve ser proibida</li>
+                    <li>Não se devem fazer manobras arrojadas</li>
+                    <li>Manter o equipamento rádio no canal adequado</li>
+                    <li>A velocidade da embarcação deverá ser reduzida ao cruzar com outras embarcações menores</li>
+                    <li>Denuncie irregularidades em embarcações</li>
+                </ul>
+                
+                <h3>3.3. Prevenção contra incêndio</h3>
+                <p>Causas podem ser as mais diversas: descargas elétricas de origem atmosférica, sobrecarga nas instalações elétricas, cigarros e fósforos atirados em locais impróprios, etc.</p>
+                
+                <h3>3.4. Fogo</h3>
+                <p>Reação química exotérmica quando temos substância combustível e um comburente reagindo.</p>
+                
+                <h4>3.4.1. Triângulo do Fogo</h4>
+                <p>Três elementos básicos do fogo:</p>
+                <ul>
+                    <li>Combustível</li>
+                    <li>Comburente (oxigênio)</li>
+                    <li>Calor</li>
+                </ul>
+                
+                <h4>3.4.2. Tetraedro do Fogo</h4>
+                <p>Adiciona o elemento "Reação em Cadeia" ao triângulo do fogo.</p>
+                
+                <h4>3.4.3. Propagação do Fogo</h4>
+                <p>Formas de propagação:</p>
+                <ul>
+                    <li>Por condução</li>
+                    <li>Por convecção</li>
+                    <li>Por radiação</li>
+                </ul>
+                
+                <h4>3.4.4. Fases de um Incêndio</h4>
+                <ol>
+                    <li>Eclosão</li>
+                    <li>Propagação</li>
+                    <li>Combustão contínua</li>
+                    <li>Declínio das chamas</li>
+                </ol>
+                
+                <h3>3.5. Classes do Fogo</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Classe</th>
+                            <th>Material Combustível</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A</td>
+                            <td>Papéis, madeiras, cartões, têxteis, recicláveis, etc.</td>
+                        </tr>
+                        <tr>
+                            <td>B</td>
+                            <td>Nafta, gasolina, tintas, óleos e líquidos inflamáveis</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>Butano, propano e outros gases</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>Equipamentos e instalações elétricas energizadas</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>3.6. Métodos de Extinção</h3>
+                <ul>
+                    <li><strong>Isolamento</strong> – retirada do material combustível</li>
+                    <li><strong>Abafamento</strong> – retirada do comburente</li>
+                    <li><strong>Resfriamento</strong> – diminuição da quantidade de calor</li>
+                    <li><strong>Interrupção da Reação em Cadeia</strong> – uso de agentes extintores específicos</li>
+                </ul>
+                
+                <h3>3.7. Tipos de Extintores</h3>
+                <ul>
+                    <li><strong>Extintor com água pressurizada</strong> – indicado para incêndios de classe A</li>
+                    <li><strong>Extintor com gás carbônico</strong> – indicado para incêndios de classe C</li>
+                    <li><strong>Extintor com pó químico seco</strong> – indicado para incêndio de classe B</li>
+                    <li><strong>Extintor com pó químico especial</strong> – indicado para incêndios de classe D</li>
+                    <li><strong>Extintor de pó para classes ABC</strong> – mais moderno no mercado</li>
+                </ul>
+                
+                <h3>3.8. Procedimentos de combate a incêndio a bordo</h3>
+                <ul>
+                    <li>Manobre a embarcação de forma que coloque esta em sentido do vento</li>
+                    <li>Faça com que cada integrante use o colete salva-vidas</li>
+                    <li>Lembre-se que o perigo de explosão é eminente</li>
+                    <li>Use os extintores de forma correta</li>
+                    <li>Procure abafar e manter o local até o resfriamento</li>
+                </ul>
+                
+                <h3>3.9. Normas de incêndio</h3>
+                <p><strong>NR 23</strong> - Proteção Contra Incêndios</p>
+                <p><strong>NORMAN-03</strong> - determina o número de extintores indicados para cada embarcação</p>
+                
+                <h3>3.10. Sobrevivência</h3>
+                <p>Em caso de abandono da embarcação:</p>
+                <ul>
+                    <li>Use o colete salva-vidas</li>
+                    <li>Procure usar roupas para proteção do corpo</li>
+                    <li>Mantenha uma distância segura da embarcação</li>
+                    <li>Busque manter o grupo unido e próximo</li>
+                    <li>Não faça ingestão de água do mar</li>
+                </ul>
+                
+                <h3>3.11. Noções de Primeiros Socorros</h3>
+                <p>Técnicas básicas para situações comuns:</p>
+                <ul>
+                    <li><strong>Enjoo</strong> – coloque a pessoa em local ventilado</li>
+                    <li><strong>Afogamentos</strong> – deite-a de bruços com a cabeça virada de lado</li>
+                    <li><strong>Pequenos cortes</strong> – faça a limpeza do local</li>
+                    <li><strong>Hemorragias</strong> – faça o estancamento por meio de compressão</li>
+                    <li><strong>Fraturas</strong> – imobilize a região afetada</li>
+                    <li><strong>Queimaduras</strong> – limpe a região afetada</li>
+                    <li><strong>Insolações</strong> – coloque a pessoa em repouso</li>
+                    <li><strong>Desmaios</strong> – deite-a de costas e eleve as pernas</li>
+                    <li><strong>Entorses, Luxação e Contusão</strong> – aplique bolsa de gelo e imobilize</li>
+                    <li><strong>Hipotermia</strong> – mantenha a pessoa em local abrigado</li>
+                </ul>
+                
+                <h3>3.12. Compressão Torácica</h3>
+                <p>Manobra de RCP (Reanimação Cardiopulmonar):</p>
+                <ol>
+                    <li>Coloque a vítima sobre uma superfície rígida</li>
+                    <li>Verifique se não há pulso no pescoço</li>
+                    <li>Se posicione ao lado da vítima</li>
+                    <li>Aplique pressão sobre o peito da vítima</li>
+                    <li>Alterna a massagem com respiração (30 compressões e 2 respirações)</li>
+                    <li>Continue até a exaustão ou chegada do socorro médico</li>
+                </ol>
+                
+                <h3>3.13. Legislação</h3>
+                <h4>3.13.1. Águas Jurisdicionais Brasileiras</h4>
+                <ul>
+                    <li><strong>Mar Territorial</strong> – 12 milhas marítimas de largura</li>
+                    <li><strong>Zona Contígua</strong> – 12 a 24 milhas marítimas</li>
+                    <li><strong>Zona Econômica Exclusiva</strong> – até 200 milhas marítimas</li>
+                    <li><strong>Águas Interiores</strong> – portos, baías, lagos, lagoas, canais, rios</li>
+                </ul>
+                
+                <h4>3.13.2. Legislação Marítima e Ambiental</h4>
+                <p>Principais leis:</p>
+                <ul>
+                    <li>Lei 8.617/1993 – mar territorial, zona contígua, zona econômica exclusiva</li>
+                    <li>Lei 9.537/1997 – segurança do tráfego aquaviário</li>
+                    <li>Lei 9.966/2000 – prevenção da poluição causada por lançamento de óleo</li>
+                </ul>
+            </section>
+            
+            <section id="modulo4">
+                <h2>4º MÓDULO – NAVEGAÇÃO E MANOBRAS</h2>
+                
+                <h3>4.1. Introdução</h3>
+                <p>Noções de navegação com uso de cartas náuticas, uso de bússola e estudo do Regulamento Internacional para Evitar Abalroamentos no Mar (RIPEAM).</p>
+                
+                <h3>4.2. Fundamentos de cartografia e cartas náuticas</h3>
+                <p>Sistema de coordenadas geográficas:</p>
+                <ul>
+                    <li><strong>Paralelos</strong> – linhas horizontais</li>
+                    <li><strong>Meridianos</strong> – linhas verticais</li>
+                    <li><strong>Norte Magnético</strong> – ponto de convergência das linhas magnéticas</li>
+                    <li><strong>Norte Verdadeiro</strong> – eixo imaginário terrestre</li>
+                    <li><strong>Milha Náutica</strong> – 1.852 metros</li>
+                </ul>
+                
+                <h3>4.3. Instrumentos de Navegação</h3>
+                <h4>4.3.1. Bússola</h4>
+                <p>Instrumento de navegação que indica a direção mediante uma agulha magnetizada.</p>
+                
+                <h4>4.3.2. Princípio de funcionamento de uma bússola</h4>
+                <p>A agulha se alinha com as linhas de força do campo magnético da terra.</p>
+                
+                <h3>4.4. RIPEAM - Definições e aplicação das regras</h3>
+                <p>Regulamento Internacional para Evitar Abalroamentos no Mar aplica-se a todas as embarcações em mar aberto e em todas as águas a este ligadas, navegáveis.</p>
+                
+                <h3>4.5. Luzes e marcas</h3>
+                <p>Luzes devem ser exibidas do pôr ao nascer do Sol e em períodos de visibilidade restrita.</p>
+                
+                <h4>4.5.1. Embarcação de propulsão mecânica de comprimento igual ou superior a 50 metros</h4>
+                <p>Em movimento deve exibir: duas luzes de mastro, luzes de bordos, luz de alcançado.</p>
+                
+                <h4>4.5.2. Embarcação de propulsão mecânica de comprimento inferior a 50 metros</h4>
+                <p>Em movimento deve exibir: uma luz de mastro, luzes de bordos, luz de alcançado.</p>
+                
+                <h4>4.5.3. Observações</h4>
+                <p>Embarcações menores podem exibir luzes combinadas ou apenas luz circular branca.</p>
+                
+                <h3>4.6. Embarcações a vela em movimento</h3>
+                <p>Devem exibir: luzes de bordos e luz de alcançado.</p>
+                
+                <h3>4.7. Manobras</h3>
+                <h4>4.7.1. Roda a Roda</h4>
+                <p>Quando duas embarcações encontram-se em mesma direção, porém sentido contrários.</p>
+                
+                <h4>4.7.2. Ultrapassagem ou Alcançando</h4>
+                <p>Embarcação que ultrapassa deve manter-se fora do caminho da ultrapassada.</p>
+                
+                <h4>4.7.3. Situação de Rumos Cruzados ou de Colisão</h4>
+                <p>Embarcação que avistar outra de boreste deve se manter fora do caminho.</p>
+                
+                <h4>4.7.4. Efeitos que influenciam na embarcação</h4>
+                <p>Velocidade em canais e rios, principalmente em locais de pouca profundidade, tende a aumentar o calado.</p>
+                
+                <h4>4.7.5. Interação entre embarcações</h4>
+                <p>Ao navegarem em rumos paralelos e em sentido contrário, pode haver interferência recíproca.</p>
+                
+                <h4>4.7.6. Esquema de Separação de Tráfego</h4>
+                <p>Nenhuma embarcação é dispensada de sua obrigação perante qualquer outra regra.</p>
+                
+                <h4>4.7.7. Embarcação Obrigada a Manobrar</h4>
+                <p>Deve manobrar antecipada e substancialmente para se manter segura da outra.</p>
+                
+                <h4>4.7.8. Regra da Preferência</h4>
+                <p>Define quem deve manobrar, dependendo da propulsão, emprego e situação da embarcação.</p>
+                
+                <h4>4.7.9. Embarcações em Visibilidade Restrita</h4>
+                <p>Devem seguir em velocidade segura adaptada às circunstâncias.</p>
+                
+                <h3>4.8. Sinais Sonoros</h3>
+                <p>Utilizados em condições de visibilidade restrita para comunicação entre embarcações.</p>
+                
+                <h3>4.9. Balizamento</h3>
+                <p>Conjunto de regras aplicadas aos sinais fixos e flutuantes para indicar margens dos canais, entradas de portos, etc.</p>
+                
+                <h4>4.9.1. Sinais de Balizamento</h4>
+                <p>Características que permitem identificação nos períodos diurno e noturno.</p>
+                
+                <h4>4.9.2. Sinais laterais</h4>
+                <p>Indicam os lados boreste (BE) e bombordo (BB) da via.</p>
+                
+                <h4>4.9.3. Sinais laterais modificados</h4>
+                <p>Para canais preferenciais a bombordo ou boreste.</p>
+                
+                <h4>4.9.4. Sinais Cardinais</h4>
+                <p>Indicam as quatro direções cardinais: Norte, Sul, Leste e Oeste.</p>
+                
+                <h4>4.9.5. Outras Balizas</h4>
+                <p>Perigo isolado, águas seguras, balizamento especial.</p>
+                
+                <h4>4.9.6. Placas ou bandeiras</h4>
+                <p>Sinais em hidrovias com símbolos específicos.</p>
+                
+                <h4>4.9.7. Sinais em pontes</h4>
+                <p>Define faixas de sentido e outras situações na hidrovia.</p>
+                
+                <h3>4.10. Manobras de atracação e saída de cais</h3>
+                <p>Para atracar deve-se aproximar do cais num ângulo de 45º. Cabos de amarração: lançantes, espringues e traveses.</p>
+            </section>
+            
+            <section id="modulo5">
+                <h2>5º MÓDULO – CABOS E NÓS</h2>
+                
+                <h3>5.1. Objetivos</h3>
+                <p>Conhecer diversos cabos e nós, cada um com determinada função e capacidade de uso.</p>
+                
+                <h3>5.2. Nó Direito</h3>
+                <p>Serve para unir dois cabos de bitola igual. Útil quando necessário alongar algum cabo.</p>
+                
+                <h3>5.3. Nó de 8</h3>
+                <p>Útil como nó terminal, aplicado na ponta das escolas e adriças.</p>
+                
+                <h3>5.4. Lais de Guia</h3>
+                <p>Considerado o rei dos nós, usado para fazer uma laçada no chicote de um cabo.</p>
+                
+                <h3>5.5. Volta do Fiel (Calão)</h3>
+                <p>Usado para amarrar um cabo a um ponto sólido, como um poste num cais.</p>
+                
+                <h3>5.6. Nó de Escota</h3>
+                <p>Usado para unir dois cabos de bitolas diferentes.</p>
+                
+                <h3>5.7. Volta do Cunho</h3>
+                <p>Forma correta de amarrar um cabo a um cunho.</p>
+            </section>
+            
+            <section id="referencias">
+                <h2>REFERÊNCIAS</h2>
+                <ul>
+                    <li>BARROS, Geraldo L. M.; Navegar é fácil. Editora Catedral das Letras – 12ª Edição – 2006</li>
+                    <li>CAPWING; NORMAS E INSTRUÇÕES GERAIS DE SEGURANÇA.</li>
+                    <li>CORPO DE BOMBEIROS MILITAR DO ESTADO DO PIAUÍ; Incendios.</li>
+                    <li>CORPO DE BOMBEIROS DO ESTADO DE SÃO PAULO; CARTILHA DE ORIENTAÇÕES BÁSICAS, NOÇÕES DE PREVENÇÃO DE INCÊNDIO, DICAS DE SEGURANÇA.</li>
+                    <li>Sapadores de Coimbra; O Fogo.</li>
+                    <li>MARINHA DO BRASIL; NORMAN-03.</li>
+                    <li>WEST COAT; Manual de Vela Online / Aula 2 – Nós.</li>
+                    <li>MAHLE; Manual Técnico. Material técnico do Curso Mahle Metal Leve – Motores de Combustão Interna.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>ESCOLA DE MERGULHO CULTURA SUBAQUÁTICA E CENTRAL DE AVENTURAS</p>
+        <p>Manual Teórico para Aula de Arrais Amador - 2021 3ª Edição</p>
+    </footer>
+    
+    <script>
+        // Controles de acessibilidade
+        document.getElementById('toggle-dyslexia').addEventListener('click', function() {
+            document.body.classList.toggle('dyslexia-friendly');
+        });
+        
+        document.getElementById('toggle-contrast').addEventListener('click', function() {
+            document.body.classList.toggle('high-contrast');
+        });
+        
+        document.getElementById('increase-font').addEventListener('click', function() {
+            const currentSize = parseFloat(getComputedStyle(document.body).fontSize);
+            document.body.style.fontSize = (currentSize + 2) + 'px';
+        });
+        
+        document.getElementById('decrease-font').addEventListener('click', function() {
+            const currentSize = parseFloat(getComputedStyle(document.body).fontSize);
+            if (currentSize > 12) {
+                document.body.style.fontSize = (currentSize - 2) + 'px';
+            }
+        });
+        
+        // Navegação por teclado
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Tab') {
+                // Adiciona foco visível para elementos
+                const focusedElement = document.activeElement;
+                if (focusedElement) {
+                    focusedElement.style.outline = '2px solid #3498db';
+                    focusedElement.style.outlineOffset = '2px';
+                }
+            }
+        });
+    </script>
+</body>
+</html>

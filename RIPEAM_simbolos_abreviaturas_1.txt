@@ -1,0 +1,242 @@
+CARTA
+12 000
+SIMBOLOS E ABREVIATURAS
+USADOSNASCARTASNÁUTICAPUBUCADASPELA
+MARINHADOBRASIL
+6
+NESTAPÁGINAAPRESENTAMOSUMRESUMODE ALGUNSDOSGRUPOS
+DA 12.000CUJAFUNÇÃOÉDEEXPUCAR OSSIGNIFICADOSDOSSÍMBOLOS
+QUEAPARECEMNASCARTASNÁUTICASBRASILEIRAS.
+A Linhas da Costa
+Costaimperfei~
+levantada
+.
+Pnúa de areia
+Costa
+perfeitamente
+levantada
+Areia
+Pedra
+Coral
+B Acidentes
+da Costa
+O.
+OoIfo
+B.
+Baía
+~.
+Canal
+Da.
+Barra
+J.
+nha
+Arq.
+Alquipélago
+C.
+Cabo
+PIa.
+POOta
+Mo.
+Morro
+Cal.
+Colina
+Se.
+'
+Saco'
+C Terreno
+Curvas de nivel
+L.
+Lago
+K Luzes
+I
+te~F",
+I
+.
+Farol
+I
+.'
+~
+I
+,
+Farolete
+I
+te/-
+,I
+Aerofarol ~
+1
+te/-
+I
+Aeromaritimo0
+FaroI1:om
+nldiofatol,
+radar -'farol,
+ataçio radiogoni~
+oude
+tadar com farol na tÍICsmapOsiçio. .
+P
+Luz faxa
+'
+Oc
+~
+de ocultação
+Lp.
+Luz de lampejo ..
+Iso
+Luz isofísica
+LpR
+~de
+\ampéjorápido
+LpRiri.
+Luz de Jampejorápido
+inteaompida
+.
+GJLpR
+Luz de grupo de lampejo
+.
+rápido
+LpMR.
+Luz de fampejo muito
+rápido
+.
+LpMRín.Luz de fampejomuito
+rápido intern1mpida
+0rLp~
+Luz de grupo.de lampejo
+muito rápido
+~.
+Luz de IampeJo~
+LpL..
+LUIE~ fampejolongo
+alL
+Luz alternada
+.
+GIOe.
+Luz de grupode ocultação
+0rLp
+Luz de crUP9delampejo, .
+Lp.
+Lampejo
+Oc
+ocultaçio
+Ed.
+Eclipse .
+Or.
+Grupo
+Az.
+~
+V.
+Ven1e
+B.
+E.ncamada
+Mo (U)
+Luz em código MolSC.
+(Luz de lampejo
+exibindo a letra u)
+(80)
+sem guamiçio
+L Bóias e BalizaS
+I
+,~
+I
+Bóia ciliOdrica, bóia chata
+I
+A
+I
+Bóiapilar
+, .
+.
+1111I}fl[j]
+B6ia
+com
+tope
+l: ~ 'IJ
+Bóia de ãguas"segWU
+lU1J
+E.
+EB
+Bóia de borcstç
+l1.r /I
+Bóia de bombonto
+~vlkJ
+Bóia de canal peferencial
+para a boratc
+lt' 111
+,EVE EVE EVE
+B6iade
+canal peferacíaI
+para bombonto
+"
+.
+[]
+I ~
+;'
+PE
+Bóia depcrig?
+isolado
+Bóia de balizamento
+especial
+L ~
+CA
+I
+Balizapara~
+deagulhas
+I-!-
+'M,mcd
+I
+Baliza de milha medida
+11 f fUi'
+nl
+Tope
+o'Perigos
+,f.F.
+Alto fundo
+C.SCuco
+soçobrado
+PA
+Posição aproximada
+P LimitesDiversos
+Cabo~
+(altátendo.
+tclepUico.
+teleRinico.
+etc.)
+NaviO~
+perig- à
+navepçiodc
+superfk;ic
+L.
+Lagoa1Laguna
+Pant
+Pântano
+E Unidades
+b
+Hora
+Minuto
+Segundo
+Metro
+Milbamadtima
+Latitude
+Longitude
+Percursoqularde ~
+min.
+, I Edjfjeaçôes
+seg.
+m.
+M
+Lat.
+Long.
+Cidade ou Vila
+GPortos
+Q.Mar
+Quebra-mar
+o
+1 J
+A
+A
+A
+.t>.
+.Q.
+AO>-
+A
+A
+A

@@ -1,0 +1,254 @@
+CARTA
+12 000
+SIMBOLOS E ABREVIATURAS
+USADOS NAS CARTAS NÁUTICA PUBLICADAS PELA
+MARINHA DO BRASIL
+S Qualidadedo Fundo
+C
+Cascalho
+Cor
+Coral
+Acor Areiaecoral
+S
+Seixos
+P
+Pedras
+Con
+Conchas
+.
+Q Sondagens
+T
+A
+PL
+Av
+L
+Ld
+Terra
+Areia
+AreiaeLama
+Areiaverde
+~lamacento
+Lodo
+Drogado.
+Q 10 m
+(1979)
+Canal dragado (com a piofundidadc
+.indieada)
+~-
+~('.~)
+!
+Canal varrido
+I
+tO, -
+50
+I
+Alprismoa para.""""
+onIiaIrias
+fm\TICASOUISOBATIMÉTRICAS
+- sãoaslinhasaolongodasquais
+a prof).mdidadeé a mesma;
+ISOBARICAS- sãoas linhasao longodasquaisa pressão
+atmosféricaé a mesma;
+ISOGÔNICAS
+- sãoaslinhasqueunempontosdedeclinações
+magnéticasiguais;
+AGONICAS
+-sãolinhasqueunempontosdedeclinação
+magnética
+nula;
+R Linhasde Igual
+Profundidade e Cores
+ALTO RJNOOS-8 metrosetrinta- Pedra
+6metroseoitenta-Pedra
+9metrosevinte-Pedra
+ISCEATA[I
+50 METRQ)- term váriasprofundidadespróximascom
+respctivastenças,tem também um cascosoçobrado não perigosoa
+navegaçãode superfície.Nasprofundidadestemos:Areia47 metros-
+Cascalho.
+43
+45(~--,
+,50--"'\
+49
+A'
+-
+.
+)
+~49
+47
+/"
+\"'"
+49
+C /~
+55
+.
+4.1 /-,
+'
+A
+\
+c / '
+.
+/5'"
+51
+\
+"
+I;
+~
+'..
+/53
+'-'
+55
+"-
+,",'A
+C
+~...._----
+40
+A
+46
+38
+A
+49
+ISOBATADE 100 METROS- tendo próximas;93 metros-Lama,102
+metros-Areia
+1!?
+~--~;
+39i
+-
+"
+39 "".
+(54+\
+.,.~."
+46
+quandoaisobatimetrica
+foraproximada,aslinhas
+serãopontilhadas.
+.
+ISOBATADE50 METROS- Com2 poços
+próximoscom 54 metros - Lama
+,.,
+49"."
+(5~") ./
+44 '.-.' f
+NESTAPÁGINAAPRESENTAMOSUMRESUMODE ALGUNSDOS GRUPOS
+DA12.000CUJAFUNÇÃOÉDEEXPUCAR OSSIGNIFICADOSDOSSÍMBOLOS
+QUEAPARECEMNASCARTASNÁUTICASBRASILEIRAS.
+T Marés e Correntes
+H.W.
+Preamar
+P.M.
+7
+I
+I
+Correntede
+~
+vazante (com
+valor do
+velocidade)
+..
+~O
+,
+":~..,,\.,,.\..,.h"
+.""
+1""1..,,;:'
+~
+v.,\.,.,
+/""".1.
+~
+".."
+"'1 .
+JI?~/Y-"\\\:
+I-!
+~a
+~
+D~d.l!I.g,18"OO'W(1975)
+~
+j;~
+I
+:s
+~
+Alln>ento,nu.tl 7,5'
+=
+[!
+1i
+f~
+~
+?
+'!t"'\
+.::/'"
+~~~.
+~f'~
+':>-~'-"'-"""""
+"
+" "", ,.", <;.,..'.,
+~9
+'I "1""1""""" ""I" \
+l1fS
+-.
+111111
+\1\1
+L. W.
+Baixo-mar
+B.M.
+, M.T.L.
+Nível Médio do mar N.M.
+Zo
+Altura do nível médio do mar
+acima do nível médio de
+sondagens
+Ea
+Morégrofo/Est. Moregr6fico
+Est. fluviométrica
+N.R.
+Níve~ de
+Redução
+(Zer~
+das
+cartas)
+Sp,
+aré de águas vivos ou de
+sizigio
+Np.
+Maré de águas mortos
+ou de quadraturo
+U Rosados Ventos
+M.H.W.
+Preamar médio
+M.H,W.S, Preamar médio de sizígio
+M.H.W.N. Preamar médio de quodrotura
++ CORRENTEDO BRASIL...........
+1.2 nós
+Corrente
+ocednica
+I
+~
+~
+Direção do
+corrente
+I
+Correntede
+~
+I
+enchente
+(com
+valor do
+velocidade)
+N
+E
+S
+O
+Norte 0000
+Leste
+0900
+Sul
+1800
+Oeste 270°
+Marégrofo,
+Estação
+Maregráfica
+Estação
+Pluviométrica
+NE Norde$te0450
+SE Sueste
+1350
+SW Sudoeste 2250
+NW Noroeste31 5°

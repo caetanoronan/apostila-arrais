@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Teórico para Aula de Arrais Amador - Escola de Mergulho Cultura Subaquática</title>
+    <style>
+        /* Estilos para acessibilidade */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+            --light-gray: #ecf0f1;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Estilo para melhorar legibilidade para dislexia */
+        .dyslexia-friendly {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            letter-spacing: 0.5px;
+            line-height: 1.8;
+        }
+        
+        /* Alto contraste para daltonismo */
+        .high-contrast {
+            background-color: #000;
+            color: #fff;
+        }
+        
+        .high-contrast a {
+            color: #ffff00;
+        }
+        
+        /* Navegação por teclado */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--secondary-color);
+            color: white;
+            padding: 8px;
+            z-index: 100;
+            text-decoration: none;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 25px;
+        }
+        
+        h4 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        /* Conteúdo */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .sidebar {
+            flex: 0 0 250px;
+            background-color: var(--light-gray);
+            padding: 15px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        
+        .content {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        /* Navegação */
+        nav ul {
+            list-style-type: none;
+        }
+        
+        nav li {
+            margin-bottom: 10px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: var(--primary-color);
+            display: block;
+            padding: 8px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover, nav a:focus {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+        
+        /* Conteúdo principal */
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* Tabelas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: var(--light-gray);
+            font-weight: bold;
+        }
+        
+        /* Figuras */
+        .figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .figure img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        
+        .figure-caption {
+            font-style: italic;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+        
+        /* Controles de acessibilidade */
+        .accessibility-controls {
+            background-color: var(--light-gray);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .accessibility-controls button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .accessibility-controls button:hover {
+            background-color: var(--primary-color);
+        }
+        
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body class="dyslexia-friendly">
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <header>
+        <h1>ESCOLA DE MERGULHO CULTURA SUBAQUÁTICA E CENTRAL DE AVENTURAS</h1>
+        <h2>MANUAL TEÓRICO PARA AULA DE ARRAIS AMADOR</h2>
+        <p>Florianópolis, SC - Brasil</p>
+        <p>2021 3ª Edição</p>
+    </header>
+    
+    <div class="accessibility-controls">
+        <button id="toggle-dyslexia">Alternar Fonte para Dislexia</button>
+        <button id="toggle-contrast">Alternar Alto Contraste</button>
+        <button id="increase-font">Aumentar Fonte</button>
+        <button id="decrease-font">Diminuir Fonte</button>
+    </div>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <h3>Sumário</h3>
+                <ul>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#modulo1">1º Módulo - Conhecendo uma embarcação</a></li>
+                    <li><a href="#modulo2">2º Módulo - Propulsão e outros sistemas</a></li>
+                    <li><a href="#modulo3">3º Módulo - Segurança e Legislação</a></li>
+                    <li><a href="#modulo4">4º Módulo - Navegação e Manobras</a></li>
+                    <li><a href="#modulo5">5º Módulo - Cabos e nós</a></li>
+                    <li><a href="#referencias">Referências</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="content" id="main-content">
+            <section id="introducao">
+                <h2>INTRODUÇÃO</h2>
+                <p>A Central de Aventuras – Escola Náutica é uma escola que se dedica as atividades aquáticas há 10 (dez) anos, agora, também na instrução a navegadores. Homologada pela Marinha do Brasil, prepara seus alunos para realizar a prova de Arrais Amador e Motonauta.</p>
+                <p>Contamos com estrutura completa em terra de apoio a navegação, equipamentos de segurança, comunicação e embarcações que serão utilizadas para as aulas.</p>
+                <p>A saída será no trapiche do Canal da Barra. Podendo ser realizada com a embarcação Cultura Subaquática um Barco-escola (35 pés, motor ciclo diesel) no qual teremos aulas teóricas e práticas aplicadas durante a navegação; o outro bote, Estrela do Sul (30 pés, motor ciclo Oto).</p>
+                <p>O curso tem o propósito de ensinar noções de navegação, balizamentos, combate ao incêndio, luzes, primeiros socorros, manobras, segurança no mar, sinais e sobrevivência.</p>
+                <p>Tendo em vista que este é baseado em normas da Marinha Brasileira, alguns textos foram transcritos na íntegra, conforme a norma por esta disponibilizada, além de outras fontes de conteúdo devidamente listadas nas referências.</p>
+                
+                <h3>Estrutura do Curso:</h3>
+                <ul>
+                    <li><strong>1º MÓDULO – Conhecendo uma embarcação</strong>: Como é um barco, seus nomes e sistemas. Partes da embarcação, nomes e funções. Como se portar em uma embarcação.</li>
+                    <li><strong>2º MÓDULO – Propulsão e Outros Sistemas</strong>: Conhecer de forma usual o sistema de propulsão da embarcação e demais sistemas, como elétrico, hidráulico e outros.</li>
+                    <li><strong>3º MÓDULO – Segurança e Legislação</strong>: Noções de combate a Incêndio, Primeiros Socorros, Noções de Segurança no Mar, Rios, Lagoas e Canais; Riesta, Norman, infrações e penalidades.</li>
+                    <li><strong>4º MÓDULO – Navegação e Manobras</strong>: RIPEAM, navegação restrita, Sistema de Balizamento, IALA B, Sinais, e marcas, Luzes, Regras de Governo, Noções de Comunicação e Comandos.</li>
+                    <li><strong>5º MÓDULO – Cabos e nós</strong>: Aula de nós: Lais de Guia, Calão, nó Direito, e Oito.</li>
+                </ul>
+            </section>
+            
+            <section id="modulo1">
+                <h2>1º MÓDULO – CONHECENDO UMA EMBARCAÇÃO</h2>
+                
+                <h3>1.1. Objetivo Geral</h3>
+                <p>Promover o conhecimento em diferentes tipos de embarcações, nomes e sistemas. Bem como suas partes e funções, além de como se portar em uma embarcação.</p>
+                
+                <h3>1.2. Embarcações</h3>
+                <p>É denominada embarcação uma construção com casco flutuante, feita de diversos materiais, podendo transporta carga e pessoas com segurança sobre as águas.</p>
+                <p>De acordo com o seu tamanho podem ser chamados de diversos nomes, como <strong>Navio</strong> (embarcação de grande porte), Escuna, Lancha, e outros.</p>
+                
+                <h3>1.3. Classificação</h3>
+                <p>As embarcações podem ser divididas em três classificações simples que descrevem de acordo com a finalidade, construção e propulsão:</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Quanto à finalidade</th>
+                            <th>Quanto ao material de construção do casco</th>
+                            <th>Quanto à propulsão</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Guerra</td>
+                            <td>Madeira e aço</td>
+                            <td>Combustão</td>
+                        </tr>
+                        <tr>
+                            <td>Mercante e apoio marítimo (engajada na pesca, reboque, transporte de cargas e pessoas)</td>
+                            <td>Aço</td>
+                            <td>Combustão</td>
+                        </tr>
+                        <tr>
+                            <td>Esporte e recreativo</td>
+                            <td>Diversos: materiais (Fibra de vidro, plásticos e outros)</td>
+                            <td>Diversos: combustão, elétricos e a vela, a remo</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>1.4. Partes de uma Embarcação</h3>
+                <p>As embarcações possuem nomenclaturas distintas para definir as suas partes:</p>
+                <ul>
+                    <li><strong>Corpos</strong> – são duas partes da embarcação (divisão transversal) que a 1ª é denominada de corpo devante a porção da embarcação do meio (meia nau) para frente (proa), e a parte para trás (popa) de corpoderé.</li>
+                    <li><strong>Proa</strong> – parte terminal de vante da embarcação possuindo formato de cunha, o que facilitando o corte da água para navegação.</li>
+                    <li><strong>Popa</strong> – terminação do corpo de ré, sua estrutura é projetada para tornar mais eficiente a ação do sistema de propulsão e leme, bem como o escoamento da água.</li>
+                    <li><strong>Meia-nau</strong> – é a parte central (transversal) da embarcação que divide os corpos da embarcação, ficando entre a proa e a popa.</li>
+                    <li><strong>Bordos</strong> – sãos os lados de uma embarcação (divisão longitudinal), assim como nos carros, sempre definidos da parte trás (popa) para à frente (proa), no caso a lateral direita é denominada boreste (BE) e bombordo (BB) a lateral esquerda.</li>
+                    <li><strong>Bochechas</strong> – são as partes curvas do costado dos bordos, ficam próximos à proa, também denominados de Amura. Indica também uma direção entre a proa e o través da embarcação.</li>
+                    <li><strong>Través</strong> – direção transversal da embarcação, perpendicular à longitudinal.</li>
+                    <li><strong>Alheta</strong> – são também partes curvas do costados dos bordos, porém ficam localizados próximo à popa.</li>
+                    <li><strong>Casco</strong> - é a base à embarcação onde na parte inferior corre a quilha, que acompanha todo o casco, desde a proa até a popa, servindo-lhe de peça principal de sustentação da sua estrutura.</li>
+                    <li><strong>Linha d'água</strong> – é o ponto de interseção da superfície da água com o casco no momento da flutuação.</li>
+                    <li><strong>Obra Viva</strong> – parte inferior do casco que entra em contato com a água.</li>
+                    <li><strong>Obra Morta</strong> – parte superior do casco que não está em contato com a água e demais construções acima.</li>
+                    <li><strong>Convés</strong> – é o fechamento do casco. Este pode ser de madeira ou metálico.</li>
+                    <li><strong>Superestruturas</strong> – são as elevações construídas sobre o convés principal.</li>
+                    <li><strong>Castelo</strong> – Denominamos castelo de proa, a plataforma que fica no convés a vante, destinada aos serviços de atracação, desatracação, fundear e suspender.</li>
+                    <li><strong>Tombadilho</strong> – é a superestrutura situada na popa, destinada também às manobras de atracação, desatracação e reboque.</li>
+                    <li><strong>Mastro</strong> – Os mastros, a bordo, têm inúmeras funções, como sinais, velas, fixação de aparelhos de laborar, posto de vigilância, etc.</li>
+                    <li><strong>Leme</strong> – Há diversos tipos de leme, todos usados para dar direção às embarcações.</li>
+                </ul>
+                
+                <!-- Continuação do conteúdo para os outros módulos -->
+                <p>O conteúdo continua com as demais seções da apostila...</p>
+            </section>
+            
+            <section id="modulo2">
+                <h2>2º MÓDULO – PROPULSÃO E OUTROS SISTEMAS</h2>
+                <p>Conteúdo do segundo módulo sobre propulsão e sistemas...</p>
+            </section>
+            
+            <section id="modulo3">
+                <h2>3º MÓDULO – SEGURANÇA E LEGISLAÇÃO</h2>
+                <p>Conteúdo do terceiro módulo sobre segurança e legislação...</p>
+            </section>
+            
+            <section id="modulo4">
+                <h2>4º MÓDULO – NAVEGAÇÃO E MANOBRAS</h2>
+                <p>Conteúdo do quarto módulo sobre navegação e manobras...</p>
+            </section>
+            
+            <section id="modulo5">
+                <h2>5º MÓDULO – CABOS E NÓS</h2>
+                <p>Conteúdo do quinto módulo sobre cabos e nós...</p>
+            </section>
+            
+            <section id="referencias">
+                <h2>REFERÊNCIAS</h2>
+                <ul>
+                    <li>BARROS, Geraldo L. M.; Navegar é fácil. Editora Catedral das Letras – 12ª Edição – 2006</li>
+                    <li>CAPWING; NORMAS E INSTRUÇÕES GERAIS DE SEGURANÇA.</li>
+                    <li>CORPO DE BOMBEIROS MILITAR DO ESTADO DO PIAUÍ; Incendios.</li>
+                    <li>CORPO DE BOMBEIROS DO ESTADO DE SÃO PAULO; CARTILHA DE ORIENTAÇÕES BÁSICAS, NOÇÕES DE PREVENÇÃO DE INCÊNDIO, DICAS DE SEGURANÇA.</li>
+                    <li>Sapadores de Coimbra; O Fogo.</li>
+                    <li>MARINHA DO BRASIL; NORMAN-03.</li>
+                    <li>WEST COAT; Manual de Vela Online / Aula 2 – Nós.</li>
+                    <li>MAHLE; Manual Técnico. Material técnico do Curso Mahle Metal Leve – Motores de Combustão Interna.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>ESCOLA DE MERGULHO CULTURA SUBAQUÁTICA E CENTRAL DE AVENTURAS</p>
+        <p>Manual Teórico para Aula de Arrais Amador - 2021 3ª Edição</p>
+    </footer>
+    
+    <script>
+        // Controles de acessibilidade
+        document.getElementById('toggle-dyslexia').addEventListener('click', function() {
+            document.body.classList.toggle('dyslexia-friendly');
+        });
+        
+        document.getElementById('toggle-contrast').addEventListener('click', function() {
+            document.body.classList.toggle('high-contrast');
+        });
+        
+        document.getElementById('increase-font').addEventListener('click', function() {
+            const currentSize = parseFloat(getComputedStyle(document.body).fontSize);
+            document.body.style.fontSize = (currentSize + 2) + 'px';
+        });
+        
+        document.getElementById('decrease-font').addEventListener('click', function() {
+            const currentSize = parseFloat(getComputedStyle(document.body).fontSize);
+            if (currentSize > 12) {
+                document.body.style.fontSize = (currentSize - 2) + 'px';
+            }
+        });
+        
+        // Navegação por teclado
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Tab') {
+                // Adiciona foco visível para elementos
+                const focusedElement = document.activeElement;
+                if (focusedElement) {
+                    focusedElement.style.outline = '2px solid #3498db';
+                    focusedElement.style.outlineOffset = '2px';
+                }
+            }
+        });
+    </script>
+</body>
+</html>

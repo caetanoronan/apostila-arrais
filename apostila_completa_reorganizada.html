@@ -1,0 +1,1277 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apostila 2021 — Figuras por Assunto (reorganizado)</title>
+<style>
+
+:root{--maxw:1100px;--accent:#0b6efd;--muted:#556}
+body{font-family:Inter, Arial, Helvetica, sans-serif;margin:0;padding:0;background:#f7f9fc;color:#111}
+.container{max-width:var(--maxw);margin:1rem auto;padding:1rem}
+.header{display:flex;align-items:center;justify-content:space-between}
+.header h1{margin:0;font-size:1.25rem}
+.tabs{display:flex;gap:.25rem;flex-wrap:wrap;margin:1rem 0}
+.tab-btn{background:#fff;border:1px solid #e6ecff;padding:.45rem .7rem;border-radius:8px;cursor:pointer;color:var(--accent);font-weight:600}
+.tab-btn[aria-selected="true"]{background:linear-gradient(180deg,#0b6efd22,#0b6efd11);border-color:var(--accent);color:#023a8a}
+.tab-content{background:#fff;padding:1rem;border-radius:10px;border:1px solid #eef6ff;box-shadow:0 3px 8px rgba(13,38,76,0.04)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem}
+.figure{background:#fff;padding:.4rem;border-radius:8px;border:1px solid #f0f4ff;text-align:center}
+.figure img{max-width:100%;height:auto;border-radius:6px}
+.figure figcaption{font-size:.85rem;color:#444;margin-top:.35rem}
+.module-intro{font-size:.95rem;color:var(--muted);margin-bottom:.6rem}
+@media(max-width:640px){
+ .tab-btn{flex:1 1 100%;text-align:left}
+ .gallery{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+}
+
+</style>
+<script>
+
+document.addEventListener('DOMContentLoaded',function(){
+  const tabs = Array.from(document.querySelectorAll('.tab-btn'));
+  const panels = Array.from(document.querySelectorAll('.tab-panel'));
+  function select(i){
+    tabs.forEach((t,idx)=>{t.setAttribute('aria-selected', idx===i)});
+    panels.forEach((p,idx)=>{p.style.display = idx===i? 'block':'none'});
+  }
+  tabs.forEach((t,idx)=>{t.addEventListener('click',()=>select(idx)); t.addEventListener('keydown', (e)=>{if(e.key==='ArrowRight'){select((idx+1)%tabs.length)} if(e.key==='ArrowLeft'){select((idx-1+tabs.length)%tabs.length)}})});
+  if(tabs.length) select(0);
+});
+
+</script>
+</head>
+<body>
+<div class="container">
+<div class="header"><h1>Apostila 2021 — Figuras organizadas por assunto</h1><div style="font-size:.9rem;color:var(--muted)">Versão reorganizada: abas por módulo / assunto</div></div>
+<div class="tabs" role="tablist" aria-label="Abas por módulo">
+<button class="tab-btn" role="tab" aria-selected="false">1. 1º MÓDULO</button>
+<button class="tab-btn" role="tab" aria-selected="false">2. 2º MÓDULO</button>
+<button class="tab-btn" role="tab" aria-selected="false">3. 3º MÓDULO</button>
+<button class="tab-btn" role="tab" aria-selected="false">4. 4º MÓDULO</button>
+<button class="tab-btn" role="tab" aria-selected="false">5. 5º MÓDULO</button>
+</div>
+<div class="tab-content tab-panel" role="tabpanel" style="display:none">
+<h2 style="margin-top:0">1. 1º MÓDULO</h2>
+<div class="module-intro">Faixa de páginas não detectada automaticamente.</div>
+<p style="color:#666">Nenhuma figura encontrada neste módulo.</p>
+</div>
+<div class="tab-content tab-panel" role="tabpanel" style="display:none">
+<h2 style="margin-top:0">2. 2º MÓDULO</h2>
+<div class="module-intro">Faixa de páginas não detectada automaticamente.</div>
+<p style="color:#666">Nenhuma figura encontrada neste módulo.</p>
+</div>
+<div class="tab-content tab-panel" role="tabpanel" style="display:none">
+<h2 style="margin-top:0">3. 3º MÓDULO</h2>
+<div class="module-intro">Páginas 5 a 5</div>
+<p style="color:#666">Nenhuma figura encontrada neste módulo.</p>
+</div>
+<div class="tab-content tab-panel" role="tabpanel" style="display:none">
+<h2 style="margin-top:0">4. 4º MÓDULO</h2>
+<div class="module-intro">Páginas 6 a 6</div>
+<p style="color:#666">Nenhuma figura encontrada neste módulo.</p>
+</div>
+<div class="tab-content tab-panel" role="tabpanel" style="display:none">
+<h2 style="margin-top:0">5. 5º MÓDULO</h2>
+<div class="module-intro">Páginas 7 a 98</div>
+<div class="gallery">
+<figure class="figure">
+<a href="#p11" style="color:inherit;text-decoration:none">
+<img src="assets/page_11/page_11_img_0.jpeg" alt="10 (<em>p.11</em>)">
+</a>
+<figcaption>10 (<em>p.11</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p12" style="color:inherit;text-decoration:none">
+<img src="assets/page_12/page_12_img_0.jpeg" alt="11 (<em>p.12</em>)">
+</a>
+<figcaption>11 (<em>p.12</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p12" style="color:inherit;text-decoration:none">
+<img src="assets/page_12/page_12_img_1.png" alt="11 (<em>p.12</em>)">
+</a>
+<figcaption>11 (<em>p.12</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p12" style="color:inherit;text-decoration:none">
+<img src="assets/page_12/page_12_img_2.png" alt="11 (<em>p.12</em>)">
+</a>
+<figcaption>11 (<em>p.12</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p13" style="color:inherit;text-decoration:none">
+<img src="assets/page_13/page_13_img_0.png" alt="12 (<em>p.13</em>)">
+</a>
+<figcaption>12 (<em>p.13</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p15" style="color:inherit;text-decoration:none">
+<img src="assets/page_15/page_15_img_0.jpeg" alt="14 (<em>p.15</em>)">
+</a>
+<figcaption>14 (<em>p.15</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p15" style="color:inherit;text-decoration:none">
+<img src="assets/page_15/page_15_img_1.jpeg" alt="14 (<em>p.15</em>)">
+</a>
+<figcaption>14 (<em>p.15</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p15" style="color:inherit;text-decoration:none">
+<img src="assets/page_15/page_15_img_2.jpeg" alt="14 (<em>p.15</em>)">
+</a>
+<figcaption>14 (<em>p.15</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p16" style="color:inherit;text-decoration:none">
+<img src="assets/page_16/page_16_img_0.jpeg" alt="15 (<em>p.16</em>)">
+</a>
+<figcaption>15 (<em>p.16</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p16" style="color:inherit;text-decoration:none">
+<img src="assets/page_16/page_16_img_1.jpeg" alt="15 (<em>p.16</em>)">
+</a>
+<figcaption>15 (<em>p.16</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p16" style="color:inherit;text-decoration:none">
+<img src="assets/page_16/page_16_img_2.jpeg" alt="15 (<em>p.16</em>)">
+</a>
+<figcaption>15 (<em>p.16</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p18" style="color:inherit;text-decoration:none">
+<img src="assets/page_18/page_18_img_0.png" alt="17 (<em>p.18</em>)">
+</a>
+<figcaption>17 (<em>p.18</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_0.png" alt="19 (<em>p.20</em>)">
+</a>
+<figcaption>19 (<em>p.20</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_1.png" alt="19 (<em>p.20</em>)">
+</a>
+<figcaption>19 (<em>p.20</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_2.png" alt="19 (<em>p.20</em>)">
+</a>
+<figcaption>19 (<em>p.20</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_3.png" alt="19 (<em>p.20</em>)">
+</a>
+<figcaption>19 (<em>p.20</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p22" style="color:inherit;text-decoration:none">
+<img src="assets/page_22/page_22_img_0.jpeg" alt="21 (<em>p.22</em>)">
+</a>
+<figcaption>21 (<em>p.22</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p22" style="color:inherit;text-decoration:none">
+<img src="assets/page_22/page_22_img_1.jpeg" alt="21 (<em>p.22</em>)">
+</a>
+<figcaption>21 (<em>p.22</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p22" style="color:inherit;text-decoration:none">
+<img src="assets/page_22/page_22_img_2.jpeg" alt="21 (<em>p.22</em>)">
+</a>
+<figcaption>21 (<em>p.22</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p23" style="color:inherit;text-decoration:none">
+<img src="assets/page_23/page_23_img_0.jpeg" alt="22 (<em>p.23</em>)">
+</a>
+<figcaption>22 (<em>p.23</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p23" style="color:inherit;text-decoration:none">
+<img src="assets/page_23/page_23_img_1.jpeg" alt="22 (<em>p.23</em>)">
+</a>
+<figcaption>22 (<em>p.23</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p24" style="color:inherit;text-decoration:none">
+<img src="assets/page_24/page_24_img_0.jpeg" alt="23 (<em>p.24</em>)">
+</a>
+<figcaption>23 (<em>p.24</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p25" style="color:inherit;text-decoration:none">
+<img src="assets/page_25/page_25_img_0.jpeg" alt="24 (<em>p.25</em>)">
+</a>
+<figcaption>24 (<em>p.25</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p26" style="color:inherit;text-decoration:none">
+<img src="assets/page_26/page_26_img_0.jpeg" alt="25 (<em>p.26</em>)">
+</a>
+<figcaption>25 (<em>p.26</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p27" style="color:inherit;text-decoration:none">
+<img src="assets/page_27/page_27_img_0.jpeg" alt="26 (<em>p.27</em>)">
+</a>
+<figcaption>26 (<em>p.27</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p29" style="color:inherit;text-decoration:none">
+<img src="assets/page_29/page_29_img_0.jpeg" alt="28 (<em>p.29</em>)">
+</a>
+<figcaption>28 (<em>p.29</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p29" style="color:inherit;text-decoration:none">
+<img src="assets/page_29/page_29_img_1.jpeg" alt="28 (<em>p.29</em>)">
+</a>
+<figcaption>28 (<em>p.29</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p30" style="color:inherit;text-decoration:none">
+<img src="assets/page_30/page_30_img_0.jpeg" alt="29 (<em>p.30</em>)">
+</a>
+<figcaption>29 (<em>p.30</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p31" style="color:inherit;text-decoration:none">
+<img src="assets/page_31/page_31_img_0.jpeg" alt="30 (<em>p.31</em>)">
+</a>
+<figcaption>30 (<em>p.31</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p32" style="color:inherit;text-decoration:none">
+<img src="assets/page_32/page_32_img_0.png" alt="31 (<em>p.32</em>)">
+</a>
+<figcaption>31 (<em>p.32</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p35" style="color:inherit;text-decoration:none">
+<img src="assets/page_35/page_35_img_0.png" alt="34 (<em>p.35</em>)">
+</a>
+<figcaption>34 (<em>p.35</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p35" style="color:inherit;text-decoration:none">
+<img src="assets/page_35/page_35_img_1.jpeg" alt="34 (<em>p.35</em>)">
+</a>
+<figcaption>34 (<em>p.35</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p36" style="color:inherit;text-decoration:none">
+<img src="assets/page_36/page_36_img_0.jpeg" alt="35 (<em>p.36</em>)">
+</a>
+<figcaption>35 (<em>p.36</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p40" style="color:inherit;text-decoration:none">
+<img src="assets/page_40/page_40_img_0.png" alt="39 (<em>p.40</em>)">
+</a>
+<figcaption>39 (<em>p.40</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p42" style="color:inherit;text-decoration:none">
+<img src="assets/page_42/page_42_img_0.jpeg" alt="41 (<em>p.42</em>)">
+</a>
+<figcaption>41 (<em>p.42</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p43" style="color:inherit;text-decoration:none">
+<img src="assets/page_43/page_43_img_0.jpeg" alt="42 (<em>p.43</em>)">
+</a>
+<figcaption>42 (<em>p.43</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p43" style="color:inherit;text-decoration:none">
+<img src="assets/page_43/page_43_img_1.png" alt="42 (<em>p.43</em>)">
+</a>
+<figcaption>42 (<em>p.43</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p43" style="color:inherit;text-decoration:none">
+<img src="assets/page_43/page_43_img_2.jpeg" alt="42 (<em>p.43</em>)">
+</a>
+<figcaption>42 (<em>p.43</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p44" style="color:inherit;text-decoration:none">
+<img src="assets/page_44/page_44_img_0.jpeg" alt="43 (<em>p.44</em>)">
+</a>
+<figcaption>43 (<em>p.44</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p44" style="color:inherit;text-decoration:none">
+<img src="assets/page_44/page_44_img_1.jpeg" alt="43 (<em>p.44</em>)">
+</a>
+<figcaption>43 (<em>p.44</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p50" style="color:inherit;text-decoration:none">
+<img src="assets/page_50/page_50_img_0.jpeg" alt="49 (<em>p.50</em>)">
+</a>
+<figcaption>49 (<em>p.50</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p50" style="color:inherit;text-decoration:none">
+<img src="assets/page_50/page_50_img_1.jpeg" alt="49 (<em>p.50</em>)">
+</a>
+<figcaption>49 (<em>p.50</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p59" style="color:inherit;text-decoration:none">
+<img src="assets/page_59/page_59_img_0.png" alt="58 (<em>p.59</em>)">
+</a>
+<figcaption>58 (<em>p.59</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p59" style="color:inherit;text-decoration:none">
+<img src="assets/page_59/page_59_img_1.jpeg" alt="58 (<em>p.59</em>)">
+</a>
+<figcaption>58 (<em>p.59</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p60" style="color:inherit;text-decoration:none">
+<img src="assets/page_60/page_60_img_0.jpeg" alt="59 (<em>p.60</em>)">
+</a>
+<figcaption>59 (<em>p.60</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p61" style="color:inherit;text-decoration:none">
+<img src="assets/page_61/page_61_img_0.jpeg" alt="60 (<em>p.61</em>)">
+</a>
+<figcaption>60 (<em>p.61</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p63" style="color:inherit;text-decoration:none">
+<img src="assets/page_63/page_63_img_0.png" alt="62 (<em>p.63</em>)">
+</a>
+<figcaption>62 (<em>p.63</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p65" style="color:inherit;text-decoration:none">
+<img src="assets/page_65/page_65_img_0.jpeg" alt="64 (<em>p.65</em>)">
+</a>
+<figcaption>64 (<em>p.65</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p65" style="color:inherit;text-decoration:none">
+<img src="assets/page_65/page_65_img_1.png" alt="64 (<em>p.65</em>)">
+</a>
+<figcaption>64 (<em>p.65</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p66" style="color:inherit;text-decoration:none">
+<img src="assets/page_66/page_66_img_0.jpeg" alt="65 (<em>p.66</em>)">
+</a>
+<figcaption>65 (<em>p.66</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p66" style="color:inherit;text-decoration:none">
+<img src="assets/page_66/page_66_img_1.png" alt="65 (<em>p.66</em>)">
+</a>
+<figcaption>65 (<em>p.66</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p67" style="color:inherit;text-decoration:none">
+<img src="assets/page_67/page_67_img_0.jpeg" alt="66 (<em>p.67</em>)">
+</a>
+<figcaption>66 (<em>p.67</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p68" style="color:inherit;text-decoration:none">
+<img src="assets/page_68/page_68_img_0.jpeg" alt="67 (<em>p.68</em>)">
+</a>
+<figcaption>67 (<em>p.68</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p68" style="color:inherit;text-decoration:none">
+<img src="assets/page_68/page_68_img_1.jpeg" alt="67 (<em>p.68</em>)">
+</a>
+<figcaption>67 (<em>p.68</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p69" style="color:inherit;text-decoration:none">
+<img src="assets/page_69/page_69_img_0.jpeg" alt="68 (<em>p.69</em>)">
+</a>
+<figcaption>68 (<em>p.69</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p69" style="color:inherit;text-decoration:none">
+<img src="assets/page_69/page_69_img_1.png" alt="68 (<em>p.69</em>)">
+</a>
+<figcaption>68 (<em>p.69</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p70" style="color:inherit;text-decoration:none">
+<img src="assets/page_70/page_70_img_0.jpeg" alt="69 (<em>p.70</em>)">
+</a>
+<figcaption>69 (<em>p.70</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p70" style="color:inherit;text-decoration:none">
+<img src="assets/page_70/page_70_img_1.jpeg" alt="69 (<em>p.70</em>)">
+</a>
+<figcaption>69 (<em>p.70</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p70" style="color:inherit;text-decoration:none">
+<img src="assets/page_70/page_70_img_2.png" alt="69 (<em>p.70</em>)">
+</a>
+<figcaption>69 (<em>p.70</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p71" style="color:inherit;text-decoration:none">
+<img src="assets/page_71/page_71_img_0.jpeg" alt="70 (<em>p.71</em>)">
+</a>
+<figcaption>70 (<em>p.71</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p71" style="color:inherit;text-decoration:none">
+<img src="assets/page_71/page_71_img_1.jpeg" alt="70 (<em>p.71</em>)">
+</a>
+<figcaption>70 (<em>p.71</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p71" style="color:inherit;text-decoration:none">
+<img src="assets/page_71/page_71_img_2.jpeg" alt="70 (<em>p.71</em>)">
+</a>
+<figcaption>70 (<em>p.71</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p72" style="color:inherit;text-decoration:none">
+<img src="assets/page_72/page_72_img_0.jpeg" alt="71 (<em>p.72</em>)">
+</a>
+<figcaption>71 (<em>p.72</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p72" style="color:inherit;text-decoration:none">
+<img src="assets/page_72/page_72_img_1.jpeg" alt="71 (<em>p.72</em>)">
+</a>
+<figcaption>71 (<em>p.72</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p73" style="color:inherit;text-decoration:none">
+<img src="assets/page_73/page_73_img_0.jpeg" alt="72 (<em>p.73</em>)">
+</a>
+<figcaption>72 (<em>p.73</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p73" style="color:inherit;text-decoration:none">
+<img src="assets/page_73/page_73_img_1.jpeg" alt="72 (<em>p.73</em>)">
+</a>
+<figcaption>72 (<em>p.73</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p78" style="color:inherit;text-decoration:none">
+<img src="assets/page_78/page_78_img_0.jpeg" alt="77 (<em>p.78</em>)">
+</a>
+<figcaption>77 (<em>p.78</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p79" style="color:inherit;text-decoration:none">
+<img src="assets/page_79/page_79_img_0.jpeg" alt="78 (<em>p.79</em>)">
+</a>
+<figcaption>78 (<em>p.79</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p79" style="color:inherit;text-decoration:none">
+<img src="assets/page_79/page_79_img_1.jpeg" alt="78 (<em>p.79</em>)">
+</a>
+<figcaption>78 (<em>p.79</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p79" style="color:inherit;text-decoration:none">
+<img src="assets/page_79/page_79_img_2.jpeg" alt="78 (<em>p.79</em>)">
+</a>
+<figcaption>78 (<em>p.79</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p80" style="color:inherit;text-decoration:none">
+<img src="assets/page_80/page_80_img_0.jpeg" alt="79 (<em>p.80</em>)">
+</a>
+<figcaption>79 (<em>p.80</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p81" style="color:inherit;text-decoration:none">
+<img src="assets/page_81/page_81_img_0.png" alt="80 (<em>p.81</em>)">
+</a>
+<figcaption>80 (<em>p.81</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p81" style="color:inherit;text-decoration:none">
+<img src="assets/page_81/page_81_img_1.jpeg" alt="80 (<em>p.81</em>)">
+</a>
+<figcaption>80 (<em>p.81</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p82" style="color:inherit;text-decoration:none">
+<img src="assets/page_82/page_82_img_0.jpeg" alt="81 (<em>p.82</em>)">
+</a>
+<figcaption>81 (<em>p.82</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p82" style="color:inherit;text-decoration:none">
+<img src="assets/page_82/page_82_img_1.jpeg" alt="81 (<em>p.82</em>)">
+</a>
+<figcaption>81 (<em>p.82</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_0.png" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_1.png" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_2.png" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_3.png" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_4.jpeg" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_5.jpeg" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_6.jpeg" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_7.jpeg" alt="82 (<em>p.83</em>)">
+</a>
+<figcaption>82 (<em>p.83</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_0.jpeg" alt="83 (<em>p.84</em>)">
+</a>
+<figcaption>83 (<em>p.84</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_1.jpeg" alt="83 (<em>p.84</em>)">
+</a>
+<figcaption>83 (<em>p.84</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_2.jpeg" alt="83 (<em>p.84</em>)">
+</a>
+<figcaption>83 (<em>p.84</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_3.jpeg" alt="83 (<em>p.84</em>)">
+</a>
+<figcaption>83 (<em>p.84</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p85" style="color:inherit;text-decoration:none">
+<img src="assets/page_85/page_85_img_0.jpeg" alt="84 (<em>p.85</em>)">
+</a>
+<figcaption>84 (<em>p.85</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p86" style="color:inherit;text-decoration:none">
+<img src="assets/page_86/page_86_img_0.jpeg" alt="85 (<em>p.86</em>)">
+</a>
+<figcaption>85 (<em>p.86</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p87" style="color:inherit;text-decoration:none">
+<img src="assets/page_87/page_87_img_0.jpeg" alt="86 (<em>p.87</em>)">
+</a>
+<figcaption>86 (<em>p.87</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p88" style="color:inherit;text-decoration:none">
+<img src="assets/page_88/page_88_img_0.jpeg" alt="87 (<em>p.88</em>)">
+</a>
+<figcaption>87 (<em>p.88</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p88" style="color:inherit;text-decoration:none">
+<img src="assets/page_88/page_88_img_1.jpeg" alt="87 (<em>p.88</em>)">
+</a>
+<figcaption>87 (<em>p.88</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p89" style="color:inherit;text-decoration:none">
+<img src="assets/page_89/page_89_img_0.jpeg" alt="88 (<em>p.89</em>)">
+</a>
+<figcaption>88 (<em>p.89</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p89" style="color:inherit;text-decoration:none">
+<img src="assets/page_89/page_89_img_1.jpeg" alt="88 (<em>p.89</em>)">
+</a>
+<figcaption>88 (<em>p.89</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p90" style="color:inherit;text-decoration:none">
+<img src="assets/page_90/page_90_img_0.jpeg" alt="89 (<em>p.90</em>)">
+</a>
+<figcaption>89 (<em>p.90</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p90" style="color:inherit;text-decoration:none">
+<img src="assets/page_90/page_90_img_1.jpeg" alt="89 (<em>p.90</em>)">
+</a>
+<figcaption>89 (<em>p.90</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p91" style="color:inherit;text-decoration:none">
+<img src="assets/page_91/page_91_img_0.jpeg" alt="90 (<em>p.91</em>)">
+</a>
+<figcaption>90 (<em>p.91</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p91" style="color:inherit;text-decoration:none">
+<img src="assets/page_91/page_91_img_1.jpeg" alt="90 (<em>p.91</em>)">
+</a>
+<figcaption>90 (<em>p.91</em>)</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p11" style="color:inherit;text-decoration:none">
+<img src="assets/page_11/page_11_img_0.jpeg" alt="10">
+</a>
+<figcaption>10</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p12" style="color:inherit;text-decoration:none">
+<img src="assets/page_12/page_12_img_0.jpeg" alt="11">
+</a>
+<figcaption>11</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p12" style="color:inherit;text-decoration:none">
+<img src="assets/page_12/page_12_img_1.png" alt="11">
+</a>
+<figcaption>11</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p12" style="color:inherit;text-decoration:none">
+<img src="assets/page_12/page_12_img_2.png" alt="11">
+</a>
+<figcaption>11</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p13" style="color:inherit;text-decoration:none">
+<img src="assets/page_13/page_13_img_0.png" alt="12">
+</a>
+<figcaption>12</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p15" style="color:inherit;text-decoration:none">
+<img src="assets/page_15/page_15_img_0.jpeg" alt="14">
+</a>
+<figcaption>14</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p15" style="color:inherit;text-decoration:none">
+<img src="assets/page_15/page_15_img_1.jpeg" alt="14">
+</a>
+<figcaption>14</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p15" style="color:inherit;text-decoration:none">
+<img src="assets/page_15/page_15_img_2.jpeg" alt="14">
+</a>
+<figcaption>14</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p16" style="color:inherit;text-decoration:none">
+<img src="assets/page_16/page_16_img_0.jpeg" alt="15">
+</a>
+<figcaption>15</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p16" style="color:inherit;text-decoration:none">
+<img src="assets/page_16/page_16_img_1.jpeg" alt="15">
+</a>
+<figcaption>15</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p16" style="color:inherit;text-decoration:none">
+<img src="assets/page_16/page_16_img_2.jpeg" alt="15">
+</a>
+<figcaption>15</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p18" style="color:inherit;text-decoration:none">
+<img src="assets/page_18/page_18_img_0.png" alt="17">
+</a>
+<figcaption>17</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_0.png" alt="19">
+</a>
+<figcaption>19</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_1.png" alt="19">
+</a>
+<figcaption>19</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_2.png" alt="19">
+</a>
+<figcaption>19</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p20" style="color:inherit;text-decoration:none">
+<img src="assets/page_20/page_20_img_3.png" alt="19">
+</a>
+<figcaption>19</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p22" style="color:inherit;text-decoration:none">
+<img src="assets/page_22/page_22_img_0.jpeg" alt="21">
+</a>
+<figcaption>21</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p22" style="color:inherit;text-decoration:none">
+<img src="assets/page_22/page_22_img_1.jpeg" alt="21">
+</a>
+<figcaption>21</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p22" style="color:inherit;text-decoration:none">
+<img src="assets/page_22/page_22_img_2.jpeg" alt="21">
+</a>
+<figcaption>21</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p23" style="color:inherit;text-decoration:none">
+<img src="assets/page_23/page_23_img_0.jpeg" alt="22">
+</a>
+<figcaption>22</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p23" style="color:inherit;text-decoration:none">
+<img src="assets/page_23/page_23_img_1.jpeg" alt="22">
+</a>
+<figcaption>22</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p24" style="color:inherit;text-decoration:none">
+<img src="assets/page_24/page_24_img_0.jpeg" alt="23">
+</a>
+<figcaption>23</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p25" style="color:inherit;text-decoration:none">
+<img src="assets/page_25/page_25_img_0.jpeg" alt="24">
+</a>
+<figcaption>24</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p26" style="color:inherit;text-decoration:none">
+<img src="assets/page_26/page_26_img_0.jpeg" alt="25">
+</a>
+<figcaption>25</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p27" style="color:inherit;text-decoration:none">
+<img src="assets/page_27/page_27_img_0.jpeg" alt="26">
+</a>
+<figcaption>26</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p29" style="color:inherit;text-decoration:none">
+<img src="assets/page_29/page_29_img_0.jpeg" alt="28">
+</a>
+<figcaption>28</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p29" style="color:inherit;text-decoration:none">
+<img src="assets/page_29/page_29_img_1.jpeg" alt="28">
+</a>
+<figcaption>28</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p30" style="color:inherit;text-decoration:none">
+<img src="assets/page_30/page_30_img_0.jpeg" alt="29">
+</a>
+<figcaption>29</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p31" style="color:inherit;text-decoration:none">
+<img src="assets/page_31/page_31_img_0.jpeg" alt="30">
+</a>
+<figcaption>30</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p32" style="color:inherit;text-decoration:none">
+<img src="assets/page_32/page_32_img_0.png" alt="31">
+</a>
+<figcaption>31</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p35" style="color:inherit;text-decoration:none">
+<img src="assets/page_35/page_35_img_0.png" alt="34">
+</a>
+<figcaption>34</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p35" style="color:inherit;text-decoration:none">
+<img src="assets/page_35/page_35_img_1.jpeg" alt="34">
+</a>
+<figcaption>34</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p36" style="color:inherit;text-decoration:none">
+<img src="assets/page_36/page_36_img_0.jpeg" alt="35">
+</a>
+<figcaption>35</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p40" style="color:inherit;text-decoration:none">
+<img src="assets/page_40/page_40_img_0.png" alt="39">
+</a>
+<figcaption>39</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p42" style="color:inherit;text-decoration:none">
+<img src="assets/page_42/page_42_img_0.jpeg" alt="41">
+</a>
+<figcaption>41</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p43" style="color:inherit;text-decoration:none">
+<img src="assets/page_43/page_43_img_0.jpeg" alt="42">
+</a>
+<figcaption>42</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p43" style="color:inherit;text-decoration:none">
+<img src="assets/page_43/page_43_img_1.png" alt="42">
+</a>
+<figcaption>42</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p43" style="color:inherit;text-decoration:none">
+<img src="assets/page_43/page_43_img_2.jpeg" alt="42">
+</a>
+<figcaption>42</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p44" style="color:inherit;text-decoration:none">
+<img src="assets/page_44/page_44_img_0.jpeg" alt="43">
+</a>
+<figcaption>43</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p44" style="color:inherit;text-decoration:none">
+<img src="assets/page_44/page_44_img_1.jpeg" alt="43">
+</a>
+<figcaption>43</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p50" style="color:inherit;text-decoration:none">
+<img src="assets/page_50/page_50_img_0.jpeg" alt="49">
+</a>
+<figcaption>49</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p50" style="color:inherit;text-decoration:none">
+<img src="assets/page_50/page_50_img_1.jpeg" alt="49">
+</a>
+<figcaption>49</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p59" style="color:inherit;text-decoration:none">
+<img src="assets/page_59/page_59_img_0.png" alt="58">
+</a>
+<figcaption>58</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p59" style="color:inherit;text-decoration:none">
+<img src="assets/page_59/page_59_img_1.jpeg" alt="58">
+</a>
+<figcaption>58</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p60" style="color:inherit;text-decoration:none">
+<img src="assets/page_60/page_60_img_0.jpeg" alt="59">
+</a>
+<figcaption>59</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p61" style="color:inherit;text-decoration:none">
+<img src="assets/page_61/page_61_img_0.jpeg" alt="60">
+</a>
+<figcaption>60</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p63" style="color:inherit;text-decoration:none">
+<img src="assets/page_63/page_63_img_0.png" alt="62">
+</a>
+<figcaption>62</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p65" style="color:inherit;text-decoration:none">
+<img src="assets/page_65/page_65_img_0.jpeg" alt="64">
+</a>
+<figcaption>64</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p65" style="color:inherit;text-decoration:none">
+<img src="assets/page_65/page_65_img_1.png" alt="64">
+</a>
+<figcaption>64</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p66" style="color:inherit;text-decoration:none">
+<img src="assets/page_66/page_66_img_0.jpeg" alt="65">
+</a>
+<figcaption>65</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p66" style="color:inherit;text-decoration:none">
+<img src="assets/page_66/page_66_img_1.png" alt="65">
+</a>
+<figcaption>65</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p67" style="color:inherit;text-decoration:none">
+<img src="assets/page_67/page_67_img_0.jpeg" alt="66">
+</a>
+<figcaption>66</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p68" style="color:inherit;text-decoration:none">
+<img src="assets/page_68/page_68_img_0.jpeg" alt="67">
+</a>
+<figcaption>67</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p68" style="color:inherit;text-decoration:none">
+<img src="assets/page_68/page_68_img_1.jpeg" alt="67">
+</a>
+<figcaption>67</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p69" style="color:inherit;text-decoration:none">
+<img src="assets/page_69/page_69_img_0.jpeg" alt="68">
+</a>
+<figcaption>68</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p69" style="color:inherit;text-decoration:none">
+<img src="assets/page_69/page_69_img_1.png" alt="68">
+</a>
+<figcaption>68</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p70" style="color:inherit;text-decoration:none">
+<img src="assets/page_70/page_70_img_0.jpeg" alt="69">
+</a>
+<figcaption>69</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p70" style="color:inherit;text-decoration:none">
+<img src="assets/page_70/page_70_img_1.jpeg" alt="69">
+</a>
+<figcaption>69</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p70" style="color:inherit;text-decoration:none">
+<img src="assets/page_70/page_70_img_2.png" alt="69">
+</a>
+<figcaption>69</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p71" style="color:inherit;text-decoration:none">
+<img src="assets/page_71/page_71_img_0.jpeg" alt="70">
+</a>
+<figcaption>70</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p71" style="color:inherit;text-decoration:none">
+<img src="assets/page_71/page_71_img_1.jpeg" alt="70">
+</a>
+<figcaption>70</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p71" style="color:inherit;text-decoration:none">
+<img src="assets/page_71/page_71_img_2.jpeg" alt="70">
+</a>
+<figcaption>70</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p72" style="color:inherit;text-decoration:none">
+<img src="assets/page_72/page_72_img_0.jpeg" alt="71">
+</a>
+<figcaption>71</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p72" style="color:inherit;text-decoration:none">
+<img src="assets/page_72/page_72_img_1.jpeg" alt="71">
+</a>
+<figcaption>71</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p73" style="color:inherit;text-decoration:none">
+<img src="assets/page_73/page_73_img_0.jpeg" alt="72">
+</a>
+<figcaption>72</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p73" style="color:inherit;text-decoration:none">
+<img src="assets/page_73/page_73_img_1.jpeg" alt="72">
+</a>
+<figcaption>72</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p78" style="color:inherit;text-decoration:none">
+<img src="assets/page_78/page_78_img_0.jpeg" alt="77">
+</a>
+<figcaption>77</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p79" style="color:inherit;text-decoration:none">
+<img src="assets/page_79/page_79_img_0.jpeg" alt="78">
+</a>
+<figcaption>78</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p79" style="color:inherit;text-decoration:none">
+<img src="assets/page_79/page_79_img_1.jpeg" alt="78">
+</a>
+<figcaption>78</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p79" style="color:inherit;text-decoration:none">
+<img src="assets/page_79/page_79_img_2.jpeg" alt="78">
+</a>
+<figcaption>78</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p80" style="color:inherit;text-decoration:none">
+<img src="assets/page_80/page_80_img_0.jpeg" alt="79">
+</a>
+<figcaption>79</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p81" style="color:inherit;text-decoration:none">
+<img src="assets/page_81/page_81_img_0.png" alt="80">
+</a>
+<figcaption>80</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p81" style="color:inherit;text-decoration:none">
+<img src="assets/page_81/page_81_img_1.jpeg" alt="80">
+</a>
+<figcaption>80</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p82" style="color:inherit;text-decoration:none">
+<img src="assets/page_82/page_82_img_0.jpeg" alt="81">
+</a>
+<figcaption>81</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p82" style="color:inherit;text-decoration:none">
+<img src="assets/page_82/page_82_img_1.jpeg" alt="81">
+</a>
+<figcaption>81</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_0.png" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_1.png" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_2.png" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_3.png" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_4.jpeg" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_5.jpeg" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_6.jpeg" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p83" style="color:inherit;text-decoration:none">
+<img src="assets/page_83/page_83_img_7.jpeg" alt="82">
+</a>
+<figcaption>82</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_0.jpeg" alt="83">
+</a>
+<figcaption>83</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_1.jpeg" alt="83">
+</a>
+<figcaption>83</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_2.jpeg" alt="83">
+</a>
+<figcaption>83</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p84" style="color:inherit;text-decoration:none">
+<img src="assets/page_84/page_84_img_3.jpeg" alt="83">
+</a>
+<figcaption>83</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p85" style="color:inherit;text-decoration:none">
+<img src="assets/page_85/page_85_img_0.jpeg" alt="84">
+</a>
+<figcaption>84</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p86" style="color:inherit;text-decoration:none">
+<img src="assets/page_86/page_86_img_0.jpeg" alt="85">
+</a>
+<figcaption>85</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p87" style="color:inherit;text-decoration:none">
+<img src="assets/page_87/page_87_img_0.jpeg" alt="86">
+</a>
+<figcaption>86</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p88" style="color:inherit;text-decoration:none">
+<img src="assets/page_88/page_88_img_0.jpeg" alt="87">
+</a>
+<figcaption>87</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p88" style="color:inherit;text-decoration:none">
+<img src="assets/page_88/page_88_img_1.jpeg" alt="87">
+</a>
+<figcaption>87</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p89" style="color:inherit;text-decoration:none">
+<img src="assets/page_89/page_89_img_0.jpeg" alt="88">
+</a>
+<figcaption>88</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p89" style="color:inherit;text-decoration:none">
+<img src="assets/page_89/page_89_img_1.jpeg" alt="88">
+</a>
+<figcaption>88</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p90" style="color:inherit;text-decoration:none">
+<img src="assets/page_90/page_90_img_0.jpeg" alt="89">
+</a>
+<figcaption>89</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p90" style="color:inherit;text-decoration:none">
+<img src="assets/page_90/page_90_img_1.jpeg" alt="89">
+</a>
+<figcaption>89</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p91" style="color:inherit;text-decoration:none">
+<img src="assets/page_91/page_91_img_0.jpeg" alt="90">
+</a>
+<figcaption>90</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p91" style="color:inherit;text-decoration:none">
+<img src="assets/page_91/page_91_img_1.jpeg" alt="90">
+</a>
+<figcaption>90</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p94" style="color:inherit;text-decoration:none">
+<img src="assets/page_94/page_94_img_0.jpeg" alt="page_94_img_0.jpeg">
+</a>
+<figcaption>page_94_img_0.jpeg</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p95" style="color:inherit;text-decoration:none">
+<img src="assets/page_95/page_95_img_0.jpeg" alt="page_95_img_0.jpeg">
+</a>
+<figcaption>page_95_img_0.jpeg</figcaption>
+</figure>
+<figure class="figure">
+<a href="#p96" style="color:inherit;text-decoration:none">
+<img src="assets/page_96/page_96_img_0.jpeg" alt="page_96_img_0.jpeg">
+</a>
+<figcaption>page_96_img_0.jpeg</figcaption>
+</figure>
+</div>
+</div>
+<hr style="margin:1rem 0">
+<div style="font-size:.9rem;color:var(--muted)">Atenção: imagens apontam para arquivos em `assets/`. Se alguma miniatura estiver quebrada, verifique `assets/images_index.md`.</div>
+</div>
+</body></html>

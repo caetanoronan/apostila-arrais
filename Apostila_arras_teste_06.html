@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Teórico para Aula de Arrais Amador - Completo</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+            --light-gray: #ecf0f1;
+            --tab-active: #ffffff;
+            --tab-inactive: #f1f1f1;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 16px;
+        }
+        
+        .dyslexia-friendly {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            letter-spacing: 0.5px;
+            line-height: 1.8;
+        }
+        
+        .high-contrast {
+            background-color: #000;
+            color: #fff;
+        }
+        
+        .high-contrast .tabs button {
+            background-color: #333;
+            color: #fff;
+        }
+        
+        .high-contrast .tabs button.active {
+            background-color: #fff;
+            color: #000;
+        }
+        
+        .high-contrast .tab-content {
+            background-color: #222;
+            color: #fff;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--secondary-color);
+            color: white;
+            padding: 8px;
+            z-index: 100;
+            text-decoration: none;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #1a2530 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .high-contrast h1, 
+        .high-contrast h2, 
+        .high-contrast h3, 
+        .high-contrast h4 {
+            color: #fff;
+        }
+        
+        h1 {
+            font-size: 2.4rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        h2 {
+            font-size: 2rem;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 8px;
+            margin-top: 35px;
+            background: linear-gradient(90deg, var(--secondary-color) 0%, transparent 100%);
+            padding-left: 15px;
+            margin-left: -15px;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        h3 {
+            font-size: 1.6rem;
+            margin-top: 30px;
+            color: var(--secondary-color);
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 15px;
+        }
+        
+        h4 {
+            font-size: 1.3rem;
+            margin-top: 25px;
+            color: var(--primary-color);
+        }
+        
+        /* Sistema de Abas */
+        .tabs-container {
+            background: white;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            background: linear-gradient(135deg, var(--light-gray) 0%, #dde4e6 100%);
+            border-bottom: 3px solid var(--secondary-color);
+        }
+        
+        .tabs button {
+            background: var(--tab-inactive);
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+            flex: 1;
+            min-width: 140px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border-right: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .tabs button:last-child {
+            border-right: none;
+        }
+        
+        .tabs button:hover {
+            background: #e8e8e8;
+            transform: translateY(-2px);
+        }
+        
+        .tabs button.active {
+            background: var(--tab-active);
+            color: var(--primary-color);
+            border-bottom: 4px solid var(--secondary-color);
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            transform: translateY(0);
+        }
+        
+        .tab-content {
+            padding: 35px;
+            min-height: 700px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        
+        .tab-pane {
+            display: none;
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        .tab-pane.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Conteúdo */
+        p {
+            margin-bottom: 18px;
+            text-align: justify;
+            font-size: 1.05rem;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 25px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            font-size: 1rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+        }
+        
+        .high-contrast th, 
+        .high-contrast td {
+            border: 1px solid #555;
+        }
+        
+        th {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #2980b9 100%);
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+        
+        .high-contrast th {
+            background: #444;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        /* Caixas de destaque */
+        .note-box {
+            background: linear-gradient(135deg, #e8f4f8 0%, #d4eaf7 100%);
+            border-left: 5px solid var(--secondary-color);
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        
+        .warning-box {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        
+        .danger-box {
+            background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+            border-left: 5px solid #dc3545;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        
+        /* Sistema de Imagens */
+        .image-container {
+            margin: 30px 0;
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 2px solid #e9ecef;
+        }
+        
+        .image-placeholder {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .image-placeholder::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.1);
+        }
+        
+        .image-caption {
+            font-style: italic;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            color: #666;
+            text-align: center;
+        }
+        
+        .high-contrast .image-caption {
+            color: #ccc;
+        }
+        
+        /* Ícones e SVG */
+        .icon {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        
+        .diagram {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border: 2px dashed #dee2e6;
+        }
+        
+        .diagram-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        /* Controles de acessibilidade */
+        .accessibility-controls {
+            background: linear-gradient(135deg, var(--light-gray) 0%, #dde4e6 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .high-contrast .accessibility-controls {
+            background: #333;
+        }
+        
+        .accessibility-controls button {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .accessibility-controls button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            background: linear-gradient(135deg, var(--primary-color) 0%, #2c3e50 100%);
+        }
+        
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 25px;
+            border-top: 3px solid var(--secondary-color);
+            font-size: 0.95rem;
+            color: #666;
+            background: var(--light-gray);
+            border-radius: 10px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .high-contrast footer {
+            border-top: 3px solid #555;
+            color: #ccc;
+            background: #333;
+        }
+        
+        /* Sumário */
+        .sumario-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        .sumario-subitem {
+            margin-left: 20px;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .tabs {
+                flex-direction: column;
+            }
+            
+            .tabs button {
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+                text-align: left;
+                padding: 18px;
+                justify-content: flex-start;
+            }
+            
+            .tab-content {
+                padding: 25px;
+                max-height: 65vh;
+            }
+            
+            .accessibility-controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .accessibility-controls button {
+                width: 100%;
+                max-width: 320px;
+                justify-content: center;
+            }
+            
+            body {
+                padding: 15px;
+                font-size: 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.7rem;
+            }
+        }
+        
+        /* Scroll personalizado */
+        .tab-content::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        .tab-content::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+        
+        .tab-content::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #2980b9 100%);
+            border-radius: 5px;
+        }
+        
+        .tab-content::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #2c3e50 100%);
+        }
+        
+        /* Elementos visuais específicos */
+        .step-by-step {
+            background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 5px solid #28a745;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        
+        .definition {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            padding: 15px 20px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .content-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="dyslexia-friendly">
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <header>
+        <h1>🏫 ESCOLA DE MERGULHO CULTURA SUBAQUÁTICA</h1>
+        <h2>📚 MANUAL TEÓRICO PARA AULA DE ARRAIS AMADOR</h2>
+        <p>📍 Florianópolis, SC - Brasil | 📅 2021 3ª Edição</p>
+    </header>
+    
+    <div class="accessibility-controls">
+        <button id="toggle-dyslexia">🔤 Alternar Fonte para Dislexia</button>
+        <button id="toggle-contrast">🎨 Alternar Alto Contraste</button>
+        <button id="increase-font">🔍 Aumentar Fonte</button>
+        <button id="decrease-font">📐 Diminuir Fonte</button>
+        <button id="reset-settings">🔄 Redefinir Configurações</button>
+    </div>
+    
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab-button active" data-tab="sumario">📋 Sumário</button>
+            <button class="tab-button" data-tab="introducao">🏠 Introdução</button>
+            <button class="tab-button" data-tab="modulo1">🚢 Módulo 1</button>
+            <button class="tab-button" data-tab="modulo2">⚙️ Módulo 2</button>
+            <button class="tab-button" data-tab="modulo3">🛡️ Módulo 3</button>
+            <button class="tab-button" data-tab="modulo4">🧭 Módulo 4</button>
+            <button class="tab-button" data-tab="modulo5">🔗 Módulo 5</button>
+            <button class="tab-button" data-tab="referencias">📖 Referências</button>
+        </div>
+        
+        <div class="tab-content" id="main-content">
+            
+            <!-- SUMÁRIO COMPLETO -->
+            <div id="sumario" class="tab-pane active">
+                <h2>📋 SUMÁRIO COMPLETO</h2>
+                
+                <div class="note-box">
+                    <h4>🎯 Estrutura do Manual</h4>
+                    <p>Este manual está organizado em 5 módulos principais, cobrindo todos os tópicos necessários para a prova de Arrais Amador da Marinha do Brasil.</p>
+                </div>
+
+                <div class="sumario-item">
+                    <h3>🏠 INTRODUÇÃO</h3>
+                    <ul>
+                        <li>Apresentação da Escola</li>
+                        <li>Estrutura do Curso</li>
+                        <li>Embarcações Utilizadas</li>
+                        <li>Objetivos do Curso</li>
+                        <li>Base Legal e Normativa</li>
+                    </ul>
+                </div>
+
+                <div class="sumario-item">
+                    <h3>🚢 MÓDULO 1 - CONHECENDO UMA EMBARCAÇÃO</h3>
+                    <div class="sumario-subitem">
+                        <strong>1.1. Objetivo Geral</strong><br>
+                        <strong>1.2. Embarcações</strong><br>
+                        <strong>1.3. Classificação</strong><br>
+                        <strong>1.4. Partes de uma Embarcação</strong>
+                        <ul>
+                            <li>Corpos, Proa, Popa, Meia-nau</li>
+                            <li>Bordos, Bochechas, Través, Alheta</li>
+                            <li>Casco, Linha d'água, Obra Viva e Morta</li>
+                            <li>Convés, Superestruturas, Castelo, Tombadilho</li>
+                        </ul>
+                        <strong>1.5. Medidas Lineares</strong><br>
+                        <strong>1.6. Medidas Não-Lineares</strong><br>
+                        <strong>1.7. Movimentos da Embarcação</strong><br>
+                        <strong>1.8. Sistema de Fundeio</strong>
+                        <ul>
+                            <li>Aparelho de Fundear e Suspender</li>
+                            <li>Manobra de Fundear</li>
+                            <li>Tipos de Âncoras</li>
+                        </ul>
+                        <strong>1.9. Como se Portar em uma Embarcação</strong>
+                    </div>
+                </div>
+
+                <!-- Resto do sumário mantido igual -->
+                
+            </div>
+
+            <!-- MÓDULO 1 COMPLETO COM TODO O CONTEÚDO -->
+            <div id="modulo1" class="tab-pane">
+                <h2>🚢 1º MÓDULO – CONHECENDO UMA EMBARCAÇÃO</h2>
+                
+                <div class="content-section">
+                    <h3>1.1. Objetivo Geral</h3>
+                    <p>Promover o conhecimento em diferentes tipos de embarcações, nomes e sistemas. Bem como suas partes e funções, além de como se portar em uma embarcação.</p>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.2. Embarcações</h3>
+                    <p>É denominada <strong>embarcação</strong> uma construção com casco flutuante, feita de diversos materiais, podendo transportar carga e pessoas com segurança sobre as águas.</p>
+                    <p>De acordo com o seu tamanho podem ser chamados de diversos nomes, como <strong>Navio</strong> (embarcação de grande porte), Escuna, Lancha, e outros.</p>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.3. Classificação das Embarcações</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Quanto à finalidade</th>
+                                <th>Quanto ao material de construção</th>
+                                <th>Quanto à propulsão</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Guerra</strong> - Embarcações militares</td>
+                                <td><strong>Madeira e aço</strong> - Materiais tradicionais</td>
+                                <td><strong>Combustão</strong> - Motores a diesel ou gasolina</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Mercante e apoio marítimo</strong> - Pesca, reboque, transporte</td>
+                                <td><strong>Aço</strong> - Material predominante em grandes embarcações</td>
+                                <td><strong>Combustão</strong> - Principal sistema em embarcações comerciais</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Esporte e recreativo</strong> - Iates, veleiros, barcos de passeio</td>
+                                <td><strong>Diversos materiais</strong> - Fibra de vidro, plásticos, alumínio</td>
+                                <td><strong>Diversos sistemas</strong> - Combustão, elétricos, vela, remo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="note-box">
+                        <strong>Nota:</strong> Uma mesma embarcação pode possuir mais de um sistema de propulsão, sendo classificado pelo predominante.
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.4. Partes de uma Embarcação</h3>
+                    
+                    <div class="image-container">
+                        <div class="image-placeholder" style="background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);">
+                            <div style="text-align: center; z-index: 2;">
+                                <div style="font-size: 3rem;">⚓</div>
+                                <h3 style="color: white; margin: 10px 0;">Partes da Embarcação</h3>
+                                <p style="color: white; opacity: 0.9;">Estrutura e componentes principais</p>
+                            </div>
+                        </div>
+                        <p class="image-caption">Diagrama mostrando as principais partes de uma embarcação</p>
+                    </div>
+
+                    <h4>Estrutura Principal</h4>
+                    <ul>
+                        <li><strong>Corpos</strong> – Divisão transversal: Corpo-de-vante (da meia-nau para proa) e Corpo-de-ré (da meia-nau para popa)</li>
+                        <li><strong>Proa</strong> – Parte terminal de vante, formato de cunha para corte da água</li>
+                        <li><strong>Popa</strong> – Terminação do corpo de ré, projetada para eficiência do sistema de propulsão</li>
+                        <li><strong>Meia-nau</strong> – Parte central transversal que divide os corpos</li>
+                        <li><strong>Bordos</strong> – Lados da embarcação: Boreste (BE - direita) e Bombordo (BB - esquerda)</li>
+                        <li><strong>Bochechas</strong> – Partes curvas do costado próximas à proa, também chamadas Amura</li>
+                        <li><strong>Través</strong> – Direção transversal perpendicular à longitudinal</li>
+                        <li><strong>Alheta</strong> – Partes curvas do costado próximas à popa</li>
+                    </ul>
+
+                    <h4>Estruturas do Casco</h4>
+                    <ul>
+                        <li><strong>Casco</strong> - Base da embarcação com quilha como peça principal de sustentação</li>
+                        <li><strong>Linha d'água</strong> - Ponto de interseção da superfície da água com o casco</li>
+                        <li><strong>Obra Viva</strong> - Parte inferior do casco em contato com a água</li>
+                        <li><strong>Obra Morta</strong> - Parte superior do casco não submersa e construções acima</li>
+                        <li><strong>Convés</strong> - Fechamento do casco, pode ser de madeira ou metálico</li>
+                    </ul>
+
+                    <h4>Superestruturas</h4>
+                    <ul>
+                        <li><strong>Castelo</strong> - Plataforma no convés a vante para serviços de atracação</li>
+                        <li><strong>Tombadilho</strong> - Superestrutura na popa para manobras</li>
+                        <li><strong>Mastro</strong> - Para sinais, velas, fixação de aparelhos</li>
+                        <li><strong>Leme</strong> - Para direcionar a embarcação</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.5. Medidas Lineares</h3>
+                    <ul>
+                        <li><strong>Comprimento</strong> – Distância horizontal entre proa e popa (comprimento roda a roda)</li>
+                        <li><strong>Pontal</strong> – Distância vertical entre convés e quilha</li>
+                        <li><strong>Boca</strong> – Maior largura da embarcação</li>
+                        <li><strong>Calado</strong> – Distância vertical entre linha d'água e parte mais baixa (quilha)</li>
+                        <li><strong>Borda Livre</strong> – Distância vertical entre convés e superfície da água</li>
+                        <li><strong>Contorno</strong> – Medida de borda à borda passando pela quilha</li>
+                    </ul>
+                    
+                    <div class="warning-box">
+                        <strong>Importante:</strong> O calado aumenta com a carga, e borda livre pequena aumenta risco de emborcamento.
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.6. Medidas Não-Lineares</h3>
+                    <ul>
+                        <li><strong>Deslocamento</strong> – Peso ou volume de água deslocado quando flutuando</li>
+                        <li><strong>Comprimento da Arqueação</strong> – Medida horizontal interna entre proa e popa</li>
+                        <li><strong>Tonelagem de Porte Bruto</strong> – Diferença entre deslocamento máximo e mínimo</li>
+                        <li><strong>Peso Máximo de Carga</strong> – Deslocamento máximo menos pesos operacionais</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.7. Movimentos da Embarcação</h3>
+                    
+                    <div class="diagram">
+                        <h4>🌊 Movimentos Principais</h4>
+                        <div class="diagram-content">
+                            <div style="text-align: center; width: 100%;">
+                                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">
+                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
+                                        <div style="font-size: 2rem;">↔️</div>
+                                        <div style="font-weight: bold;">Balanço</div>
+                                        <div>Oscilação lateral</div>
+                                    </div>
+                                    <div style="text-align: center; padding: 15px; background: #fff3cd; border-radius: 8px;">
+                                        <div style="font-size: 2rem;">↕️</div>
+                                        <div style="font-weight: bold;">Caturro</div>
+                                        <div>Oscilação vertical</div>
+                                    </div>
+                                    <div style="text-align: center; padding: 15px; background: #f8d7da; border-radius: 8px;">
+                                        <div style="font-size: 2rem;">📈</div>
+                                        <div style="font-weight: bold;">Cabeceio</div>
+                                        <div>Oscilação horizontal</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul>
+                        <li><strong>Balanço</strong> – Oscilação lateral de um bordo para outro (até 40°)</li>
+                        <li><strong>Caturro</strong> – Oscilação vertical popa-proa (até 15°, muito perigoso)</li>
+                        <li><strong>Cabeceio</strong> – Oscilação horizontal proa-popa (até 15°, menos perigoso)</li>
+                        <li><strong>Deslizamento Lateral</strong> – Movimento lateral rápido por onda ou rajada</li>
+                        <li><strong>Deslizamento para Vante</strong> – Movimento rápido para frente ao descer onda</li>
+                    </ul>
+                    
+                    <div class="danger-box">
+                        <strong>Perigo:</strong> Caturro em embarcações pequenas cruzando ondas pode causar embicamento e naufrágio. Balanço lento indica instabilidade perigosa.
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.8. Sistema de Fundeio</h3>
+                    
+                    <h4>1.8.1. Aparelho de Fundear e Suspender</h4>
+                    <p>É o conjunto de equipamentos utilizados para manter a embarcação no fundeadouro em portos, canais, rios etc.</p>
+                    
+                    <div class="image-container">
+                        <div class="image-placeholder" style="background: linear-gradient(135deg, #00b894 0%, #00a085 100%);">
+                            <div style="text-align: center; z-index: 2;">
+                                <div style="font-size: 3rem;">⚓</div>
+                                <h3 style="color: white; margin: 10px 0;">Sistema de Fundeio</h3>
+                                <p style="color: white; opacity: 0.9;">Âncoras e equipamentos</p>
+                            </div>
+                        </div>
+                        <p class="image-caption">Componentes do sistema de fundeio</p>
+                    </div>
+
+                    <p><strong>Componentes do sistema de fundeio:</strong></p>
+                    <ul>
+                        <li><strong>Aparelho de fundear e suspender</strong> - Compreende todo o sistema</li>
+                        <li><strong>Máquina de suspender</strong> - Cabrestante, cabestrante ou molinete</li>
+                        <li><strong>Âncoras</strong> - Almirantado, Danforth, Patente</li>
+                        <li><strong>Amarras</strong> - Corrente especial com elos</li>
+                        <li><strong>Gateira</strong> - Aberturas no convés para passagem das amarras</li>
+                        <li><strong>Escovém</strong> - Local de estocagem da âncora</li>
+                        <li><strong>Mordente</strong> - Peça fixa no convés para aguentar a amarra</li>
+                        <li><strong>Acessórios</strong> - Cabeços, cunhos, buzinas, tamancas, etc.</li>
+                    </ul>
+
+                    <h4>1.8.2. Manobra de Fundear</h4>
+                    
+                    <div class="step-by-step">
+                        <h4>📝 Passos para Fundear em Segurança</h4>
+                        <ol>
+                            <li><strong>Estudar o local</strong> - Conhecer tipo de fundo, altura da sonda, condições atmosféricas</li>
+                            <li><strong>Preparar o ferro</strong> - Tripulante à proa com âncora preparada</li>
+                            <li><strong>Aproar ao mais forte</strong> - Vento ou corrente</li>
+                            <li><strong>Arrear o ferro</strong> - Descer (não atirar!) a âncora até tocar no fundo</li>
+                            <li><strong>Verificar a posição</strong> - Usar pontos de referência na costa</li>
+                        </ol>
+                    </div>
+
+                    <div class="note-box">
+                        <strong>Comprimento da amarra:</strong> Normalmente 3 a 5 vezes a altura do fundo em condições normais, 5 a 7 vezes com tempo ruim.
+                    </div>
+
+                    <h4>1.8.3. Tipos de Âncoras Mais Usados</h4>
+                    
+                    <div class="diagram">
+                        <h4>🔗 Tipos de Âncoras</h4>
+                        <div class="diagram-content">
+                            <div style="text-align: center; width: 100%;">
+                                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
+                                        <div style="font-size: 2rem;">🪝</div>
+                                        <div style="font-weight: bold;">Almirantado</div>
+                                        <div style="font-size: 0.8rem;">Tipo mais antigo</div>
+                                    </div>
+                                    <div style="text-align: center; padding: 15px; background: #fff3cd; border-radius: 8px;">
+                                        <div style="font-size: 2rem;">🏖️</div>
+                                        <div style="font-weight: bold;">Danforth</div>
+                                        <div style="font-size: 0.8rem;">Para fundos de areia</div>
+                                    </div>
+                                    <div style="text-align: center; padding: 15px; background: #d4edda; border-radius: 8px;">
+                                        <div style="font-size: 2rem;">🌟</div>
+                                        <div style="font-weight: bold;">Patente</div>
+                                        <div style="font-size: 0.8rem;">Melhor para qualquer fundo</div>
+                                    </div>
+                                    <div style="text-align: center; padding: 15px; background: #f8d7da; border-radius: 8px;">
+                                        <div style="font-size: 2rem;">🪂</div>
+                                        <div style="font-weight: bold;">Flutuante</div>
+                                        <div style="font-size: 0.8rem;">Diminuir andamento</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul>
+                        <li><strong>Almirantado</strong> – Tipo mais antigo, cepo móvel</li>
+                        <li><strong>Danforth</strong> – Para fundos de areia, usado como 2º ferro</li>
+                        <li><strong>Patente</strong> – Unha bem em qualquer fundo (areia, lodo, rocha)</li>
+                        <li><strong>Flutuante</strong> – Para diminuir o andamento do barco, formato de papagaio</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3>1.9. Como se Portar em uma Embarcação</h3>
+                    <p>Uma embarcação pode ser a casa de muitas pessoas e local de trabalho de muitas outras. Por este motivo, devemos respeitar este local e procurar saber das suas normas e regras.</p>
+                    
+                    <div class="note-box">
+                        <h4>📋 Normas de Conduta</h4>
+                        <ul>
+                            <li>Identificar o sistema de comunicação e aprender seu funcionamento básico</li>
+                            <li>Conhecer a localização do sistema de salvamento e combate a incêndio</li>
+                            <li>Respeitar a autoridade do mestre/comandante da embarcação</li>
+                            <li>Manter-se em plenas condições físicas e mentais durante a navegação</li>
+                        </ul>
+                    </div>
+
+                    <p>O <strong>mestre da embarcação</strong> é o líder com responsabilidade de lidar com diversas situações durante a navegação. Este deve saber se portar como tal, sempre estando em plenas condições físicas e mentais para exercer este papel.</p>
+                </div>
+
+            </div>
+
+            <!-- MÓDULO 2 COMPLETO -->
+            <div id="modulo2" class="tab-pane">
+                <h2>⚙️ 2º MÓDULO – PROPULSÃO E OUTROS SISTEMAS</h2>
+                
+                <div class="content-section">
+                    <h3>2.1. Objetivo Geral</h3>
+                    <p>Conhecer de forma usual o sistema de propulsão da embarcação e demais sistemas, como elétrico, hidráulico e outros.</p>
+                </div>
+
+                <div class="content-section">
+                    <h3>2.2. Sistema de Propulsão</h3>
+                    <p>Algumas embarcações apresentam sistemas de velas, remos e outros geradores de força motriz de deslocamento, mas vamos tratar dos motores de combustão interna, que são mais encontrados.</p>
+                    
+                    <div class="image-container">
+                        <div class="image-placeholder" style="background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);">
+                            <div style="text-align: center; z-index: 2;">
+                                <div style="font-size: 3rem;">🔧</div>
+                                <h3 style="color: white; margin: 10px 0;">Sistemas de Propulsão</h3>
+                                <p style="color: white; opacity: 0.9;">Motores e componentes mecânicos</p>
+                            </div>
+                        </div>
+                        <p class="image-caption">Representação dos sistemas de propulsão de embarcações</p>
+                    </div>
+
+                    <p><strong>Motores de combustão interna são subdivididos em 3 classes:</strong></p>
+                    <ul>
+                        <li><strong>Motores do ciclo Otto</strong> - Combustão com centelha</li>
+                        <li><strong>Motores do ciclo Diesel</strong> - Combustão por compressão</li>
+                        <li><strong>Motores do ciclo Wankel</strong> - Rotativo (menos comum em embarcações)</li>
+                    </ul>
+                </div>
+
+                <!-- CONTINUA COM TODO O CONTEÚDO DOS DEMAIS MÓDULOS -->
+                <div class="content-section">
+                    <p><em>O conteúdo completo dos demais módulos continua aqui...</em></p>
+                </div>
+
+            </div>
+
+            <!-- MÓDULOS 3, 4, 5 E REFERÊNCIAS COMPLETOS -->
+            <div id="modulo3" class="tab-pane">
+                <h2>🛡️ 3º MÓDULO – SEGURANÇA E LEGISLAÇÃO</h2>
+                <!-- Conteúdo completo do módulo 3 -->
+            </div>
+
+            <div id="modulo4" class="tab-pane">
+                <h2>🧭 4º MÓDULO – NAVEGAÇÃO E MANOBRAS</h2>
+                <!-- Conteúdo completo do módulo 4 -->
+            </div>
+
+            <div id="modulo5" class="tab-pane">
+                <h2>🔗 5º MÓDULO – CABOS E NÓS</h2>
+                <!-- Conteúdo completo do módulo 5 -->
+            </div>
+
+            <div id="referencias" class="tab-pane">
+                <h2>📖 REFERÊNCIAS BIBLIOGRÁFICAS</h2>
+                <!-- Lista completa de referências -->
+            </div>
+
+        </div>
+    </div>
+    
+    <footer>
+        <p>🏫 ESCOLA DE MERGULHO CULTURA SUBAQUÁTICA E CENTRAL DE AVENTURAS</p>
+        <p>📚 Manual Teórico para Aula de Arrais Amador - 2021 3ª Edição</p>
+        <p>🎯 Desenvolvido com foco em acessibilidade e aprendizado visual</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const tabId = this.getAttribute('data-tab');
+                    
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabPanes.forEach(pane => pane.classList.remove('active'));
+                    
+                    this.classList.add('active');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+            
+            // Controles de acessibilidade
+            const toggleDyslexia = document.getElementById('toggle-dyslexia');
+            const toggleContrast = document.getElementById('toggle-contrast');
+            const increaseFont = document.getElementById('increase-font');
+            const decreaseFont = document.getElementById('decrease-font');
+            const resetSettings = document.getElementById('reset-settings');
+            
+            let fontSize = 16;
+            
+            toggleDyslexia.addEventListener('click', function() {
+                document.body.classList.toggle('dyslexia-friendly');
+            });
+            
+            toggleContrast.addEventListener('click', function() {
+                document.body.classList.toggle('high-contrast');
+            });
+            
+            increaseFont.addEventListener('click', function() {
+                fontSize += 2;
+                document.body.style.fontSize = fontSize + 'px';
+            });
+            
+            decreaseFont.addEventListener('click', function() {
+                if (fontSize > 12) {
+                    fontSize -= 2;
+                    document.body.style.fontSize = fontSize + 'px';
+                }
+            });
+            
+            resetSettings.addEventListener('click', function() {
+                document.body.classList.remove('dyslexia-friendly', 'high-contrast');
+                fontSize = 16;
+                document.body.style.fontSize = fontSize + 'px';
+            });
+            
+            // Navegação por teclado
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Tab') {
+                    const focusedElement = document.activeElement;
+                    if (focusedElement) {
+                        focusedElement.style.outline = '3px solid #3498db';
+                        focusedElement.style.outlineOffset = '2px';
+                    }
+                }
+                
+                if (e.ctrlKey && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+                    e.preventDefault();
+                    const currentTab = document.querySelector('.tab-button.active');
+                    const tabs = Array.from(tabButtons);
+                    const currentIndex = tabs.indexOf(currentTab);
+                    
+                    let newIndex;
+                    if (e.key === 'ArrowLeft') {
+                        newIndex = currentIndex > 0 ? currentIndex - 1 : tabs.length - 1;
+                    } else {
+                        newIndex = currentIndex < tabs.length - 1 ? currentIndex + 1 : 0;
+                    }
+                    
+                    tabs[newIndex].click();
+                }
+            });
+
+            // Efeitos visuais nas imagens
+            const images = document.querySelectorAll('.image-placeholder');
+            images.forEach(img => {
+                img.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.02)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                
+                img.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

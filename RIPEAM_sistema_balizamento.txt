@@ -1,0 +1,277 @@
+BOMBORDO
+Cor: Verde
+Formato: cilindrico, pilar ou charuto
+Tope( se houver): cilindro verde
+D. 1
+V
+l6ia
+l
+Bati.
+Luz ( quando
+houver)
+Cor: verde
+Ritmo: qualquer,
+exceto
+Lp(2+1)
+~lE.-
+Á
+Bóiade Luz
+J.
+SISTEMA "B" DE BALIZAMENTO DA IALA
+BALIZAMENTO CEGO E LUMINOSO
+SINAIS LATERAIS
+I
+CANAL PREFERENCIAL
+A BORESTE
+(Bombordo
+Modificado)
+BORESTE
+Cor: encarnada
+Formato: cõnico, pilar ou charuto
+Tope( se houver):cone encarnado com vértice
+....
+f
+~
+para cima
+~..1
+!
+Cor: Verde com uma faixa larga horizontal encarnada
+Formato: cilindrico, pilar ou charuto
+Tope (se houver): cilindro verde
+1 8
+!
+4
+CANAL PREFERENCIAL
+A BOMBORDO
+(Boreste Modificado)
+I
+Cor: encarnada com uma faixa larga horizontal Verde
+Formato: cõnico, pilar ou charuto
+T~ou:'ou'amlért~
+fVf
+Bóia
+EVI
+1
+rVl
+Luz ( quando
+houver)
+Cor: encarnada
+Ritmo: qualquer,
+exceto
+Lp(2+1)
+J
+Bóia
+Baliza
+1
+f
+.$L
+VfV
+l
+Luz ( quando
+houver)
+Cor: verde
+Ritmo, Lp(2.1):t
+..-
+~=
+1-
+-.
+~m,i~ 1
+VIII I Luz (.quando
+houvel
+)
+Cor: encarnada
+Ritmo: Lp(2+1)
+Balizo
+1
+EVE
+Bóiade Luz
+;.lE
+,
+c::::.
+..~
+'p(2+
+I)V
+Bóiad. luz
+VfV{
+.-
+-_.
+.,
+i.pr2+ '),1
+~~.
+Bóia de luz
+EVI~
+Quando um canal de bifurca e o canal preferencial for.a boreste, o sinal
+I
+Quando um canal de bifurca e o canal preferencial for a bombordo, e
+Para serem deixados por bombordo por quem entra nos portos. Quando
+I
+Para serem deixados por boreste por quem entra nos portos. Quando
+I
+lateral de bombordo, modificado, pode ser usado. Quando luminosa, a
+sinal lateral de boreste, modificado, pode ser usado. Quando luminosa
+luminosa, a bóia exibe luz verde com qualquer ritmo, exceto grupo de
+luminosa, a bóia exibe luz encarnada com qualquer ritmo, exceto grupo
+bóia exibe luz verde com um grupo de lampejos compostos ( 2+1) por
+a bóia exibe luz encarnada
+com um grupo de lampejos composto!
+lampejos compostos ( 2+1) por período.
+de lampejos compostos ( 2+1) por período.
+período.
+(2+1) por período.
+PERIGQ ISOLADO
+Tope: duas esferas pretas, uma sobre a outra
+Cor: preta com uma ou mais faixas largas horizontais encarnadas
+Formato: pilar ou charuto
+II
+1- 1
+I'f
+Luz ( quando
+houver)
+Cor: branca
+Ritmo:
+Lp(2)
+i
+86io
+1 I
+Pf
+ÁGUAS SEGURAS
+Tope: (se houver): uma esfera encarnada
+Cor: faixas verticais encarnadas e brancas
+Formato: esférico,
+pilar ou charuto
+exibem tope esférico.
+1 Baliza!
+Luz ( quando
+houver)
+Cor: branca
+Ritmo:
+Oc.LpL.10s
+ou
+MO (A)
+í{
+lil
+em
+Bóia
+JIl
+E8
+Indicam águas navegavéis em torno do sinal; incluem sinais de linha
+de centro, e sinais de meio de canal. Tal sinal pode também ser usado,
+como alternativa, para um cardinal ou lateral indicar uma aproximação
+de terra.Quando
+luminosa, a bóia exibe luz branca isofásica ou de
+ocultação
+ou de Iampejo longo a cada 10 segundos
+ou em código
+Morse exibindo a letra "A"
+Indicam perigos isolados. O sinal de perigo isolado é aquele construído
+sobre,
+ou fundeado
+junto ou sobre
+um perigo que tenha águas
+navegáveis em toda a sua volta. Quando luminosa, a bóia exibe luz
+branca com dois lampejos por período.
+-- -
+tp (2).
+lI6ia
+. luz
+I'f{
+'10.' [
+Oc.'I
+.
+.
+LpL.101[
+/M(A)
+--
+.
+BóiadeLuz
+em
+EB'
+BALIZAMENTO
+ESPECIAL
+I
+E8
+Tope ( se houver ): formato de "X"amarelo
+Cor: amarela
+Fo,mato, opciunal, m"~onflita'
+oom o"'~'
+---~
+II
+Formato
+Opcional
+Luz ( se houver
+):
+Cor: amarela
+Ritmo: qualquer,
+diferindo
+dos sinais cardinal,
+perigo isolado ou águas
+seguras.
+Sinais que não são primordialmentedestinados a orientar a navegação
+mas que indicam uma área ou caracteristica
+especial mencionada
+em
+documentos
+náuticos
+apropriados.
+Exemplo:
+bóias
+oceanográficas;sinais
+de separação
+de tráfego,
+onde o uso de
+sinalização convencional de canal possa causar confusão; área de
+despejos; área de exercícios militares; cabo ou tubulação submarina;
+área de recreação; prospecções geológicas, dragagens; varreduras;
+ruínas; áreas de segurança e outros fins especiais.
+NOVOS PERIGOS
+O termo
+"Novo
+Perigo"
+é usado
+para
+descrever
+obstruçõe!
+recentemente
+descobertas
+e ainda não indicadas
+em cartas
+E
+documentos náuticos. Os novos perigos encluem obstruções
+come
+bancos de areia, rochas ou perigos resultantes da ação do homem tai!
+como cascos soçobrados.
+Sinalização de novos perigos:
+1. Os novos perigos devem ser batizados de acordo com as presente!
+normas. Se o perigo oferecer risco especialm~nte grave à navegação
+no mínimo um dos sinais usados para batizá-Io deverá ser duplicade
+por um sinal adicional.
+2. Qualquer
+sinal luminoso
+com o propósito
+de assinalar
+novo!
+perigos deve ser a caracteristica
+luminosa de Iampejos rápidos Ol
+muito rápidos.
+3. Qualquer sinal usado para duplicação deve ser-idêntico ao seu pai
+em todos os aspectos.
+4. Um novo perigo pode ser defendido
+por um sinal de racon
+codificado "D" mostrando
+um comprimento de uma milha náutica
+na tela do radar.
+5. O sinal usado para duplicação pode ser retirado quando se julgal
+que o novo perigo que se assinala já teve sua existência suficientE
+divulgada.
+1
+! I
+V
+V
+1
+V
+11
+Bóia
+VfV
+Balim
+1
+VlV

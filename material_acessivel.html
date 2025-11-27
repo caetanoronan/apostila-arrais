@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Manual do Marinheiro — Acessível</title>
+  <meta name="description" content="Material de estudo acessível para Arrais Amador — adaptado para dislexia, TDAH e daltonismo.">
+  <style>
+    :root{
+      --bg:#fcfcfc; --fg:#111; --accent:#0b6efd; --accent2:#ff7f11; --safe-bg:#ffffff;
+      --max-width:980px; --base-font:18px; --line-height:1.6;
+    }
+    html {font-size:16px;}
+    body{font-family: 'OpenDyslexic', Arial, Helvetica, sans-serif; background:var(--bg); color:var(--fg); margin:0; padding:1rem; -webkit-font-smoothing:antialiased}
+    header{max-width:var(--max-width); margin:0 auto 1rem; display:flex; gap:1rem; align-items:center; justify-content:space-between}
+    h1{font-size:1.6rem; margin:0}
+    .controls{display:flex; gap:.5rem; flex-wrap:wrap}
+    button, .toggle{background:var(--accent); color:white; border:none; padding:.5rem .7rem; border-radius:6px; cursor:pointer}
+    .secondary{background:var(--accent2)}
+    .small{padding:.3rem .5rem; font-size:.9rem}
+    nav{max-width:var(--max-width); margin:0 auto 1rem; display:flex; gap:.5rem; flex-wrap:wrap}
+    a.tab{display:inline-block; padding:.5rem .8rem; background:#e9eefc; color:var(--fg); border-radius:6px; text-decoration:none}
+    main{max-width:var(--max-width); margin:0 auto;}
+    section{background:var(--safe-bg); padding:1rem; margin-bottom:1rem; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    h2{margin-top:0}
+    .module-summary{font-size:1.05rem}
+    .note{background:#fff8e6; border-left:4px solid var(--accent2); padding:.6rem; margin:.5rem 0}
+    img.responsive{max-width:100%; height:auto; display:block; margin:0.5rem 0}
+    .examples, .quiz{margin-top:.6rem}
+    .quiz button{margin-top:.4rem}
+    footer{max-width:var(--max-width); margin:0 auto; font-size:.9rem; color:#444}
+
+    /* Accessibility helpers */
+    .large-font{font-size:20px}
+    .high-contrast{background:#111; color:#fff}
+    .increased-spacing{letter-spacing:0.03em; line-height:2}
+    .reduced-motion *{transition:none !important}
+
+    /* Focus visible for keyboard users */
+    :focus{outline:3px dashed var(--accent2); outline-offset:3px}
+
+    /* Simple responsive grid for quick activities */
+    .grid{display:grid; grid-template-columns:1fr; gap:.6rem}
+    @media(min-width:800px){.grid{grid-template-columns:1fr 320px}}
+
+    /* Visually distinct callout for step-by-step (good for TDAH) */
+    .steps{list-style:none; padding:0; margin:0}
+    .steps li{margin:.4rem 0; padding:.5rem; background:#f4f9ff; border-left:4px solid var(--accent)}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manual do Marinheiro — Acessível</h1>
+    <div class="controls" role="toolbar" aria-label="Controles de acessibilidade">
+      <button id="btn-contrast" class="small">Alto Contraste</button>
+      <button id="btn-font" class="small">Aumentar Fonte</button>
+      <button id="btn-spacing" class="small">Espaçamento</button>
+      <button id="btn-dys" class="small">Fonte Legível</button>
+      <button id="btn-reduced" class="small">Reduzir Animações</button>
+      <a class="small secondary" href="Apostila_2021.pdf" download>Baixar PDF</a>
+    </div>
+  </header>
+
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:260px 1fr;gap:1rem;align-items:start">
+    <aside style="background:#fff;padding:1rem;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06)">
+      <nav aria-label="Sumário da apostila">
+        <h3 style="margin-top:0">Sumário</h3>
+        <ul style="padding-left:0;list-style:none;margin:0">
+          <li><a class="tab" href="module1.html">1 — Conhecendo a embarcação</a></li>
+          <li><a class="tab" href="module2.html">2 — Propulsão e sistemas</a></li>
+          <li><a class="tab" href="module3.html">3 — Segurança & legislação</a></li>
+          <li><a class="tab" href="module4.html">4 — Navegação</a></li>
+          <li><a class="tab" href="module5.html">5 — Cabos e nós</a></li>
+          <li><a class="tab" href="apostila_completa.html">Apostila completa (texto por página)</a></li>
+        </ul>
+        <hr />
+        <div style="font-size:.95rem">
+          <strong>Controles</strong>
+          <p style="margin:.25rem 0">Use os botões no topo para ajustar contraste, fonte e espaçamento.</p>
+        </div>
+      </nav>
+    </aside>
+
+    <main>
+    <!-- Module 1 -->
+    <section id="mod1" tabindex="0" aria-labelledby="m1title">
+      <h2 id="m1title">1º MÓDULO — Conhecendo uma Embarcação</h2>
+      <p class="module-summary">Texto curto: conheça as partes essenciais de um barco, medidas e movimentos. Frases curtas, imagens e passos claros.</p>
+
+      <h3>Partes principais (rápido)</h3>
+      <ul class="steps" aria-label="Passos rápidos">
+        <li><strong>Proa:</strong> frente.</li>
+        <li><strong>Popa:</strong> traseira.</li>
+        <li><strong>Bordos:</strong> laterais — boreste (direita) e bombordo (esquerda).</li>
+        <li><strong>Convés:</strong> piso/chapéu do barco.</li>
+        <li><strong>Leme:</strong> direção.</li>
+      </ul>
+
+      <div class="text-center">
+        <img class="responsive" src="assets/page_10/page_10_img_0.jpeg" alt="Desenho simples de uma embarcação com as partes identificadas: proa, popa, bordos, convés e leme." />
+        <div class="alt-text">Figura: Partes da embarcação — proa, popa, bordos, convés, leme.</div>
+      </div>
+
+      <h3>Medidas essenciais</h3>
+      <p>Comprimento, pontal, boca, calado e borda livre — saiba qual medir antes de sair.</p>
+      <img class="responsive" src="assets/page_14/page_14_img_0.jpeg" alt="Medidas de uma embarcação mostrando comprimento, pontal, boca e calado." />
+
+      <h3>Exemplo prático</h3>
+      <div class="note">Antes de sair: verifique o calado e borda livre. Se estiver pouca borda livre, reduza carga.</div>
+
+      <div class="examples">
+        <h4>Atividade curta</h4>
+        <p>Olhe a imagem e diga: qual lado é boreste? (dica: boreste é a direita olhando da popa para a proa)</p>
+      </div>
+
+      <div class="quiz" aria-live="polite">
+        <h4>Verificação rápida</h4>
+        <p>Qual é a parte da frente do barco?</p>
+        <button onclick="checkAnswer('mod1','Proa')">Proa</button>
+        <button onclick="checkAnswer('mod1','Popa')">Popa</button>
+        <div id="mod1-feedback" style="margin-top:.5rem"></div>
+      </div>
+    </section>
+
+    <!-- Module 2 -->
+    <section id="mod2" tabindex="0" aria-labelledby="m2title">
+      <h2 id="m2title">2º MÓDULO — Propulsão e outros sistemas</h2>
+      <p class="module-summary">Resumo: motores (Otto e Diesel), sistemas elétricos, hidráulicos e de arrefecimento.</p>
+
+      <h3>Motores — ideia rápida</h3>
+      <ul>
+        <li><strong>Otto:</strong> mistura ar+combustível, vela de ignição — 4 tempos ou 2 tempos.</li>
+        <li><strong>Diesel:</strong> ar comprimido e injeção direta — sem vela de ignição.</li>
+      </ul>
+
+      <div class="text-center">
+        <img class="responsive" src="assets/page_11/page_11_img_0.jpeg" alt="Imagem de bloco de motor e esquema das partes principais do motor." />
+        <div class="alt-text">Figura: bloco e cabeçote do motor.</div>
+      </div>
+
+      <h3>Sistemas importantes</h3>
+      <ul>
+        <li>Sistema de arrefecimento (água do mar em muitos barcos).</li>
+        <li>Sistema elétrico (baterias 12V, alternador).</li>
+        <li>Sistemas hidráulicos (leme, guinchos).</li>
+      </ul>
+
+      <h3>Exemplo prático</h3>
+      <div class="note">Sempre verifique a passagem da água de refrigeração ao ligar o motor — falha aqui pode causar pane.</div>
+
+      <div class="quiz">
+        <p>Qual sistema normalmente usa água do mar para dissipar calor?</p>
+        <button onclick="checkAnswer('mod2','Arrefecimento')">Arrefecimento</button>
+        <button onclick="checkAnswer('mod2','Elétrico')">Elétrico</button>
+        <div id="mod2-feedback" style="margin-top:.5rem"></div>
+      </div>
+    </section>
+
+    <!-- Module 3 -->
+    <section id="mod3" tabindex="0" aria-labelledby="m3title">
+      <h2 id="m3title">3º MÓDULO — Segurança e Legislação</h2>
+      <p class="module-summary">Principais cuidados: segurança antes e durante a navegação, prevenção de incêndio e primeiros socorros.</p>
+
+      <h3>Checklist antes de sair</h3>
+      <ol>
+        <li>Coletes salva-vidas em número suficiente.</li>
+        <li>Extintores dentro da validade.</li>
+        <li>Inspecionar casco, combustível e sistema de refrigeração.</li>
+        <li>Plano de navegação e aviso a alguém em terra.</li>
+      </ol>
+
+      <h3>Primeiros socorros — pontos chave</h3>
+      <ul>
+        <li>Afrouxe roupas e coloque em posição lateral segura em caso de vômito.</li>
+        <li>Hemorragias: compressão e elevação.</li>
+        <li>Queimaduras: resfriar com água corrente; não furar bolhas.</li>
+      </ul>
+
+      <h3>Exemplo prático</h3>
+      <div class="note">Se suspeitar de incêndio no motor, corte o combustível e dirija o barco de forma a colocar o fogo a sotavento (atrás).</div>
+
+      <div class="quiz">
+        <p>Qual equipamento é obrigatório para cada pessoa a bordo?</p>
+        <button onclick="checkAnswer('mod3','Colete')">Colete salva-vidas</button>
+        <button onclick="checkAnswer('mod3','Extintor')">Extintor</button>
+        <div id="mod3-feedback" style="margin-top:.5rem"></div>
+      </div>
+    </section>
+
+    <!-- Module 4 -->
+    <section id="mod4" tabindex="0" aria-labelledby="m4title">
+      <h2 id="m4title">4º MÓDULO — Navegação</h2>
+      <p class="module-summary">Fundamentos: bússola, RIPEAM (regras de governo), luzes e balizamento.</p>
+
+      <h3>Luzes e marcas (resumo simples)</h3>
+      <p>As luzes identificam tipos e situações. Ex.: luzes de bordos (verde à boreste e encarnada a bombordo) — mas atenção a daltonismo: use formas e posições, não somente cores.</p>
+
+      <div class="text-center">
+        <img class="responsive" src="assets/page_59/page_59_img_0.png" alt="Exemplo de luzes de navegação representadas por posições e formas, não apenas cor."/>
+      </div>
+
+      <h3>Manobras rápidas</h3>
+      <ul>
+        <li>Roda a roda: ambas guinam para boreste (passam à bombordo uma da outra).</li>
+        <li>Ultrapassagem: manter-se fora do caminho.</li>
+        <li>Rumos cruzados: quem vê a outra de boreste mantém-se fora do caminho.</li>
+      </ul>
+
+      <div class="quiz">
+        <p>Se estiver em rumos que se cruzam e você avista a outra embarcação à sua boreste, o que faz?</p>
+        <button onclick="checkAnswer('mod4','Manobrar')">Manobrar para evitar</button>
+        <button onclick="checkAnswer('mod4','Manter')">Manter curso</button>
+        <div id="mod4-feedback" style="margin-top:.5rem"></div>
+      </div>
+    </section>
+
+    <!-- Module 5 -->
+    <section id="mod5" tabindex="0" aria-labelledby="m5title">
+      <h2 id="m5title">5º MÓDULO — Cabos e Nós</h2>
+      <p class="module-summary">Nós essenciais: nó direito, nó de 8, lais de guia, volta do fiel, nó de escota, volta do cunho.</p>
+
+      <h3>Como aprender nós (dica)</h3>
+      <ol>
+        <li>Assista a um vídeo curto (30–60s) — uma demonstração passo a passo.</li>
+        <li>Pratique com corda grossa — movimentos repetidos ajudam memorização.</li>
+        <li>Use rótulos visuais (cores e fitas) para as pontas enquanto aprende.</li>
+      </ol>
+
+      <div class="text-center">
+        <img class="responsive" src="assets/page_88/page_88_img_0.jpeg" alt="Ilustração mostrando o nó Direito e o nó de Oito como exemplos de nós simples." />
+      </div>
+
+      <div class="quiz">
+        <p>Qual nó é usado como nó terminal para evitar que uma corda escorregue?</p>
+        <button onclick="checkAnswer('mod5','Oito')">Nó de 8</button>
+        <button onclick="checkAnswer('mod5','Direito')">Nó Direito</button>
+        <div id="mod5-feedback" style="margin-top:.5rem"></div>
+      </div>
+    </section>
+
+    <!-- Glossary -->
+    <section id="glossario" tabindex="0">
+      <h2>Glossário rápido</h2>
+      <dl>
+        <dt>Proa</dt><dd>Frente do barco.</dd>
+        <dt>Popa</dt><dd>Traseira do barco.</dd>
+        <dt>Boreste</dt><dd>Lado direito olhando da popa para a proa.</dd>
+        <dt>Bombordo</dt><dd>Lado esquerdo olhando da popa para a proa.</dd>
+        <dt>Calado</dt><dd>Profundidade da parte submersa do casco.</dd>
+      </dl>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Material adaptado para dislexia (texto curto, espaçamento), TDAH (passos claros, atividades curtas) e daltonismo (formas + posições, não só cores). Conteúdo extraído e resumido do PDF original.</p>
+  </footer>
+
+  <script>
+    // Accessibility toggles
+    const body = document.body;
+    document.getElementById('btn-contrast').addEventListener('click', ()=> body.classList.toggle('high-contrast'));
+    document.getElementById('btn-font').addEventListener('click', ()=> body.classList.toggle('large-font'));
+    document.getElementById('btn-spacing').addEventListener('click', ()=> body.classList.toggle('increased-spacing'));
+    document.getElementById('btn-reduced').addEventListener('click', ()=> body.classList.toggle('reduced-motion'));
+    document.getElementById('btn-dys').addEventListener('click', ()=> {
+      if(body.style.fontFamily.includes('OpenDyslexic')){
+        body.style.fontFamily='Arial, Helvetica, sans-serif';
+        document.getElementById('btn-dys').textContent='Fonte Disléxica';
+      } else {
+        body.style.fontFamily="'OpenDyslexic', Arial, Helvetica, sans-serif";
+        document.getElementById('btn-dys').textContent='Fonte Padrão';
+      }
+    });
+
+    // Simple quiz check
+    function checkAnswer(mod, correct){
+      const feedback = document.getElementById(mod+'-feedback');
+      // mapping of correct answers (simple)
+      const answers = {mod1:'Proa', mod2:'Arrefecimento', mod3:'Colete', mod4:'Manobrar', mod5:'Oito'};
+      if(correct === answers[mod]){
+        feedback.innerHTML = '<strong style="color:green">Correto ✓</strong>';
+      } else {
+        feedback.innerHTML = '<strong style="color:#c0392b">Errado — veja a seção novamente</strong>';
+      }
+    }
+
+    // Keyboard shortcuts: n = next section, p = previous
+    const sections = Array.from(document.querySelectorAll('main section'));
+    let currentIndex = 0;
+    function focusSection(i){ if(i<0) i=0; if(i>=sections.length) i=sections.length-1; sections[i].focus(); currentIndex=i }
+    document.addEventListener('keydown', (e)=>{
+      if(e.key==='n') focusSection(currentIndex+1);
+      if(e.key==='p') focusSection(currentIndex-1);
+    });
+
+    // Respect reduced motion preference
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){ document.body.classList.add('reduced-motion') }
+  </script>
+</body>
+</html>
