@@ -31,32 +31,32 @@
             margin: 0 auto;
             padding: 20px;
             font-size: 16px;
-        }
-        
-        .dyslexia-friendly {
-            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             letter-spacing: 0.5px;
             line-height: 1.8;
         }
         
         .high-contrast {
-            background-color: #000;
-            color: #fff;
+            background-color: #0a0a0a !important;
+            color: #ffffff !important;
         }
         
         .high-contrast .tabs button {
-            background-color: #333;
-            color: #fff;
+            background-color: #1a1a1a !important;
+            color: #ffffff !important;
+            border: 2px solid #444 !important;
         }
         
         .high-contrast .tabs button.active {
-            background-color: #fff;
-            color: #000;
+            background-color: #ffcc00 !important;
+            color: #000000 !important;
+            border: 2px solid #ffcc00 !important;
+            font-weight: bold;
         }
         
         .high-contrast .tab-content {
-            background-color: #222;
-            color: #fff;
+            background-color: #0a0a0a !important;
+            color: #ffffff !important;
         }
         
         .skip-link {
@@ -82,6 +82,45 @@
             margin-bottom: 0;
             text-align: center;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        /* Modo claro - header com fundo mais claro e texto escuro */
+        body:not(.high-contrast) header {
+            background: linear-gradient(135deg, #4a90e2 0%, #2c5aa0 100%);
+            color: #ffffff;
+        }
+        
+        body:not(.high-contrast) header h2 {
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header h2 {
+            margin: 0;
+            display: inline-block;
+        }
+        
+        .dark-mode-toggle {
+            position: absolute;
+            right: 25px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.4);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .dark-mode-toggle:hover {
+            background: rgba(255,255,255,0.3);
+            border-color: rgba(255,255,255,0.6);
+            transform: translateY(-50%) scale(1.05);
         }
         
         h1, h2, h3, h4 {
@@ -93,7 +132,29 @@
         .high-contrast h2, 
         .high-contrast h3, 
         .high-contrast h4 {
-            color: #fff;
+            color: #ffcc00 !important;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        
+        .high-contrast h2 {
+            border-bottom: 3px solid #ffcc00 !important;
+            background: linear-gradient(90deg, #333 0%, transparent 100%) !important;
+        }
+        
+        .high-contrast h3 {
+            color: #66ccff !important;
+            border-left: 4px solid #66ccff !important;
+            padding-left: 15px !important;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        }
+        
+        .high-contrast a {
+            color: #66ccff !important;
+            text-decoration: underline;
+        }
+        
+        .high-contrast a:hover {
+            color: #ffcc00 !important;
         }
         
         h1 {
@@ -178,9 +239,7 @@
         
         .tab-content {
             padding: 35px;
-            min-height: 700px;
-            max-height: 70vh;
-            overflow-y: auto;
+            min-height: 400px;
         }
         
         .tab-pane {
@@ -233,7 +292,8 @@
         
         .high-contrast th, 
         .high-contrast td {
-            border: 1px solid #555;
+            border: 2px solid #666 !important;
+            color: #ffffff !important;
         }
         
         th {
@@ -244,7 +304,17 @@
         }
         
         .high-contrast th {
-            background: #444;
+            background: #333 !important;
+            color: #ffcc00 !important;
+            border: 2px solid #666 !important;
+        }
+        
+        .high-contrast tr:nth-child(even) {
+            background-color: #1a1a1a !important;
+        }
+        
+        .high-contrast tr:nth-child(odd) {
+            background-color: #0a0a0a !important;
         }
         
         tr:nth-child(even) {
@@ -319,12 +389,125 @@
             font-style: italic;
             margin-top: 10px;
             font-size: 0.95rem;
-            color: #666;
+            color: #333;
             text-align: center;
         }
         
         .high-contrast .image-caption {
-            color: #ccc;
+            color: #ffff00 !important;
+            background-color: #000000 !important;
+            padding: 12px;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .high-contrast .note-box {
+            background: #1a4d66 !important;
+            border-left: 5px solid #66ccff !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .warning-box {
+            background: #665000 !important;
+            border-left: 5px solid #ffcc00 !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .danger-box {
+            background: #661a1a !important;
+            border-left: 5px solid #ff6666 !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .image-container {
+            background: #1a1a1a !important;
+            border: 2px solid #666 !important;
+        }
+        
+        .high-contrast .image-placeholder {
+            background: #333 !important;
+            color: #ffffff !important;
+        }
+        
+        /* Diagrama cards - Modo escuro */
+        .high-contrast .diagram-content div[style*="text-align: center"] div[style*="color: #2c3e50"] {
+            color: #ffff00 !important;
+        }
+        
+        .high-contrast .diagram-content div[style*="padding: 15px"] {
+            background: #1a1a1a !important;
+            border: 2px solid #666 !important;
+        }
+            border: 2px solid #666;
+        }
+        
+        .high-contrast .diagram {
+            background: #1a1a1a !important;
+            border: 2px dashed #666 !important;
+        }
+        
+        .high-contrast .diagram-content {
+            background: #0a0a0a !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .step-by-step {
+            background: #1a4d1a !important;
+            border-left: 5px solid #66ff66 !important;
+            color: #ffffff !important;
+        }
+        
+        /* Modo escuro para details.step-by-step (RIPEAM) */
+        .high-contrast details.step-by-step {
+            background: #1a1a1a !important;
+            border-left: 4px solid #ffff00 !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast details.step-by-step summary {
+            color: #ffff00 !important;
+        }
+        
+        /* Modo escuro para terminologia náutica cards */
+        .high-contrast div[style*="background: rgba(255, 255, 255, 0.9)"] {
+            background: rgba(26, 26, 26, 0.95) !important;
+            color: #ffffff !important;
+            border-left-color: #ffff00 !important;
+        }
+        
+        .high-contrast div[style*="background: rgba(255, 255, 255, 0.9)"] strong {
+            color: #ffff00 !important;
+        }
+        
+        .high-contrast .sumario-item {
+            background: #1a1a1a !important;
+            border-left: 4px solid #66ccff !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .sumario-subitem {
+            background: #0a0a0a !important;
+            color: #ffffff !important;
+            border: 1px solid #444;
+        }
+        
+        .high-contrast .content-section {
+            background: #1a1a1a !important;
+            color: #ffffff !important;
+            border: 1px solid #333 !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5) !important;
+        }
+        
+        .high-contrast p,
+        .high-contrast li,
+        .high-contrast strong {
+            color: #ffffff !important;
+        }
+        
+        .high-contrast ul,
+        .high-contrast ol {
+            color: #ffffff !important;
         }
         
         /* Ícones e SVG */
@@ -351,44 +534,6 @@
             padding: 20px;
         }
         
-        /* Controles de acessibilidade */
-        .accessibility-controls {
-            background: linear-gradient(135deg, var(--light-gray) 0%, #dde4e6 100%);
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            justify-content: center;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-        }
-        
-        .high-contrast .accessibility-controls {
-            background: #333;
-        }
-        
-        .accessibility-controls button {
-            background: linear-gradient(135deg, var(--secondary-color) 0%, #2980b9 100%);
-            color: white;
-            border: none;
-            padding: 12px 18px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.95rem;
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-        
-        .accessibility-controls button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-            background: linear-gradient(135deg, var(--primary-color) 0%, #2c3e50 100%);
-        }
-        
         /* Rodapé */
         footer {
             text-align: center;
@@ -403,9 +548,24 @@
         }
         
         .high-contrast footer {
-            border-top: 3px solid #555;
-            color: #ccc;
-            background: #333;
+            border-top: 3px solid #ffcc00 !important;
+            color: #ffffff !important;
+            background: #1a1a1a !important;
+        }
+        
+        .high-contrast header {
+            background: #1a1a1a !important;
+            color: #ffcc00 !important;
+            border: 2px solid #666;
+        }
+        
+        .high-contrast .tabs-container {
+            background: #0a0a0a !important;
+        }
+        
+        .high-contrast .tabs {
+            background: #1a1a1a !important;
+            border-bottom: 3px solid #ffcc00 !important;
         }
         
         /* Sumário */
@@ -442,16 +602,17 @@
             
             .tab-content {
                 padding: 25px;
-                max-height: 65vh;
             }
             
-            .accessibility-controls {
-                flex-direction: column;
-                align-items: center;
+            header h2 {
+                font-size: 1.2rem;
+                padding-right: 100px;
             }
             
-            .accessibility-controls button {
-                width: 100%;
+            .dark-mode-toggle {
+                font-size: 12px;
+                padding: 8px 15px;
+            }
                 max-width: 320px;
                 justify-content: center;
             }
@@ -529,6 +690,21 @@
             color: var(--primary-color);
             display: block;
             margin-bottom: 5px;
+        }
+        
+        /* Modo escuro para glossário */
+        .high-contrast .glossary-term {
+            background: #1a1a1a !important;
+            border-left: 4px solid #ffff00 !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .glossary-term strong {
+            color: #ffff00 !important;
+        }
+        
+        .high-contrast .glossary-term p {
+            color: #ffffff !important;
         }
         
         .alphabet-index {
@@ -609,22 +785,119 @@
             clip: rect(1px, 1px, 1px, 1px);
             white-space: nowrap;
         }
+        
+        /* ========================================
+           SISTEMA DE CORES - CONTRASTE CORRIGIDO
+           ======================================== */
+        
+        /* MODO CLARO - Fundos claros = texto escuro */
+        body:not(.high-contrast) div[style*="background: #ff7675"],
+        body:not(.high-contrast) div[style*="background: #74b9ff"],
+        body:not(.high-contrast) div[style*="background: #fdcb6e"] {
+            color: #2c3e50 !important;
+        }
+        
+        body:not(.high-contrast) div[style*="background: #ff7675"] *,
+        body:not(.high-contrast) div[style*="background: #74b9ff"] *,
+        body:not(.high-contrast) div[style*="background: #fdcb6e"] * {
+            color: #2c3e50 !important;
+        }
+        
+        /* MODO CLARO - Fundos escuros = texto branco */
+        body:not(.high-contrast) div[style*="background: #d63031"],
+        body:not(.high-contrast) div[style*="background: #00b894"] {
+            color: #ffffff !important;
+        }
+        
+        body:not(.high-contrast) div[style*="background: #d63031"] *,
+        body:not(.high-contrast) div[style*="background: #00b894"] * {
+            color: #ffffff !important;
+        }
+        
+        /* MODO CLARO - Gradientes cardina is (preto/amarelo) */
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #000 0%, #000 50%"],
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #000 0%, #ffd700 25%"],
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #ffd700 0%, #000 25%"] {
+            color: #ffffff !important;
+        }
+        
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #000 0%, #000 50%"] *,
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #000 0%, #ffd700 25%"] *,
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #ffd700 0%, #000 25%"] * {
+            color: #ffffff !important;
+        }
+        
+        /* MODO CLARO - Gradiente SUL (amarelo dominante) */
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #ffd700 0%, #ffd700 50%"] {
+            color: #000000 !important;
+        }
+        
+        body:not(.high-contrast) div[style*="background: linear-gradient(180deg, #ffd700 0%, #ffd700 50%"] * {
+            color: #000000 !important;
+        }
+        
+        /* MODO ESCURO - Tudo branco */
+        .high-contrast div[style*="background"] {
+            color: #ffffff !important;
+        }
+        
+        .high-contrast div[style*="background"] * {
+            color: #ffffff !important;
+        }
+        
+        /* Simulados com gradientes - títulos sempre brancos */
+        .content-section[style*="gradient"] h3 {
+            color: #ffffff !important;
+        }
+        
+        /* Modo escuro - summary e conteúdo brancos */
+        .high-contrast .content-section[style*="gradient"] summary {
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .content-section[style*="gradient"] .details-content {
+            background: rgba(0, 0, 0, 0.3) !important;
+            color: #ffffff !important;
+        }
+        
+        .high-contrast .content-section[style*="gradient"] .details-content * {
+            color: #ffffff !important;
+        }
+        
+        /* Modo claro - summary e conteúdo com fundo branco para legibilidade */
+        body:not(.high-contrast) .content-section[style*="gradient"] summary {
+            background: rgba(255, 255, 255, 0.95) !important;
+            color: #2c3e50 !important;
+            padding: 12px 15px !important;
+            border-radius: 8px !important;
+            cursor: pointer !important;
+            font-weight: bold !important;
+        }
+        
+        body:not(.high-contrast) .content-section[style*="gradient"] summary:hover {
+            background: rgba(255, 255, 255, 1) !important;
+        }
+        
+        body:not(.high-contrast) .content-section[style*="gradient"] .details-content {
+            background: rgba(255, 255, 255, 0.95) !important;
+            color: #2c3e50 !important;
+            padding: 15px !important;
+            border-radius: 8px !important;
+            margin-top: 10px !important;
+        }
+        
+        body:not(.high-contrast) .content-section[style*="gradient"] .details-content * {
+            color: #2c3e50 !important;
+        }
     </style>
 </head>
-<body class="dyslexia-friendly">
+<body>
     <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
     
     <header>
         <h2>📚 MANUAL TEÓRICO PARA AULA DE ARRAIS AMADOR</h2>
+        <button class="dark-mode-toggle" id="toggle-contrast">🌙 Modo Escuro</button>
     </header>
-    
-    <div class="accessibility-controls">
-        <button id="toggle-dyslexia">🔤 Alternar Fonte para Dislexia</button>
-        <button id="toggle-contrast">🎨 Alternar Alto Contraste</button>
-        <button id="increase-font">🔍 Aumentar Fonte</button>
-        <button id="decrease-font">📐 Diminuir Fonte</button>
-        <button id="reset-settings">🔄 Redefinir Configurações</button>
-    </div>
     
     <div class="tabs-container">
         <div class="tabs">
@@ -635,6 +908,7 @@
             <button class="tab-button" data-tab="modulo3">🛡️ Módulo 3</button>
             <button class="tab-button" data-tab="modulo4">🧭 Módulo 4</button>
             <button class="tab-button" data-tab="modulo5">🔗 Módulo 5</button>
+            <button class="tab-button" data-tab="simulados">✍️ Simulados</button>
             <button class="tab-button" data-tab="glossario">📖 Glossário</button>
             <button class="tab-button" data-tab="referencias">📚 Referências</button>
         </div>
@@ -924,6 +1198,11 @@
                     <h3>1.2. Embarcações</h3>
                     <p>É denominada <strong>embarcação</strong> uma construção com casco flutuante, feita de diversos materiais, podendo transportar carga e pessoas com segurança sobre as águas.</p>
                     <p>De acordo com o seu tamanho podem ser chamados de diversos nomes, como <strong>Navio</strong> (embarcação de grande porte), Escuna, Lancha, e outros.</p>
+                    
+                    <div class="image-container">
+                        <img src="Partes_enbarcacao/Tugboat_diagram-es.svg.png" alt="Diagrama de Tugboat - Partes da Embarcação" style="max-width: 100%; height: auto; border-radius: 8px;">
+                        <p class="image-caption">Estrutura detalhada de uma embarcação de esporte e recreio</p>
+                    </div>
                 </div>
 
                 <div class="content-section">
@@ -965,20 +1244,20 @@
                         <div class="diagram-content">
                             <div style="text-align: center; width: 100%;">
                                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">
-                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px; color: #2c3e50;">
                                         <div style="font-size: 2rem;">🚢</div>
-                                        <div style="font-weight: bold;">Proa</div>
-                                        <div>Parte frontal</div>
+                                        <div style="font-weight: bold; color: #2c3e50;">Proa</div>
+                                        <div style="color: #2c3e50;">Parte frontal</div>
                                     </div>
-                                    <div style="text-align: center; padding: 15px; background: #fff3cd; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #fff3cd; border-radius: 8px; color: #2c3e50;">
                                         <div style="font-size: 2rem;">⚓</div>
-                                        <div style="font-weight: bold;">Popa</div>
-                                        <div>Parte traseira</div>
+                                        <div style="font-weight: bold; color: #2c3e50;">Popa</div>
+                                        <div style="color: #2c3e50;">Parte traseira</div>
                                     </div>
-                                    <div style="text-align: center; padding: 15px; background: #d4edda; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #d4edda; border-radius: 8px; color: #2c3e50;">
                                         <div style="font-size: 2rem;">📏</div>
-                                        <div style="font-weight: bold;">Meia-nau</div>
-                                        <div>Parte central</div>
+                                        <div style="font-weight: bold; color: #2c3e50;">Meia-nau</div>
+                                        <div style="color: #2c3e50;">Parte central</div>
                                     </div>
                                 </div>
                             </div>
@@ -1010,6 +1289,16 @@
                         <li><strong>Mastro</strong> - Estrutura vertical com múltiplas funções (sinais, velas, vigilância)</li>
                         <li><strong>Leme</strong> - Dispositivo para dar direção à embarcação</li>
                     </ul>
+                    
+                    <div class="image-container">
+                        <img src="Partes_enbarcacao/Obra_viva_obra_morta.jpg" alt="Obra Viva e Obra Morta do Casco" style="max-width: 100%; height: auto; border-radius: 8px;">
+                        <p class="image-caption">Ilustração da obra viva e obra morta na estrutura do casco</p>
+                    </div>
+                    
+                    <div class="image-container" style="margin-top: 20px;">
+                        <img src="assets/page_10/page_10_img_0.jpeg" alt="Partes da Embarcação" style="max-width: 100%; height: auto; border-radius: 8px;">
+                        <p class="image-caption">Diagrama ilustrando as principais partes de uma embarcação</p>
+                    </div>
                 </div>
 
                 <div class="content-section">
@@ -1042,20 +1331,20 @@
                         <div class="diagram-content">
                             <div style="text-align: center; width: 100%;">
                                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px; color: #2c3e50;">
                                         <div style="font-size: 2rem;">↔️</div>
-                                        <div style="font-weight: bold;">Balanço</div>
-                                        <div style="font-size: 0.8rem;">Oscilação lateral</div>
+                                        <div style="font-weight: bold; color: #2c3e50;">Balanço</div>
+                                        <div style="font-size: 0.8rem; color: #2c3e50;">Oscilação lateral</div>
                                     </div>
-                                    <div style="text-align: center; padding: 15px; background: #fff3cd; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #fff3cd; border-radius: 8px; color: #2c3e50;">
                                         <div style="font-size: 2rem;">↕️</div>
-                                        <div style="font-weight: bold;">Caturro</div>
-                                        <div style="font-size: 0.8rem;">Oscilação vertical</div>
+                                        <div style="font-weight: bold; color: #2c3e50;">Caturro</div>
+                                        <div style="font-size: 0.8rem; color: #2c3e50;">Oscilação vertical</div>
                                     </div>
-                                    <div style="text-align: center; padding: 15px; background: #d4edda; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #d4edda; border-radius: 8px; color: #2c3e50;">
                                         <div style="font-size: 2rem;">🔄</div>
-                                        <div style="font-weight: bold;">Cabeceio</div>
-                                        <div style="font-size: 0.8rem;">Oscilação horizontal</div>
+                                        <div style="font-weight: bold; color: #2c3e50;">Cabeceio</div>
+                                        <div style="font-size: 0.8rem; color: #2c3e50;">Oscilação horizontal</div>
                                     </div>
                                 </div>
                             </div>
@@ -1108,35 +1397,12 @@
 
                     <h4>1.8.3. Tipos de Âncoras Mais Usados</h4>
                     
-                    <div class="diagram">
-                        <h4>⚓ Principais Tipos de Âncoras</h4>
-                        <div class="diagram-content">
-                            <div style="text-align: center; width: 100%;">
-                                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
-                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
-                                        <div style="font-size: 2rem;">🪝</div>
-                                        <div style="font-weight: bold;">Almirantado</div>
-                                        <div style="font-size: 0.8rem;">Cepo móvel, formato tradicional</div>
-                                    </div>
-                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
-                                        <div style="font-size: 2rem;">⛵</div>
-                                        <div style="font-weight: bold;">Danforth</div>
-                                        <div style="font-size: 0.8rem;">Para fundos de areia</div>
-                                    </div>
-                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
-                                        <div style="font-size: 2rem;">🔱</div>
-                                        <div style="font-weight: bold;">Patente</div>
-                                        <div style="font-size: 0.8rem;">Unha bem em qualquer fundo</div>
-                                    </div>
-                                    <div style="text-align: center; padding: 15px; background: #e8f4f8; border-radius: 8px;">
-                                        <div style="font-size: 2rem;">🪸</div>
-                                        <div style="font-weight: bold;">Flutuante</div>
-                                        <div style="font-size: 0.8rem;">Diminui o andamento</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="image-container" style="margin-bottom: 20px;">
+                        <img src="Partes_enbarcacao/tipos-de-ancoras-para-barcos-e-veleiros.webp" alt="Tipos de Âncoras para Barcos e Veleiros" style="max-width: 100%; height: auto; border-radius: 8px;">
+                        <p class="image-caption">Diferentes tipos de âncoras utilizadas em embarcações</p>
                     </div>
+                    
+
 
                     <p><strong>Comprimento total recomendado:</strong> Mínimo de 50 metros. Em águas calmas: 3-5 vezes a altura da maré; com tempo rijo: 5-7 vezes.</p>
                 </div>
@@ -1157,6 +1423,127 @@
                     </div>
                 </div>
 
+                <!-- EXERCÍCIOS DE REVISÃO MÓDULO 1 -->
+                <div class="content-section" style="background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%); padding: 25px; border-radius: 10px; margin-top: 30px; border-left: 5px solid #28a745;">
+                    <h3>📝 Exercícios de Revisão - Módulo 1</h3>
+                    <p style="margin-bottom: 20px;"><em>Teste seus conhecimentos sobre embarcações e suas partes:</em></p>
+                    
+                    <details class="step-by-step">
+                        <summary><strong>Questão 1:</strong> Qual é a parte frontal da embarcação chamada?</summary>
+                        <div class="details-content">
+                            <p><strong>Resposta:</strong> Proa</p>
+                            <p><strong>Explicação:</strong> A proa é a terminação da embarcação do corpo de vante, com formato de cunha para facilitar o corte da água.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 2:</strong> O que significa "boreste" e "bombordo"?</summary>
+                        <div class="details-content">
+                            <p><strong>Resposta:</strong> Boreste (BE) é o lado direito da embarcação; Bombordo (BB) é o lado esquerdo.</p>
+                            <p><strong>Explicação:</strong> Estes são os bordos da embarcação, estabelecidos olhando-se da popa para a proa.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 3:</strong> Qual é a diferença entre "obra viva" e "obra morta"?</summary>
+                        <div class="details-content">
+                            <p><strong>Resposta:</strong> Obra Viva é a parte do casco em contato com a água; Obra Morta é a parte superior do casco não em contato com a água.</p>
+                            <p><strong>Explicação:</strong> A linha d'água separa estas duas partes do casco da embarcação.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 4:</strong> Quais são os três movimentos principais de uma embarcação?</summary>
+                        <div class="details-content">
+                            <p><strong>Resposta:</strong> Balanço (oscilação lateral), Caturro (oscilação vertical) e Cabeceio (oscilação horizontal).</p>
+                            <p><strong>Explicação:</strong> Estes movimentos ocorrem devido à ação das ondas e do vento sobre a embarcação.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 5:</strong> Qual deve ser o comprimento mínimo recomendado de amarra para fundear?</summary>
+                        <div class="details-content">
+                            <p><strong>Resposta:</strong> Mínimo de 50 metros. Em águas calmas: 3-5 vezes a altura; com tempo rijo: 5-7 vezes.</p>
+                            <p><strong>Explicação:</strong> O comprimento adequado da amarra é fundamental para garantir segurança no fundeio.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 6:</strong> Cite três tipos de âncoras utilizadas em embarcações.</summary>
+                        <div class="details-content">
+                            <p><strong>Resposta:</strong> Almirantado, Danforth, Patente e Flutuante.</p>
+                            <p><strong>Explicação:</strong> Cada tipo de âncora é mais adequado para diferentes tipos de fundo e situações.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <!-- TERMINOLOGIA NÁUTICA EM INGLÊS -->
+                <div class="content-section" style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); padding: 25px; border-radius: 10px; margin-top: 30px; border-left: 5px solid #2196f3;">
+                    <h3>🌐 Terminologia Náutica em Inglês</h3>
+                    <p style="margin-bottom: 20px;"><em>Principais termos náuticos em inglês e suas traduções para o português:</em></p>
+                    
+                    <div class="image-container" style="margin-bottom: 25px;">
+                        <img src="Partes_enbarcacao/hitide-boat-lifts-terms.png" alt="Diagrama de terminologia náutica em inglês" style="max-width: 100%; height: auto; border-radius: 8px;">
+                        <p class="image-caption">Terminologia náutica internacional - principais termos em inglês</p>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Bow – Proa:</strong> refere-se à extremidade frontal de um barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Stern – Popa:</strong> refere-se à extremidade traseira de um barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Forward – Para vante:</strong> usado para descrever o movimento em direção à frente (proa) do barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Aft – Para ré:</strong> usado para descrever o movimento em direção à traseira (popa) do barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Hull – Casco:</strong> o corpo principal do barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Underway – Em marcha ou Em curso:</strong> quando o barco está em movimento (navegando).
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Ahead – Adiante ou A vante:</strong> refere-se a um barco movendo-se para frente.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Astern – A ré:</strong> significa na parte traseira do navio ou movendo-se em marcha à ré.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Port – Bombordo:</strong> quando você está na popa olhando para a frente, refere-se a todo o lado esquerdo do barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Starboard – Boreste:</strong> quando você está na popa olhando para a frente, refere-se a todo o lado direito do barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Port Bow – Amura de Bombordo:</strong> refere-se à parte frontal esquerda do barco (bochecha de bombordo).
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Port Quarter – Alheta de Bombordo:</strong> refere-se à parte traseira esquerda do barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Starboard Bow – Amura de Boreste:</strong> refere-se à parte frontal direita do barco (bochecha de boreste).
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Starboard Quarter – Alheta de Boreste:</strong> refere-se à parte traseira direita do barco.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Amidships – Meia-nau:</strong> a parte central de uma embarcação.
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.9); padding: 12px; border-radius: 8px; border-left: 3px solid #2196f3;">
+                            <strong>Topside – Para o convés:</strong> mover-se de um convés inferior para um convés superior (ou para a parte de cima do casco).
+                        </div>
+                    </div>
+
+                    <div class="note-box" style="margin-top: 20px; background: #fff9c4; border-left: 5px solid #fbc02d;">
+                        <h4>💡 Dica Importante</h4>
+                        <p>No Brasil, é muito comum usar as siglas <strong>BB</strong> para <strong>Bombordo</strong> (sempre sinalizado com luz <span style="color: #c62828; font-weight: bold;">vermelha</span>) e <strong>BE</strong> para <strong>Boreste</strong> (sempre sinalizado com luz <span style="color: #2e7d32; font-weight: bold;">verde</span>). Isso ajuda muito na identificação visual! ⚓</p>
+                    </div>
+                </div>
+
             </div>
 
             <!-- MÓDULO 2 COMPLETO -->
@@ -1174,10 +1561,10 @@
                     
                     <div class="image-container">
                         <div class="image-placeholder" style="background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);">
-                            <div style="text-align: center; z-index: 2;">
+                            <div style="text-align: center; z-index: 2;" class="placeholder-text">
                                 <div style="font-size: 3rem;">🔧</div>
-                                <h3 style="color: white; margin: 10px 0;">Sistemas de Propulsão</h3>
-                                <p style="color: white; opacity: 0.9;">Motores e componentes mecânicos</p>
+                                <h3 style="margin: 10px 0;">Sistemas de Propulsão</h3>
+                                <p style="opacity: 0.9;">Motores e componentes mecânicos</p>
                             </div>
                         </div>
                         <p class="image-caption">Representação dos sistemas de propulsão de embarcações</p>
@@ -1427,6 +1814,11 @@
                     <h4>2.8.1. Eletricidade</h4>
                     <p>Fenômeno físico resultante do movimento de elétrons. Pode ser contínua (CC/DC) ou alternada (AC).</p>
 
+                    <figure style="text-align: center; background: rgba(0,0,0,0.03); padding: 10px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 14px 0;">
+                        <img src="corrente_eletricas/Eletricidade.gif" alt="Animação sobre eletricidade e fluxo de elétrons" style="max-width: 100%; border-radius: 6px;">
+                        <figcaption style="margin-top: 8px; font-weight: 600;">Eletricidade (conceito geral)</figcaption>
+                    </figure>
+
                     <h4>2.8.2. Tensão, corrente e outras grandezas elétricas</h4>
                     <ul>
                         <li><strong>Tensão (U)</strong> - Medida em Volts (V), diferença de potencial elétrico</li>
@@ -1445,9 +1837,41 @@
 
                     <p><strong>Tipos de ligação:</strong></p>
                     <ul>
-                        <li><strong>Série</strong> - Mesma corrente passa por todos, tensão se distribui</li>
-                        <li><strong>Paralelo</strong> - Tensão igual sobre todos, corrente se distribui</li>
+                        <li><strong>Série</strong> - Um único caminho: a mesma corrente atravessa todos os pontos; a tensão se reparte em cada carga. Se um componente abre, todo o circuito apaga (por isso é raro em iluminação de bordo).</li>
+                        <li><strong>Paralelo</strong> - Vários caminhos: cada carga recebe a mesma tensão; as correntes se dividem conforme o consumo. Se uma lâmpada queima, as demais continuam acesas (padrão recomendado na embarcação).</li>
                     </ul>
+
+                    <p style="margin: 14px 0 6px; font-weight: 700;">Visualização: Circuito em série</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; align-items: center; justify-items: center; margin: 8px 0 18px;">
+                        <figure style="text-align: center; background: rgba(0,0,0,0.03); padding: 10px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                            <img src="corrente_eletricas/Corrente_serie.gif" alt="Circuito elétrico em série" style="max-width: 100%; border-radius: 6px;">
+                            <figcaption style="margin-top: 8px; font-weight: 600;">Circuito em série</figcaption>
+                        </figure>
+                        <figure style="text-align: center; background: rgba(0,0,0,0.03); padding: 10px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                            <img src="corrente_eletricas/simple_serial-circuit.gif" alt="Circuito em série animado" style="max-width: 100%; border-radius: 6px;">
+                            <figcaption style="margin-top: 8px; font-weight: 600;">Série animado</figcaption>
+                        </figure>
+                        <figure style="text-align: center; background: rgba(0,0,0,0.03); padding: 10px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                            <img src="corrente_eletricas/simple_serial_circuit_resistores.gif" alt="Circuito em série com resistores" style="max-width: 100%; border-radius: 6px;">
+                            <figcaption style="margin-top: 8px; font-weight: 600;">Série com resistores</figcaption>
+                        </figure>
+                    </div>
+
+                    <p style="margin: 14px 0 6px; font-weight: 700;">Visualização: Circuito em paralelo</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; align-items: center; justify-items: center; margin: 8px 0 6px;">
+                        <figure style="text-align: center; background: rgba(0,0,0,0.03); padding: 10px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                            <img src="corrente_eletricas/corrente_paralela.gif" alt="Circuito elétrico em paralelo" style="max-width: 100%; border-radius: 6px;">
+                            <figcaption style="margin-top: 8px; font-weight: 600;">Circuito em paralelo</figcaption>
+                        </figure>
+                        <figure style="text-align: center; background: rgba(0,0,0,0.03); padding: 10px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                            <img src="corrente_eletricas/simple_parallel_circuit.gif" alt="Circuito paralelo animado" style="max-width: 100%; border-radius: 6px;">
+                            <figcaption style="margin-top: 8px; font-weight: 600;">Paralelo animado</figcaption>
+                        </figure>
+                        <figure style="text-align: center; background: rgba(0,0,0,0.03); padding: 10px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                            <img src="corrente_eletricas/simple_parallel_circuit_wvolt.gif" alt="Circuito paralelo com medição de tensão" style="max-width: 100%; border-radius: 6px;">
+                            <figcaption style="margin-top: 8px; font-weight: 600;">Paralelo com tensão medida</figcaption>
+                        </figure>
+                    </div>
                 </div>
 
                 <div class="content-section">
@@ -1549,15 +1973,15 @@
                         <div class="diagram-content">
                             <div style="text-align: center; width: 100%;">
                                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-                                    <div style="text-align: center; padding: 20px; background: #ff7675; color: white; border-radius: 10px;">
+                                    <div style="text-align: center; padding: 20px; background: #ff7675; border-radius: 10px;">
                                         <div style="font-size: 2.5rem;">🪵</div>
                                         <div style="font-weight: bold;">Combustível</div>
                                     </div>
-                                    <div style="text-align: center; padding: 20px; background: #74b9ff; color: white; border-radius: 10px;">
+                                    <div style="text-align: center; padding: 20px; background: #74b9ff; border-radius: 10px;">
                                         <div style="font-size: 2.5rem;">💨</div>
                                         <div style="font-weight: bold;">Comburente</div>
                                     </div>
-                                    <div style="text-align: center; padding: 20px; background: #fdcb6e; color: white; border-radius: 10px;">
+                                    <div style="text-align: center; padding: 20px; background: #fdcb6e; border-radius: 10px;">
                                         <div style="font-size: 2.5rem;">🌡️</div>
                                         <div style="font-weight: bold;">Calor</div>
                                     </div>
@@ -1939,20 +2363,20 @@
                         <div class="diagram-content">
                             <div style="text-align: center; width: 100%;">
                                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">
-                                    <div style="text-align: center; padding: 15px; background: #00b894; color: white; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #00b894; border-radius: 8px;" class="light-signal-item">
                                         <div style="font-size: 2rem;">💚</div>
-                                        <div style="font-weight: bold;">Boreste</div>
-                                        <div>Luz Verde</div>
+                                        <div style="font-weight: bold; color: #ffffff;">Boreste</div>
+                                        <div style="color: #ffffff;">Luz Verde</div>
                                     </div>
-                                    <div style="text-align: center; padding: 15px; background: #d63031; color: white; border-radius: 8px;">
+                                    <div style="text-align: center; padding: 15px; background: #d63031; border-radius: 8px;" class="light-signal-item">
                                         <div style="font-size: 2rem;">❤️</div>
-                                        <div style="font-weight: bold;">Bombordo</div>
-                                        <div>Luz Vermelha</div>
+                                        <div style="font-weight: bold; color: #ffffff;">Bombordo</div>
+                                        <div style="color: #ffffff;">Luz Vermelha</div>
                                     </div>
                                     <div style="text-align: center; padding: 15px; background: #ffffff; color: #333; border: 2px solid #ddd; border-radius: 8px;">
                                         <div style="font-size: 2rem;">⚪</div>
-                                        <div style="font-weight: bold;">Alcançado</div>
-                                        <div>Luz Branca</div>
+                                        <div style="font-weight: bold; color: #2c3e50;">Alcançado</div>
+                                        <div style="color: #2c3e50;">Luz Branca</div>
                                     </div>
                                 </div>
                             </div>
@@ -2111,6 +2535,28 @@
                         </tbody>
                     </table>
 
+                    <div class="note-box" style="margin-top: 20px;">
+                        <h4>🎯 Resumo Visual da Ordem de Preferência</h4>
+                        <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 15px;">
+                            <div style="padding: 10px; background: #ff6b6b; color: white; border-radius: 5px; font-weight: bold; text-align: center;">
+                                1º - SEM GOVERNO (máxima prioridade)
+                            </div>
+                            <div style="padding: 10px; background: #ee5a6f; color: white; border-radius: 5px; font-weight: bold; text-align: center;">
+                                2º - MANOBRA RESTRITA
+                            </div>
+                            <div style="padding: 10px; background: #c44569; color: white; border-radius: 5px; font-weight: bold; text-align: center;">
+                                3º - ENGAJADA NA PESCA
+                            </div>
+                            <div style="padding: 10px; background: #786fa6; color: white; border-radius: 5px; font-weight: bold; text-align: center;">
+                                4º - A VELA
+                            </div>
+                            <div style="padding: 10px; background: #4b6584; color: white; border-radius: 5px; font-weight: bold; text-align: center;">
+                                5º - PROPULSÃO MECÂNICA (menor prioridade)
+                            </div>
+                        </div>
+                        <p style="margin-top: 15px; font-style: italic;"><strong>Regra:</strong> Quem tem a coluna mais cheia (mais X) deve dar passagem para quem tem menos X na tabela acima.</p>
+                    </div>
+
                     <h4>4.7.9. Embarcações em Visibilidade Restrita</h4>
                     <ul>
                         <li>Seguir em velocidade segura adaptada às circunstâncias</li>
@@ -2206,6 +2652,33 @@
                     <h4>4.9.2. Sinais laterais</h4>
                     <p><strong>Bombordo (BB):</strong> Encarnada, formato cônico/pilar/charuto, luz encarnada (qualquer ritmo exceto Lp(2+1))</p>
                     <p><strong>Boreste (BE):</strong> Verde, formato cilíndrico/pilar/charuto, luz verde (qualquer ritmo exceto Lp(2+1))</p>
+                    
+                    <div class="note-box" style="margin-top: 20px;">
+                        <h4>🎯 Dica Mnemônica IALA-B</h4>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
+                            <div style="padding: 20px; background: #d63031; border-radius: 8px; text-align: center;">
+                                <div style="font-size: 3rem;">🔺</div>
+                                <div style="font-weight: bold; font-size: 1.3rem; margin: 10px 0;">BOMBORDO (BB)</div>
+                                <div style="font-size: 1.1rem;">Vermelho/Encarnado</div>
+                                <div style="font-size: 0.9rem; margin-top: 10px;">Forma: Cônica</div>
+                                <div style="font-size: 0.9rem;">Luz: Vermelha</div>
+                                <div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.2); border-radius: 5px;">
+                                    <strong>Ao ENTRAR no porto</strong><br>deixe à ESQUERDA
+                                </div>
+                            </div>
+                            <div style="padding: 20px; background: #00b894; border-radius: 8px; text-align: center;">
+                                <div style="font-size: 3rem;">🟢</div>
+                                <div style="font-weight: bold; font-size: 1.3rem; margin: 10px 0;">BORESTE (BE)</div>
+                                <div style="font-size: 1.1rem;">Verde</div>
+                                <div style="font-size: 0.9rem; margin-top: 10px;">Forma: Cilíndrica</div>
+                                <div style="font-size: 0.9rem;">Luz: Verde</div>
+                                <div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.2); border-radius: 5px;">
+                                    <strong>Ao ENTRAR no porto</strong><br>deixe à DIREITA
+                                </div>
+                            </div>
+                        </div>
+                        <p style="margin-top: 15px; text-align: center;"><strong>Lembre-se:</strong> "Vermelho a Bombordo" ao entrar - "Verde a Boreste" ao entrar</p>
+                    </div>
 
                     <h4>4.9.3. Sinais laterais modificados</h4>
                     <p><strong>Canal preferencial a bombordo:</strong> Encarnada com faixa verde, luz encarnada Lp(2+1)</p>
@@ -2213,6 +2686,45 @@
 
                     <h4>4.9.4. Sinais Cardinais</h4>
                     <p>Indicam águas mais profundas ou bordo safo para passar por perigo. Apresentam as quatro direções cardinais (N, S, L, O).</p>
+                    
+                    <div class="diagram" style="margin-top: 20px;">
+                        <h4>🧭 Sinais Cardinais - Sistema de Marcação</h4>
+                        <div class="diagram-content">
+                            <div style="text-align: center; width: 100%; padding: 20px;">
+                                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; max-width: 800px; margin: 0 auto;">
+                                    <div style="padding: 20px; background: linear-gradient(180deg, #000 0%, #000 50%, #ffd700 50%, #ffd700 100%); border-radius: 8px; text-align: center;">
+                                        <div style="font-size: 2rem;">⬆️⬆️</div>
+                                        <div style="font-weight: bold; margin-top: 10px;">NORTE</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Cones para CIMA</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Passe ao NORTE do perigo</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Luz: Branca contínua ou rápida</div>
+                                    </div>
+                                    <div style="padding: 20px; background: linear-gradient(180deg, #000 0%, #ffd700 25%, #000 50%, #ffd700 75%, #000 100%); border-radius: 8px; text-align: center;">
+                                        <div style="font-size: 2rem;">➡️◀️</div>
+                                        <div style="font-weight: bold; margin-top: 10px;">LESTE</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Cones OPOSTOS (base/base)</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Passe ao LESTE do perigo</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Luz: Branca Lp(3)</div>
+                                    </div>
+                                    <div style="padding: 20px; background: linear-gradient(180deg, #ffd700 0%, #ffd700 50%, #000 50%, #000 100%); border-radius: 8px; text-align: center;">
+                                        <div style="font-size: 2rem;">⬇️⬇️</div>
+                                        <div style="font-weight: bold; margin-top: 10px;">SUL</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Cones para BAIXO</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Passe ao SUL do perigo</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Luz: Branca Lp(6)+Lf1</div>
+                                    </div>
+                                    <div style="padding: 20px; background: linear-gradient(180deg, #ffd700 0%, #000 25%, #ffd700 50%, #000 75%, #ffd700 100%); border-radius: 8px; text-align: center;">
+                                        <div style="font-size: 2rem;">⬅️▶️</div>
+                                        <div style="font-weight: bold; margin-top: 10px;">OESTE</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Cones JUNTOS (ponta/ponta)</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Passe ao OESTE do perigo</div>
+                                        <div style="font-size: 0.8rem; margin-top: 5px;">Luz: Branca Lp(9)</div>
+                                    </div>
+                                </div>
+                                <p style="margin-top: 20px; font-style: italic; color: #666;"><strong>Dica:</strong> O perigo está no centro. Você deve passar no lado indicado pelo nome do cardinal.</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <h4>4.9.5. Outras Balizas</h4>
                     <ul>
@@ -2431,6 +2943,310 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+            </div>
+
+            <!-- SIMULADOS E QUESTÕES DE PROVA -->
+            <div id="simulados" class="tab-pane">
+                <h2>✍️ SIMULADOS - PREPARAÇÃO PARA A PROVA DE ARRAIS AMADOR</h2>
+                
+                <div class="note-box">
+                    <h4>🎯 Instruções para os Simulados</h4>
+                    <p>Esta seção contém questões no estilo da prova da Marinha do Brasil. Leia com atenção cada questão e clique para revelar a resposta correta com explicação detalhada.</p>
+                    <p><strong>Dica:</strong> Tente responder mentalmente antes de ver a resposta!</p>
+                </div>
+
+                <!-- SIMULADO 1 - CONHECIMENTOS GERAIS -->
+                <div class="content-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 10px; margin-top: 30px;">
+                    <h3 style="color: white;">📋 SIMULADO 1 - Conhecimentos Gerais sobre Embarcações</h3>
+                    
+                    <details class="step-by-step" style="margin-top: 15px;">
+                        <summary><strong>Questão 1:</strong> A parte frontal da embarcação é denominada:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Popa</p>
+                            <p><strong>b)</strong> Proa ✓</p>
+                            <p><strong>c)</strong> Bombordo</p>
+                            <p><strong>d)</strong> Boreste</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> A proa é a terminação da embarcação do corpo de vante, com formato de cunha para facilitar o corte da água. A popa é a parte traseira.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 2:</strong> O lado direito da embarcação, olhando da popa para a proa, chama-se:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Bombordo</p>
+                            <p><strong>b)</strong> Través</p>
+                            <p><strong>c)</strong> Boreste ✓</p>
+                            <p><strong>d)</strong> Alheta</p>
+                            <hr>
+                            <p><strong>Resposta Correta: C</strong></p>
+                            <p><strong>Explicação:</strong> Boreste (BE) é o lado direito da embarcação. Bombordo (BB) é o lado esquerdo.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 3:</strong> A parte do casco da embarcação que fica em contato com a água é chamada de:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Obra morta</p>
+                            <p><strong>b)</strong> Linha d'água</p>
+                            <p><strong>c)</strong> Obra viva ✓</p>
+                            <p><strong>d)</strong> Convés</p>
+                            <hr>
+                            <p><strong>Resposta Correta: C</strong></p>
+                            <p><strong>Explicação:</strong> A obra viva é a parte inferior do casco em contato com a água. A obra morta é a parte superior não em contato com a água.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 4:</strong> O comprimento mínimo recomendado de amarra para fundear uma embarcação é de:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> 25 metros</p>
+                            <p><strong>b)</strong> 30 metros</p>
+                            <p><strong>c)</strong> 50 metros ✓</p>
+                            <p><strong>d)</strong> 100 metros</p>
+                            <hr>
+                            <p><strong>Resposta Correta: C</strong></p>
+                            <p><strong>Explicação:</strong> O comprimento mínimo recomendado é de 50 metros, sendo 3-5 vezes a altura em águas calmas e 5-7 vezes com tempo rijo.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 5:</strong> Qual movimento da embarcação corresponde à oscilação lateral (de um bordo a outro)?</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Cabeceio</p>
+                            <p><strong>b)</strong> Balanço ✓</p>
+                            <p><strong>c)</strong> Caturro</p>
+                            <p><strong>d)</strong> Arfagem</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> Balanço é a oscilação lateral (de bombordo a boreste), Cabeceio é a oscilação proa-popa, e Caturro é a oscilação vertical.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <!-- SIMULADO 2 - SEGURANÇA E COMBATE A INCÊNDIO -->
+                <div class="content-section" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 10px; margin-top: 30px;">
+                    <h3 style="color: white;">🔥 SIMULADO 2 - Segurança e Combate a Incêndio</h3>
+                    
+                    <details class="step-by-step" style="margin-top: 15px;">
+                        <summary><strong>Questão 1:</strong> O triângulo do fogo é formado por três elementos. Qual alternativa contém TODOS eles?</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Calor, água e fumaça</p>
+                            <p><strong>b)</strong> Combustível, comburente e calor ✓</p>
+                            <p><strong>c)</strong> Oxigênio, gás e temperatura</p>
+                            <p><strong>d)</strong> Fogo, água e vento</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> O triângulo do fogo é formado por: Combustível (material que queima), Comburente (oxigênio) e Calor (energia de ativação).</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 2:</strong> Incêndio classe "B" envolve:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Materiais sólidos como papel e madeira</p>
+                            <p><strong>b)</strong> Líquidos inflamáveis como gasolina e óleo ✓</p>
+                            <p><strong>c)</strong> Gases inflamáveis</p>
+                            <p><strong>d)</strong> Equipamentos elétricos energizados</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> Classe A: sólidos; Classe B: líquidos inflamáveis; Classe C: gases; Classe D: equipamentos elétricos.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 3:</strong> Em caso de incêndio a bordo, a primeira ação do comandante deve ser:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Abandonar a embarcação imediatamente</p>
+                            <p><strong>b)</strong> Manobrar com vento a favor, colocando incêndio na popa ✓</p>
+                            <p><strong>c)</strong> Jogar água no fogo</p>
+                            <p><strong>d)</strong> Chamar o Corpo de Bombeiros</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> Deve-se manobrar com o vento a favor, colocando o incêndio na popa, e garantir que todos usem coletes salva-vidas.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 4:</strong> Qual tipo de extintor NÃO deve ser usado em incêndio classe D (equipamentos elétricos)?</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Gás carbônico (CO₂)</p>
+                            <p><strong>b)</strong> Pó químico especial</p>
+                            <p><strong>c)</strong> Água pressurizada ✓</p>
+                            <p><strong>d)</strong> Pó químico ABC</p>
+                            <hr>
+                            <p><strong>Resposta Correta: C</strong></p>
+                            <p><strong>Explicação:</strong> Água é condutora de eletricidade e não deve ser usada em equipamentos elétricos energizados. Use CO₂ ou pó químico especial.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 5:</strong> Quais são os métodos de extinção de incêndio?</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Abafamento, resfriamento, isolamento e interrupção da reação em cadeia ✓</p>
+                            <p><strong>b)</strong> Água, espuma, pó químico e CO₂</p>
+                            <p><strong>c)</strong> Calor, frio, vento e chuva</p>
+                            <p><strong>d)</strong> Evacuar, ligar e desligar</p>
+                            <hr>
+                            <p><strong>Resposta Correta: A</strong></p>
+                            <p><strong>Explicação:</strong> Os quatro métodos são: Isolamento (retirar combustível), Abafamento (retirar oxigênio), Resfriamento (diminuir calor) e Interrupção da reação em cadeia.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <!-- SIMULADO 3 - RIPEAM E NAVEGAÇÃO -->
+                <div class="content-section" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 25px; border-radius: 10px; margin-top: 30px;">
+                    <h3 style="color: white;">🧭 SIMULADO 3 - RIPEAM e Navegação</h3>
+                    
+                    <details class="step-by-step" style="margin-top: 15px;">
+                        <summary><strong>Questão 1:</strong> No sistema de balizamento IALA-B, bóias vermelhas indicam o lado:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Boreste (direito) quando entrando no porto</p>
+                            <p><strong>b)</strong> Bombordo (esquerdo) quando entrando no porto ✓</p>
+                            <p><strong>c)</strong> Central do canal</p>
+                            <p><strong>d)</strong> Perigo isolado</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> No sistema IALA-B (usado no Brasil), vermelho/encarnado indica bombordo (BB) quando entrando, verde indica boreste (BE).</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 2:</strong> Uma embarcação a motor com menos de 50 metros de comprimento, navegando à noite, deve exibir:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Apenas luz de mastro branca</p>
+                            <p><strong>b)</strong> Luz de mastro branca, luzes laterais (verde e vermelha) e luz de alcançado branca ✓</p>
+                            <p><strong>c)</strong> Apenas luzes laterais</p>
+                            <p><strong>d)</strong> Luz amarela piscante</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> Embarcações a motor devem exibir: luz de mastro branca (proa), luzes laterais (verde BE, vermelha BB) e luz de alcançado branca (popa).</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 3:</strong> Em situação de rumos cruzados, qual embarcação deve manobrar?</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> A embarcação mais rápida</p>
+                            <p><strong>b)</strong> A embarcação que avista a outra pelo boreste ✓</p>
+                            <p><strong>c)</strong> A embarcação menor</p>
+                            <p><strong>d)</strong> A embarcação mais lenta</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> A embarcação que avista a outra pelo seu boreste (direita) deve manobrar, pois a outra tem preferência.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 4:</strong> O sinal sonoro de um apito longo significa:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Estou guinando para boreste</p>
+                            <p><strong>b)</strong> Estou guinando para bombordo</p>
+                            <p><strong>c)</strong> Advertência ou presença em área de visibilidade restrita ✓</p>
+                            <p><strong>d)</strong> Máquinas atrás</p>
+                            <hr>
+                            <p><strong>Resposta Correta: C</strong></p>
+                            <p><strong>Explicação:</strong> Um apito longo indica advertência ou presença da embarcação em área de visibilidade restrita (neblina, chuva forte, etc.).</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 5:</strong> Em uma ultrapassagem, qual embarcação tem preferência?</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> A embarcação que está ultrapassando</p>
+                            <p><strong>b)</strong> A embarcação que está sendo ultrapassada ✓</p>
+                            <p><strong>c)</strong> A embarcação mais rápida</p>
+                            <p><strong>d)</strong> A embarcação maior</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> Na ultrapassagem, a embarcação que está sendo ultrapassada tem preferência e deve manter rumo e velocidade.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <!-- SIMULADO 4 - CABOS E NÓS -->
+                <div class="content-section" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 25px; border-radius: 10px; margin-top: 30px;">
+                    <h3 style="color: white;">🔗 SIMULADO 4 - Cabos e Nós</h3>
+                    
+                    <details class="step-by-step" style="margin-top: 15px;">
+                        <summary><strong>Questão 1:</strong> O nó usado para unir dois cabos de bitolas (diâmetros) iguais é:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Nó de escota</p>
+                            <p><strong>b)</strong> Nó direito ✓</p>
+                            <p><strong>c)</strong> Lais de guia</p>
+                            <p><strong>d)</strong> Nó de oito</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> O nó direito é usado para unir dois cabos de mesma bitola. Para bitolas diferentes, usa-se o nó de escota.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 2:</strong> O "rei dos nós", usado para fazer uma laçada fixa, é o:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Nó direito</p>
+                            <p><strong>b)</strong> Volta do fiel</p>
+                            <p><strong>c)</strong> Lais de guia ✓</p>
+                            <p><strong>d)</strong> Nó de escota</p>
+                            <hr>
+                            <p><strong>Resposta Correta: C</strong></p>
+                            <p><strong>Explicação:</strong> O Lais de Guia é considerado o "rei dos nós" e é usado para fazer uma laçada que não escorrega.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 3:</strong> O nó terminal usado para evitar que cabos escapem por olhais é o:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Nó de oito ✓</p>
+                            <p><strong>b)</strong> Nó direito</p>
+                            <p><strong>c)</strong> Lais de guia</p>
+                            <p><strong>d)</strong> Volta do cunho</p>
+                            <hr>
+                            <p><strong>Resposta Correta: A</strong></p>
+                            <p><strong>Explicação:</strong> O nó de oito é usado como nó terminal para evitar que cabos (escolas e adriças) escapem através de olhais.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 4:</strong> Para amarrar um cabo a um poste ou cunho, usa-se preferencialmente:</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Nó direito</p>
+                            <p><strong>b)</strong> Volta do fiel (calão) ✓</p>
+                            <p><strong>c)</strong> Nó de escota</p>
+                            <p><strong>d)</strong> Nó de oito</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> A Volta do Fiel (ou Calão) é usada para amarrar cabos a pontos sólidos como postes, cunhos e defensas.</p>
+                        </div>
+                    </details>
+
+                    <details class="step-by-step">
+                        <summary><strong>Questão 5:</strong> Para unir dois cabos de bitolas muito diferentes, qual nó é mais adequado?</summary>
+                        <div class="details-content">
+                            <p><strong>a)</strong> Nó direito</p>
+                            <p><strong>b)</strong> Nó de escota dobrado ✓</p>
+                            <p><strong>c)</strong> Lais de guia</p>
+                            <p><strong>d)</strong> Nó de oito</p>
+                            <hr>
+                            <p><strong>Resposta Correta: B</strong></p>
+                            <p><strong>Explicação:</strong> O nó de escota é usado para bitolas diferentes, e quando muito diferentes, deve-se fazer o nó de escota dobrado para maior segurança.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="warning-box" style="margin-top: 30px;">
+                    <h4>💡 Dicas para a Prova</h4>
+                    <ul>
+                        <li>Revise todos os módulos com atenção especial para RIPEAM e balizamento</li>
+                        <li>Pratique a identificação de luzes e sinais noturnos</li>
+                        <li>Memorize os tipos de nós e suas aplicações</li>
+                        <li>Conheça bem as classes de incêndio e extintores apropriados</li>
+                        <li>Estude as regras de preferência entre embarcações</li>
+                        <li>Leia atentamente cada questão na prova antes de responder</li>
+                    </ul>
                 </div>
 
             </div>
@@ -2747,9 +3563,7 @@
         </div>
     </div>
     
-    <footer>
-        <p>Material didático para curso de Arrais Amador - Homologado pela Marinha do Brasil</p>
-    </footer>
+    <footer></footer>
 
     <script>
         // Sistema de abas
@@ -2771,36 +3585,17 @@
                 });
             });
             
-            // Controles de acessibilidade
-            const toggleDyslexia = document.getElementById('toggle-dyslexia');
+            // Controle de modo escuro
             const toggleContrast = document.getElementById('toggle-contrast');
-            const increaseFont = document.getElementById('increase-font');
-            const decreaseFont = document.getElementById('decrease-font');
-            const resetSettings = document.getElementById('reset-settings');
-            
-            toggleDyslexia.addEventListener('click', function() {
-                document.body.classList.toggle('dyslexia-friendly');
-            });
             
             toggleContrast.addEventListener('click', function() {
                 document.body.classList.toggle('high-contrast');
-            });
-            
-            increaseFont.addEventListener('click', function() {
-                const currentSize = parseFloat(getComputedStyle(document.body).fontSize);
-                document.body.style.fontSize = (currentSize + 1) + 'px';
-            });
-            
-            decreaseFont.addEventListener('click', function() {
-                const currentSize = parseFloat(getComputedStyle(document.body).fontSize);
-                if (currentSize > 12) {
-                    document.body.style.fontSize = (currentSize - 1) + 'px';
+                // Atualiza texto do botão
+                if (document.body.classList.contains('high-contrast')) {
+                    this.innerHTML = '☀️ Modo Claro';
+                } else {
+                    this.innerHTML = '🌙 Modo Escuro';
                 }
-            });
-            
-            resetSettings.addEventListener('click', function() {
-                document.body.classList.remove('dyslexia-friendly', 'high-contrast');
-                document.body.style.fontSize = '16px';
             });
         });
     </script>
