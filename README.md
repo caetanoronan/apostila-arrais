@@ -17,12 +17,14 @@ Esta apostila foi desenvolvida com foco em **acessibilidade** e **usabilidade**,
 
 ### ✨ Características Principais
 
-- 🎨 **Modo Claro/Escuro**: Alterne entre temas para conforto visual
+- � **Sistema Multilíngue (PT/ES)**: Tradução completa em Português e Espanhol com alternância instantânea
+- 🎨 **Modo Claro/Escuro**: Alterne entre temas para conforto visual com persistência de preferências
 - 📱 **Design Responsivo**: Adaptado para desktop, tablet e mobile
-- ♿ **Acessibilidade**: Compatível com leitores de tela e navegação por teclado
+- ♿ **Acessibilidade WCAG AA**: Compatível com leitores de tela, navegação por teclado e alto contraste
 - 🖼️ **Recursos Visuais**: Diagramas, ilustrações e GIFs educativos
-- 📝 **Exercícios Interativos**: Questões de revisão e simulados
-- 🌐 **Terminologia Internacional**: Glossário náutico em português e inglês
+- 📝 **Exercícios Interativos**: 4 simulados completos com questões de revisão
+- 📖 **Glossário Completo**: 200+ termos náuticos bilíngues (PT/ES)
+- 💾 **Preferências Salvas**: Idioma e tema salvos automaticamente no navegador
 
 ---
 
@@ -73,10 +75,14 @@ Esta apostila foi desenvolvida com foco em **acessibilidade** e **usabilidade**,
 
 ```
 apostila-arrais/
-├── Apostila_arras_teste_08_clone.html  # Arquivo principal
+├── Apostila_arras_teste_08_clone.html   # Arquivo principal (bilíngue PT/ES)
+├── guia-usuario.html                    # Guia do usuário
+├── guia-tecnico.html                    # Documentação técnica
+├── ESTRATEGIA_DESENVOLVIMENTO_WEB.md    # Guia completo de boas práticas
 ├── assets/                              # Imagens extraídas do PDF original
 ├── Partes_enbarcacao/                   # Diagramas de embarcações
 ├── corrente_eletricas/                  # GIFs educativos de circuitos
+├── scripts/                             # Scripts auxiliares Python
 ├── README.md                            # Este arquivo
 └── .nojekyll                            # Configuração GitHub Pages
 ```
@@ -98,6 +104,46 @@ apostila-arrais/
 3. **Abra o arquivo HTML:**
    - Clique duas vezes em `Apostila_arras_teste_08_clone.html`
    - Ou abra com seu navegador preferido
+
+4. **Alternar idioma:**
+   - Clique em **PT** (Português) ou **ES** (Español) no topo da página
+   - A preferência será salva automaticamente
+
+5. **Modo escuro:**
+   - Clique em **🌙 Modo Escuro** no canto superior direito
+   - A preferência será salva automaticamente
+
+---
+
+## 📚 Documentação Adicional
+
+- **[Guia do Usuário](guia-usuario.html)** - Como usar a apostila, navegar e alternar idiomas
+- **[Guia Técnico](guia-tecnico.html)** - Documentação para desenvolvedores e mantenedores
+- **[Estratégia de Desenvolvimento Web](ESTRATEGIA_DESENVOLVIMENTO_WEB.md)** - Guia completo de boas práticas para criar sites profissionais com acessibilidade, multilinguagem e responsividade
+
+### 🎯 Guia Estratégico de Desenvolvimento
+
+O arquivo `ESTRATEGIA_DESENVOLVIMENTO_WEB.md` contém um **guia estratégico completo de 12 fases** baseado nas lições aprendidas neste projeto:
+
+1. 🎯 Planejamento e Escopo
+2. 🏗️ Estrutura HTML Semântica
+3. 🎨 Design e CSS Profissional
+4. ♿ Acessibilidade WCAG
+5. 🌍 Sistema de Tradução/Multilíngue
+6. ⚙️ Funcionalidades JavaScript
+7. 🌙 Temas e Modo Escuro
+8. 📱 Responsividade Mobile First
+9. ⚡ Performance e Otimização
+10. 🧪 Testes e QA
+11. 📚 Documentação Completa
+12. 🚀 Publicação e Deploy
+
+**Ideal para:**
+- ✅ Referência em novos projetos
+- ✅ Instruções para IA/Assistentes
+- ✅ Documentação de equipes
+- ✅ Templates de processos
+- ✅ Aprendizado de boas práticas
 
 ---
 
@@ -128,12 +174,16 @@ Este material é disponibilizado para fins educacionais. O conteúdo segue as di
 
 ## 🎯 Status do Projeto
 
-- ✅ Módulos 1-5 completos
-- ✅ Simulados e exercícios
-- ✅ Glossário náutico
-- ✅ Modo escuro/claro
+- ✅ Módulos 1-5 completos e bilíngues (PT/ES)
+- ✅ Simulados e exercícios traduzidos
+- ✅ Glossário náutico com 200+ termos bilíngues
+- ✅ Sistema de tradução completo (PT/ES)
+- ✅ Modo escuro/claro com persistência
 - ✅ Recursos visuais integrados
+- ✅ Acessibilidade WCAG AA implementada
 - ✅ Deploy em GitHub Pages
+- ✅ Documentação completa (usuário + técnico)
+- ✅ Guia estratégico de desenvolvimento
 
 ---
 
