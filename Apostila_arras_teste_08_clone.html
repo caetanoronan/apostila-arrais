@@ -974,6 +974,13 @@
                     <div class="definition">
                         <p data-pt="Este material é bilíngue (Português/Espanhol). Use os botões \"PT\" e \"ES\" no cabeçalho para alternar o idioma; a preferência de idioma é lembrada automaticamente. O botão \"🌙 Modo Escuro\" ativa um modo de alto contraste, melhorando a leitura em ambientes com pouca luz e a acessibilidade (cores com alto contraste). Você pode alternar esse modo a qualquer momento." data-es="Este material es bilingüe (Portugués/Español). Use los botones \"PT\" y \"ES\" en el encabezado para cambiar el idioma; la preferencia de idioma se recuerda automáticamente. El botón \"🌙 Modo Oscuro\" activa un modo de alto contraste, mejorando la lectura en entornos de poca luz y la accesibilidad (colores de alto contraste). Puede alternar este modo en cualquier momento.">Este material é bilíngue (Português/Espanhol). Use os botões "PT" e "ES" no cabeçalho para alternar o idioma; a preferência de idioma é lembrada automaticamente. O botão "🌙 Modo Escuro" ativa um modo de alto contraste, melhorando a leitura em ambientes com pouca luz e a acessibilidade (cores com alto contraste). Você pode alternar esse modo a qualquer momento.</p>
                     </div>
+                    <div class="definition">
+                        <p data-pt="Documentação (Guias):" data-es="Documentación (Guías):">Documentação (Guias):</p>
+                        <ul>
+                            <li><a href="GUIA_USUARIO.md" target="_blank" data-pt="Guia do Usuário" data-es="Guía del Usuario">Guia do Usuário</a></li>
+                            <li><a href="GUIA_TECNICO.md" target="_blank" data-pt="Guia Técnico" data-es="Guía Técnica">Guia Técnico</a></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="sumario-item">
@@ -3642,9 +3649,12 @@
             
             toggleContrast.addEventListener('click', function() {
                 document.body.classList.toggle('high-contrast');
-                // Atualiza texto do botão baseado no idioma atual
                 const currentLang = document.documentElement.getAttribute('data-lang') || 'pt';
-                if (document.body.classList.contains('high-contrast')) {
+                const isHighContrast = document.body.classList.contains('high-contrast');
+                // Salva preferência de tema
+                localStorage.setItem('preferred-theme', isHighContrast ? 'high-contrast' : 'light');
+                // Atualiza texto do botão baseado no idioma atual
+                if (isHighContrast) {
                     this.textContent = currentLang === 'pt' ? '☀️ Modo Claro' : '☀️ Modo Claro';
                 } else {
                     this.textContent = currentLang === 'pt' ? '🌙 Modo Escuro' : '🌙 Modo Oscuro';
@@ -3685,15 +3695,39 @@
                 
                 // Salva preferência no localStorage
                 localStorage.setItem('preferred-language', lang);
+                
+                // Atualiza texto do botão de contraste conforme tema atual
+                if (toggleContrast) {
+                    const isHighContrast = document.body.classList.contains('high-contrast');
+                    toggleContrast.textContent = isHighContrast
+                        ? (lang === 'pt' ? '☀️ Modo Claro' : '☀️ Modo Claro')
+                        : (lang === 'pt' ? '🌙 Modo Escuro' : '🌙 Modo Oscuro');
+                }
             }
             
             langPt.addEventListener('click', () => setLanguage('pt'));
             langEs.addEventListener('click', () => setLanguage('es'));
             
-            // Carrega idioma salvo (se existir)
+            // Carrega preferências salvas (idioma e tema)
             const savedLang = localStorage.getItem('preferred-language');
             if (savedLang && savedLang === 'es') {
                 setLanguage('es');
+            } else {
+                setLanguage('pt');
+            }
+            const savedTheme = localStorage.getItem('preferred-theme');
+            if (savedTheme === 'high-contrast') {
+                document.body.classList.add('high-contrast');
+            } else {
+                document.body.classList.remove('high-contrast');
+            }
+            // Ajusta texto do botão de contraste conforme idioma/tema atuais
+            if (toggleContrast) {
+                const currentLang = document.documentElement.getAttribute('data-lang') || 'pt';
+                const isHighContrast = document.body.classList.contains('high-contrast');
+                toggleContrast.textContent = isHighContrast
+                    ? (currentLang === 'pt' ? '☀️ Modo Claro' : '☀️ Modo Claro')
+                    : (currentLang === 'pt' ? '🌙 Modo Escuro' : '🌙 Modo Oscuro');
             }
         });
     </script>
