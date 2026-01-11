@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Técnico - Apostila Arrais Amador</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        .back-link:hover {
+            background: #764ba2;
+        }
+        
+        section {
+            background: white;
+            margin: 1.5rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+        
+        h4 {
+            color: #555;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+        
+        code {
+            background: #f0f0f0;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #d63031;
+            font-size: 0.9em;
+        }
+        
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1.5rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            border-left: 4px solid #667eea;
+        }
+        
+        pre code {
+            background: transparent;
+            color: inherit;
+            padding: 0;
+        }
+        
+        .file-path {
+            background: #f0f0f0;
+            padding: 0.5rem 1rem;
+            border-left: 4px solid #667eea;
+            margin: 1rem 0;
+            font-family: monospace;
+            color: #333;
+        }
+        
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            color: #155724;
+        }
+        
+        .warning {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            color: #721c24;
+        }
+        
+        .info {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            color: #0c5460;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        
+        tr:hover {
+            background: #f5f5f5;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔧 Guia Técnico</h1>
+        <p>Manutenção, Expansão e Desenvolvimento da Apostila</p>
+    </header>
+    
+    <div class="container">
+        <a href="Apostila_arras_teste_08_clone.html" class="back-link">← Voltar para a Apostila</a>
+        
+        <section>
+            <h2>📋 Conteúdo Técnico</h2>
+            <p>Este guia é destinado a desenvolvedores, mantenedores e técnicos que desejam entender, modificar ou expandir a apostila.</p>
+            
+            <div class="info">
+                <p><strong>Requisitos:</strong> Conhecimento básico de HTML, CSS e JavaScript</p>
+                <p><strong>Ferramentas:</strong> VS Code ou editor de texto; Git para versionamento</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>🏗️ Arquitetura do Sistema</h2>
+            
+            <h3>Estrutura de Arquivos</h3>
+            <pre><code>apostila-arrais/
+├── Apostila_arras_teste_08_clone.html  (Arquivo principal)
+├── assets/
+│   ├── page_0/
+│   ├── page_1/
+│   ├── ... (imagens e recursos)
+│   └── images_index.md
+├── scripts/
+│   ├── add_spanish_translation.py
+│   └── ...
+├── GUIA_USUARIO.md                     (Este arquivo em MD)
+├── GUIA_TECNICO.md                     (Este arquivo em MD)
+├── README.md
+└── .git/                               (Repositório Git)
+</code></pre>
+            
+            <h3>Componentes Principais</h3>
+            <table>
+                <tr>
+                    <th>Componente</th>
+                    <th>Função</th>
+                    <th>Localização</th>
+                </tr>
+                <tr>
+                    <td><code>&lt;header&gt;</code></td>
+                    <td>Controles de idioma (PT/ES) e tema (escuro/claro)</td>
+                    <td>Topo da página</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;nav&gt;</code> (tabs)</td>
+                    <td>Navegação entre módulos e seções</td>
+                    <td>Abaixo do header</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;main&gt;</code></td>
+                    <td>Conteúdo das abas (Sumário, Módulos, Glossário, etc.)</td>
+                    <td>Centro da página</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;script&gt;</code></td>
+                    <td>Sistema de tradução, temas e interatividade</td>
+                    <td>Final do arquivo HTML</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <h2>🌍 Sistema de Tradução</h2>
+            
+            <h3>Como Funciona</h3>
+            <p>O sistema usa atributos <code>data-pt</code> e <code>data-es</code> em elementos HTML para armazenar textos em diferentes idiomas.</p>
+            
+            <h4>Exemplo:</h4>
+            <pre><code>&lt;h1 data-pt="Bem-vindo" data-es="Bienvenido"&gt;
+    Bem-vindo
+&lt;/h1&gt;</code></pre>
+            
+            <p>Quando o usuário clica em "ES", o JavaScript localiza todos os elementos com <code>data-pt</code> e <code>data-es</code>, e substitui o conteúdo interno pelo valor do atributo <code>data-es</code>.</p>
+            
+            <h3>Função de Tradução</h3>
+            <pre><code>function setLanguage(lang) {
+    // Atualiza atributo data-lang
+    document.documentElement.setAttribute('data-lang', lang);
+    
+    // Atualiza todos os elementos com data-pt/data-es
+    document.querySelectorAll('[data-pt][data-es]').forEach(element => {
+        if (element.tagName === 'TITLE') {
+            element.textContent = element.getAttribute('data-' + lang);
+        } else if (element.hasAttribute('placeholder')) {
+            element.setAttribute('placeholder', element.getAttribute('data-' + lang));
+        } else {
+            element.textContent = element.getAttribute('data-' + lang);
+        }
+    });
+    
+    // Salva preferência
+    localStorage.setItem('preferred-language', lang);
+}</code></pre>
+            
+            <h3>Adicionando Novo Texto Bilíngue</h3>
+            <ol>
+                <li>Identifique o elemento HTML que contém o texto</li>
+                <li>Adicione os atributos <code>data-pt</code> e <code>data-es</code>:
+                    <pre><code>&lt;p data-pt="Texto em português" data-es="Texto en español"&gt;
+    Texto em português
+&lt;/p&gt;</code></pre>
+                </li>
+                <li>Certifique-se de que as aspas duplas dentro do atributo estejam escapadas como <code>&quot;</code></li>
+                <li>Teste alterando para o idioma espanhol para verificar se funciona</li>
+            </ol>
+            
+            <h3>Dica: Tratamento de Aspas</h3>
+            <div class="note">
+                <p><strong>❌ Errado:</strong></p>
+                <p><code>data-pt="Clique em "OK" para continuar"</code></p>
+                <p><strong>✓ Correto:</strong></p>
+                <p><code>data-pt="Clique em &quot;OK&quot; para continuar"</code></p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>🎨 Sistema de Temas (Claro/Escuro)</h2>
+            
+            <h3>Como Funciona</h3>
+            <p>O modo escuro adiciona a classe <code>high-contrast</code> ao elemento <code>&lt;body&gt;</code> e muda as cores via CSS.</p>
+            
+            <h3>Toggle de Tema</h3>
+            <pre><code>toggleContrast.addEventListener('click', function() {
+    document.body.classList.toggle('high-contrast');
+    // Salva preferência
+    localStorage.setItem('preferred-theme', 
+        document.body.classList.contains('high-contrast') 
+            ? 'high-contrast' 
+            : 'light'
+    );
+});</code></pre>
+            
+            <h3>Restauração de Tema ao Carregar</h3>
+            <pre><code>const savedTheme = localStorage.getItem('preferred-theme');
+if (savedTheme === 'high-contrast') {
+    document.body.classList.add('high-contrast');
+}</code></pre>
+            
+            <h3>Personalizando Cores</h3>
+            <p>Para modificar cores do modo escuro, edite as regras CSS:</p>
+            <pre><code>.high-contrast body {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+.high-contrast a {
+    color: #ffeb3b;
+}
+
+.high-contrast h1,
+.high-contrast h2 {
+    color: #00bfff;
+}</code></pre>
+        </section>
+        
+        <section>
+            <h2>📱 Sistema de Abas (Tabs)</h2>
+            
+            <h3>Estrutura HTML</h3>
+            <pre><code>&lt;div class="tabs"&gt;
+    &lt;button class="tab-button active" data-tab="sumario"&gt;
+        📋 Sumário
+    &lt;/button&gt;
+    &lt;button class="tab-button" data-tab="introducao"&gt;
+        🏠 Introdução
+    &lt;/button&gt;
+    &lt;!-- Mais abas --&gt;
+&lt;/div&gt;
+
+&lt;div id="sumario" class="tab-pane active"&gt;
+    Conteúdo do Sumário
+&lt;/div&gt;
+
+&lt;div id="introducao" class="tab-pane"&gt;
+    Conteúdo da Introdução
+&lt;/div&gt;</code></pre>
+            
+            <h3>Lógica JavaScript</h3>
+            <pre><code>document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', function() {
+        const targetTab = this.getAttribute('data-tab');
+        
+        // Remove active de todos
+        document.querySelectorAll('.tab-button').forEach(b => 
+            b.classList.remove('active')
+        );
+        document.querySelectorAll('.tab-pane').forEach(p => 
+            p.classList.remove('active')
+        );
+        
+        // Ativa apenas o clicado
+        this.classList.add('active');
+        document.getElementById(targetTab).classList.add('active');
+    });
+});</code></pre>
+            
+            <h3>Adicionando Nova Aba</h3>
+            <ol>
+                <li>Adicione o botão da aba:
+                    <pre><code>&lt;button class="tab-button" data-tab="nova-aba"&gt;
+    🆕 Nova Aba
+&lt;/button&gt;</code></pre>
+                </li>
+                <li>Adicione o painel de conteúdo:
+                    <pre><code>&lt;div id="nova-aba" class="tab-pane"&gt;
+    Conteúdo da nova aba
+&lt;/div&gt;</code></pre>
+                </li>
+                <li>O JavaScript existente automaticamente fará a aba funcionar!</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>🔍 Debugging e Troubleshooting</h2>
+            
+            <h3>Verificar Estado de Tradução</h3>
+            <p>Abra o Console do Navegador (<code>F12</code>) e execute:</p>
+            <pre><code>// Verificar idioma atual
+document.documentElement.getAttribute('data-lang');
+
+// Contar elementos com traducao
+document.querySelectorAll('[data-pt][data-es]').length;
+
+// Verificar localStorage
+localStorage.getItem('preferred-language');
+localStorage.getItem('preferred-theme');
+</code></pre>
+            
+            <h3>Elementos Sem Tradução</h3>
+            <p>Para encontrar elementos que faltam tradução:</p>
+            <pre><code>// Listar elementos sem data-pt ou data-es
+document.querySelectorAll('p, h1, h2, h3, h4, span').forEach(el => {
+    if (!el.hasAttribute('data-pt') || !el.hasAttribute('data-es')) {
+        console.log('Falta tradução:', el);
+    }
+});</code></pre>
+            
+            <h3>Testar Tema Escuro</h3>
+            <pre><code>// Forçar modo escuro
+document.body.classList.add('high-contrast');
+
+// Remover modo escuro
+document.body.classList.remove('high-contrast');
+
+// Verificar se está em modo escuro
+document.body.classList.contains('high-contrast'); // true/false
+</code></pre>
+        </section>
+        
+        <section>
+            <h2>🚀 Publicando Atualizações</h2>
+            
+            <h3>Fluxo Git</h3>
+            <pre><code># 1. Verificar status
+git status
+
+# 2. Adicionar arquivos modificados
+git add Apostila_arras_teste_08_clone.html
+
+# 3. Commitar mudanças
+git commit -m "Descrição clara das mudanças"
+
+# 4. Fazer push para GitHub Pages
+git push origin HEAD:gh-pages</code></pre>
+            
+            <h3>Verificar Deploy</h3>
+            <ol>
+                <li>Aguarde 1-2 minutos após o push</li>
+                <li>Acesse <code>https://caetanoronan.github.io/apostila-arrais/Apostila_arras_teste_08_clone.html</code></li>
+                <li>Verifique se as mudanças aparecem</li>
+            </ol>
+            
+            <div class="note">
+                <p><strong>Nota:</strong> GitHub Pages pode levar até 2 minutos para atualizar após um push.</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>📊 Métricas e Cobertura</h2>
+            
+            <h3>Cobertura Atual</h3>
+            <ul>
+                <li>✓ <strong>100%</strong> do Sumário traduzido</li>
+                <li>✓ <strong>100%</strong> da Introdução traduzida</li>
+                <li>✓ <strong>100%</strong> dos 5 Módulos traduzidos</li>
+                <li>✓ <strong>100%</strong> do Glossário (A-Z) traduzido</li>
+                <li>✓ <strong>100%</strong> dos Simulados traduzidos</li>
+                <li>✓ <strong>100%</strong> das Referências traduzidas</li>
+                <li>✓ <strong>100%</strong> do Header/Footer traduzidos</li>
+            </ul>
+            
+            <h3>Contagem de Elementos</h3>
+            <ul>
+                <li>📝 Total de elementos com tradução bilíngue: ~2,500+</li>
+                <li>🗂️ Abas/Seções: 8 principais</li>
+                <li>📄 Módulos: 5 completos</li>
+                <li>📖 Termos Glossário: 200+</li>
+                <li>❓ Questões Simulados: 80+ (4 provas × ~20-25 questões)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>🔮 Roadmap e Melhorias Futuras</h2>
+            
+            <h3>Planejado</h3>
+            <ul>
+                <li>☐ Adicionar suporte a mais idiomas (Inglês, Francês)</li>
+                <li>☐ Implementar sistema de busca/filtro</li>
+                <li>☐ Adicionar progresso de leitura (bookmarks)</li>
+                <li>☐ Criar versão PDF exportável</li>
+                <li>☐ Adicionar quiz interativos</li>
+                <li>☐ Integrar sistema de notas/anotações do usuário</li>
+                <li>☐ Análise de performance das questões de simulado</li>
+                <li>☐ Dark mode automático baseado em preferência do sistema</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>💬 FAQ Técnico</h2>
+            
+            <h4>P: Posso usar frameworks como React ou Vue?</h4>
+            <p>R: Sim, mas seria necessário refatorar completamente. A arquitetura atual é vanilla JavaScript para máxima compatibilidade e leveza.</p>
+            
+            <h4>P: Como adiciono imagens?</h4>
+            <p>R: Coloque imagens na pasta <code>assets/page_X/</code> e referencie como <code>&lt;img src="assets/page_X/imagem.png"&gt;</code></p>
+            
+            <h4>P: Posso minificar o HTML?</h4>
+            <p>R: Sim! Use ferramentas como <code>html-minifier</code>. Isso reduzirá o tamanho do arquivo em ~30%.</p>
+            
+            <h4>P: O sistema funciona sem internet?</h4>
+            <p>R: Sim! É um arquivo HTML estático que roda completamente no navegador local.</p>
+            
+            <h4>P: Como faço backup das mudanças?</h4>
+            <p>R: Use Git! <code>git commit</code> cria um snapshot de todas as mudanças. Você pode reverter a qualquer momento com <code>git revert</code>.</p>
+        </section>
+        
+        <section>
+            <div class="success">
+                <h2>✅ Próximos Passos</h2>
+                <ol>
+                    <li>Leia este guia completo</li>
+                    <li>Experimente fazer pequenas mudanças (teste em local antes)</li>
+                    <li>Faça commit e push para GitHub Pages</li>
+                    <li>Monitore para garantir funcionamento</li>
+                    <li>Documente qualquer mudança que fizer</li>
+                </ol>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2025 - Apostila Arrais Amador Multilíngue | Guia Técnico</p>
+        <p><a href="Apostila_arras_teste_08_clone.html">← Voltar para a Apostila</a> | <a href="guia-usuario.html">Guia do Usuário →</a></p>
+    </footer>
+</body>
+</html>
